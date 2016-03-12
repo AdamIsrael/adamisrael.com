@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Benchmarking on Adam Israel</title>
+    <link>http://adamisrael.com/tags/benchmarking/</link>
+    <description>Recent content in Benchmarking on Adam Israel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Jun 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://adamisrael.com/tags/benchmarking/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Announcing Benchmarking with Juju</title>
+      <link>http://adamisrael.com/blog/2015/06/23/announcing-benchmarking-with-juju/</link>
+      <pubDate>Tue, 23 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2015/06/23/announcing-benchmarking-with-juju/</guid>
+      <description>&lt;p&gt;Benchmarking and performance are interesting problems, especially in today’s growing cloud-based microservice scene. It used to be a question of “how does this hardware compare to that hardware,” but as computing and service-oriented architectures grow the question has evolved. How does my cloud and application stack handle this? It’s no longer enough to run PTS on your web server and call it a day.&lt;/p&gt;
+
+&lt;p&gt;Measuring every microservice in your stack, from backend to frontend, is a complex task. We started thinking about how you would model a system to benchmark all of these services. It’s not just a matter of measuring the performance of one service, but also its interactions with other services. Now multiply that by every config option for every service, like PostgreSQL, which has hundreds of options that can affect performance.&lt;/p&gt;
+
+&lt;p&gt;Juju has been modeling service orchestration since 2010. It’s done a great job of taking complex scenarios that are now booming, such as containerization, service oriented architectures and hyperscale, and condensing those ideas down into composable, reusable, pieces. Today we’re adding benchmarking. The ability not just to define the relationships between these services, but how they should be measured in relation to each other.&lt;/p&gt;
+
+&lt;p&gt;As an example, monitoring the effect of adjusting the cache in nginx is a solved problem. What we’re going after is what happens when you adjust any service in your stack in relation to every other service. Turn every knob programmatically and measure it at any scale, on any cloud. Where exactly will you get the best performance: your application, the cache layer, or the backend database? Which configuration of that database stack is most performant? Which microservice benefits from faster disk I/O? These are the kinds of questions we want answered.&lt;/p&gt;
+
+&lt;p&gt;With &lt;a href=&#34;https://jujucharms.com/docs/stable/actions&#34;&gt;Juju Actions&lt;/a&gt;, we can now encapsulate tasks to run against a single unit or service in a repeatable, reliable, and composable way. Benchmarking is a natural extension of Actions, allowing authors to encapsulate the best practices for measuring the performance of a service and serve those results &amp;#8212; in a standard way &amp;#8212; that any user or tool can digest.&lt;/p&gt;
+
+&lt;p&gt;We’re announcing &lt;a href=&#34;https://pypi.python.org/pypi/charm-benchmark&#34;&gt;charm-benchmark&lt;/a&gt;, a library written in Python that includes bash scripts so you can write benchmarks in any language. It uses action-set under the covers to create a simple schema that anyone can use and parse.&lt;/p&gt;
+
+&lt;p&gt;While we may intimately know a few services, we’re by no means the experts. We’ve created benchmarks for some of popular services in the charm store, such as &lt;a href=&#34;https://jujucharms.com/mongodb/&#34;&gt;mongodb&lt;/a&gt;, &lt;a href=&#34;https://github.com/juju-solutions/cassandra&#34;&gt;cassandra&lt;/a&gt;, &lt;a href=&#34;https://github.com/juju-solutions/mysql-benchmark&#34;&gt;mysql&lt;/a&gt; and &lt;a href=&#34;https://github.com/juju-solutions/siege&#34;&gt;siege&lt;/a&gt;, in order to provide a basic set of examples. Now we’re looking for community experts who are interested in benchmarking in order to fill the gap of knowledge. We’re excited about performance and how Juju can be used to model performance validation. We need more expertise on how to stress a service or workload to measure that performance.&lt;/p&gt;
+
+&lt;p&gt;For example, here&amp;#8217;s what a benchmark for &lt;em&gt;siege&lt;/em&gt; would look like:&lt;/p&gt;
+
+&lt;p&gt;actions.yaml:&lt;/p&gt;
+
+&lt;pre class=&#34;lang:yaml decode:true &#34; title=&#34;actions.yaml&#34;&gt;siege:
+  description: Standard siege benchmark.
+  params:
+    concurrent:
+      description: The number of simultaneous users to stress the web server with.
+      type: integer
+      default: 25
+    time:
+      description: The time to run the siege test for.
+      type: string
+      default: &#34;1M&#34;
+    delay:
+      description: |
+        Delay each simulated user for a random number of seconds between
+        one and DELAY seconds.
+      type: integer
+      default: 3
+&lt;/pre&gt;
+
+&lt;p&gt;actions/siege:&lt;/p&gt;
+
+&lt;pre class=&#34;lang:default decode:true &#34; title=&#34;siege&#34;&gt;#!/bin/bash
+set -eux
+
+# Make sure charm-benchmark is installed
+if ! hash benchmark-start 2&amp;&gt;/dev/null; then
+    apt-get install -y python-pip
+    pip install -U charm-benchmark
+fi
+
+runtime=`action-get time`
+concurrency=`action-get concurrency`
+delay=`action-get delay`
+run=`date +%s`
+
+mkdir -p /opt/siege/results/$run
+
+benchmark-start
+
+# Run your benchmark
+siege -R $CHARM_DIR/.siegerc -t ${runtime:-1M} -c ${concurrency:-25} -d ${delay:-3} -q --log=/opt/siege/results/$run/siege.log
+
+# Grep/awk/parse the results
+
+benchmark-data transactions $transactions hits desc
+benchmark-data transaction_rate $hits “hits/sec” desc
+benchmark-data transferred $transferred MB desc
+benchmark-data response_time $response ms asc
+
+# Set the composite, which is the single most important score
+benchmark-composite transaction_rate $hits hits/sec desc
+
+benchmark-finish || true&lt;/pre&gt;
+
+&lt;p&gt;We’ll be covering benchmarking in the next &lt;a href=&#34;https://www.youtube.com/watch?v=ALt4zsAMy90&#34;&gt;Juju Office Hours&lt;/a&gt; on &lt;a href=&#34;http://ubuntuonair.com/&#34;&gt;July 9th at 1600 EDT/20:00 UTC&lt;/a&gt; and we’d love to help anyone who wants to get started, you can find me, Adam Israel (aisrael), Marco Ceppi (marcoceppi), and Tim Van Steenburgh (tvansteenburgh) on #juju on Freenode and on the [Juju mailing list][9].&lt;/p&gt;
+
+&lt;p&gt;[9]: &lt;a href=&#34;https://lists.ubuntu.com/mailman/listinfo/juju&#34;&gt;https://lists.ubuntu.com/mailman/listinfo/juju&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

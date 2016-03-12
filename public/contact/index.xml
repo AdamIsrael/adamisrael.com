@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contacts on Adam Israel</title>
+    <link>http://adamisrael.com/contact/</link>
+    <description>Recent content in Contacts on Adam Israel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Dec 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://adamisrael.com/contact/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Contact</title>
+      <link>http://adamisrael.com/contact/</link>
+      <pubDate>Fri, 25 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/contact/</guid>
+      <description>&lt;p&gt;The best way to connect with Adam is via through social media, or by using the contact form below.&lt;/p&gt;
+
+&lt;p&gt;Twitter: &lt;a href=&#34;http://www.twitter.com/adamisrael&#34;&gt;@adamisrael&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Facebook: [adam.israel][2]&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;div id=&#34;usermessage2a&#34; class=&#34;cf_info &#34;&gt;
+&lt;/div&gt;
+
+&lt;p class=&#34;linklove&#34; id=&#34;ll2&#34;&gt;
+  &lt;a href=&#34;http://www.deliciousdays.com/cforms-plugin&#34;&gt;&lt;em&gt;cforms&lt;/em&gt; contact form by delicious:days&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[2]: &lt;a href=&#34;http://www.facebook.com/adam.israel&#34;&gt;http://www.facebook.com/adam.israel&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

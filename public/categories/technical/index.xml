@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technical on Adam Israel</title>
+    <link>http://adamisrael.com/categories/technical/</link>
+    <description>Recent content in Technical on Adam Israel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Oct 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://adamisrael.com/categories/technical/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ubuntu on Mac</title>
+      <link>http://adamisrael.com/blog/2015/10/15/ubuntu-on-mac/</link>
+      <pubDate>Thu, 15 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2015/10/15/ubuntu-on-mac/</guid>
+      <description>&lt;p&gt;I recently rebuilt a Mac Mini to work as the forth screen in my workflow. I googled around and pieced together what I needed to do by cherrypicking from various guides, and everything was running well until I updated to a new kernel and rebooted. I spent the better part of two nights trying to get the machine to boot.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, it happened just after I blacklisted a module to work around a USB bug that was causing one of my drives to go haywire occasionally, and it took a while before I finally figured out it wasn&amp;#8217;t a problem with my change but the kernel itself. Mac&amp;#8217;s use EFI for booting &amp;#8212; which requires a cryptographically signed kernel. I was finally able to boot up by following the first half of the instructions on [this][1] Ask Ubuntu answer. Essentially, do a manual boot via grub and make sure that I pick the secure kernel.&lt;/p&gt;
+
+&lt;p&gt;I noticed that I only had a signed image for an older version of the Kernel. I dropped by #ubuntu-kernel and was pointed to the &lt;strong&gt;linux-signed-generic&lt;/strong&gt; package. What happened is none of the guides I read had mentioned this package or its significance. Any time the kernel images are updated, the signed version is also updated, except you won&amp;#8217;t get that image by default. The machine was trying to boot off an unsigned kernel, causing the boot sequence to freeze (with no indication as to why).&lt;/p&gt;
+
+&lt;pre class=&#34;lang:sh decode:true &#34; &gt;sudo apt-get update
+sudo apt-get install linux-signed-generic
+sudo reboot&lt;/pre&gt;
+
+&lt;p&gt;A thorn with an easy fix. Install the meta package, which will pull in the current signed image, and reboot.&lt;/p&gt;
+
+&lt;p&gt;[1]: &lt;a href=&#34;http://askubuntu.com/questions/392723/trying-to-single-install-on-macbook-pro-but-wont-automatically-boot-from-new-os/550027&#34;&gt;http://askubuntu.com/questions/392723/trying-to-single-install-on-macbook-pro-but-wont-automatically-boot-from-new-os/550027&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Announcing Benchmarking with Juju</title>
+      <link>http://adamisrael.com/blog/2015/06/23/announcing-benchmarking-with-juju/</link>
+      <pubDate>Tue, 23 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2015/06/23/announcing-benchmarking-with-juju/</guid>
+      <description>&lt;p&gt;Benchmarking and performance are interesting problems, especially in today’s growing cloud-based microservice scene. It used to be a question of “how does this hardware compare to that hardware,” but as computing and service-oriented architectures grow the question has evolved. How does my cloud and application stack handle this? It’s no longer enough to run PTS on your web server and call it a day.&lt;/p&gt;
+
+&lt;p&gt;Measuring every microservice in your stack, from backend to frontend, is a complex task. We started thinking about how you would model a system to benchmark all of these services. It’s not just a matter of measuring the performance of one service, but also its interactions with other services. Now multiply that by every config option for every service, like PostgreSQL, which has hundreds of options that can affect performance.&lt;/p&gt;
+
+&lt;p&gt;Juju has been modeling service orchestration since 2010. It’s done a great job of taking complex scenarios that are now booming, such as containerization, service oriented architectures and hyperscale, and condensing those ideas down into composable, reusable, pieces. Today we’re adding benchmarking. The ability not just to define the relationships between these services, but how they should be measured in relation to each other.&lt;/p&gt;
+
+&lt;p&gt;As an example, monitoring the effect of adjusting the cache in nginx is a solved problem. What we’re going after is what happens when you adjust any service in your stack in relation to every other service. Turn every knob programmatically and measure it at any scale, on any cloud. Where exactly will you get the best performance: your application, the cache layer, or the backend database? Which configuration of that database stack is most performant? Which microservice benefits from faster disk I/O? These are the kinds of questions we want answered.&lt;/p&gt;
+
+&lt;p&gt;With &lt;a href=&#34;https://jujucharms.com/docs/stable/actions&#34;&gt;Juju Actions&lt;/a&gt;, we can now encapsulate tasks to run against a single unit or service in a repeatable, reliable, and composable way. Benchmarking is a natural extension of Actions, allowing authors to encapsulate the best practices for measuring the performance of a service and serve those results &amp;#8212; in a standard way &amp;#8212; that any user or tool can digest.&lt;/p&gt;
+
+&lt;p&gt;We’re announcing &lt;a href=&#34;https://pypi.python.org/pypi/charm-benchmark&#34;&gt;charm-benchmark&lt;/a&gt;, a library written in Python that includes bash scripts so you can write benchmarks in any language. It uses action-set under the covers to create a simple schema that anyone can use and parse.&lt;/p&gt;
+
+&lt;p&gt;While we may intimately know a few services, we’re by no means the experts. We’ve created benchmarks for some of popular services in the charm store, such as &lt;a href=&#34;https://jujucharms.com/mongodb/&#34;&gt;mongodb&lt;/a&gt;, &lt;a href=&#34;https://github.com/juju-solutions/cassandra&#34;&gt;cassandra&lt;/a&gt;, &lt;a href=&#34;https://github.com/juju-solutions/mysql-benchmark&#34;&gt;mysql&lt;/a&gt; and &lt;a href=&#34;https://github.com/juju-solutions/siege&#34;&gt;siege&lt;/a&gt;, in order to provide a basic set of examples. Now we’re looking for community experts who are interested in benchmarking in order to fill the gap of knowledge. We’re excited about performance and how Juju can be used to model performance validation. We need more expertise on how to stress a service or workload to measure that performance.&lt;/p&gt;
+
+&lt;p&gt;For example, here&amp;#8217;s what a benchmark for &lt;em&gt;siege&lt;/em&gt; would look like:&lt;/p&gt;
+
+&lt;p&gt;actions.yaml:&lt;/p&gt;
+
+&lt;pre class=&#34;lang:yaml decode:true &#34; title=&#34;actions.yaml&#34;&gt;siege:
+  description: Standard siege benchmark.
+  params:
+    concurrent:
+      description: The number of simultaneous users to stress the web server with.
+      type: integer
+      default: 25
+    time:
+      description: The time to run the siege test for.
+      type: string
+      default: &#34;1M&#34;
+    delay:
+      description: |
+        Delay each simulated user for a random number of seconds between
+        one and DELAY seconds.
+      type: integer
+      default: 3
+&lt;/pre&gt;
+
+&lt;p&gt;actions/siege:&lt;/p&gt;
+
+&lt;pre class=&#34;lang:default decode:true &#34; title=&#34;siege&#34;&gt;#!/bin/bash
+set -eux
+
+# Make sure charm-benchmark is installed
+if ! hash benchmark-start 2&amp;&gt;/dev/null; then
+    apt-get install -y python-pip
+    pip install -U charm-benchmark
+fi
+
+runtime=`action-get time`
+concurrency=`action-get concurrency`
+delay=`action-get delay`
+run=`date +%s`
+
+mkdir -p /opt/siege/results/$run
+
+benchmark-start
+
+# Run your benchmark
+siege -R $CHARM_DIR/.siegerc -t ${runtime:-1M} -c ${concurrency:-25} -d ${delay:-3} -q --log=/opt/siege/results/$run/siege.log
+
+# Grep/awk/parse the results
+
+benchmark-data transactions $transactions hits desc
+benchmark-data transaction_rate $hits “hits/sec” desc
+benchmark-data transferred $transferred MB desc
+benchmark-data response_time $response ms asc
+
+# Set the composite, which is the single most important score
+benchmark-composite transaction_rate $hits hits/sec desc
+
+benchmark-finish || true&lt;/pre&gt;
+
+&lt;p&gt;We’ll be covering benchmarking in the next &lt;a href=&#34;https://www.youtube.com/watch?v=ALt4zsAMy90&#34;&gt;Juju Office Hours&lt;/a&gt; on &lt;a href=&#34;http://ubuntuonair.com/&#34;&gt;July 9th at 1600 EDT/20:00 UTC&lt;/a&gt; and we’d love to help anyone who wants to get started, you can find me, Adam Israel (aisrael), Marco Ceppi (marcoceppi), and Tim Van Steenburgh (tvansteenburgh) on #juju on Freenode and on the [Juju mailing list][9].&lt;/p&gt;
+
+&lt;p&gt;[9]: &lt;a href=&#34;https://lists.ubuntu.com/mailman/listinfo/juju&#34;&gt;https://lists.ubuntu.com/mailman/listinfo/juju&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>sshuttle workaround for OS X 10.10 (Yosemite), Juju and Vagrant</title>
+      <link>http://adamisrael.com/blog/2014/12/12/sshuttle-workaround-for-os-x-10-10-yosemite-juju-and-vagrant/</link>
+      <pubDate>Fri, 12 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2014/12/12/sshuttle-workaround-for-os-x-10-10-yosemite-juju-and-vagrant/</guid>
+      <description>&lt;p class=&#34;p2&#34;&gt;
+  &lt;a href=&#34;https://github.com/sshuttle/sshuttle&#34;&gt;sshuttle&lt;/a&gt; is a nifty little transparent proxy/vpn that works by tunneling TCP traffic over SSH, or more specifically, tearing down a TCP session and reassembling the data on the other side. I started using it earlier this year, as part of my workflow using &lt;a href=&#34;https://juju.ubuntu.com/&#34;&gt;Juju&lt;/a&gt; and developing under OS X. It&amp;#8217;s like a data center in a box, inside another box. Code locally in my editor of choice (vim, TextMate, and more recently, Atom). Deploy new code. Refresh web browser, thanks to sshuttle. With sshuttle, I could connect to the services running within my virtual machine running Ubuntu natively through OS X.
+&lt;/p&gt;
+
+&lt;p class=&#34;p2&#34;&gt;
+  Until I upgraded to Yosemite (OS X 10.10).
+&lt;/p&gt;
+
+&lt;p class=&#34;p2&#34;&gt;
+  ipfw, the FreeBSD ip packet filter, was replaced by OpenBSD&amp;#8217;s pf in OS X 10.7, but the binary lived on through 10.9. sshuttle has no support for pf, which led me googling down a spiraling trail of despair and hope that someone, some day, would patch sshuttle.
+&lt;/p&gt;
+
+&lt;p class=&#34;p2&#34;&gt;
+  I&amp;#8217;m more familiar with iptables than either ipfw or pf, but I understand enough networking to know that ubuntu-in-a-virtual-machine was already setup to talk to the outside world. I figured that there must be something more obvious than setting up a poor man&amp;#8217;s VPN to talk to it.
+&lt;/p&gt;
+
+&lt;p class=&#34;p2&#34;&gt;
+  A few hours of testing later, I had a working solution using the route command.
+&lt;/p&gt;
+
+&lt;pre class=&#34;lang:sh decode:true &#34;&gt;$ sudo route add -net 10.0.3.0/24 172.16.250.15&lt;/pre&gt;
+
+&lt;p&gt;The lxc containers run on the 10.0.3.0 network, and the lxc host (always, in the official Vagrant image) has eth1 bound to 172.16.250.15.&lt;/p&gt;
+
+&lt;p&gt;There&amp;#8217;s a few ways I could have implemented this. I could have made it a static route, always active, but that could lead to unintended side-effects if you were to join a network using the same ip range. Same logic rules out adding it to my ~/.bash_profile. I ended up finding vagrant-triggers, which allows you to run custom commands at various stages of the vagrant lifecycle. With that, I can add the route when I boot up a virtual machine, and remove it when I&amp;#8217;ve shut it down.&lt;/p&gt;
+
+&lt;p class=&#34;p2&#34;&gt;
+  While I can confirm that it works for me, I can&amp;#8217;t say how well it&amp;#8217;ll work for other use cases of sshuttle or earlier versions of OS X. Juju users can head over to the &lt;a href=&#34;https://juju.ubuntu.com/docs/howto-vagrant-workflow.html&#34;&gt;Vagrant Workflow&lt;/a&gt; docs for the latest and greatest, or read on for the &lt;a href=&#34;https://gist.github.com/AdamIsrael/cc51d3d704c18095f718&#34;&gt;gist&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;p class=&#34;p2&#34;&gt;
+  
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p class=&#34;p3&#34;&gt;
+
+&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Making OS X, Go, and Brew play happy</title>
+      <link>http://adamisrael.com/blog/2014/11/13/making-os-x-go-and-brew-play-happy/</link>
+      <pubDate>Thu, 13 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2014/11/13/making-os-x-go-and-brew-play-happy/</guid>
+      <description>
+
+&lt;h1 id=&#34;go-and-os-x:88ab873d5c8d53a90360c0026a04b5ae&#34;&gt;GO and OS X&lt;/h1&gt;
+
+&lt;p&gt;I&amp;#8217;m doing a little hacking with &lt;a href=&#34;https://github.com/juju-actions/juju/wiki&#34;&gt;juju actions&lt;/a&gt; before they land in a stable release but I ran into some hurdles getting Go working with the &lt;a href=&#34;http://brew.sh/&#34;&gt;brew&lt;/a&gt;-installed version. Trying to install Go packages failed with a bunch of &amp;#8216;unrecognized import path&amp;#8217; errors. Here&amp;#8217;s how I fixed it.&lt;/p&gt;
+
+&lt;h1 id=&#34;stop-go-stop:88ab873d5c8d53a90360c0026a04b5ae&#34;&gt;STOP, GO, STOP&lt;/h1&gt;
+
+&lt;p&gt;Even though you can install Go via brew, there&amp;#8217;s more to be done to get it working. Go relies on two environment variables: [GOPATH][3], and GOROOT. GOROOT is the path where Go is installed, and GOPATH is the directory you&amp;#8217;ve created for your code workspace (which I&amp;#8217;ve defaulted to $HOME/go).  We then need to tell our shell where to find these installed executable and run them first&lt;sup&gt;&lt;a href=&#34;#1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;pre class=&#34;lang:default decode:true&#34; title=&#34;Add go to your bash profile&#34;&gt;cat &amp;lt;&amp;lt; EOF &amp;gt; ~/.bash_profile
+# Go go gadget Go!
+GOVERSION=$(brew list go | head -n 1 | cut -d &#39;/&#39; -f 6)
+export GOPATH=$HOME/go
+export GOROOT=$(brew --prefix)/Cellar/go/$GOVERSION/libexec
+PATH=$GOROOT/bin:&#34;${PATH}&#34;
+EOF
+&lt;/pre&gt;
+
+&lt;p&gt;Now you can run something like to have easier access to docs:&lt;/p&gt;
+
+&lt;pre class=&#34;theme:terminal lang:default decode:true&#34;&gt;$ go get code.google.com/p/go.tools/cmd/godoc
+$ godoc gofmt
+COMMAND DOCUMENTATION
+
+    Gofmt formats Go programs. It uses tabs (width = 8) for indentation and
+    blanks for alignment.
+
+    Without an explicit path, it processes the standard input. Given a file,
+    it operates on that file; given a directory, it operates on all .go
+    files in that directory, recursively. (Files starting with a period are
+    ignored.) By default, gofmt prints the reformatted sources to standard
+    output.
+
+    Usage:
+
+    gofmt [flags] [path ...]
+
+    The flags are:
+
+    -d
+        Do not print reformatted sources to standard output.
+        If a file&#39;s formatting is different than gofmt&#39;s, print diffs
+        to standard output.
+    -e
+        Print all (including spurious) errors.
+    -l
+        Do not print reformatted sources to standard output.
+        If a file&#39;s formatting is different from gofmt&#39;s, print its name
+        to standard output.
+    -r rule
+        Apply the rewrite rule to the source before reformatting.
+    -s
+        Try to simplify code (after applying the rewrite rule, if any).
+    -w
+        Do not print reformatted sources to standard output.
+        If a file&#39;s formatting is different from gofmt&#39;s, overwrite it
+        with gofmt&#39;s version.
+
+    Debugging support:
+
+    -cpuprofile filename
+        Write cpu profile to the specified file.
+
+    The rewrite rule specified with the -r flag must be a string of the
+    form:
+
+    pattern -&amp;gt; replacement
+
+    Both pattern and replacement must be valid Go expressions. In the
+    pattern, single-character lowercase identifiers serve as wildcards
+    matching arbitrary sub-expressions; those expressions will be
+    substituted for the same identifiers in the replacement.
+
+    When gofmt reads from standard input, it accepts either a full Go
+    program or a program fragment. A program fragment must be a
+    syntactically valid declaration list, statement list, or expression.
+    When formatting such a fragment, gofmt preserves leading indentation as
+    well as leading and trailing spaces, so that individual sections of a Go
+    program can be formatted by piping them through gofmt.
+
+    Examples
+
+    To check files for unnecessary parentheses:
+
+    gofmt -r &#39;(a) -&amp;gt; a&#39; -l *.go
+
+    To remove the parentheses:
+
+    gofmt -r &#39;(a) -&amp;gt; a&#39; -w *.go
+
+    To convert the package tree from explicit slice upper bounds to implicit
+    ones:
+
+    gofmt -r &#39;α[β:len(α)] -&amp;gt; α[β:]&#39; -w $GOROOT/src/pkg
+
+
+    The simplify command
+
+    When invoked with -s gofmt will make the following source
+    transformations where possible.
+
+    An array, slice, or map composite literal of the form:
+        []T{T{}, T{}}
+    will be simplified to:
+        []T{{}, {}}
+
+    A slice expression of the form:
+        s[a:len(s)]
+    will be simplified to:
+        s[a:]
+
+    A range of the form:
+        for x, _ = range v {...}
+    will be simplified to:
+        for x = range v {...}
+
+BUGS
+
+   The implementation of -r is a bit slow.
+&lt;/pre&gt;
+
+&lt;h1 id=&#34;homebrew-gotchas:88ab873d5c8d53a90360c0026a04b5ae&#34;&gt;Homebrew Gotchas&lt;/h1&gt;
+
+&lt;p&gt;Homebrew installs the go formula with a bin/ directory, which symlinks to the go and gofmt binaries in libexec/. Other binaries, such as godoc, will be installed to libexec but are not symlinked to bin/. Adding go/$GOVERSION/libexec, instead of go/$GOVERSION/bin, to PATH makes sure we&amp;#8217;re looking in the right place, and this setup will survive a version upgrade.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a name=&#34;1&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;1&lt;/sup&gt;: It would probably be better to create a script that would toggle the PATH to include/exclude my $GOPATH/bin in $PATH. I&amp;#8217;m using this to run the latest cutting edge version of juju, but I can see the need to switch back to using the released version of juju, without having to hack my ~/.bash_profile&lt;/p&gt;
+
+&lt;p&gt;[3]: &lt;a href=&#34;https://code.google.com/p/go-wiki/wiki/GOPATH&#34;&gt;https://code.google.com/p/go-wiki/wiki/GOPATH&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A brief introduction to Juju</title>
+      <link>http://adamisrael.com/blog/2014/09/03/a-brief-introduction-to-juju/</link>
+      <pubDate>Wed, 03 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2014/09/03/a-brief-introduction-to-juju/</guid>
+      <description>&lt;p&gt;I had some concerns about how I was going to integrate posts of a technical nature with my blog, which has been predominantly writing-oriented for several years. What I failed take into account is that many of us who write Science Fiction are armchair technologists. We look at gadgets, scientific breakthroughs and tech policy, and make conjecture about what might come next.&lt;/p&gt;
+
+&lt;p&gt;What I talk about is less important than &lt;em&gt;how&lt;/em&gt; I talk about it. It’ll be interesting, or not, but no self-rejection.&lt;/p&gt;
+
+&lt;p&gt;Onward.&lt;/p&gt;
+
+&lt;p&gt;In one of my previous jobs, I ran a cluster of servers responsible for serving upwards of 1.5 &lt;em&gt;Billion&lt;/em&gt; ads/day. I had a half dozen racks of hardware sitting in a data center in Chicago. Some of those servers were from the early days, while others were a few years newer.&lt;/p&gt;
+
+&lt;p&gt;When business was good, we&amp;#8217;d buy more equipment &amp;#8212; servers, racks, switches, electricity, and bandwidth &amp;#8212; to handle the traffic. The new business justified the fixed and recurring costs (to buy and lease hardware, and to host the equipment), locked in to a 1-3 year contract.&lt;/p&gt;
+
+&lt;p&gt;When business dropped off, and it inevitably did, we were still paying the bills for all of that extra hardware and the associated services.&lt;/p&gt;
+
+&lt;p&gt;There&amp;#8217;s also an ebb and flow to internet traffic, an inevitable tidal force. We might serve twice as many ads after 9AM EST as we did at 3AM. So you beefed up hardware to handle the daily peaks and pay for the idle costs otherwise.&lt;/p&gt;
+
+&lt;p&gt;Almost everyone in the modern world today carries a cell phone. Maybe you buy the latest and greatest smartphone, at a subsidized price, and are locked into a contract, paying every month for the privilege, even for the services you never use. Or you buy your phone outright and pay as you go, only responsible for what you use.&lt;/p&gt;
+
+&lt;p&gt;This is where the cloud comes in. You can almost see the Jedi hand wavy motion being made when someone says, &amp;#8220;it&amp;#8217;s in the cloud&amp;#8221;. What is this ethereal thing and where does it live?&lt;/p&gt;
+
+&lt;p&gt;The simplified version is that the cloud is simply a large cluster of computers sitting in a data center somewhere. It might be massive, power-consuming supercomputers. It could be a ton of off-the-shelf hardware stringed together. And all of that gear is pieced together with software to run virtual computers, which those companies will the lease out to people like you and me.&lt;/p&gt;
+
+&lt;p&gt;There’s no question that the future of business computing involves the cloud. It&amp;#8217;s super cost-effective. In may ways, though, it&amp;#8217;s still in its infancy.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;#8217;s where I get to the point, and talk about Juju.&lt;/p&gt;
+
+&lt;p&gt;Back when I was managing that cluster of ad servers, we&amp;#8217;d cobbled together a mix of shell scripts using ssh and puppet to automate the deployment and management of those dozens of computers. It worked, but was far from ideal, and only worked with our hardware.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://juju.ubuntu.com/&#34;&gt;Juju&lt;/a&gt; is a system that lets you automate the deployment of software, via bundled instructions called &lt;em&gt;Charms&lt;/em&gt;, to servers across multiple Clouds, like EC2, Azure, HP, Digital Ocean, or even your own hardware.&lt;/p&gt;
+
+&lt;p&gt;Say your awesome website is suddenly getting linked to by the Neil Gaiman and John Scalzi&amp;#8217;s of the world, and your site is being crushed under the load. Problem?&lt;/p&gt;
+
+&lt;p&gt;No problem. You tell juju you want two more servers, or five or ten. A few minutes later, they&amp;#8217;re online and so&amp;#8217;s your website. When the [slashdot effect][2] has worn off, you can remove those extra servers. Only paying for the time use you needed them.&lt;/p&gt;
+
+&lt;p&gt;Scalability and affordability, in a nutshell. And juju is there to help you manage that.&lt;/p&gt;
+
+&lt;p&gt;TL;DR: Juju is a cloud orchestration toolkit, to aid in the deployment and manage of services across a variety of cloud providers.&lt;/p&gt;
+
+&lt;p&gt;[2]: &lt;a href=&#34;http://en.wikipedia.org/wiki/Slashdot_effect&#34;&gt;http://en.wikipedia.org/wiki/Slashdot_effect&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New job!</title>
+      <link>http://adamisrael.com/blog/2014/08/25/new-job/</link>
+      <pubDate>Tue, 26 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2014/08/25/new-job/</guid>
+      <description>&lt;p&gt;I am delighted &amp;#8212; tickled, in fact &amp;#8212; to report that as of last Monday I am employed by &lt;a href=&#34;http://www.canonical.com/&#34;&gt;Canonical&lt;/a&gt;, the company behind &lt;a href=&#34;http://www.ubuntu.com/&#34;&gt;Ubuntu&lt;/a&gt; Linux.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;ve joined the Ecosystem Engineering team, part of Cloud Development and Operations, as a software engineer. More specifically, I&amp;#8217;m working on &lt;a href=&#34;https://juju.ubuntu.com/&#34;&gt;Juju&lt;/a&gt;, the cloud orchestration tool chain. I&amp;#8217;ll be writing [charms][4] and documentation, working on optimizations, and helping to make a cool product even cooler.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;[4]: &lt;a href=&#34;https://manage.jujucharms.com/&#34;&gt;https://manage.jujucharms.com/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Q&amp;A: Why is Scrivener using my old contact information?</title>
+      <link>http://adamisrael.com/blog/2014/07/31/qa-why-is-scrivener-using-my-old-contact-information/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2014/07/31/qa-why-is-scrivener-using-my-old-contact-information/</guid>
+      <description>&lt;p&gt;For the past few years, I&amp;#8217;ve had to manually update the contact information in the header of every [Scrivener][1] project I&amp;#8217;ve created. It was defaulting to an old email and physical address, but somehow had the correct phone number.&lt;/p&gt;
+
+&lt;p&gt;Scrivener can pull your contact information from the OS X application &lt;em&gt;Contacts&lt;/em&gt;, if you add the string &amp;#8220;(Scrivener:UseMe)&amp;#8221; to the notes of your contact card. As it turns out, I had done that already but my card has all of my email addresses (work and home) as well as my current and past physical addresses. In that case, Scrivener just uses the first phone, email, and physical address it finds.&lt;/p&gt;
+
+&lt;p&gt;The solution is simple, and doubly useful if you write under a pseudonym. Create a new contact card with the information you want in your manuscript&amp;#8217;s cover page. Don&amp;#8217;t forget to add &amp;#8220;(Scrivener:UseMe)&amp;#8221; to the notes section of your new contact, and remove it from the old.&lt;/p&gt;
+
+&lt;p&gt;The next time you create a project in Scrivener, it will use your new contact.&lt;/p&gt;
+
+&lt;p&gt;[1]: &lt;a href=&#34;http://www.literatureandlatte.com/scrivener.php&#34;&gt;http://www.literatureandlatte.com/scrivener.php&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
