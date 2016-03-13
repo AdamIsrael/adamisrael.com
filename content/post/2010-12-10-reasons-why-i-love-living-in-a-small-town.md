@@ -16,7 +16,7 @@ categories:
   - Uncategorized
 
 ---
-We had our first measurable snowfall today &#8212; a meager quarter inch or so. I was awake early, or late, depending on your point of view thanks to [fibrosomnia][1] day 2. I decided to _walk_ uptown to our favorite breakfast joint where I had three eggs, three slices of bacon, and fried potatoes and onions for under $5. I jotted down some words, made some notes on the next story I&#8217;m working on, and on the way back home picked up an extra large half hot chocolate, half coffee at Tim Hortons (which is open 24/7, btw) for less than $2. If I have to be awake, I may as well have some pep.
+We had our first measurable snowfall today &#8212; a meager quarter inch or so. I was awake early, or late, depending on your point of view thanks to [fibrosomnia](1) day 2. I decided to _walk_ uptown to our favorite breakfast joint where I had three eggs, three slices of bacon, and fried potatoes and onions for under $5. I jotted down some words, made some notes on the next story I&#8217;m working on, and on the way back home picked up an extra large half hot chocolate, half coffee at Tim Hortons (which is open 24/7, btw) for less than $2. If I have to be awake, I may as well have some pep.
 
 Cheap, convenient living is good.
 

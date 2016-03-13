@@ -18,7 +18,7 @@ tags:
   - alternano
 
 ---
-November 1st is here and that means [NaNoWriMo][1] &#8211; National Novel Writing Month. As someone who is a short story writer, I often look at my friends writing the long form with some envy. They have their own month and I don&#8217;t want to be left out so I tell myself that I will finally write one of those novel ideas I&#8217;ve been noodling on for forever. Just when I think I&#8217;ve picked one and made a decision, the weight of  my backlog of revisions, rewrites, or markets I want to submit to smacks me like a brick. So, I&#8217;m doing [AlterNaNoWriMo][2].
+November 1st is here and that means [NaNoWriMo](1) &#8211; National Novel Writing Month. As someone who is a short story writer, I often look at my friends writing the long form with some envy. They have their own month and I don&#8217;t want to be left out so I tell myself that I will finally write one of those novel ideas I&#8217;ve been noodling on for forever. Just when I think I&#8217;ve picked one and made a decision, the weight of  my backlog of revisions, rewrites, or markets I want to submit to smacks me like a brick. So, I&#8217;m doing [AlterNaNoWriMo](2).
 
 The rules of AlterNaNoWriMo are simple:
 

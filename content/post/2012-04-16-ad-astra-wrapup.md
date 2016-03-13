@@ -30,15 +30,15 @@ I saw there was a writing contest &#8212; 250 words based on a handful of promp
 Harry Turtledove was one of the Guests of Honor. I sat in one of his panels, on creating viable cultures in world-building. Fascinating stuff. It evolved into conversation about historical research and alternate history between him and Ed Greenwood, which was awesome and worth the price of admission alone. My two favorite quotes:
 
 > &#8220;That feeling of depth, that the world keeps going when the author stops looking.&#8221; Harry Turtledove, talking about Lord of the Rings
-> 
+>
 > &#8220;The harder you make your reader work, the smaller your audience.&#8221; Ed Greenwood
 
-It&#8217;s always great to meet people I&#8217;ve only known online. After a previous near-miss, I finally got to spend a few minutes chatting with [Shay Darrach][1]. I also got to spend some time with [Gabrielle Harbowy][2], who I met through a mutual friend. That lead me to the launch party for Dragon Moon Press, which was a blast. Debut author [Leah Petersen][3] read from her novel and did a fabulous job, as did [Marie Bilodeau][4].
+It&#8217;s always great to meet people I&#8217;ve only known online. After a previous near-miss, I finally got to spend a few minutes chatting with [Shay Darrach](1). I also got to spend some time with [Gabrielle Harbowy](2), who I met through a mutual friend. That lead me to the launch party for Dragon Moon Press, which was a blast. Debut author [Leah Petersen](3) read from her novel and did a fabulous job, as did [Marie Bilodeau](4).
 
-Sunday, I went to a panel on &#8216;Revising and The Pitch&#8217;. At least, I thought it was a panel but it was really an interactive two-hour workshop led by [Julie Czerneda][5] and it was awesome. In groups of three, we were given prompts and created &#8212; and then revised &#8212; a pitch for a story. Again, some good quotes came out of the panel, these regarding revision:
+Sunday, I went to a panel on &#8216;Revising and The Pitch&#8217;. At least, I thought it was a panel but it was really an interactive two-hour workshop led by [Julie Czerneda](5) and it was awesome. In groups of three, we were given prompts and created &#8212; and then revised &#8212; a pitch for a story. Again, some good quotes came out of the panel, these regarding revision:
 
 > &#8220;As perfect as time permits.&#8221;
-> 
+>
 > &#8220;You have to learn to write to deadline; you may as well start by giving yourself one.&#8221; Julie Czerneda
 
 Conventions have always left me with renewed spirits. Now, as I&#8217;m gearing up to finish this novel, I feel like I have even more clarity. Not necessarily about the writing itself, but about in believing it can be done. It&#8217;s easy to escape into short stories, because I&#8217;ve written those, had those published. They&#8217;re my safe place. A novel is a big, scary thing. That unknown feels less scary and more manageable right now, though, and that makes me very happy.

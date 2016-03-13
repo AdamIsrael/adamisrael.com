@@ -15,6 +15,7 @@ params:
   email: "adam@adamisrael.com"
 
   headerCover: "images/header.jpg"
+  footerCover: "images/footer.jpg"
   # description = "Your Site Description" # optional
   # twitter = "Your Twitter Name" # optional
   # github = "Your Github Name" # optional

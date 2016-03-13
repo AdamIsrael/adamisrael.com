@@ -33,9 +33,9 @@ Most of the stories in my backlog are either trunked, needing rewrites, or massi
   * 11 needing a rewrite
   * 2 on submission
 
-I have two new stories in the works. One in the planning/research phase, for the [20spec anthology][1]. The other is one I started at Clarion, scratched, and reworked a few nights ago. With a fresh outline, I started rewriting it tonight. I&#8217;ve been calling this my Tantric sex/magic story, now with more poly love, a plump dominatrix, and a Chicago swinger&#8217;s club.
+I have two new stories in the works. One in the planning/research phase, for the [20spec anthology](1). The other is one I started at Clarion, scratched, and reworked a few nights ago. With a fresh outline, I started rewriting it tonight. I&#8217;ve been calling this my Tantric sex/magic story, now with more poly love, a plump dominatrix, and a Chicago swinger&#8217;s club.
 
-![][2]
+![](2)
 
 You know, there&#8217;s no reason I shouldn&#8217;t be able to pull these kind of numbers on a regular basis. One thing that Clarion taught us was to write cleaner first drafts in a shorter period of time. I&#8217;m still a slow writer, but I managed 800 words longhand, plus transcription and some editorial notes, in under two hours of actual work. I need to remind myself, from time to time, that it&#8217;s not the writing that&#8217;s hard. It&#8217;s the turning off distraction and, putting butt in chair and doing.
 

@@ -14,9 +14,9 @@ tags:
   - markets
 
 ---
-July 6th, 2009. That&#8217;s the date I discovered [Crossed Genres][1]. I know this because that&#8217;s the same date I submitted a story to them, and withdrew it the following day. See, I was still a very wet behind the ears writer and I was so excited about their current genre to notice that it was the previous month&#8217;s genre. Still, I had the good sense to email Bart and Kay the next day to let them know about my mistake but from that day forward I was a fan. And eighteen months later, I had a [story][2] published there.
+July 6th, 2009. That&#8217;s the date I discovered [Crossed Genres](1). I know this because that&#8217;s the same date I submitted a story to them, and withdrew it the following day. See, I was still a very wet behind the ears writer and I was so excited about their current genre to notice that it was the previous month&#8217;s genre. Still, I had the good sense to email Bart and Kay the next day to let them know about my mistake but from that day forward I was a fan. And eighteen months later, I had a [story](2) published there.
 
-Yesterday, they announced that [Crossed Genres (the magazine)][3] is closing. I was sad to hear the news, because Crossed Genres publishes excellent fiction and I am a huge fan of themed issues as they have been known for. Bart and Kay are retiring the magazine so they can put more of their time into their other efforts as Crossed Genres the publisher, with a line of anthologies, collections, and novels either published or in the works.
+Yesterday, they announced that [Crossed Genres (the magazine)](3) is closing. I was sad to hear the news, because Crossed Genres publishes excellent fiction and I am a huge fan of themed issues as they have been known for. Bart and Kay are retiring the magazine so they can put more of their time into their other efforts as Crossed Genres the publisher, with a line of anthologies, collections, and novels either published or in the works.
 
 Best of luck, you two. Your work, your efforts, your passion and your kindness has meant a lot to people, myself included. I can&#8217;t wait what you do next.
 

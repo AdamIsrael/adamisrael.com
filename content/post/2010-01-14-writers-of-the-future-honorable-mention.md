@@ -18,7 +18,7 @@ tags:
   - wotf
 
 ---
-I felt a little blue this week, grousing over revisions and my sometimes fragile ego. I distracted myself by patiently refreshing the Writers of the Future blog and checking the mail every few minutes, hoping to see some word of the 2009 Q4 results. Well, the [list of Honorable Mentions][1] was released[][1] before they had a chance to [update the blog][2].
+I felt a little blue this week, grousing over revisions and my sometimes fragile ego. I distracted myself by patiently refreshing the Writers of the Future blog and checking the mail every few minutes, hoping to see some word of the 2009 Q4 results. Well, the [list of Honorable Mentions](1) was released before they had a chance to [update the blog](2).
 
 > &#8220;Out of the thousands of stories that get submitted to the contest, a small percentage make it this far,&#8221; Wentworth continued. &#8220;Past Honorable Mention stories have gone on to see publication elsewhere. That is how competitive this contest is. The contest quality of submissions is the best of the best.&#8221;
 

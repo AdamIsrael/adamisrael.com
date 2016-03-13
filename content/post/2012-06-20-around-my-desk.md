@@ -28,11 +28,11 @@ It&#8217;s important that I have my workspace cluttered appropriately. Since I w
 
 Books:
 
-  * On Craft, Structure, and Career 
+  * On Craft, Structure, and Career
       * Steering the Craft, by Ursula K. Le Guin
       * Writing the Breakout Novel, by Donald Maass
       * Booklife, by Jeff VanderMeer
-  * Research, inspiration, or interesting and relevant: 
+  * Research, inspiration, or interesting and relevant:
       * Mistress of the Vatican: The True Story of Olimpia Maidalchini: The Secret Female Pope, by Eleanor Herman
       * The Complete Book of Baby Names, by Lesley Bolton
       * The Magick of Aleister Crowley by Lon Milo Duquette
@@ -43,7 +43,7 @@ Books:
 
 Random things:
 
-  * My favorite dice: 
+  * My favorite dice:
       * 1 d4
       * 2 d6
       * 2 d10
@@ -53,17 +53,17 @@ Random things:
   * A bunch of notebooks filled with various notes and ideas.
   * A desktop-sized scratchpad
   * Graph paper
-  * Dueling [Eleventh Doctor][1] figures w/TARDIS
+  * Dueling [Eleventh Doctor](1) figures w/TARDIS
   * Headphones
-  * An empty bottle of [Hakutsuru draft sake][2]
+  * An empty bottle of [Hakutsuru draft sake](2)
   * A lot of 3&#215;5 index cards
-  * A cork board with notes from friends, inspirational quotes, and the [Norse Crisis Flowchart][3]
+  * A cork board with notes from friends, inspirational quotes, and the [Norse Crisis Flowchart](3)
   * A map of Chicago
   * A map of the neighborhoods of Chicago
 
 You might pick up on a few things about what I&#8217;m writing, based on what&#8217;s around my desk. If you like dark urban fantasy, tattoos and magic, secret histories of the church, angels, demons, and a good story, all I can say is, maybe you and I should be friends.
 
-If you&#8217;re thinking of participating in the write-a-thon, we have nifty teams this year to <del>egg you on</del> encourage you when you&#8217;re feeling crestfallen. Also, and alternatively, you can [sponsor me][4] or [one of the many][5] writers. All the money goes to the Clarion Foundation, which uses the tax-deductible donations for things like student scholarships. It&#8217;s not too late!
+If you&#8217;re thinking of participating in the write-a-thon, we have nifty teams this year to <del>egg you on</del> encourage you when you&#8217;re feeling crestfallen. Also, and alternatively, you can [sponsor me](4) or [one of the many](5) writers. All the money goes to the Clarion Foundation, which uses the tax-deductible donations for things like student scholarships. It&#8217;s not too late!
 
  [1]: http://en.wikipedia.org/wiki/Eleventh_Doctor
  [2]: http://www.hakutsuru-sake.com/content/01.html#draft

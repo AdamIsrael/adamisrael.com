@@ -12,11 +12,11 @@ tags:
   - signal boost
 
 ---
-Broken Time Blues: Fantastic Tales in the Roaring &#8217;20s, or as some of you folks may remember it from it&#8217;s twitter hashtag, #20spec, is now available [for sale on Amazon][1]. From the publisher&#8217;s description:
+Broken Time Blues: Fantastic Tales in the Roaring &#8217;20s, or as some of you folks may remember it from it&#8217;s twitter hashtag, #20spec, is now available [for sale on Amazon](1). From the publisher&#8217;s description:
 
 > No blind tigers or poisonous coffin varnish here! Broken Time Blues is a classy establishment, see? The cat&#8217;s meow. So toss on your glad rags and get a wiggle on! Make sure no one&#8217;s following you, then take a right down the alley and knock three times on the brown door. There won&#8217;t be a sign. Code word&#8217;s &#8220;applesauce.&#8221; It&#8217;s okay to get your friends hip to the jive, but hush—speakeasy. Bulls and Mrs. Grundys are always listening. Inside you&#8217;ll be entertained by twelve hotsy-totsy tales. An alien burlesque dancer; a monstrous, people eating goddess, a buried city of automatons; Picasso as a villainous, flesh-sculpting wizard; ; a fae detective; a bootlegging chicken; and more. Broken Time Blues: the 1920s as you&#8217;ve never seen them before. You&#8217;ll go goofy for it.
 
-This anthology is going to be amazing. From the braaaaains that brought you zombie erotica via [Rigor Amortis][2], this features speculative stories set in the roaring 20&#8217;s that are sure to blow away any preconceptions you had of the prohibition era. The  table of contents nothing short of brilliant:
+This anthology is going to be amazing. From the braaaaains that brought you zombie erotica via [Rigor Amortis](2), this features speculative stories set in the roaring 20&#8217;s that are sure to blow away any preconceptions you had of the prohibition era. The  table of contents nothing short of brilliant:
 
 <p style="text-align: left; padding-left: 30px;">
   <em>The Sharing</em> by James Sutter<br /> <em>Chickadee</em> by Frank Ard<br /> <em>Semele’s Daughter</em> by John Dewey Nakamura Remy<br /> <em>The Automatic City</em> By Sarah Hendrix<br /> <em>Button Up Your Overcoat</em> by Barbara Krasnoff<br /> <em>Nor the Moonlight</em> by Andrew Romine<br /> <em>Jack and the Wise Birds</em> by Lucia Starkey<br /> <em>Madonna and Child, In Jade</em> by Amanda C. Davis<br /> <em>Der Graue Engel</em> by Jack Graham<br /> <em>The Purloined Ledger</em> by Ari Marmell<br /> <em>Fight Night</em> by Ryan McFadden<br /> <em>A Drink for Teddy Ford</em> by Robert Jackson Bennett

@@ -23,11 +23,11 @@ tags:
 ---
 # GO and OS X
 
-I&#8217;m doing a little hacking with [juju actions][1] before they land in a stable release but I ran into some hurdles getting Go working with the [brew][2]-installed version. Trying to install Go packages failed with a bunch of &#8216;unrecognized import path&#8217; errors. Here&#8217;s how I fixed it.
+I&#8217;m doing a little hacking with [juju actions](1) before they land in a stable release but I ran into some hurdles getting Go working with the [brew](2)-installed version. Trying to install Go packages failed with a bunch of &#8216;unrecognized import path&#8217; errors. Here&#8217;s how I fixed it.
 
 # STOP, GO, STOP
 
-Even though you can install Go via brew, there&#8217;s more to be done to get it working. Go relies on two environment variables: [GOPATH][3], and GOROOT. GOROOT is the path where Go is installed, and GOPATH is the directory you&#8217;ve created for your code workspace (which I&#8217;ve defaulted to $HOME/go).  We then need to tell our shell where to find these installed executable and run them first<sup><a href="#1">1</a></sup>.
+Even though you can install Go via brew, there&#8217;s more to be done to get it working. Go relies on two environment variables: [GOPATH](3), and GOROOT. GOROOT is the path where Go is installed, and GOPATH is the directory you&#8217;ve created for your code workspace (which I&#8217;ve defaulted to $HOME/go).  We then need to tell our shell where to find these installed executable and run them first<sup><a href="#1">1</a></sup>.
 
 <pre class="lang:default decode:true" title="Add go to your bash profile">cat &lt;&lt; EOF &gt; ~/.bash_profile
 # Go go gadget Go!
@@ -148,7 +148,7 @@ Homebrew installs the go formula with a bin/ directory, which symlinks to the go
 * * *
 
 <a name="1"></a>
-  
+
 <sup>1</sup>: It would probably be better to create a script that would toggle the PATH to include/exclude my $GOPATH/bin in $PATH. I&#8217;m using this to run the latest cutting edge version of juju, but I can see the need to switch back to using the released version of juju, without having to hack my ~/.bash_profile
 
  [1]: https://github.com/juju-actions/juju/wiki

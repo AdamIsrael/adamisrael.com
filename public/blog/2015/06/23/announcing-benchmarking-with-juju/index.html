@@ -6,10 +6,12 @@
   <title>Announcing Benchmarking with Juju</title>
   <link href="http://dev.adamisrael.com//css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="http://dev.adamisrael.com//css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="http://dev.adamisrael.com//css/override.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/default.min.css">
   <style type="text/css">
   
-    footer.page-footer{background-image: url(http://dev.adamisrael.com//images/default.png);}
+    footer.page-footer{background-image: url(http://dev.adamisrael.com//images/footer.jpg);}
   
   </style>
 </head>
@@ -24,25 +26,25 @@
     <div class="section no-pad-bot">
       <div class="container">
         
-        <h1 class="header center white-text text-darken-4">Adam Israel</h1>
+        <h1 class="header center white-text text-darken-4"><a href="http://dev.adamisrael.com/">Adam Israel</a></h1>
         <div class="row center">
           <h5 class="header col s12 light"></h5>
         </div>
         <div class="row center">
-        <a href="contact/"><img width="50px" height="50px" src="http://dev.adamisrael.com//images/1457855891_Mail-01.svg"></a>
+        <a href="contact/"><img  src="http://dev.adamisrael.com//images/1457863200_mail-hexagon-shadow-social-media.svg"></a>
 
         
-          <a href="https://twitter.com/AdamIsrael"><img src="http://dev.adamisrael.com//images/twitter-dreamstale71.png"></a>
+          <a href="https://twitter.com/AdamIsrael"><img src="http://dev.adamisrael.com//images/1457863195_twitter-hexagon-shadow-social-media.svg"></a>
         
         
-          <a href="https://github.com/AdamIsrael"><img src="http://dev.adamisrael.com//images/github2-dreamstale35.png"></a>
+          <a href="https://github.com/AdamIsrael"><img src="http://dev.adamisrael.com//images/1457863294_github-hexagon-shadow-social-media.svg"></a>
         
         
-          <a href="https://www.facebook.com/adam.israel"><img src="http://dev.adamisrael.com//images/facebook-dreamstale25.png"></a>
+          <a href="https://www.facebook.com/adam.israel"><img src="http://dev.adamisrael.com//images/1457863192_facebook-hexagon-shadow-social-media.svg"></a>
         
         
         
-          <a href="http://dev.adamisrael.com//index.xml"><img src="http://dev.adamisrael.com//images/feed-dreamstale27.png"></a>
+          <a href="http://dev.adamisrael.com//index.xml"><img src="http://dev.adamisrael.com//images/1457863230_rss-hexagon-shadow-social-media.svg"></a>
         </div>
       </div>
     </div>
@@ -77,11 +79,11 @@
 
 <p>As an example, monitoring the effect of adjusting the cache in nginx is a solved problem. What we’re going after is what happens when you adjust any service in your stack in relation to every other service. Turn every knob programmatically and measure it at any scale, on any cloud. Where exactly will you get the best performance: your application, the cache layer, or the backend database? Which configuration of that database stack is most performant? Which microservice benefits from faster disk I/O? These are the kinds of questions we want answered.</p>
 
-<p>With <a href="https://jujucharms.com/docs/stable/actions">Juju Actions</a>, we can now encapsulate tasks to run against a single unit or service in a repeatable, reliable, and composable way. Benchmarking is a natural extension of Actions, allowing authors to encapsulate the best practices for measuring the performance of a service and serve those results &#8212; in a standard way &#8212; that any user or tool can digest.</p>
+<p>With <a href="1">Juju Actions</a>, we can now encapsulate tasks to run against a single unit or service in a repeatable, reliable, and composable way. Benchmarking is a natural extension of Actions, allowing authors to encapsulate the best practices for measuring the performance of a service and serve those results &#8212; in a standard way &#8212; that any user or tool can digest.</p>
 
-<p>We’re announcing <a href="https://pypi.python.org/pypi/charm-benchmark">charm-benchmark</a>, a library written in Python that includes bash scripts so you can write benchmarks in any language. It uses action-set under the covers to create a simple schema that anyone can use and parse.</p>
+<p>We’re announcing <a href="2">charm-benchmark</a>, a library written in Python that includes bash scripts so you can write benchmarks in any language. It uses action-set under the covers to create a simple schema that anyone can use and parse.</p>
 
-<p>While we may intimately know a few services, we’re by no means the experts. We’ve created benchmarks for some of popular services in the charm store, such as <a href="https://jujucharms.com/mongodb/">mongodb</a>, <a href="https://github.com/juju-solutions/cassandra">cassandra</a>, <a href="https://github.com/juju-solutions/mysql-benchmark">mysql</a> and <a href="https://github.com/juju-solutions/siege">siege</a>, in order to provide a basic set of examples. Now we’re looking for community experts who are interested in benchmarking in order to fill the gap of knowledge. We’re excited about performance and how Juju can be used to model performance validation. We need more expertise on how to stress a service or workload to measure that performance.</p>
+<p>While we may intimately know a few services, we’re by no means the experts. We’ve created benchmarks for some of popular services in the charm store, such as <a href="3">mongodb</a>, <a href="4">cassandra</a>, <a href="5">mysql</a> and <a href="6">siege</a>, in order to provide a basic set of examples. Now we’re looking for community experts who are interested in benchmarking in order to fill the gap of knowledge. We’re excited about performance and how Juju can be used to model performance validation. We need more expertise on how to stress a service or workload to measure that performance.</p>
 
 <p>For example, here&#8217;s what a benchmark for <em>siege</em> would look like:</p>
 
@@ -141,9 +143,7 @@ benchmark-composite transaction_rate $hits hits/sec desc
 
 benchmark-finish || true</pre>
 
-<p>We’ll be covering benchmarking in the next <a href="https://www.youtube.com/watch?v=ALt4zsAMy90">Juju Office Hours</a> on <a href="http://ubuntuonair.com/">July 9th at 1600 EDT/20:00 UTC</a> and we’d love to help anyone who wants to get started, you can find me, Adam Israel (aisrael), Marco Ceppi (marcoceppi), and Tim Van Steenburgh (tvansteenburgh) on #juju on Freenode and on the [Juju mailing list][9].</p>
-
-<p>[9]: <a href="https://lists.ubuntu.com/mailman/listinfo/juju">https://lists.ubuntu.com/mailman/listinfo/juju</a></p>
+<p>We’ll be covering benchmarking in the next <a href="7">Juju Office Hours</a> on <a href="8">July 9th at 1600 EDT/20:00 UTC</a> and we’d love to help anyone who wants to get started, you can find me, Adam Israel (aisrael), Marco Ceppi (marcoceppi), and Tim Van Steenburgh (tvansteenburgh) on #juju on Freenode and on the <a href="9">Juju mailing list</a>.</p>
 </p>
           <p>23 Jun 2015
             

@@ -30,12 +30,12 @@ I missed a couple days of writing last week, which included a day spent trying t
 My Illinois driving records have been received by Mom and will soon be on their way here. Soon, I&#8217;ll be able to get an Ontario drivers license and then we can start the car shopping. I&#8217;m researching the Ford Focus, Mazda 3 hatchback, and the Dodge Caliber. A nice compact with good gas milage should do us well.
 
 Project: Motown Blues
-  
+
 New words written: 599
-  
+
 Reason for stopping: family obligations
 
-![][1]
+![](1)
 
 Two and a half scenes to go. I&#8217;ll wrap this draft in a few days and get hustling on the first revision. Between now and May 15th, when it&#8217;s due, I&#8217;ll end up with three or four revised drafts. There&#8217;s good guts in this here story. I just need to tease them out and make them pretty.
 

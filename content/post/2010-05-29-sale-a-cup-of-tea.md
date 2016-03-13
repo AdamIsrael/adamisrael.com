@@ -19,6 +19,6 @@ tags:
   - sale
 
 ---
-I’m happy to announce that my story, “A Cup of Tea”, has sold to [Golden Visions Magazine][1] and will be in their July 2010 print issue. Support a small press and buy a copy (or PDF), won’t you?
+I’m happy to announce that my story, “A Cup of Tea”, has sold to [Golden Visions Magazine](1) and will be in their July 2010 print issue. Support a small press and buy a copy (or PDF), won’t you?
 
  [1]: http://www.goldenvisionsmagazine.biz/

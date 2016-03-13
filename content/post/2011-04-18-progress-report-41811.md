@@ -15,7 +15,7 @@ wordbooker_thumb:
 wordbooker_extract:
   - |
     I'm trying to do a better job of writing every day, getting things done, and keeping to a schedule. This might not be of interest to anyone else, but public shaming accountability keeps me honest.
-    
+
     Projects: Motown Blues (tentative)
     New words writte ...
 aktt_tweeted:
@@ -29,12 +29,12 @@ categories:
 I&#8217;m trying to do a better job of writing every day, getting things done, and keeping to a schedule. This might not be of interest to anyone else, but public <span style="text-decoration: line-through;">shaming</span> accountability keeps me honest.
 
 Projects: Motown Blues (tentative)
-  
+
 New words written: 571
-  
+
 Reason for stopping: End of scene
 
-![][1]
+![](1)
 
 Even though I know exactly where the story is headed, it&#8217;s fun to discover the bits that jump out of the ether, waving their arms and screaming, &#8220;hey, look at me!!&#8221;.
 

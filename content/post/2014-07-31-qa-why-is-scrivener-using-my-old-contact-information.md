@@ -10,11 +10,10 @@ categories:
   - Technical
 tags:
   - os x
-  - 'q&amp;a'
   - scrivener
 
 ---
-For the past few years, I&#8217;ve had to manually update the contact information in the header of every [Scrivener][1] project I&#8217;ve created. It was defaulting to an old email and physical address, but somehow had the correct phone number.
+For the past few years, I&#8217;ve had to manually update the contact information in the header of every [Scrivener](1) project I&#8217;ve created. It was defaulting to an old email and physical address, but somehow had the correct phone number.
 
 Scrivener can pull your contact information from the OS X application _Contacts_, if you add the string &#8220;(Scrivener:UseMe)&#8221; to the notes of your contact card. As it turns out, I had done that already but my card has all of my email addresses (work and home) as well as my current and past physical addresses. In that case, Scrivener just uses the first phone, email, and physical address it finds.
 

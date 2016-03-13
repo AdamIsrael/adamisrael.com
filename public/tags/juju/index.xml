@@ -23,11 +23,11 @@
 
 &lt;p&gt;As an example, monitoring the effect of adjusting the cache in nginx is a solved problem. What we’re going after is what happens when you adjust any service in your stack in relation to every other service. Turn every knob programmatically and measure it at any scale, on any cloud. Where exactly will you get the best performance: your application, the cache layer, or the backend database? Which configuration of that database stack is most performant? Which microservice benefits from faster disk I/O? These are the kinds of questions we want answered.&lt;/p&gt;
 
-&lt;p&gt;With &lt;a href=&#34;https://jujucharms.com/docs/stable/actions&#34;&gt;Juju Actions&lt;/a&gt;, we can now encapsulate tasks to run against a single unit or service in a repeatable, reliable, and composable way. Benchmarking is a natural extension of Actions, allowing authors to encapsulate the best practices for measuring the performance of a service and serve those results &amp;#8212; in a standard way &amp;#8212; that any user or tool can digest.&lt;/p&gt;
+&lt;p&gt;With &lt;a href=&#34;1&#34;&gt;Juju Actions&lt;/a&gt;, we can now encapsulate tasks to run against a single unit or service in a repeatable, reliable, and composable way. Benchmarking is a natural extension of Actions, allowing authors to encapsulate the best practices for measuring the performance of a service and serve those results &amp;#8212; in a standard way &amp;#8212; that any user or tool can digest.&lt;/p&gt;
 
-&lt;p&gt;We’re announcing &lt;a href=&#34;https://pypi.python.org/pypi/charm-benchmark&#34;&gt;charm-benchmark&lt;/a&gt;, a library written in Python that includes bash scripts so you can write benchmarks in any language. It uses action-set under the covers to create a simple schema that anyone can use and parse.&lt;/p&gt;
+&lt;p&gt;We’re announcing &lt;a href=&#34;2&#34;&gt;charm-benchmark&lt;/a&gt;, a library written in Python that includes bash scripts so you can write benchmarks in any language. It uses action-set under the covers to create a simple schema that anyone can use and parse.&lt;/p&gt;
 
-&lt;p&gt;While we may intimately know a few services, we’re by no means the experts. We’ve created benchmarks for some of popular services in the charm store, such as &lt;a href=&#34;https://jujucharms.com/mongodb/&#34;&gt;mongodb&lt;/a&gt;, &lt;a href=&#34;https://github.com/juju-solutions/cassandra&#34;&gt;cassandra&lt;/a&gt;, &lt;a href=&#34;https://github.com/juju-solutions/mysql-benchmark&#34;&gt;mysql&lt;/a&gt; and &lt;a href=&#34;https://github.com/juju-solutions/siege&#34;&gt;siege&lt;/a&gt;, in order to provide a basic set of examples. Now we’re looking for community experts who are interested in benchmarking in order to fill the gap of knowledge. We’re excited about performance and how Juju can be used to model performance validation. We need more expertise on how to stress a service or workload to measure that performance.&lt;/p&gt;
+&lt;p&gt;While we may intimately know a few services, we’re by no means the experts. We’ve created benchmarks for some of popular services in the charm store, such as &lt;a href=&#34;3&#34;&gt;mongodb&lt;/a&gt;, &lt;a href=&#34;4&#34;&gt;cassandra&lt;/a&gt;, &lt;a href=&#34;5&#34;&gt;mysql&lt;/a&gt; and &lt;a href=&#34;6&#34;&gt;siege&lt;/a&gt;, in order to provide a basic set of examples. Now we’re looking for community experts who are interested in benchmarking in order to fill the gap of knowledge. We’re excited about performance and how Juju can be used to model performance validation. We need more expertise on how to stress a service or workload to measure that performance.&lt;/p&gt;
 
 &lt;p&gt;For example, here&amp;#8217;s what a benchmark for &lt;em&gt;siege&lt;/em&gt; would look like:&lt;/p&gt;
 
@@ -87,9 +87,7 @@ benchmark-composite transaction_rate $hits hits/sec desc
 
 benchmark-finish || true&lt;/pre&gt;
 
-&lt;p&gt;We’ll be covering benchmarking in the next &lt;a href=&#34;https://www.youtube.com/watch?v=ALt4zsAMy90&#34;&gt;Juju Office Hours&lt;/a&gt; on &lt;a href=&#34;http://ubuntuonair.com/&#34;&gt;July 9th at 1600 EDT/20:00 UTC&lt;/a&gt; and we’d love to help anyone who wants to get started, you can find me, Adam Israel (aisrael), Marco Ceppi (marcoceppi), and Tim Van Steenburgh (tvansteenburgh) on #juju on Freenode and on the [Juju mailing list][9].&lt;/p&gt;
-
-&lt;p&gt;[9]: &lt;a href=&#34;https://lists.ubuntu.com/mailman/listinfo/juju&#34;&gt;https://lists.ubuntu.com/mailman/listinfo/juju&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We’ll be covering benchmarking in the next &lt;a href=&#34;7&#34;&gt;Juju Office Hours&lt;/a&gt; on &lt;a href=&#34;8&#34;&gt;July 9th at 1600 EDT/20:00 UTC&lt;/a&gt; and we’d love to help anyone who wants to get started, you can find me, Adam Israel (aisrael), Marco Ceppi (marcoceppi), and Tim Van Steenburgh (tvansteenburgh) on #juju on Freenode and on the &lt;a href=&#34;9&#34;&gt;Juju mailing list&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -151,11 +149,11 @@ benchmark-finish || true&lt;/pre&gt;
 
 &lt;h1 id=&#34;go-and-os-x:88ab873d5c8d53a90360c0026a04b5ae&#34;&gt;GO and OS X&lt;/h1&gt;
 
-&lt;p&gt;I&amp;#8217;m doing a little hacking with &lt;a href=&#34;https://github.com/juju-actions/juju/wiki&#34;&gt;juju actions&lt;/a&gt; before they land in a stable release but I ran into some hurdles getting Go working with the &lt;a href=&#34;http://brew.sh/&#34;&gt;brew&lt;/a&gt;-installed version. Trying to install Go packages failed with a bunch of &amp;#8216;unrecognized import path&amp;#8217; errors. Here&amp;#8217;s how I fixed it.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;m doing a little hacking with &lt;a href=&#34;1&#34;&gt;juju actions&lt;/a&gt; before they land in a stable release but I ran into some hurdles getting Go working with the &lt;a href=&#34;2&#34;&gt;brew&lt;/a&gt;-installed version. Trying to install Go packages failed with a bunch of &amp;#8216;unrecognized import path&amp;#8217; errors. Here&amp;#8217;s how I fixed it.&lt;/p&gt;
 
 &lt;h1 id=&#34;stop-go-stop:88ab873d5c8d53a90360c0026a04b5ae&#34;&gt;STOP, GO, STOP&lt;/h1&gt;
 
-&lt;p&gt;Even though you can install Go via brew, there&amp;#8217;s more to be done to get it working. Go relies on two environment variables: [GOPATH][3], and GOROOT. GOROOT is the path where Go is installed, and GOPATH is the directory you&amp;#8217;ve created for your code workspace (which I&amp;#8217;ve defaulted to $HOME/go).  We then need to tell our shell where to find these installed executable and run them first&lt;sup&gt;&lt;a href=&#34;#1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Even though you can install Go via brew, there&amp;#8217;s more to be done to get it working. Go relies on two environment variables: &lt;a href=&#34;3&#34;&gt;GOPATH&lt;/a&gt;, and GOROOT. GOROOT is the path where Go is installed, and GOPATH is the directory you&amp;#8217;ve created for your code workspace (which I&amp;#8217;ve defaulted to $HOME/go).  We then need to tell our shell where to find these installed executable and run them first&lt;sup&gt;&lt;a href=&#34;#1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
 &lt;pre class=&#34;lang:default decode:true&#34; title=&#34;Add go to your bash profile&#34;&gt;cat &amp;lt;&amp;lt; EOF &amp;gt; ~/.bash_profile
 # Go go gadget Go!
@@ -278,8 +276,6 @@ BUGS
 &lt;p&gt;&lt;a name=&#34;1&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;sup&gt;1&lt;/sup&gt;: It would probably be better to create a script that would toggle the PATH to include/exclude my $GOPATH/bin in $PATH. I&amp;#8217;m using this to run the latest cutting edge version of juju, but I can see the need to switch back to using the released version of juju, without having to hack my ~/.bash_profile&lt;/p&gt;
-
-&lt;p&gt;[3]: &lt;a href=&#34;https://code.google.com/p/go-wiki/wiki/GOPATH&#34;&gt;https://code.google.com/p/go-wiki/wiki/GOPATH&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -315,17 +311,15 @@ BUGS
 
 &lt;p&gt;Back when I was managing that cluster of ad servers, we&amp;#8217;d cobbled together a mix of shell scripts using ssh and puppet to automate the deployment and management of those dozens of computers. It worked, but was far from ideal, and only worked with our hardware.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://juju.ubuntu.com/&#34;&gt;Juju&lt;/a&gt; is a system that lets you automate the deployment of software, via bundled instructions called &lt;em&gt;Charms&lt;/em&gt;, to servers across multiple Clouds, like EC2, Azure, HP, Digital Ocean, or even your own hardware.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;1&#34;&gt;Juju&lt;/a&gt; is a system that lets you automate the deployment of software, via bundled instructions called &lt;em&gt;Charms&lt;/em&gt;, to servers across multiple Clouds, like EC2, Azure, HP, Digital Ocean, or even your own hardware.&lt;/p&gt;
 
 &lt;p&gt;Say your awesome website is suddenly getting linked to by the Neil Gaiman and John Scalzi&amp;#8217;s of the world, and your site is being crushed under the load. Problem?&lt;/p&gt;
 
-&lt;p&gt;No problem. You tell juju you want two more servers, or five or ten. A few minutes later, they&amp;#8217;re online and so&amp;#8217;s your website. When the [slashdot effect][2] has worn off, you can remove those extra servers. Only paying for the time use you needed them.&lt;/p&gt;
+&lt;p&gt;No problem. You tell juju you want two more servers, or five or ten. A few minutes later, they&amp;#8217;re online and so&amp;#8217;s your website. When the &lt;a href=&#34;2&#34;&gt;slashdot effect&lt;/a&gt; has worn off, you can remove those extra servers. Only paying for the time use you needed them.&lt;/p&gt;
 
 &lt;p&gt;Scalability and affordability, in a nutshell. And juju is there to help you manage that.&lt;/p&gt;
 
 &lt;p&gt;TL;DR: Juju is a cloud orchestration toolkit, to aid in the deployment and manage of services across a variety of cloud providers.&lt;/p&gt;
-
-&lt;p&gt;[2]: &lt;a href=&#34;http://en.wikipedia.org/wiki/Slashdot_effect&#34;&gt;http://en.wikipedia.org/wiki/Slashdot_effect&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -335,13 +329,11 @@ BUGS
       <pubDate>Tue, 26 Aug 2014 00:00:00 +0000</pubDate>
       
       <guid>http://dev.adamisrael.com/blog/2014/08/25/new-job/</guid>
-      <description>&lt;p&gt;I am delighted &amp;#8212; tickled, in fact &amp;#8212; to report that as of last Monday I am employed by &lt;a href=&#34;http://www.canonical.com/&#34;&gt;Canonical&lt;/a&gt;, the company behind &lt;a href=&#34;http://www.ubuntu.com/&#34;&gt;Ubuntu&lt;/a&gt; Linux.&lt;/p&gt;
+      <description>&lt;p&gt;I am delighted &amp;#8212; tickled, in fact &amp;#8212; to report that as of last Monday I am employed by &lt;a href=&#34;1&#34;&gt;Canonical&lt;/a&gt;, the company behind &lt;a href=&#34;2&#34;&gt;Ubuntu&lt;/a&gt; Linux.&lt;/p&gt;
 
-&lt;p&gt;I&amp;#8217;ve joined the Ecosystem Engineering team, part of Cloud Development and Operations, as a software engineer. More specifically, I&amp;#8217;m working on &lt;a href=&#34;https://juju.ubuntu.com/&#34;&gt;Juju&lt;/a&gt;, the cloud orchestration tool chain. I&amp;#8217;ll be writing [charms][4] and documentation, working on optimizations, and helping to make a cool product even cooler.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;ve joined the Ecosystem Engineering team, part of Cloud Development and Operations, as a software engineer. More specifically, I&amp;#8217;m working on &lt;a href=&#34;3&#34;&gt;Juju&lt;/a&gt;, the cloud orchestration tool chain. I&amp;#8217;ll be writing &lt;a href=&#34;4&#34;&gt;charms&lt;/a&gt; and documentation, working on optimizations, and helping to make a cool product even cooler.&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;[4]: &lt;a href=&#34;https://manage.jujucharms.com/&#34;&gt;https://manage.jujucharms.com/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

@@ -18,13 +18,13 @@ tags:
   - signal boost
 
 ---
-Happy fifth birthday to [Hadley Rille Books][1], who published my first [in print][2] story. They publish many fine books and anthologies, so please consider supporting this great small press.
+Happy fifth birthday to [Hadley Rille Books](1), who published my first [in print](2) story. They publish many fine books and anthologies, so please consider supporting this great small press.
 
-Today is release day for [Rigor Amortis][3], edited by [Jaym Gates][4] and [Erika Holt][5], and containing stories by [R. Schuyler Devin][6], [Kaolin Imago Fire][7], [Kay T. Holt][8], [John Nakamura Remy][9], [Andrew Penn Romine][10], [Wendy N. Wagner][11], and many others.
+Today is release day for [Rigor Amortis](3), edited by [Jaym Gates](4) and [Erika Holt](5), and containing stories by [R. Schuyler Devin](6), [Kaolin Imago Fire](7), [Kay T. Holt](8), [John Nakamura Remy](9), [Andrew Penn Romine](10), [Wendy N. Wagner](11), and many others.
 
-This first of October 2010 also marks the launch of [Inkpunks][12], a group blog by some of the brightest up and coming writers and editors in speculative fiction. Every Tuesday and Friday there will be a post related to the writing. Disclaimer: I am one of the contributors.
+This first of October 2010 also marks the launch of [Inkpunks](12), a group blog by some of the brightest up and coming writers and editors in speculative fiction. Every Tuesday and Friday there will be a post related to the writing. Disclaimer: I am one of the contributors.
 
-Congratulations to my friend [John][13], who just completed [30 days as a Vegan][14]. Changing diet and lifestyle is harder than you might expect. Kudos to him for seeing it through. I&#8217;m looking forward to his final thoughts on the experiment.
+Congratulations to my friend [John](13), who just completed [30 days as a Vegan](14). Changing diet and lifestyle is harder than you might expect. Kudos to him for seeing it through. I&#8217;m looking forward to his final thoughts on the experiment.
 
  [1]: http://hadleyrillebooks.com/
  [2]: http://www.amazon.com/Return-Luna-Eric-T-Reynolds/dp/0981924328

@@ -17,15 +17,15 @@ Hello, folks, this is your captain speaking. We&#8217;ve reached the halfway mar
 Almost.
 
 —
-  
+
 Project: Black Mirror
-  
+
 New words written: 2,421
-  
+
 Reason for stopping: End of day
 
-![][1]
-  
+![](1)
+
 —
 
 In this hot mess of first draft spagetti and a generous serving of cheese, I&#8217;m learning a lot. One being that I&#8217;m frighteningly close to the climax of the story and that the later part of the month will see me going back through and filling in things that I skipped over. Subplots and minor characters left off-screen need care and attention, because they are interesting and still trapped inside my head.

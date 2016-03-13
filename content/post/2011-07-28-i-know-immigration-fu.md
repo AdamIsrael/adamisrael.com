@@ -24,6 +24,6 @@ tags:
 ---
 The inches-thick stack of paper greeting us on Tuesday only needed one thing: signatures. With today&#8217;s batch of packages to Fedex, my application for immigration to Canada is on its way north, where it will sit in processing for the next nine or ten months. Around April or May next year, I will start frantically refreshing the status page to see if it changes from &#8216;in process&#8217; to &#8216;approved&#8217; and we wait for the final paperwork to come in the mail.
 
-The only downside to the long progress is that travel over the border becomes even more challenging. If I were, and were turned away as I have been before, my application would be considered abandoned and I&#8217;d have to start all over again. For that reason, we have canceled any plans to travel state-side until next spring or so. I&#8217;m very saddened by this, as it means I&#8217;ll miss the wedding of a very dear friend and [Renovation][1] but them&#8217;s the breaks.
+The only downside to the long progress is that travel over the border becomes even more challenging. If I were, and were turned away as I have been before, my application would be considered abandoned and I&#8217;d have to start all over again. For that reason, we have canceled any plans to travel state-side until next spring or so. I&#8217;m very saddened by this, as it means I&#8217;ll miss the wedding of a very dear friend and [Renovation](1) but them&#8217;s the breaks.
 
  [1]: http://www.renovationsf.org/

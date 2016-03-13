@@ -18,15 +18,15 @@ The last few days haven&#8217;t been the most productive ones. If I were to go b
 I stick to the time zone deadline pretty strictly, so I logged my numbers but kept writing and added another thousand words before bed. I&#8217;ve killed off one minor character, in a pretty epic way, and am reaching the final arch for a second minor but notable character. Sitting down to re-outline character/plot arcs before I write for the day has been tremendously helpful as I get into the thick of the novel.
 
 &#8212;
-  
+
 Project: Black Mirror
 
 New words written: 950
-  
+
 Reason for stopping: Midnight
 
-![][1]
-  
+![](1)
+
 &#8212;
 
 Anyone who knows me well knows that I&#8217;m a fan of Scrivener. Here&#8217;s another reason why. During the first day or two of Nano, I setup targets to track my progress and goals independently of Nano&#8217;s stats.
@@ -42,12 +42,12 @@ I chose not to reset the the session target at midnight automatically because th
     <td>
       <a href="http://www.adamisrael.com/wp-content/uploads/2011/11/scrivener_targets.jpg"><img class="alignright size-full wp-image-650" title="Scrivener Targets" src="http://www.adamisrael.com/wp-content/uploads/2011/11/scrivener_targets.jpg" alt="Scrivener Targets" width="301" height="246" srcset="//www.adamisrael.com/wp-content/uploads/2011/11/scrivener_targets-300x245.jpg 300w, //www.adamisrael.com/wp-content/uploads/2011/11/scrivener_targets.jpg 301w" sizes="(max-width: 301px) 100vw, 301px" /></a>
     </td>
-    
+
     <td>
       <p>
         <div id="attachment_651" style="width: 310px" class="wp-caption aligncenter">
           <a href="http://www.adamisrael.com/wp-content/uploads/2011/11/scrivener_target_options.jpg"><img class="size-full wp-image-651 " title="Scrivener Target Options" src="http://www.adamisrael.com/wp-content/uploads/2011/11/scrivener_target_options.jpg" alt="Scrivener Target Options" width="300" height="360" srcset="//www.adamisrael.com/wp-content/uploads/2011/11/scrivener_target_options-250x300.jpg 250w, //www.adamisrael.com/wp-content/uploads/2011/11/scrivener_target_options.jpg 300w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-          
+
           <p class="wp-caption-text">
             Scrivener Target Options
           </p>

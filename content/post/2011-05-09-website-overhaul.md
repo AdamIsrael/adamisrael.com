@@ -20,7 +20,7 @@ categories:
   - Uncategorized
 
 ---
-My dear friend and fellow [Inkpunk][1] [Christie Yant][2] recently wrote about [the dos and don&#8217;ts of your online presence][3] and it inspired me to do a heavy overhaul of my own website. I haven&#8217;t been happy with it for a while. It pulled in things like images from flickr, recently played music from Last.fm, and didn&#8217;t show enough real content.
+My dear friend and fellow [Inkpunk](1) [Christie Yant](2) recently wrote about [the dos and don&#8217;ts of your online presence](3) and it inspired me to do a heavy overhaul of my own website. I haven&#8217;t been happy with it for a while. It pulled in things like images from flickr, recently played music from Last.fm, and didn&#8217;t show enough real content.
 
 This new theme suites me, I think.
 

@@ -13,7 +13,7 @@ wordbooker_thumb:
 wordbooker_extract:
   - |
      I'm pleased to announce the sale of a flash fiction story, "History of the Flesh", to volume 2 of The Crimson Pact anthology.
-    
+
     My story of a psychometrist turned sineater started almost two and a half years ago, during the Codex Weekend Warrior cont ...
 ljID:
   - 353
@@ -29,9 +29,9 @@ tags:
   - sale
 
 ---
-[<img class="size-medium wp-image-524 alignright" title="Crimson Pact" src="http://www.adamisrael.com/wp-content/uploads/2011/07/GargoylewBorder-205x300.jpg" alt="" width="205" height="300" />][1] I&#8217;m pleased to announce the sale of a flash fiction story, &#8220;History of the Flesh&#8221;, to volume 2 of The Crimson Pact anthology.
+[<img class="size-medium wp-image-524 alignright" title="Crimson Pact" src="http://www.adamisrael.com/wp-content/uploads/2011/07/GargoylewBorder-205x300.jpg" alt="" width="205" height="300" />](1) I&#8217;m pleased to announce the sale of a flash fiction story, &#8220;History of the Flesh&#8221;, to volume 2 of The Crimson Pact anthology.
 
-My story of a [psychometrist][2] turned [sineater][3] started almost two and a half years ago, during the Codex Weekend Warrior contest. For five consecutive weekends, we write a flash fiction inspired by one of three posted prompts and post it by the wee hours of Monday morning. The prompt I chose was:
+My story of a [psychometrist](2) turned [sineater](3) started almost two and a half years ago, during the Codex Weekend Warrior contest. For five consecutive weekends, we write a flash fiction inspired by one of three posted prompts and post it by the wee hours of Monday morning. The prompt I chose was:
 
 > Imagine someone had an extra sense to perceive the physical world. How would it work and what would s/he do with it? Write a story about it.
 

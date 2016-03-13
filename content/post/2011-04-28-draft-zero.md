@@ -15,13 +15,13 @@ wordbooker_thumb:
 wordbooker_extract:
   - |
     I didn't reach my original estimate of 5,000 words but this draft is done.
-    
+
     Project: Motown Blues (tentative)
     New words written: 811
     Reason for stopping: End of story
-    
-    
-    
+
+
+
     No matter how much I outline and plan, these stories tend to take on a lif ...
 aktt_tweeted:
   - 1
@@ -37,12 +37,12 @@ tags:
 I didn&#8217;t reach my original estimate of 5,000 words but this draft is done.
 
 Project: Motown Blues (tentative)
-  
+
 New words written: 811
-  
+
 Reason for stopping: End of story
 
-![][1]
+![](1)
 
 No matter how much I outline and plan, these stories tend to take on a life of their own once I get started. The voice fluctuates until it finds its pace and pitch. Tangents emerge, sidetrack, and must be wrestled into submission. I like what this is shaping up to be. Like painting, the next steps are to refine the edges, fix the flaws, and add depth to bring it to life. 18 days til deadline.
 

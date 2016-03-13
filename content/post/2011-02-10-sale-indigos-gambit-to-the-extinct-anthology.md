@@ -21,9 +21,9 @@ tags:
   - sale
 
 ---
-[<img class="size-full wp-image-364 alignright" title="Extinct Anthology" src="http://www.adamisrael.com/wp-content/uploads/2011/02/Extinct_Cover2.jpg" alt="" width="150" height="200" />][1]
+[<img class="size-full wp-image-364 alignright" title="Extinct Anthology" src="http://www.adamisrael.com/wp-content/uploads/2011/02/Extinct_Cover2.jpg" alt="" width="150" height="200" />](1)
 
-Coming on the heels of [my sale][2] to [Crossed Genres][3], I can also announce that I&#8217;ve sold the story, Indigo&#8217;s Gambit, to the [EXTINCT anthology][4], to be published as an eBook later this year.
+Coming on the heels of [my sale](2) to [Crossed Genres](3), I can also announce that I&#8217;ve sold the story, Indigo&#8217;s Gambit, to the [EXTINCT anthology](4), to be published as an eBook later this year.
 
  [1]: http://www.adamisrael.com/wp-content/uploads/2011/02/Extinct_Cover2.jpg
  [2]: http://www.adamisrael.com/blog/2011/02/10/sale-dog-days-to-crossed-genres/

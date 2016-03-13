@@ -10,7 +10,7 @@ tags:
   - sale
 
 ---
-It&#8217;s launch day at [Goldfish Grimm&#8217;s Spicy Fiction Sushi][1], which includes my story &#8220;[Control][2]&#8221; and an [interview][3] with yours truly.
+It&#8217;s launch day at [Goldfish Grimm&#8217;s Spicy Fiction Sushi](1), which includes my story &#8220;[Control](2)&#8221; and an [interview](3) with yours truly.
 
 This is one of my Clarion stories. Like any writer, I&#8217;m happy when a story sells but I&#8217;m also particularly pleased that _this_ story has found its home.
 

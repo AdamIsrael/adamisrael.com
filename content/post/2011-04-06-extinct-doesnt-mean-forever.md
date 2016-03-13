@@ -15,9 +15,9 @@ wordbooker_thumb:
 wordbooker_extract:
   - |
     &nbsp;
-    
-    
-    
+
+
+
     I realize that I neglected to mention that the anthology Extinct Doesn't Mean Forever, containing my story Indigo's Gambit, is now available on Amazon.
     Three, two, one, bang — the Drifting Star skipped on the wave of a collapsing micro-s ...
 aktt_tweeted:
@@ -34,9 +34,9 @@ tags:
 ---
 &nbsp;
 
-[<img class="size-medium wp-image-396 alignright" title="Exinct-cover" src="http://www.adamisrael.com/wp-content/uploads/2011/04/Exinct-cover-300x300.jpg" alt="" width="300" height="300" srcset="//www.adamisrael.com/wp-content/uploads/2011/04/Exinct-cover-150x150.jpg 150w, //www.adamisrael.com/wp-content/uploads/2011/04/Exinct-cover-300x300.jpg 300w, //www.adamisrael.com/wp-content/uploads/2011/04/Exinct-cover.jpg 500w" sizes="(max-width: 300px) 100vw, 300px" />][1]
+[<img class="size-medium wp-image-396 alignright" title="Exinct-cover" src="http://www.adamisrael.com/wp-content/uploads/2011/04/Exinct-cover-300x300.jpg" alt="" width="300" height="300" srcset="//www.adamisrael.com/wp-content/uploads/2011/04/Exinct-cover-150x150.jpg 150w, //www.adamisrael.com/wp-content/uploads/2011/04/Exinct-cover-300x300.jpg 300w, //www.adamisrael.com/wp-content/uploads/2011/04/Exinct-cover.jpg 500w" sizes="(max-width: 300px) 100vw, 300px" />](1)
 
-I realize that I neglected to mention that the anthology [Extinct Doesn&#8217;t Mean Forever][2], containing my story Indigo&#8217;s Gambit, is now available on Amazon.
+I realize that I neglected to mention that the anthology [Extinct Doesn&#8217;t Mean Forever](2), containing my story Indigo&#8217;s Gambit, is now available on Amazon.
 
 > Three, two, one, bang — the _Drifting Star_ skipped on the wave of a collapsing micro-sun, soaring through the void between the stars. The astronautical library contained surveys and charts on hundreds of thousands of star systems within the alliance of civilized worlds the Fringe called Sing Xu. This would be the thirty-eighth Indigo had visited since his journey toward the core planets began. So far none contained a world suitable to revive the Oshen race.
 

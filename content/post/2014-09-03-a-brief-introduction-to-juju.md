@@ -40,11 +40,11 @@ Here&#8217;s where I get to the point, and talk about Juju.
 
 Back when I was managing that cluster of ad servers, we&#8217;d cobbled together a mix of shell scripts using ssh and puppet to automate the deployment and management of those dozens of computers. It worked, but was far from ideal, and only worked with our hardware.
 
-[Juju][1] is a system that lets you automate the deployment of software, via bundled instructions called _Charms_, to servers across multiple Clouds, like EC2, Azure, HP, Digital Ocean, or even your own hardware.
+[Juju](1) is a system that lets you automate the deployment of software, via bundled instructions called _Charms_, to servers across multiple Clouds, like EC2, Azure, HP, Digital Ocean, or even your own hardware.
 
 Say your awesome website is suddenly getting linked to by the Neil Gaiman and John Scalzi&#8217;s of the world, and your site is being crushed under the load. Problem?
 
-No problem. You tell juju you want two more servers, or five or ten. A few minutes later, they&#8217;re online and so&#8217;s your website. When the [slashdot effect][2] has worn off, you can remove those extra servers. Only paying for the time use you needed them.
+No problem. You tell juju you want two more servers, or five or ten. A few minutes later, they&#8217;re online and so&#8217;s your website. When the [slashdot effect](2) has worn off, you can remove those extra servers. Only paying for the time use you needed them.
 
 Scalability and affordability, in a nutshell. And juju is there to help you manage that.
 

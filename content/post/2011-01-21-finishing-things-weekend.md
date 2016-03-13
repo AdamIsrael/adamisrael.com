@@ -26,7 +26,7 @@ The things that I want/need to get done:
 
   * Revise last weekend&#8217;s flash story (flutters eyelashes at critiquers) and submit it
   * Draft another Tesla&#8217;s Daughter Super Hero story (yes, it&#8217;s apparently turning into a series)
-  * Write new flash fiction for this weekend&#8217;s [Codex][1] Weekend Warriors contest
+  * Write new flash fiction for this weekend&#8217;s [Codex](1) Weekend Warriors contest
 
 That&#8217;s kind of a lot, but I think I can pull it off. No plans other than writing and sleeping.
 

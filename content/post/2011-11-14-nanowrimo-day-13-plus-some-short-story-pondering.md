@@ -17,15 +17,15 @@ Yesterday was another low day, both in mood and writing. My daily target is cree
 Mostly, this comes down to November being November, and my inexperience writing at this length. This shake down cruise is not without its bumps.
 
 —
-  
+
 Project: Black Mirror
-  
+
 New words written: 473
-  
+
 Reason for stopping: End of Day
 
-![][1]
-  
+![](1)
+
 —
 
 At the same time, short fiction continues, albeit at a slower pace. A rare paper submission came back in the mail today, marking my second to F&SF in four years. I&#8217;m kind of kicking myself for not submitting there more, considering that their response time is quicker than most electronic markets. That story still go back out on submission today, and I have two others that I need to find markets for but I&#8217;ve been procrastinating

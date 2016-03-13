@@ -22,7 +22,7 @@ tags:
   - shoutout
 
 ---
-The [Nebula Nominations][1] are out! I&#8217;m pleased to see several friends and acquaintances on the list. Congratulations to all nominees, but especially to [Kij Johnson][2], [Vylar Kaftan][3], [Shweta Narayan][4], [Eric James Stone][5], [J. Kathleen Cheney][6], [M.K. Hobson][7], [Mary Robinette Kowal][8], and [Nnedi Okorafor][9].
+The [Nebula Nominations](1) are out! I&#8217;m pleased to see several friends and acquaintances on the list. Congratulations to all nominees, but especially to [Kij Johnson](2), [Vylar Kaftan](3), [Shweta Narayan](4), [Eric James Stone](5), [J. Kathleen Cheney](6), [M.K. Hobson](7), [Mary Robinette Kowal](8), and [Nnedi Okorafor](9).
 
 I also let out a little squee to see that my favorite episode of Doctor Who, &#8220;Vincent and the Doctor&#8221;, is up for the Ray Bradbury Award for Outstanding Dramatic Presentation.
 

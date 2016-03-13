@@ -20,7 +20,7 @@ I haven&#8217;t been involved in many word wars &#8212; timed writing sessions w
 
 I ordered a cute egg timer from the states, but it was broken and I discovered the hard way how expensive custom and duty fees can be when something is shipped via UPS cross-border. I may just find a decent kitchen timer that can do double-duty.
 
-The second trick is an organizational one. I&#8217;ve seen it [referred to][1] as the DASH method &#8212; Direction, Acceleration, Strength, and Health.
+The second trick is an organizational one. I&#8217;ve seen it [referred to](1) as the DASH method &#8212; Direction, Acceleration, Strength, and Health.
 
 Direction is knowing what I&#8217;m going to write before I start. I make short lists of every chapter, broken down by scene, of what that writing needs to accomplish, usually no more than four or five bullet points. That mini-outline forces me to think through every chapter before I put down a single word. When I do sit down to write, I know what my end goal is.
 
@@ -35,12 +35,12 @@ Last week wasn&#8217;t the most productive, with a funeral, doctors visit, and o
 * * *
 
 Project: Black Mirror
-  
+
 New words written since last week: 1,980
-  
+
 Average words/day: 248
 
-![][2]
+![](2)
 
 I&#8217;m working through some existing scenes that need at least some work vs. writing new words. It&#8217;s slowed me down a little but it needs doing. I&#8217;m printing off each chapter as it&#8217;s finished and putting it into a binder. When I do finish, I&#8217;ll take that binder and a red pen and go sit somewhere for an afternoon and begin the revision process. Until then, the printed manuscript goes and is another reminder of what I&#8217;ve finished so far.
 

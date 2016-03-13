@@ -24,9 +24,9 @@ tags:
   - doctor who
 
 ---
-[][1] Up until a year ago, I&#8217;d only seen a few episodes of Doctor Who &#8212; mostly season 1. I was interested by what I saw but I prefer to watch shows sequentially, even though the [wibbly-wobbly, timey-wimey][2] nature of the show makes viewing out of order just as enjoyable. Then Season 5 came along and I made a point of watching it from the beginning. I was hooked within the first episode.
+[](1) Up until a year ago, I&#8217;d only seen a few episodes of Doctor Who &#8212; mostly season 1. I was interested by what I saw but I prefer to watch shows sequentially, even though the [wibbly-wobbly, timey-wimey](2) nature of the show makes viewing out of order just as enjoyable. Then Season 5 came along and I made a point of watching it from the beginning. I was hooked within the first episode.
 
-[<img class="aligncenter size-full wp-image-435" title="tumblr_l7le9oQxKs1qajupo" src="http://www.adamisrael.com/wp-content/uploads/2011/04/tumblr_l7le9oQxKs1qajupo.gif" alt="" width="200" height="113" />][3]
+[<img class="aligncenter size-full wp-image-435" title="tumblr_l7le9oQxKs1qajupo" src="http://www.adamisrael.com/wp-content/uploads/2011/04/tumblr_l7le9oQxKs1qajupo.gif" alt="" width="200" height="113" />](3)
 
 I watched, and rewatched, Season 5. Because I&#8217;d only seen Season 1 before, I&#8217;d considered Christopher Eccleston to be my Doctor, if pressed. Many of my friends were in David Tennet&#8217;s camp but I missed his reign as doctor almost entirely. I proudly declared for Matt Smith, despite the early doubters.
 
@@ -38,19 +38,19 @@ With the build-up to Season 6, and having rewatched Season 5 for the _umpteenth_
 
 Season 6 starts&#8230;tomorrow. How do I feel about this?
 
-[<img class="aligncenter" title="tumblr_lk2ff7mj1I1qhn3v1" src="http://www.adamisrael.com/wp-content/uploads/2011/04/tumblr_lk2ff7mj1I1qhn3v1.gif" alt="" width="300" height="177" />][1]
+[<img class="aligncenter" title="tumblr_lk2ff7mj1I1qhn3v1" src="http://www.adamisrael.com/wp-content/uploads/2011/04/tumblr_lk2ff7mj1I1qhn3v1.gif" alt="" width="300" height="177" />](1)
 
 &nbsp;
 
-[<img class="size-full wp-image-440 aligncenter" title="tumblr_l7mgoeVpA31qceq2y" src="http://www.adamisrael.com/wp-content/uploads/2011/04/tumblr_l7mgoeVpA31qceq2y.gif" alt="" width="300" height="169" />][4]
+[<img class="size-full wp-image-440 aligncenter" title="tumblr_l7mgoeVpA31qceq2y" src="http://www.adamisrael.com/wp-content/uploads/2011/04/tumblr_l7mgoeVpA31qceq2y.gif" alt="" width="300" height="169" />](4)
 
 &nbsp;
 
-[<img class="aligncenter size-full wp-image-442" title="tumblr_lk2ggp1rIL1qbv5up" src="http://www.adamisrael.com/wp-content/uploads/2011/04/tumblr_lk2ggp1rIL1qbv5up.gif" alt="" width="250" height="141" />][5]
+[<img class="aligncenter size-full wp-image-442" title="tumblr_lk2ggp1rIL1qbv5up" src="http://www.adamisrael.com/wp-content/uploads/2011/04/tumblr_lk2ggp1rIL1qbv5up.gif" alt="" width="250" height="141" />](5)
 
-Yeah. I&#8217;ve watched every preview clip I can get my hands on. I&#8217;m going to shotgun through my favorite episodes of Season 5 today and tomorrow in preparation. There will be hors d&#8217;oeuvres, although I&#8217;m not sure what kind yet. BBC America has this handy set of [recipes][6], but sadly, I&#8217;m allergic to most of them.
+Yeah. I&#8217;ve watched every preview clip I can get my hands on. I&#8217;m going to shotgun through my favorite episodes of Season 5 today and tomorrow in preparation. There will be hors d&#8217;oeuvres, although I&#8217;m not sure what kind yet. BBC America has this handy set of [recipes](6), but sadly, I&#8217;m allergic to most of them.
 
-ETA: Also? River Song. I just now put [Silence in the Library][7]/[Forest of the Dead][8], River&#8217;s first appearance, together with the Season 6 tease, Silence is coming. My head, it might burst from excitement. There&#8217;s a few odd coincidences involving River Song, and I don&#8217;t think those are happening by chance.
+ETA: Also? River Song. I just now put [Silence in the Library](7)/[Forest of the Dead](8), River&#8217;s first appearance, together with the Season 6 tease, Silence is coming. My head, it might burst from excitement. There&#8217;s a few odd coincidences involving River Song, and I don&#8217;t think those are happening by chance.
 
  [1]: http://www.adamisrael.com/wp-content/uploads/2011/04/tumblr_lk2ff7mj1I1qhn3v1.gif
  [2]: http://tvtropes.org/pmwiki/pmwiki.php/Main/TimeyWimeyBall

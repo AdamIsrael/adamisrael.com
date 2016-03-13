@@ -29,6 +29,6 @@ I’ll also be one of the aforementioned mentors this year, as part of Team Weav
 
 During this years write-a-thon, I’ll be continuing work on my novel-in-progress. My challenge is to write at least 1,000 words/day, 5 days/week, with an ultimate goal of 30,0000 words over the six weeks.
 
-I&#8217;d love to raise tons and tons of money for Clarion, because I passionately believe in what they do (and did for me). This is a no pressure pitch on my part, though. [Pledge][1] what you feel comfortable with, knowing that you have my utmost thanks and appreciation for donating to something dear to my heart.
+I&#8217;d love to raise tons and tons of money for Clarion, because I passionately believe in what they do (and did for me). This is a no pressure pitch on my part, though. [Pledge](1) what you feel comfortable with, knowing that you have my utmost thanks and appreciation for donating to something dear to my heart.
 
  [1]: http://clarionwriteathon.org/members/profile.php?writerid=348271

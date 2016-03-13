@@ -28,12 +28,12 @@ Right now, my process is a little like this:
 At this point, if I’m trying to submit to an anthology with a looming submission deadline, I’ve read the story a few times and have a gut feeling as to whether it’s working the way I intended or not. Otherwise, the story is grounded, along with all of the other bad little drafts who live in my basement.
 
 One thing Clarion taught me was to write less shitty first drafts, so in many cases draft 1.1 of stories I’ve written since aren’t embarrassingly bad. I can do better, though.
-  
+
 Sprinting is easy, because at the end of that race I can wave my arms around and say, “Look at me, I finished a story!” The truth, though, is it’s not finished. The real finish line is looming ahead and I’ve just stopped short because that’s a longer, lonely road that seems so futile at times.
 
 The rewards are worth the effort.
 
-I’ve got a story coming out on Thursday, at [Goldfish Grimm’s Spicy Fiction Sushi][1]. With “Control”, I was a long distance runner. I wrote the first draft during Clarion 2010. It was revised several times, including after a rewrite request, where I added 1,000 words. It saw three title changes. It took a while for this little story to find the right home, but it did and I knew it would. I didn’t just write that story; I finished it.
+I’ve got a story coming out on Thursday, at [Goldfish Grimm’s Spicy Fiction Sushi](1). With “Control”, I was a long distance runner. I wrote the first draft during Clarion 2010. It was revised several times, including after a rewrite request, where I added 1,000 words. It saw three title changes. It took a while for this little story to find the right home, but it did and I knew it would. I didn’t just write that story; I finished it.
 
 I have ADHD-like tendencies. When I’ve finished a draft, I tend to move on to the next shiny idea. That’s why I have so many 1.0 and 1.1’s lounging around, begging to see sunlight. I’ve proven, to myself at least, that I can sprint. Now it’s time to stay the course see these other stories finished.
 

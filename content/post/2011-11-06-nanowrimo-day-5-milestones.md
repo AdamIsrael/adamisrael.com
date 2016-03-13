@@ -17,18 +17,18 @@ A mostly solid day of writing. Andrea and I went out to the coffee shop for a mo
 Woke and procrastinated until the late evening and then&#8230;something broke open. Next thing I knew, I was over 2,000 words and it was almost midnight. I&#8217;m not saying they&#8217;re great words. Hell, some of them ain&#8217;t even good words. They&#8217;re my words, though, and I&#8217;m keeping them.
 
 &#8212;
-  
+
 Project: Black Mirror
-  
+
 New words written: 2,184
-  
+
 Reason for stopping: Midnight
 
-![][1]
-  
+![](1)
+
 &#8212;
 
-Something one of my Clarion teachers said keeps coming back to me as I write, and that was that the first draft of his novels were more detailed outlines than fully fleshed out drafts. When I&#8217;m picking up speed through this draft, I find that I&#8217;ve slipped into more of a detailed draft mode and my tense shifts from past to present. 
+Something one of my Clarion teachers said keeps coming back to me as I write, and that was that the first draft of his novels were more detailed outlines than fully fleshed out drafts. When I&#8217;m picking up speed through this draft, I find that I&#8217;ve slipped into more of a detailed draft mode and my tense shifts from past to present.
 
 I don&#8217;t think that&#8217;s a bad thing. This is a rough draft. It&#8217;s a learning draft, even if I end up throwing everything out and starting over when the month is over (which I doubt will happen).
 

@@ -20,7 +20,7 @@ tags:
   - life
 
 ---
-This was a good news/bad news kind of week on the medical front. I wish I had more energy to talk about it, but I am running low on [spoons][1] and need to conserve them.
+This was a good news/bad news kind of week on the medical front. I wish I had more energy to talk about it, but I am running low on [spoons](1) and need to conserve them.
 
 Good news:
 

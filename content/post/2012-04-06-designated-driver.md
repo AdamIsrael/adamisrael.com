@@ -26,6 +26,6 @@ We spent the better part of this week in Toronto &#8212; an impromptu trip after
 
 Out of respect for his privacy, I’m not going to go into too many details publicly. T- is ill (fuck cancer, so say we all). We took him for an outpatient biopsy Tuesday and suffered from a rare complication that landed him in the hospital overnight. That postponed a diagnostic test for an equally serious but unrelated condition scheduled for Thursday. Not the news that T- wanted to hear, but his doctors &#8212; and there are many &#8212; are working hard to get him healthy again.
 
-I was thinking of heading to Toronto next weekend for [Ad Astra][1]. The last convention I went to was World Fantasy in 2010 and I’d like to start meeting some local-ish writer folk. The doctors rescheduled T-’s next test for the day after Ad Astra so that cleared me for con activity without guilt.
+I was thinking of heading to Toronto next weekend for [Ad Astra](1). The last convention I went to was World Fantasy in 2010 and I’d like to start meeting some local-ish writer folk. The doctors rescheduled T-’s next test for the day after Ad Astra so that cleared me for con activity without guilt.
 
  [1]: http://www.ad-astra.org/

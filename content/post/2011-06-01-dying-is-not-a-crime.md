@@ -27,9 +27,9 @@ tags:
 ---
 Death comes to us all, eventually. It&#8217;s a topic that artists have explored, he said tongue-in-cheek, to death. Daredevils and thrill seekers challenge it, doctors work to postpone it, and we all live with the fact that it is inevitable and can take us or someone we love at any moment.
 
-Robert Heinlein, one of my earliest influences, lead off his _The Past Through Tomorrow_ collection with <span style="text-decoration: underline;">Life-Line</span>, about a machine that predicts how long a person will live. Heinlein&#8217;s works are filled with references to death and grappling with the implications of immortality. [Machine of Death][1], a self-published print, electronic Creative Commons-licensed anthology with stories based on the concept that &#8220;a machine that can use a blood test to tell you how you’re going to die — sometimes vaguely, but always accurately&#8221;, had tremendous success and recently opened up for submissions for a [second volume][2].
+Robert Heinlein, one of my earliest influences, lead off his _The Past Through Tomorrow_ collection with <span style="text-decoration: underline;">Life-Line</span>, about a machine that predicts how long a person will live. Heinlein&#8217;s works are filled with references to death and grappling with the implications of immortality. [Machine of Death](1), a self-published print, electronic Creative Commons-licensed anthology with stories based on the concept that &#8220;a machine that can use a blood test to tell you how you’re going to die — sometimes vaguely, but always accurately&#8221;, had tremendous success and recently opened up for submissions for a [second volume](2).
 
-One wonders what a  91 year old grandmother from southern California could do to have her house raided by the FBI, as happened recently. From the [LA Times][3]:
+One wonders what a  91 year old grandmother from southern California could do to have her house raided by the FBI, as happened recently. From the [LA Times](3):
 
 > Charlotte Hydorn peddles a product touted for its deadly simplicity. Inside her butterfly-decorated boxes are clear plastic bags and medical-grade tubing. A customer places the bag over his head, connects the tubing from the bag to a helium tank, turns the valve and breathes. The so-called suicide kit asphyxiates a customer within minutes.
 
@@ -37,7 +37,7 @@ Charlotte, much like Jack &#8220;Doctor Death&#8221; Kevorkian, challenged the 
 
 The right to die is something that I&#8217;ve long-believed should be a personal choice, for many reasons and with certain restrictions. Perhaps it comes from growing up among the chronically ill or injured; most of my immediate family had severe medical issues and I spent part of my childhood playing with patients in a children&#8217;s hospital. I know what it&#8217;s like to love someone who suffers on a daily basis, and to suffer with chronic, sometimes debilitating illness oneself. Quality of life is an issue that is constantly re-evaluated.
 
-Suicide has been named a sin and assisting someone in the act is considered illegal in all but three of the United States (Oregon, Washington, and Montana); those that do have laws on the books have very strict requirements to protect the caregivers from criminal liability and severe limitations. Oregon&#8217;s [Death with Dignity Act][4], for example, requires that the patient have six months or less to live, which helps the terminally ill but not necessarily the chronically.
+Suicide has been named a sin and assisting someone in the act is considered illegal in all but three of the United States (Oregon, Washington, and Montana); those that do have laws on the books have very strict requirements to protect the caregivers from criminal liability and severe limitations. Oregon&#8217;s [Death with Dignity Act](4), for example, requires that the patient have six months or less to live, which helps the terminally ill but not necessarily the chronically.
 
 There are serious implications with deciding who can terminate their own lives and that is likely what will be a point of contention in the case of Charlotte Hydorn (as it was with Kevorkian). The sick and the depressed have sought out suicide assistance and the critics, rightfully so, have pointed out this moral ambiguity. Where do you draw the line between compassion and carelessness?
 
@@ -51,7 +51,7 @@ We need stop fearing death and face the right-to-die issue with the same dignity
 
 &#8212;
 
-This wasn&#8217;t an easy topic for me to write about but it&#8217;s something I feel strongly about and I was inspired by the [Backbone Project][5] to say what&#8217;s on my mind. Agree or disagree, feel free to debate the topic, but please be civil.
+This wasn&#8217;t an easy topic for me to write about but it&#8217;s something I feel strongly about and I was inspired by the [Backbone Project](5) to say what&#8217;s on my mind. Agree or disagree, feel free to debate the topic, but please be civil.
 
  [1]: http://machineofdeath.net/
  [2]: http://machineofdeath.net/mod2

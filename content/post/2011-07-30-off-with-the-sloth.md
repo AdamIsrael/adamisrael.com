@@ -32,7 +32,7 @@ Exercise can induce/worsen Fibromyalgia symptoms but exercise also ease symptoms
 
 &nbsp;
 
-I&#8217;m taking small steps to start. Walking, and gradually &#8212; very gradually &#8212; working my way up. [Two days, five miles][1]. An hour a day, in the late afternoon when I&#8217;m most tempted to take a nap. Ultimately, this is a lifestyle change and radical changes are less likely to stick. For me, at least.
+I&#8217;m taking small steps to start. Walking, and gradually &#8212; very gradually &#8212; working my way up. [Two days, five miles](1). An hour a day, in the late afternoon when I&#8217;m most tempted to take a nap. Ultimately, this is a lifestyle change and radical changes are less likely to stick. For me, at least.
 
 Walking is good. It&#8217;s a solitary thing for me and it always puts me in a good headspace. Today, for example, I worked out how to fix some problems in a story I want to revise and submit soon. Then I spent the rest of the time listening to what may be the most awesome walking/running song ever created on repeat: The Loneliness of the Long Distance Runner by Iron Maiden.
 

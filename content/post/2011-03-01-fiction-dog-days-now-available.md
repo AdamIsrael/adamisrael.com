@@ -23,7 +23,7 @@ tags:
   - fiction
 
 ---
-Crossed Genres Superhero-themed issue is now [available][1], including my story &#8220;[Dog Days][2]&#8220;. What a hell of a line-up, too. I&#8217;m sharing a table of contents with friend and Clarion West 2010 graduate [Tracie Welser][3] ([How Molière Saved Lydia Bruer: A History in Two Fragments][4]) and introduced me to [Nathan Crowder][5] ([Hard Ride to Yuma][6]), Leow Hui Min Annabeth ([Idris on the Job][7]) and [KB Lawrence][8] ([Across the City’s Belly][9]). All of this great fiction is topped off by [As Weak as Women’s Magic][10], an article by [Athena Andreadis][11].
+Crossed Genres Superhero-themed issue is now [available](1), including my story &#8220;[Dog Days](2)&#8220;. What a hell of a line-up, too. I&#8217;m sharing a table of contents with friend and Clarion West 2010 graduate [Tracie Welser](3) ([How Molière Saved Lydia Bruer: A History in Two Fragments](4)) and introduced me to [Nathan Crowder](5) ([Hard Ride to Yuma](6)), Leow Hui Min Annabeth ([Idris on the Job](7)) and [KB Lawrence](8) ([Across the City’s Belly](9)). All of this great fiction is topped off by [As Weak as Women’s Magic](10), an article by [Athena Andreadis](11).
 
  [1]: http://crossedgenres.com/archives/028-superhero/
  [2]: http://crossedgenres.com/archives/028-superhero/dog-days-by-adam-israel

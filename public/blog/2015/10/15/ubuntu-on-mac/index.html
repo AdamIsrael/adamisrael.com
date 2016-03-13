@@ -6,10 +6,12 @@
   <title>Ubuntu on Mac</title>
   <link href="http://dev.adamisrael.com//css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="http://dev.adamisrael.com//css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="http://dev.adamisrael.com//css/override.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/default.min.css">
   <style type="text/css">
   
-    footer.page-footer{background-image: url(http://dev.adamisrael.com//images/default.png);}
+    footer.page-footer{background-image: url(http://dev.adamisrael.com//images/footer.jpg);}
   
   </style>
 </head>
@@ -24,25 +26,25 @@
     <div class="section no-pad-bot">
       <div class="container">
         
-        <h1 class="header center white-text text-darken-4">Adam Israel</h1>
+        <h1 class="header center white-text text-darken-4"><a href="http://dev.adamisrael.com/">Adam Israel</a></h1>
         <div class="row center">
           <h5 class="header col s12 light"></h5>
         </div>
         <div class="row center">
-        <a href="contact/"><img width="50px" height="50px" src="http://dev.adamisrael.com//images/1457855891_Mail-01.svg"></a>
+        <a href="contact/"><img  src="http://dev.adamisrael.com//images/1457863200_mail-hexagon-shadow-social-media.svg"></a>
 
         
-          <a href="https://twitter.com/AdamIsrael"><img src="http://dev.adamisrael.com//images/twitter-dreamstale71.png"></a>
+          <a href="https://twitter.com/AdamIsrael"><img src="http://dev.adamisrael.com//images/1457863195_twitter-hexagon-shadow-social-media.svg"></a>
         
         
-          <a href="https://github.com/AdamIsrael"><img src="http://dev.adamisrael.com//images/github2-dreamstale35.png"></a>
+          <a href="https://github.com/AdamIsrael"><img src="http://dev.adamisrael.com//images/1457863294_github-hexagon-shadow-social-media.svg"></a>
         
         
-          <a href="https://www.facebook.com/adam.israel"><img src="http://dev.adamisrael.com//images/facebook-dreamstale25.png"></a>
+          <a href="https://www.facebook.com/adam.israel"><img src="http://dev.adamisrael.com//images/1457863192_facebook-hexagon-shadow-social-media.svg"></a>
         
         
         
-          <a href="http://dev.adamisrael.com//index.xml"><img src="http://dev.adamisrael.com//images/feed-dreamstale27.png"></a>
+          <a href="http://dev.adamisrael.com//index.xml"><img src="http://dev.adamisrael.com//images/1457863230_rss-hexagon-shadow-social-media.svg"></a>
         </div>
       </div>
     </div>
@@ -71,7 +73,7 @@
           </p>
           <p><p>I recently rebuilt a Mac Mini to work as the forth screen in my workflow. I googled around and pieced together what I needed to do by cherrypicking from various guides, and everything was running well until I updated to a new kernel and rebooted. I spent the better part of two nights trying to get the machine to boot.</p>
 
-<p>Unfortunately, it happened just after I blacklisted a module to work around a USB bug that was causing one of my drives to go haywire occasionally, and it took a while before I finally figured out it wasn&#8217;t a problem with my change but the kernel itself. Mac&#8217;s use EFI for booting &#8212; which requires a cryptographically signed kernel. I was finally able to boot up by following the first half of the instructions on [this][1] Ask Ubuntu answer. Essentially, do a manual boot via grub and make sure that I pick the secure kernel.</p>
+<p>Unfortunately, it happened just after I blacklisted a module to work around a USB bug that was causing one of my drives to go haywire occasionally, and it took a while before I finally figured out it wasn&#8217;t a problem with my change but the kernel itself. Mac&#8217;s use EFI for booting &#8212; which requires a cryptographically signed kernel. I was finally able to boot up by following the first half of the instructions on <a href="1">this</a> Ask Ubuntu answer. Essentially, do a manual boot via grub and make sure that I pick the secure kernel.</p>
 
 <p>I noticed that I only had a signed image for an older version of the Kernel. I dropped by #ubuntu-kernel and was pointed to the <strong>linux-signed-generic</strong> package. What happened is none of the guides I read had mentioned this package or its significance. Any time the kernel images are updated, the signed version is also updated, except you won&#8217;t get that image by default. The machine was trying to boot off an unsigned kernel, causing the boot sequence to freeze (with no indication as to why).</p>
 
@@ -80,8 +82,6 @@ sudo apt-get install linux-signed-generic
 sudo reboot</pre>
 
 <p>A thorn with an easy fix. Install the meta package, which will pull in the current signed image, and reboot.</p>
-
-<p>[1]: <a href="http://askubuntu.com/questions/392723/trying-to-single-install-on-macbook-pro-but-wont-automatically-boot-from-new-os/550027">http://askubuntu.com/questions/392723/trying-to-single-install-on-macbook-pro-but-wont-automatically-boot-from-new-os/550027</a></p>
 </p>
           <p>15 Oct 2015
             

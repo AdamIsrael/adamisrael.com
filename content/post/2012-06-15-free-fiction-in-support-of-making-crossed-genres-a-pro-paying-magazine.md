@@ -29,7 +29,7 @@ That says something, not just about the power of Kickstarter but about the reput
 
 With a week to go, they are trying to reach a second stretch goal of $14,000 (they are over $8,600 as I write this). If they reach this, not only will Crossed Genres the magazine be relaunched but it will become a professionally-paying venue and that is a significant thing. Bart and Kay already ran CG as such, but they will be able to compensate authors equally well.
 
-You can already find plenty of examples of their work in the [Cross Genre archives][1]. In addition, I&#8217;ve posted my story &#8220;[Dog Days][2]&#8220;, originally published in the April 2011 issue, online as a show of support. Go kick in a few bucks to show &#8217;em that you care.
+You can already find plenty of examples of their work in the [Cross Genre archives](1). In addition, I&#8217;ve posted my story &#8220;[Dog Days](2)&#8220;, originally published in the April 2011 issue, online as a show of support. Go kick in a few bucks to show &#8217;em that you care.
 
  [1]: http://crossedgenres.com/archives/
  [2]: http://www.adamisrael.com/bibliography/dog-days/

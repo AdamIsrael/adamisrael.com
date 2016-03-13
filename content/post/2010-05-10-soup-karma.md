@@ -16,7 +16,7 @@ tags:
   - pay it forward
 
 ---
-I spent the weekend in Ann Arbor, Michigan, where the day job graciously put me up in a hotel in exchange for some long and late work hours. On Saturday I went to the [Arbor Brewing Company][1] on the recommendation of a friend, both for a change of scenery and because I have not been eating much of anything since the whole border ordeal went down.
+I spent the weekend in Ann Arbor, Michigan, where the day job graciously put me up in a hotel in exchange for some long and late work hours. On Saturday I went to the [Arbor Brewing Company](1) on the recommendation of a friend, both for a change of scenery and because I have not been eating much of anything since the whole border ordeal went down.
 
 I sat in a window booth, watching the wind blow and the rain drive down on hapless pedestrians as I hacked away at the keyboard. The weather matched my mood and none of the laughter or cheery conversation around me did much to change that.
 

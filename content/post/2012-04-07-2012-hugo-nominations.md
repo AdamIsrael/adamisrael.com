@@ -16,7 +16,7 @@ tags:
   - awards
 
 ---
-The [Hugo Nominations][1] were announced this afternoon. I watched the cheers streaming on Twitter, mostly before I saw the nomination itself. Congrats to all nominees. I take particular happiness in seeing many familiar names among the bunch.
+The [Hugo Nominations](1) were announced this afternoon. I watched the cheers streaming on Twitter, mostly before I saw the nomination itself. Congrats to all nominees. I take particular happiness in seeing many familiar names among the bunch.
 
 **Best Novel**
 
@@ -73,7 +73,7 @@ Note: 6 nominees due to tie for final position.
 
   * _Captain America: The First Avenger_, screenplay by Christopher Markus and Stephan McFeely; directed by Joe Johnston (Marvel)
   * _Game of Thrones (Season 1)_, created by David Benioff and D. B. Weiss;
-  
+
     written by David Benioff, D. B. Weiss, Bryan Cogman, Jane Espenson, and George R. R. Martin; directed by Brian Kirk, Daniel Minahan, Tim van Patten, and Alan Taylor (HBO)
   * _Harry Potter and the Deathly Hallows Part 2_, screenplay by Steve Kloves; directed by David Yates (Warner Bros.)
   * _Hugo_, screenplay by John Logan; directed by Martin Scorsese (Paramount)

@@ -40,7 +40,7 @@ Perhaps the best news of the year came a few days after Christmas. We got the ca
 
 **Writing:**
 
-Sales-wise, 2012 was a light year. I sold &#8220;[Control][1]&#8220;, a revised version of one of my Clarion 2012 stories, to the nascent Goldfish Grimm&#8217;s Spicy Fiction Sushi, and &#8220;[Man Out of Time][2]&#8220;, my Tesla story (and Clarion application story) to the Mad Scientist Journal.
+Sales-wise, 2012 was a light year. I sold &#8220;[Control](1)&#8220;, a revised version of one of my Clarion 2012 stories, to the nascent Goldfish Grimm&#8217;s Spicy Fiction Sushi, and &#8220;[Man Out of Time](2)&#8220;, my Tesla story (and Clarion application story) to the Mad Scientist Journal.
 
 I wrote a handful of new short stories and rewrote a few others. I meandered a lot and that shows with the lack of finished new work but I feel like the new words I do have are some of the best I&#8217;ve written to date. The mantra for the new year is Finish Things.
 

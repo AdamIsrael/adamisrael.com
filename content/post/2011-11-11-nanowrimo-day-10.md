@@ -12,18 +12,18 @@ tags:
   - nanowrimo
 
 ---
-Not a great day all around and I was feeling pretty crummy about it, but as a wise man [reminded me][1], 300 words is still 300 words closer to where I need to be.
+Not a great day all around and I was feeling pretty crummy about it, but as a wise man [reminded me](1), 300 words is still 300 words closer to where I need to be.
 
 &#8212;
-  
+
 Project: Black Mirror
-  
+
 New words written: 300
-  
+
 Reason for stopping: Hit a wall
 
-![][2]
-  
+![](2)
+
 &#8212;
 
 Back on the saddle today. It&#8217;s the beginning of a long weekend and I intend to mine some words.

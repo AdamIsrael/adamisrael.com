@@ -24,12 +24,12 @@ tags:
   - reviews
 
 ---
-As far as I&#8217;m aware, this is [my very first review][1].
+As far as I&#8217;m aware, this is [my very first review](1).
 
-> [Extinct Doesn&#8217;t Mean Forever][2] is an anthology of 19 stories exploring the concept of extinction, with genres ranging from far future SF to others that happily straddle the line between speculative fiction and the mainstream.
-  
+> [Extinct Doesn&#8217;t Mean Forever](2) is an anthology of 19 stories exploring the concept of extinction, with genres ranging from far future SF to others that happily straddle the line between speculative fiction and the mainstream.
+
 > &#8230;
-  
+
 > The second half of the book slows down somewhat. Some of the stories are longer and some of them frankly wear out their welcome. Stories I particularly enjoyed include <span style="text-decoration: underline;">Adam Israel&#8217;s &#8220;Indigo&#8217;s Gambit&#8221;</span> and Shona Snowden&#8217;s &#8220;Blood Fruit&#8221;. Peter Dudley&#8217;s humorous &#8220;Distractions&#8221; makes for a satisfying finale.
 
 How thrilling!

@@ -13,7 +13,7 @@ tags:
   - health
 
 ---
-I can&#8217;t believe it&#8217;s been almost a year and a half since my [Spoon!][1] blog post, where a group of friends conspired to sent me their [spoons][2] to counteract the loss of my own thanks to newly acquired but chronic illness during a time of great life upheaval.
+I can&#8217;t believe it&#8217;s been almost a year and a half since my [Spoon!](1) blog post, where a group of friends conspired to sent me their [spoons](2) to counteract the loss of my own thanks to newly acquired but chronic illness during a time of great life upheaval.
 
 <table style="border: none; margin-left: auto; margin-right: auto;">
   <tr>
@@ -30,7 +30,7 @@ I carried this box of carefully wrapped spoons with me everywhere. I received it
     <td>
       <a href="http://www.adamisrael.com/wp-content/uploads/2011/11/spoons1.jpg"><img class="aligncenter size-medium wp-image-665" title="spoons1" src="http://www.adamisrael.com/wp-content/uploads/2011/11/spoons1-300x199.jpg" alt="" width="300" height="199" srcset="//www.adamisrael.com/wp-content/uploads/2011/11/spoons1-300x199.jpg 300w, //www.adamisrael.com/wp-content/uploads/2011/11/spoons1-1024x680.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </td>
-    
+
     <td>
       <a href="http://www.adamisrael.com/wp-content/uploads/2011/11/spoons2.jpg"><img class="aligncenter size-medium wp-image-666" title="spoons2" src="http://www.adamisrael.com/wp-content/uploads/2011/11/spoons2-300x199.jpg" alt="" width="300" height="199" srcset="//www.adamisrael.com/wp-content/uploads/2011/11/spoons2-300x199.jpg 300w, //www.adamisrael.com/wp-content/uploads/2011/11/spoons2-1024x680.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </td>
@@ -49,7 +49,7 @@ The box has sat for nearly a year, its beloved contents awaiting a proper home. 
   </tr>
 </table>
 
-This is the best I can do for now. Better this than in a box, out of sight but never forgotten. As socially introverted as I feel at times, my friends mean more to me than words can do justice. These spoons are just one example of the bonds that tie us together. When this was organized, most of us had never met before. Now, I think we&#8217;ve all met at least once. There&#8217;ve been weddings, the founding of the [Inkpunks][3], and lots of shared love. That makes all of life&#8217;s pains a whole lot easier to bear.
+This is the best I can do for now. Better this than in a box, out of sight but never forgotten. As socially introverted as I feel at times, my friends mean more to me than words can do justice. These spoons are just one example of the bonds that tie us together. When this was organized, most of us had never met before. Now, I think we&#8217;ve all met at least once. There&#8217;ve been weddings, the founding of the [Inkpunks](3), and lots of shared love. That makes all of life&#8217;s pains a whole lot easier to bear.
 
  [1]: http://www.adamisrael.com/blog/2010/06/21/spoon/
  [2]: http://www.butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory-written-by-christine-miserandino/

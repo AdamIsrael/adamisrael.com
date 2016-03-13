@@ -21,15 +21,15 @@ Most of the novels were straightforward, chapters with one scene break, if any. 
 The number of chapters varied a bit, from 18 to 39 (ignoring the one outlier that had 104), with average lengths between 1,500 and 6,000 words.
 
 &#8212;
-  
+
 Project: Black Mirror
-  
+
 New words written: 1391
-  
+
 Reason for stopping: Midnight
 
-![][1]
-  
+![](1)
+
 &#8212;
 
 It was a good study, but what it really did was tell me that every story has it&#8217;s own beat and it&#8217;s up to the author to discover what that is. I did some clean up of what I&#8217;d done so far and I have a better idea of how I&#8217;m structuring this story going forward, at least through this first draft. There are plenty of other things I need to worry about fixing first (like finishing it).

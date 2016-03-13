@@ -15,7 +15,7 @@ wordbooker_thumb:
 wordbooker_extract:
   - |
     A pretty good day all around. I'm loving my new schedule. This draft's a bit rough but I'm on track to finish it up by the end of the weekend, and then I have a few weeks to revise before it's due.
-    
+
     Project: Motown Blues
     New words written: 1,022
     Re ...
@@ -30,12 +30,12 @@ categories:
 A pretty good day all around. I&#8217;m loving my new schedule. This draft&#8217;s a bit rough but I&#8217;m on track to finish it up by the end of the weekend, and then I have a few weeks to revise before it&#8217;s due.
 
 Project: Motown Blues
-  
+
 New words written: 1,022
-  
+
 Reason for stopping: End of scene and out of time.
 
-![][1]
+![](1)
 
 &nbsp;
 

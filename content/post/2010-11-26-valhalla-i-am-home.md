@@ -17,7 +17,7 @@ categories:
   - Uncategorized
 
 ---
-6 months, 17 days. 201 days. It was May 7th when I had my original issues at the border resulting in my [denial of entry][1]. It was three weeks ago that we were planning to have Andrea follow me to California. And then events transpired which changed our mind. A plan was hatched. Action was taken. To our pleasant shock and awe, it worked. I am home. I am officially, and quite legally, in Canada.
+6 months, 17 days. 201 days. It was May 7th when I had my original issues at the border resulting in my [denial of entry](1). It was three weeks ago that we were planning to have Andrea follow me to California. And then events transpired which changed our mind. A plan was hatched. Action was taken. To our pleasant shock and awe, it worked. I am home. I am officially, and quite legally, in Canada.
 
 The journey home was interesting. The first leg, Los Angeles to Chicago, went something like: bus, alternate bus after the one I needed forgot to turn off it&#8217;s Out of Service light and I missed it, train, cab, plane, cargo van, sleep. I spent a day visiting with my Mom, then drove two hours to spent the day with my brother, who&#8217;s in the hospital. After returning, another day working/visiting with Mom, followed by the final travel day: cargo van, plane, and an anxiety-filled car ride through the Detroit-Windsor tunnel into Canada.
 

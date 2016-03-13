@@ -27,12 +27,12 @@ I don&#8217;t want to take away time from writing, so I&#8217;m allowing myself 
 * * *
 
 Project: Black Mirror
-  
+
 New words written this week: 2,031
-  
+
 Average words/day: 338
 
-[<img alt="Project Targets" src="http://www.adamisrael.com/wp-content/uploads/2013/01/project_targets-2013-01-07.jpg" width="300" />][1]
+[<img alt="Project Targets" src="http://www.adamisrael.com/wp-content/uploads/2013/01/project_targets-2013-01-07.jpg" width="300" />](1)
 
 It&#8217;s too soon since I started tracking daily stats to say if I&#8217;m going to hit my deadline or not. This first week has sort of been the warm-up, shaking off the rust of not writing at all for a couple months. I started at 364 days, no words one day (but outlining a new chapter), and ended today at 845. I think I&#8217;ll settle at a comfortable, consistent pace. There&#8217;s wiggle room in my deadline, but not much. My end goal, as soon as the first draft is done, is to revise and have a draft ready for submission by my birthday in late July.
 

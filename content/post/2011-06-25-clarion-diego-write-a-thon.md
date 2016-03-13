@@ -23,7 +23,7 @@ tags:
   - write-a-thon
 
 ---
-Two things make this upcoming Monday special: it marks the beginning of the [Clarion (San Diego) Write-a-thon][1], and my one year anniversary of attending the Clarion Workshop. Clarion was a significant event in my life. One way I can give back is by participating in the write-a-thon and raising money to help the program that helped me.
+Two things make this upcoming Monday special: it marks the beginning of the [Clarion (San Diego) Write-a-thon](1), and my one year anniversary of attending the Clarion Workshop. Clarion was a significant event in my life. One way I can give back is by participating in the write-a-thon and raising money to help the program that helped me.
 
 For six weeks, we learned to write better (but still shitty!) first drafts. I wrote three new stories at Clarion, and revised two previously written ones. I think it only appropriate that, for my inaugural write-a-thon, I rewrite and/or revise those stories.
 
@@ -50,7 +50,7 @@ For ten dollars or more, you’ll receive the above, plus a limited edition eboo
 
 **$25**
 
-Anyone who pledges $25 or more will receive, in addition to the ebook, [tuckerization][2] in a future story.
+Anyone who pledges $25 or more will receive, in addition to the ebook, [tuckerization](2) in a future story.
 
 **$50**
 
@@ -60,7 +60,7 @@ For $50 or more, donors will receive the ebook, tuckerization, and I will give y
 
 If you are able to donate $100 or more dollars, you&#8217;ll receive all of the above, my never-ending gratitude, and I will write a story based on prompts that you provide.
 
-Not only am I dedicating the next six weeks to raising money for Clarion, I will also put matching funds towards a scholarship for a 2012 Clarion student of my choosing. Please visit my [write-a-thon][3] page to make your pledge and drop a note [here][4] to let me know where to send your postcard. I&#8217;ll be in touch for any other details for your reward.
+Not only am I dedicating the next six weeks to raising money for Clarion, I will also put matching funds towards a scholarship for a 2012 Clarion student of my choosing. Please visit my [write-a-thon](3) page to make your pledge and drop a note [here](4) to let me know where to send your postcard. I&#8217;ll be in touch for any other details for your reward.
 
 &nbsp;
 

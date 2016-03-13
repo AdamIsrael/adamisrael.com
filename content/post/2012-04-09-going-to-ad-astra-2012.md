@@ -18,7 +18,7 @@ tags:
   - travel
 
 ---
-So, due to timing of [unfortunate circumstances][1], it&#8217;s become rather convenient for me to go to [Ad Astra][2], April 13-15th. This will, notably, be my first convention since moving to Canada.
+So, due to timing of [unfortunate circumstances](1), it&#8217;s become rather convenient for me to go to [Ad Astra](2), April 13-15th. This will, notably, be my first convention since moving to Canada.
 
 I&#8217;m relatively new to both country and the local genre community. I know there are a few members of Codex going and I recognize a few names from the panelist list (including Ed Greenwood, who was very kind towards a 19-year old me at Gen Con Milwaukee some years ago) but I&#8217;m otherwise winging this. I&#8217;m not exactly shy, but I&#8217;m not going to impose myself on people I don&#8217;t know, either.
 

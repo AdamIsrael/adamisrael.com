@@ -24,9 +24,9 @@ categories:
 ---
 I missed seeing the last time you performed in Chicago. A client offered me tickets to see you and I scoffed. You, after all, were a country singer and I was too good for that; I&#8217;d rather listen to my heavy metal, thank you very much. So when I actually listened to your music for the first time, really listened, it was like you were speaking to me. I was hooked. By then, though, it was too late. You were gone.
 
-[<img class="aligncenter size-medium wp-image-373" title="johnny-cash-1" src="http://www.adamisrael.com/wp-content/uploads/2011/02/johnny-cash-1-300x266.jpg" alt="" width="300" height="266" srcset="//www.adamisrael.com/wp-content/uploads/2011/02/johnny-cash-1-300x266.jpg 300w, //www.adamisrael.com/wp-content/uploads/2011/02/johnny-cash-1.jpg 947w" sizes="(max-width: 300px) 100vw, 300px" />][1]
+[<img class="aligncenter size-medium wp-image-373" title="johnny-cash-1" src="http://www.adamisrael.com/wp-content/uploads/2011/02/johnny-cash-1-300x266.jpg" alt="" width="300" height="266" srcset="//www.adamisrael.com/wp-content/uploads/2011/02/johnny-cash-1-300x266.jpg 300w, //www.adamisrael.com/wp-content/uploads/2011/02/johnny-cash-1.jpg 947w" sizes="(max-width: 300px) 100vw, 300px" />](1)
 
-You would have been 79 today. Even though you&#8217;re no longer with us, you continue to inspire. Happy birthday, [Johnny][2]. You are missed.
+You would have been 79 today. Even though you&#8217;re no longer with us, you continue to inspire. Happy birthday, [Johnny](2). You are missed.
 
  [1]: http://www.adamisrael.com/wp-content/uploads/2011/02/johnny-cash-1.jpg
  [2]: http://en.wikipedia.org/wiki/Johnny_Cash

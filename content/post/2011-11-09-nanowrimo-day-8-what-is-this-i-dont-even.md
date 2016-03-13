@@ -17,15 +17,15 @@ Not everyone realizes that Nanowrimo, and being a writer in general, is a marath
 I went to the local coffee shop early this morning and added a third of my words. Head down and hauling ass on the day job (optimizing database queries, woo!). Early evening, a dog fight broke out over bones and I dove in to separate them all. That and a shot of adrenaline, as it turns out, does a really good job of triggering an asthma attack and has some fun fibro side effects. After regurgitating fluid from my lungs and taking a short nap, I was awake but I really didn&#8217;t think I would get any more writing done.
 
 &#8212;
-  
+
 Project: Black Mirror
-  
+
 New words written: 1,772
-  
+
 Reason for stopping: Midnight
 
-![][1]
-  
+![](1)
+
 &#8212;
 
 One good thing about Nano, for those who aren&#8217;t used to writing and follow through with it, is it helps to build the habit of writing every day. I think it can build some bad habits as well, but that&#8217;s something worthy of a post another day. The thing is, even feeling like shit and wanting to eat ALL THE THINGS, I couldn&#8217;t not write, nor stop even to rummage for a snack because that would mean missing my target.

@@ -24,7 +24,7 @@ tags:
   - reading
 
 ---
-The package of mail from the states that I&#8217;ve been anxiously waiting for arrived today. I now have the last of the paperwork I need to continue with my permanent residence application, my [Square][1] reader, so I can accept credit card payments, and the sealed letter from the Illinois DMV so I can get my Ontario drivers license.
+The package of mail from the states that I&#8217;ve been anxiously waiting for arrived today. I now have the last of the paperwork I need to continue with my permanent residence application, my [Square](1) reader, so I can accept credit card payments, and the sealed letter from the Illinois DMV so I can get my Ontario drivers license.
 
 We drive to the nearest driving center with the sealed letter in hand. It was an ordeal just getting the letter sent; IL required a self-addressed stamped envelope with a money order to pay the paperwork handling fee. Included in what we send them was a Driving Record Abstract Request Form. Basically, a copy of my drivers record to show when I was first licensed and any tickets/accidents/etc on my record. Pretty straightforward stuff, you would think.
 
@@ -32,7 +32,7 @@ The very nice lady opened the letter and scanned it for the information she need
 
 When we started this little adventure, I called the Illinois DMV to try to get them to fax the paperwork. No go; it&#8217;s against their policy unless requested by another state&#8217;s DMV, on their letterhead, and Ontario has a policy against that. My choices were given as visit a DMV office in Illinois or mail the requested form, which I did. Tomorrow, I get to start the phone calls all over again to try straightening this out. One day, we&#8217;ll be able to get a car again, but not today.
 
-While we were in town, I stopped by the used book stores. There&#8217;s this [article on NPR][2] about The Stars My Destination that was mentioned on Twitter yesterday, which reminded me that I&#8217;ve meant to read it. I picked up that and The Demolished Man, both by Alfred Bester, Ten Thousand Light-Years from Home, a short story collection by James Tiptree, Jr., and a prize that I will cherish forever &#8212; a **_first edition UK printing_**, hard cover with a dustcover jacket, of one of my favorite novels, Weaveworld by Clive Barker, for $2.00.
+While we were in town, I stopped by the used book stores. There&#8217;s this [article on NPR](2) about The Stars My Destination that was mentioned on Twitter yesterday, which reminded me that I&#8217;ve meant to read it. I picked up that and The Demolished Man, both by Alfred Bester, Ten Thousand Light-Years from Home, a short story collection by James Tiptree, Jr., and a prize that I will cherish forever &#8212; a **_first edition UK printing_**, hard cover with a dustcover jacket, of one of my favorite novels, Weaveworld by Clive Barker, for $2.00.
 
 That almost makes up for the pain of being from the state of corn, corruption and unbalanced budgets.
 

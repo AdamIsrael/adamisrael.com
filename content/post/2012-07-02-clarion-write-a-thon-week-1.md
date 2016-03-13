@@ -27,72 +27,72 @@ tags:
     <td valign="top">
       <strong>Sun</strong>
     </td>
-    
+
     <td valign="top">
       <strong>Mon</strong>
     </td>
-    
+
     <td valign="top">
       <strong>Tue</strong>
     </td>
-    
+
     <td valign="middle">
       <strong>Wed</strong>
     </td>
-    
+
     <td valign="middle">
       <strong>Thu</strong>
     </td>
-    
+
     <td valign="middle">
       <strong>Fri</strong>
     </td>
-    
+
     <td valign="middle">
       <strong>Sat</strong>
     </td>
-    
+
     <td valign="middle">
       <strong>Total</strong>
     </td>
-    
+
     <td valign="middle">
       <strong>Avg</strong>
     </td>
   </tr>
-  
+
   <tr>
     <td valign="top">
       582
     </td>
-    
+
     <td valign="top">
       171
     </td>
-    
+
     <td valign="top">
       309
     </td>
-    
+
     <td valign="middle">
       473
     </td>
-    
+
     <td valign="middle">
       91
     </td>
-    
+
     <td valign="middle">
     </td>
-    
+
     <td valign="middle">
       783
     </td>
-    
+
     <td valign="middle">
       2,409
     </td>
-    
+
     <td valign="middle">
       344
     </td>
@@ -107,7 +107,7 @@ It&#8217;s a little maddening to miss your goals. I live by my TODO list and I h
 
 **Sponsors**
 
-Thank you, thank you, thank you. Several of you have made [donations][1] totaling $175 dollars, blowing away my personal expectations for fundraising for Clarion.
+Thank you, thank you, thank you. Several of you have made [donations](1) totaling $175 dollars, blowing away my personal expectations for fundraising for Clarion.
 
 **Statistics**
 
@@ -118,22 +118,22 @@ I know Scrivener Fu. And I use Project Targets like a boss. I fell short on my w
     <td>
       Yesterday
     </td>
-    
+
     <td>
       Today
     </td>
   </tr>
-  
+
   <tr>
     <td>
       <a href="http://www.adamisrael.com/wp-content/uploads/2012/07/Scrivener-07012012.jpg"><img class="aligncenter size-full wp-image-807" title="Scrivener-07012012" src="http://www.adamisrael.com/wp-content/uploads/2012/07/Scrivener-07012012.jpg" alt="" width="314" height="260" srcset="//www.adamisrael.com/wp-content/uploads/2012/07/Scrivener-07012012-300x248.jpg 300w, //www.adamisrael.com/wp-content/uploads/2012/07/Scrivener-07012012.jpg 314w" sizes="(max-width: 314px) 100vw, 314px" /></a>
     </td>
-    
+
     <td>
       <a href="http://www.adamisrael.com/wp-content/uploads/2012/07/Scrivener-annotated.jpg"><img class="aligncenter size-full wp-image-812" title="Scrivener-annotated" src="http://www.adamisrael.com/wp-content/uploads/2012/07/Scrivener-annotated.jpg" alt="" width="314" height="260" srcset="//www.adamisrael.com/wp-content/uploads/2012/07/Scrivener-annotated-300x248.jpg 300w, //www.adamisrael.com/wp-content/uploads/2012/07/Scrivener-annotated.jpg 314w" sizes="(max-width: 314px) 100vw, 314px" /></a>
     </td>
   </tr>
-  
+
   <tr>
     <td colspan="2">
       Resetting my Session Target each morning, I know the minimum I need to write to maintain my pace, and any overage will work in my favor the next day.

@@ -27,14 +27,14 @@ Juju has been modeling service orchestration since 2010. It’s done a great job
 
 As an example, monitoring the effect of adjusting the cache in nginx is a solved problem. What we’re going after is what happens when you adjust any service in your stack in relation to every other service. Turn every knob programmatically and measure it at any scale, on any cloud. Where exactly will you get the best performance: your application, the cache layer, or the backend database? Which configuration of that database stack is most performant? Which microservice benefits from faster disk I/O? These are the kinds of questions we want answered.
 
-With [Juju Actions][1], we can now encapsulate tasks to run against a single unit or service in a repeatable, reliable, and composable way. Benchmarking is a natural extension of Actions, allowing authors to encapsulate the best practices for measuring the performance of a service and serve those results &#8212; in a standard way &#8212; that any user or tool can digest.
+With [Juju Actions](1), we can now encapsulate tasks to run against a single unit or service in a repeatable, reliable, and composable way. Benchmarking is a natural extension of Actions, allowing authors to encapsulate the best practices for measuring the performance of a service and serve those results &#8212; in a standard way &#8212; that any user or tool can digest.
 
-We’re announcing [charm-benchmark][2], a library written in Python that includes bash scripts so you can write benchmarks in any language. It uses action-set under the covers to create a simple schema that anyone can use and parse.
+We’re announcing [charm-benchmark](2), a library written in Python that includes bash scripts so you can write benchmarks in any language. It uses action-set under the covers to create a simple schema that anyone can use and parse.
 
-While we may intimately know a few services, we’re by no means the experts. We’ve created benchmarks for some of popular services in the charm store, such as [mongodb][3], [cassandra][4], [mysql][5] and [siege][6], in order to provide a basic set of examples. Now we’re looking for community experts who are interested in benchmarking in order to fill the gap of knowledge. We’re excited about performance and how Juju can be used to model performance validation. We need more expertise on how to stress a service or workload to measure that performance.
+While we may intimately know a few services, we’re by no means the experts. We’ve created benchmarks for some of popular services in the charm store, such as [mongodb](3), [cassandra](4), [mysql](5) and [siege](6), in order to provide a basic set of examples. Now we’re looking for community experts who are interested in benchmarking in order to fill the gap of knowledge. We’re excited about performance and how Juju can be used to model performance validation. We need more expertise on how to stress a service or workload to measure that performance.
 
 For example, here&#8217;s what a benchmark for _siege_ would look like:
-  
+
 actions.yaml:
 
 <pre class="lang:yaml decode:true " title="actions.yaml">siege:
@@ -91,7 +91,7 @@ benchmark-composite transaction_rate $hits hits/sec desc
 
 benchmark-finish || true</pre>
 
-We’ll be covering benchmarking in the next [Juju Office Hours][7] on [July 9th at 1600 EDT/20:00 UTC][8] and we’d love to help anyone who wants to get started, you can find me, Adam Israel (aisrael), Marco Ceppi (marcoceppi), and Tim Van Steenburgh (tvansteenburgh) on #juju on Freenode and on the [Juju mailing list][9].
+We’ll be covering benchmarking in the next [Juju Office Hours](7) on [July 9th at 1600 EDT/20:00 UTC](8) and we’d love to help anyone who wants to get started, you can find me, Adam Israel (aisrael), Marco Ceppi (marcoceppi), and Tim Van Steenburgh (tvansteenburgh) on #juju on Freenode and on the [Juju mailing list](9).
 
  [1]: https://jujucharms.com/docs/stable/actions
  [2]: https://pypi.python.org/pypi/charm-benchmark

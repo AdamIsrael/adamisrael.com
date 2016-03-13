@@ -20,9 +20,9 @@ tags:
   - process
 
 ---
-I am horrible with deadlines. In high school I was forced to take a special class on time management because I never turned anything in on time. It&#8217;s one of those things that I struggle with on a daily basis. Occasionally I discover something useful that helps, like [Things][1], that help me keep track of the things I need to be doing. The most recent one was [Jeff VanderMeer][2]&#8216;s [Booklife][3].
+I am horrible with deadlines. In high school I was forced to take a special class on time management because I never turned anything in on time. It&#8217;s one of those things that I struggle with on a daily basis. Occasionally I discover something useful that helps, like [Things](1), that help me keep track of the things I need to be doing. The most recent one was [Jeff VanderMeer](2)&#8216;s [Booklife](3).
 
-I picked up a copy sometime in December. Sat down, started reading, and couldn&#8217;t put it down. When I finally relented, the next thing I did was tell my friend [Christie][4] that she had to [stop everything][5] she was doing and start reading her copy.
+I picked up a copy sometime in December. Sat down, started reading, and couldn&#8217;t put it down. When I finally relented, the next thing I did was tell my friend [Christie](4) that she had to [stop everything](5) she was doing and start reading her copy.
 
 It might be a bold claim to say that this book changed my life, but it&#8217;s true. The book is subtitled &#8220;strategies and survival tips for the 21st-century writer&#8221; and that&#8217;s true, but it&#8217;s so much more. It changed the way I looked at my public identity. It prompted me consider exactly what my short and long-term goals were, and what my end goal for writing is. Most importantly, it provided me with some tools to accomplish what I struggle with the most.
 
@@ -30,7 +30,7 @@ The book covers everything from planning to social networking to public relation
 
 **The Mission Statement, or, what the hell am I doing here?**
 
-> I want to write the best stories that I can, and continually challenge myself to grow creatively. I believe fiction should be as diverse as the real world and that should be represented in my work. I want to earn the respected member of the SFF community that I love through my words and my actions. I will continue to [pay it forward][6], to give and share what I can, for the betterment of us all.
+> I want to write the best stories that I can, and continually challenge myself to grow creatively. I believe fiction should be as diverse as the real world and that should be represented in my work. I want to earn the respected member of the SFF community that I love through my words and my actions. I will continue to [pay it forward](6), to give and share what I can, for the betterment of us all.
 
 This serves as a reminder to me of what it is I&#8217;m trying to accomplish in my life and my work. As I writer, I want to create damned good stories that make people think or laugh or cry, or just give them the escape they need to survive. As a person, I want to leave things better than I found them. That means sharing my knowledge and speaking out when I have something worth saying.
 

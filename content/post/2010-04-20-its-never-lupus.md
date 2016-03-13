@@ -19,7 +19,7 @@ tags:
   - life
 
 ---
-Earlier this month I [mentioned][1] that I was heading in for some long overdue checkup with the doctor. Many of you have been following my progress on [Twitter][2]. I’m a firm believer in paying it forward and that includes being open and honest about sensitive topics. Forewarned is forearmed.
+Earlier this month I [mentioned](1) that I was heading in for some long overdue checkup with the doctor. Many of you have been following my progress on [Twitter](2). I’m a firm believer in paying it forward and that includes being open and honest about sensitive topics. Forewarned is forearmed.
 
 <!--more-->
 

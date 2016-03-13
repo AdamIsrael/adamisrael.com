@@ -27,7 +27,7 @@ I do our shopping, and call ahead to have the dogs put outside before we get hom
 
 Andrea and I settle in for bed. It takes me a while to doze off with this tiny fuzzball exploring the dark world around us but I finally do. I wake up a few hours later with her as limp as a warm sock, stretched out across my throat. Purring. She wakes, and we spent the next couple hours playing, until she curls up again and nods off.
 
-[<img class="aligncenter size-full wp-image-606" title="Kismet" src="http://www.adamisrael.com/wp-content/uploads/2011/10/421289530.jpg" alt="" width="478" height="640" srcset="//www.adamisrael.com/wp-content/uploads/2011/10/421289530-224x300.jpg 224w, //www.adamisrael.com/wp-content/uploads/2011/10/421289530.jpg 478w" sizes="(max-width: 478px) 100vw, 478px" />][1]
+[<img class="aligncenter size-full wp-image-606" title="Kismet" src="http://www.adamisrael.com/wp-content/uploads/2011/10/421289530.jpg" alt="" width="478" height="640" srcset="//www.adamisrael.com/wp-content/uploads/2011/10/421289530-224x300.jpg 224w, //www.adamisrael.com/wp-content/uploads/2011/10/421289530.jpg 478w" sizes="(max-width: 478px) 100vw, 478px" />](1)
 
 So, I&#8217;d like to introduce you to Kismet. We&#8217;re not sure how old she is yet but she&#8217;s the most charming little gal. She likes to cuddle and lick fingers. We&#8217;ll take a trip to the vet soon to make sure no one else is missing her (I&#8217;ve already checked for missing signs near where we found her). Otherwise, I think she&#8217;s found herself a nice place to call home, and at a very appropriate moment.
 

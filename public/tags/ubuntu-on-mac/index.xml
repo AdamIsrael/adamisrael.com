@@ -17,7 +17,7 @@
       <guid>http://dev.adamisrael.com/blog/2015/10/15/ubuntu-on-mac/</guid>
       <description>&lt;p&gt;I recently rebuilt a Mac Mini to work as the forth screen in my workflow. I googled around and pieced together what I needed to do by cherrypicking from various guides, and everything was running well until I updated to a new kernel and rebooted. I spent the better part of two nights trying to get the machine to boot.&lt;/p&gt;
 
-&lt;p&gt;Unfortunately, it happened just after I blacklisted a module to work around a USB bug that was causing one of my drives to go haywire occasionally, and it took a while before I finally figured out it wasn&amp;#8217;t a problem with my change but the kernel itself. Mac&amp;#8217;s use EFI for booting &amp;#8212; which requires a cryptographically signed kernel. I was finally able to boot up by following the first half of the instructions on [this][1] Ask Ubuntu answer. Essentially, do a manual boot via grub and make sure that I pick the secure kernel.&lt;/p&gt;
+&lt;p&gt;Unfortunately, it happened just after I blacklisted a module to work around a USB bug that was causing one of my drives to go haywire occasionally, and it took a while before I finally figured out it wasn&amp;#8217;t a problem with my change but the kernel itself. Mac&amp;#8217;s use EFI for booting &amp;#8212; which requires a cryptographically signed kernel. I was finally able to boot up by following the first half of the instructions on &lt;a href=&#34;1&#34;&gt;this&lt;/a&gt; Ask Ubuntu answer. Essentially, do a manual boot via grub and make sure that I pick the secure kernel.&lt;/p&gt;
 
 &lt;p&gt;I noticed that I only had a signed image for an older version of the Kernel. I dropped by #ubuntu-kernel and was pointed to the &lt;strong&gt;linux-signed-generic&lt;/strong&gt; package. What happened is none of the guides I read had mentioned this package or its significance. Any time the kernel images are updated, the signed version is also updated, except you won&amp;#8217;t get that image by default. The machine was trying to boot off an unsigned kernel, causing the boot sequence to freeze (with no indication as to why).&lt;/p&gt;
 
@@ -26,8 +26,6 @@ sudo apt-get install linux-signed-generic
 sudo reboot&lt;/pre&gt;
 
 &lt;p&gt;A thorn with an easy fix. Install the meta package, which will pull in the current signed image, and reboot.&lt;/p&gt;
-
-&lt;p&gt;[1]: &lt;a href=&#34;http://askubuntu.com/questions/392723/trying-to-single-install-on-macbook-pro-but-wont-automatically-boot-from-new-os/550027&#34;&gt;http://askubuntu.com/questions/392723/trying-to-single-install-on-macbook-pro-but-wont-automatically-boot-from-new-os/550027&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

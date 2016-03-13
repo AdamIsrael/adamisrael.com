@@ -26,13 +26,13 @@ Diversity is something often on my mind. I&#8217;ve been thrilled to see transla
 
 My Clarion instructors Jeff and Ann VanderMeer have an almost encyclopedia-like knowledge of foreign fiction. They recently spent some time in Finland, meeting with many of the Finnish SF/F community.
 
-[Finnish Science Fiction and Fantasy: Johanna Sinisalo, Hannu Rajaniemi, and Moomins][1]
+[Finnish Science Fiction and Fantasy: Johanna Sinisalo, Hannu Rajaniemi, and Moomins](1)
 
-[Finnish SF and Fantasy: An Established Community, a Surge of Talent][2]
+[Finnish SF and Fantasy: An Established Community, a Surge of Talent](2)
 
-[Finnish Weird–and Finnish SF/F Links Round-Up][3]
+[Finnish Weird–and Finnish SF/F Links Round-Up](3)
 
-It grows ever obvious that we are becoming a global community. I sincerely hope that we see more and more international fiction translated for a wider audience (that, or the discovery of the [babel fish][4]) so that everyone can enjoy these talented authors.
+It grows ever obvious that we are becoming a global community. I sincerely hope that we see more and more international fiction translated for a wider audience (that, or the discovery of the [babel fish](4)) so that everyone can enjoy these talented authors.
 
  [1]: http://www.omnivoracious.com/2011/05/finnish-science-fiction-and-fantasy-johanna-sinisalo-hannu-rajaniemi-and-moomins.html
  [2]: http://www.omnivoracious.com/2011/05/finnish-sf-and-fantasy-an-established-community-a-surge-of-talent.html

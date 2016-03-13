@@ -17,7 +17,7 @@
       <guid>http://dev.adamisrael.com/blog/2015/10/15/ubuntu-on-mac/</guid>
       <description>&lt;p&gt;I recently rebuilt a Mac Mini to work as the forth screen in my workflow. I googled around and pieced together what I needed to do by cherrypicking from various guides, and everything was running well until I updated to a new kernel and rebooted. I spent the better part of two nights trying to get the machine to boot.&lt;/p&gt;
 
-&lt;p&gt;Unfortunately, it happened just after I blacklisted a module to work around a USB bug that was causing one of my drives to go haywire occasionally, and it took a while before I finally figured out it wasn&amp;#8217;t a problem with my change but the kernel itself. Mac&amp;#8217;s use EFI for booting &amp;#8212; which requires a cryptographically signed kernel. I was finally able to boot up by following the first half of the instructions on [this][1] Ask Ubuntu answer. Essentially, do a manual boot via grub and make sure that I pick the secure kernel.&lt;/p&gt;
+&lt;p&gt;Unfortunately, it happened just after I blacklisted a module to work around a USB bug that was causing one of my drives to go haywire occasionally, and it took a while before I finally figured out it wasn&amp;#8217;t a problem with my change but the kernel itself. Mac&amp;#8217;s use EFI for booting &amp;#8212; which requires a cryptographically signed kernel. I was finally able to boot up by following the first half of the instructions on &lt;a href=&#34;1&#34;&gt;this&lt;/a&gt; Ask Ubuntu answer. Essentially, do a manual boot via grub and make sure that I pick the secure kernel.&lt;/p&gt;
 
 &lt;p&gt;I noticed that I only had a signed image for an older version of the Kernel. I dropped by #ubuntu-kernel and was pointed to the &lt;strong&gt;linux-signed-generic&lt;/strong&gt; package. What happened is none of the guides I read had mentioned this package or its significance. Any time the kernel images are updated, the signed version is also updated, except you won&amp;#8217;t get that image by default. The machine was trying to boot off an unsigned kernel, causing the boot sequence to freeze (with no indication as to why).&lt;/p&gt;
 
@@ -26,8 +26,6 @@ sudo apt-get install linux-signed-generic
 sudo reboot&lt;/pre&gt;
 
 &lt;p&gt;A thorn with an easy fix. Install the meta package, which will pull in the current signed image, and reboot.&lt;/p&gt;
-
-&lt;p&gt;[1]: &lt;a href=&#34;http://askubuntu.com/questions/392723/trying-to-single-install-on-macbook-pro-but-wont-automatically-boot-from-new-os/550027&#34;&gt;http://askubuntu.com/questions/392723/trying-to-single-install-on-macbook-pro-but-wont-automatically-boot-from-new-os/550027&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -91,11 +89,11 @@ sudo reboot&lt;/pre&gt;
 
 &lt;p&gt;As an example, monitoring the effect of adjusting the cache in nginx is a solved problem. What we’re going after is what happens when you adjust any service in your stack in relation to every other service. Turn every knob programmatically and measure it at any scale, on any cloud. Where exactly will you get the best performance: your application, the cache layer, or the backend database? Which configuration of that database stack is most performant? Which microservice benefits from faster disk I/O? These are the kinds of questions we want answered.&lt;/p&gt;
 
-&lt;p&gt;With &lt;a href=&#34;https://jujucharms.com/docs/stable/actions&#34;&gt;Juju Actions&lt;/a&gt;, we can now encapsulate tasks to run against a single unit or service in a repeatable, reliable, and composable way. Benchmarking is a natural extension of Actions, allowing authors to encapsulate the best practices for measuring the performance of a service and serve those results &amp;#8212; in a standard way &amp;#8212; that any user or tool can digest.&lt;/p&gt;
+&lt;p&gt;With &lt;a href=&#34;1&#34;&gt;Juju Actions&lt;/a&gt;, we can now encapsulate tasks to run against a single unit or service in a repeatable, reliable, and composable way. Benchmarking is a natural extension of Actions, allowing authors to encapsulate the best practices for measuring the performance of a service and serve those results &amp;#8212; in a standard way &amp;#8212; that any user or tool can digest.&lt;/p&gt;
 
-&lt;p&gt;We’re announcing &lt;a href=&#34;https://pypi.python.org/pypi/charm-benchmark&#34;&gt;charm-benchmark&lt;/a&gt;, a library written in Python that includes bash scripts so you can write benchmarks in any language. It uses action-set under the covers to create a simple schema that anyone can use and parse.&lt;/p&gt;
+&lt;p&gt;We’re announcing &lt;a href=&#34;2&#34;&gt;charm-benchmark&lt;/a&gt;, a library written in Python that includes bash scripts so you can write benchmarks in any language. It uses action-set under the covers to create a simple schema that anyone can use and parse.&lt;/p&gt;
 
-&lt;p&gt;While we may intimately know a few services, we’re by no means the experts. We’ve created benchmarks for some of popular services in the charm store, such as &lt;a href=&#34;https://jujucharms.com/mongodb/&#34;&gt;mongodb&lt;/a&gt;, &lt;a href=&#34;https://github.com/juju-solutions/cassandra&#34;&gt;cassandra&lt;/a&gt;, &lt;a href=&#34;https://github.com/juju-solutions/mysql-benchmark&#34;&gt;mysql&lt;/a&gt; and &lt;a href=&#34;https://github.com/juju-solutions/siege&#34;&gt;siege&lt;/a&gt;, in order to provide a basic set of examples. Now we’re looking for community experts who are interested in benchmarking in order to fill the gap of knowledge. We’re excited about performance and how Juju can be used to model performance validation. We need more expertise on how to stress a service or workload to measure that performance.&lt;/p&gt;
+&lt;p&gt;While we may intimately know a few services, we’re by no means the experts. We’ve created benchmarks for some of popular services in the charm store, such as &lt;a href=&#34;3&#34;&gt;mongodb&lt;/a&gt;, &lt;a href=&#34;4&#34;&gt;cassandra&lt;/a&gt;, &lt;a href=&#34;5&#34;&gt;mysql&lt;/a&gt; and &lt;a href=&#34;6&#34;&gt;siege&lt;/a&gt;, in order to provide a basic set of examples. Now we’re looking for community experts who are interested in benchmarking in order to fill the gap of knowledge. We’re excited about performance and how Juju can be used to model performance validation. We need more expertise on how to stress a service or workload to measure that performance.&lt;/p&gt;
 
 &lt;p&gt;For example, here&amp;#8217;s what a benchmark for &lt;em&gt;siege&lt;/em&gt; would look like:&lt;/p&gt;
 
@@ -155,9 +153,7 @@ benchmark-composite transaction_rate $hits hits/sec desc
 
 benchmark-finish || true&lt;/pre&gt;
 
-&lt;p&gt;We’ll be covering benchmarking in the next &lt;a href=&#34;https://www.youtube.com/watch?v=ALt4zsAMy90&#34;&gt;Juju Office Hours&lt;/a&gt; on &lt;a href=&#34;http://ubuntuonair.com/&#34;&gt;July 9th at 1600 EDT/20:00 UTC&lt;/a&gt; and we’d love to help anyone who wants to get started, you can find me, Adam Israel (aisrael), Marco Ceppi (marcoceppi), and Tim Van Steenburgh (tvansteenburgh) on #juju on Freenode and on the [Juju mailing list][9].&lt;/p&gt;
-
-&lt;p&gt;[9]: &lt;a href=&#34;https://lists.ubuntu.com/mailman/listinfo/juju&#34;&gt;https://lists.ubuntu.com/mailman/listinfo/juju&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We’ll be covering benchmarking in the next &lt;a href=&#34;7&#34;&gt;Juju Office Hours&lt;/a&gt; on &lt;a href=&#34;8&#34;&gt;July 9th at 1600 EDT/20:00 UTC&lt;/a&gt; and we’d love to help anyone who wants to get started, you can find me, Adam Israel (aisrael), Marco Ceppi (marcoceppi), and Tim Van Steenburgh (tvansteenburgh) on #juju on Freenode and on the &lt;a href=&#34;9&#34;&gt;Juju mailing list&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -243,11 +239,11 @@ benchmark-finish || true&lt;/pre&gt;
 
 &lt;h1 id=&#34;go-and-os-x:88ab873d5c8d53a90360c0026a04b5ae&#34;&gt;GO and OS X&lt;/h1&gt;
 
-&lt;p&gt;I&amp;#8217;m doing a little hacking with &lt;a href=&#34;https://github.com/juju-actions/juju/wiki&#34;&gt;juju actions&lt;/a&gt; before they land in a stable release but I ran into some hurdles getting Go working with the &lt;a href=&#34;http://brew.sh/&#34;&gt;brew&lt;/a&gt;-installed version. Trying to install Go packages failed with a bunch of &amp;#8216;unrecognized import path&amp;#8217; errors. Here&amp;#8217;s how I fixed it.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;m doing a little hacking with &lt;a href=&#34;1&#34;&gt;juju actions&lt;/a&gt; before they land in a stable release but I ran into some hurdles getting Go working with the &lt;a href=&#34;2&#34;&gt;brew&lt;/a&gt;-installed version. Trying to install Go packages failed with a bunch of &amp;#8216;unrecognized import path&amp;#8217; errors. Here&amp;#8217;s how I fixed it.&lt;/p&gt;
 
 &lt;h1 id=&#34;stop-go-stop:88ab873d5c8d53a90360c0026a04b5ae&#34;&gt;STOP, GO, STOP&lt;/h1&gt;
 
-&lt;p&gt;Even though you can install Go via brew, there&amp;#8217;s more to be done to get it working. Go relies on two environment variables: [GOPATH][3], and GOROOT. GOROOT is the path where Go is installed, and GOPATH is the directory you&amp;#8217;ve created for your code workspace (which I&amp;#8217;ve defaulted to $HOME/go).  We then need to tell our shell where to find these installed executable and run them first&lt;sup&gt;&lt;a href=&#34;#1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Even though you can install Go via brew, there&amp;#8217;s more to be done to get it working. Go relies on two environment variables: &lt;a href=&#34;3&#34;&gt;GOPATH&lt;/a&gt;, and GOROOT. GOROOT is the path where Go is installed, and GOPATH is the directory you&amp;#8217;ve created for your code workspace (which I&amp;#8217;ve defaulted to $HOME/go).  We then need to tell our shell where to find these installed executable and run them first&lt;sup&gt;&lt;a href=&#34;#1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
 &lt;pre class=&#34;lang:default decode:true&#34; title=&#34;Add go to your bash profile&#34;&gt;cat &amp;lt;&amp;lt; EOF &amp;gt; ~/.bash_profile
 # Go go gadget Go!
@@ -370,105 +366,6 @@ BUGS
 &lt;p&gt;&lt;a name=&#34;1&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;sup&gt;1&lt;/sup&gt;: It would probably be better to create a script that would toggle the PATH to include/exclude my $GOPATH/bin in $PATH. I&amp;#8217;m using this to run the latest cutting edge version of juju, but I can see the need to switch back to using the released version of juju, without having to hack my ~/.bash_profile&lt;/p&gt;
-
-&lt;p&gt;[3]: &lt;a href=&#34;https://code.google.com/p/go-wiki/wiki/GOPATH&#34;&gt;https://code.google.com/p/go-wiki/wiki/GOPATH&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Home</title>
-      <link>http://dev.adamisrael.com/home/</link>
-      <pubDate>Sun, 02 Nov 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://dev.adamisrael.com/home/</guid>
-      <description>&lt;div id=&#34;pl-984&#34;&gt;
-  &lt;div class=&#34;panel-grid&#34; id=&#34;pg-984-0&#34; &gt;
-    &lt;div class=&#34;panel-grid-cell&#34; id=&#34;pgc-984-0-0&#34; &gt;
-      &lt;div class=&#34;so-panel widget widget_circleicon-widget panel-first-child panel-last-child&#34; id=&#34;panel-984-0-0-0&#34;&gt;
-        &lt;div class=&#34;circle-icon-box circle-icon-position-top circle-icon-hide-box circle-icon-size-small&#34;&gt;
-          &lt;div class=&#34;circle-icon-wrapper&#34;&gt;
-            &lt;div class=&#34;circle-icon&#34; &gt;
-              &lt;div class=&#34;fa fa-share-square-o&#34;&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          
-
-&lt;pre&gt;&lt;code&gt;      &amp;lt;h4&amp;gt;
-        About
-      &amp;lt;/h4&amp;gt;
-
-      &amp;lt;p class=&amp;quot;text&amp;quot;&amp;gt;
-        Adam Israel lives in Southwest Ontario, Canada with his lovely wife and writing partner, three dogs, and more cats than we&#39;ll admit to. He&#39;s also a graduate of the 2010 Clarion Writers Workshop.
-      &amp;lt;/p&amp;gt;
-    &amp;lt;/div&amp;gt;
-  &amp;lt;/div&amp;gt;
-&amp;lt;/div&amp;gt;
-
-&amp;lt;div class=&amp;quot;panel-grid-cell&amp;quot; id=&amp;quot;pgc-984-0-1&amp;quot; &amp;gt;
-  &amp;lt;div class=&amp;quot;so-panel widget widget_circleicon-widget panel-first-child panel-last-child&amp;quot; id=&amp;quot;panel-984-0-1-0&amp;quot;&amp;gt;
-    &amp;lt;div class=&amp;quot;circle-icon-box circle-icon-position-top circle-icon-hide-box circle-icon-size-small&amp;quot;&amp;gt;
-      &amp;lt;div class=&amp;quot;circle-icon-wrapper&amp;quot;&amp;gt;
-        &amp;lt;div class=&amp;quot;circle-icon&amp;quot; &amp;gt;
-          &amp;lt;div class=&amp;quot;fa fa-github&amp;quot;&amp;gt;
-          &amp;lt;/div&amp;gt;
-        &amp;lt;/div&amp;gt;
-      &amp;lt;/div&amp;gt;
-
-      &amp;lt;h4&amp;gt;
-        Code
-      &amp;lt;/h4&amp;gt;
-
-      &amp;lt;p class=&amp;quot;text&amp;quot;&amp;gt;
-        Adam&#39;s written a lot of code over the span of his nearly twenty year career in software engineering. Some of his open source contributions can be found here.
-      &amp;lt;/p&amp;gt;
-
-      &amp;lt;a href=&amp;quot;http://www.github.com/AdamIsrael&amp;quot; class=&amp;quot;more-button&amp;quot;&amp;gt;Browse &amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;
-    &amp;lt;/div&amp;gt;
-  &amp;lt;/div&amp;gt;
-&amp;lt;/div&amp;gt;
-
-&amp;lt;div class=&amp;quot;panel-grid-cell&amp;quot; id=&amp;quot;pgc-984-0-2&amp;quot; &amp;gt;
-  &amp;lt;div class=&amp;quot;so-panel widget widget_circleicon-widget panel-first-child panel-last-child&amp;quot; id=&amp;quot;panel-984-0-2-0&amp;quot;&amp;gt;
-    &amp;lt;div class=&amp;quot;circle-icon-box circle-icon-position-top circle-icon-hide-box circle-icon-size-small&amp;quot;&amp;gt;
-      &amp;lt;div class=&amp;quot;circle-icon-wrapper&amp;quot;&amp;gt;
-        &amp;lt;div class=&amp;quot;circle-icon&amp;quot; &amp;gt;
-          &amp;lt;div class=&amp;quot;fa fa-book&amp;quot;&amp;gt;
-          &amp;lt;/div&amp;gt;
-        &amp;lt;/div&amp;gt;
-      &amp;lt;/div&amp;gt;
-
-      &amp;lt;h4&amp;gt;
-        Short Stories
-      &amp;lt;/h4&amp;gt;
-
-      &amp;lt;p class=&amp;quot;text&amp;quot;&amp;gt;
-        Adam&#39;s had several short stories published over the past few years. These are the ones that are still online and free to read.
-      &amp;lt;/p&amp;gt;
-
-      &amp;lt;a href=&amp;quot;#&amp;quot; class=&amp;quot;more-button&amp;quot;&amp;gt;Read &amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;
-    &amp;lt;/div&amp;gt;
-  &amp;lt;/div&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;panel-grid&#34; id=&#34;pg-984-1&#34; &gt;
-    &lt;div style=&#34;background-color:#d8d8d8;background-color: #d8d8d8; &#34; class=&#34;panel-row-style&#34; &gt;
-      &lt;div class=&#34;panel-grid-cell&#34; id=&#34;pgc-984-1-0&#34; &gt;
-      &lt;/div&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  &amp;lt;div class=&amp;quot;panel-grid-cell&amp;quot; id=&amp;quot;pgc-984-1-1&amp;quot; &amp;gt;
-  &amp;lt;/div&amp;gt;
-
-  &amp;lt;div class=&amp;quot;panel-grid-cell&amp;quot; id=&amp;quot;pgc-984-1-2&amp;quot; &amp;gt;
-  &amp;lt;/div&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -504,17 +401,15 @@ BUGS
 
 &lt;p&gt;Back when I was managing that cluster of ad servers, we&amp;#8217;d cobbled together a mix of shell scripts using ssh and puppet to automate the deployment and management of those dozens of computers. It worked, but was far from ideal, and only worked with our hardware.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://juju.ubuntu.com/&#34;&gt;Juju&lt;/a&gt; is a system that lets you automate the deployment of software, via bundled instructions called &lt;em&gt;Charms&lt;/em&gt;, to servers across multiple Clouds, like EC2, Azure, HP, Digital Ocean, or even your own hardware.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;1&#34;&gt;Juju&lt;/a&gt; is a system that lets you automate the deployment of software, via bundled instructions called &lt;em&gt;Charms&lt;/em&gt;, to servers across multiple Clouds, like EC2, Azure, HP, Digital Ocean, or even your own hardware.&lt;/p&gt;
 
 &lt;p&gt;Say your awesome website is suddenly getting linked to by the Neil Gaiman and John Scalzi&amp;#8217;s of the world, and your site is being crushed under the load. Problem?&lt;/p&gt;
 
-&lt;p&gt;No problem. You tell juju you want two more servers, or five or ten. A few minutes later, they&amp;#8217;re online and so&amp;#8217;s your website. When the [slashdot effect][2] has worn off, you can remove those extra servers. Only paying for the time use you needed them.&lt;/p&gt;
+&lt;p&gt;No problem. You tell juju you want two more servers, or five or ten. A few minutes later, they&amp;#8217;re online and so&amp;#8217;s your website. When the &lt;a href=&#34;2&#34;&gt;slashdot effect&lt;/a&gt; has worn off, you can remove those extra servers. Only paying for the time use you needed them.&lt;/p&gt;
 
 &lt;p&gt;Scalability and affordability, in a nutshell. And juju is there to help you manage that.&lt;/p&gt;
 
 &lt;p&gt;TL;DR: Juju is a cloud orchestration toolkit, to aid in the deployment and manage of services across a variety of cloud providers.&lt;/p&gt;
-
-&lt;p&gt;[2]: &lt;a href=&#34;http://en.wikipedia.org/wiki/Slashdot_effect&#34;&gt;http://en.wikipedia.org/wiki/Slashdot_effect&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -524,13 +419,11 @@ BUGS
       <pubDate>Tue, 26 Aug 2014 00:00:00 +0000</pubDate>
       
       <guid>http://dev.adamisrael.com/blog/2014/08/25/new-job/</guid>
-      <description>&lt;p&gt;I am delighted &amp;#8212; tickled, in fact &amp;#8212; to report that as of last Monday I am employed by &lt;a href=&#34;http://www.canonical.com/&#34;&gt;Canonical&lt;/a&gt;, the company behind &lt;a href=&#34;http://www.ubuntu.com/&#34;&gt;Ubuntu&lt;/a&gt; Linux.&lt;/p&gt;
+      <description>&lt;p&gt;I am delighted &amp;#8212; tickled, in fact &amp;#8212; to report that as of last Monday I am employed by &lt;a href=&#34;1&#34;&gt;Canonical&lt;/a&gt;, the company behind &lt;a href=&#34;2&#34;&gt;Ubuntu&lt;/a&gt; Linux.&lt;/p&gt;
 
-&lt;p&gt;I&amp;#8217;ve joined the Ecosystem Engineering team, part of Cloud Development and Operations, as a software engineer. More specifically, I&amp;#8217;m working on &lt;a href=&#34;https://juju.ubuntu.com/&#34;&gt;Juju&lt;/a&gt;, the cloud orchestration tool chain. I&amp;#8217;ll be writing [charms][4] and documentation, working on optimizations, and helping to make a cool product even cooler.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;ve joined the Ecosystem Engineering team, part of Cloud Development and Operations, as a software engineer. More specifically, I&amp;#8217;m working on &lt;a href=&#34;3&#34;&gt;Juju&lt;/a&gt;, the cloud orchestration tool chain. I&amp;#8217;ll be writing &lt;a href=&#34;4&#34;&gt;charms&lt;/a&gt; and documentation, working on optimizations, and helping to make a cool product even cooler.&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;[4]: &lt;a href=&#34;https://manage.jujucharms.com/&#34;&gt;https://manage.jujucharms.com/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -540,15 +433,13 @@ BUGS
       <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
       
       <guid>http://dev.adamisrael.com/blog/2014/07/31/qa-why-is-scrivener-using-my-old-contact-information/</guid>
-      <description>&lt;p&gt;For the past few years, I&amp;#8217;ve had to manually update the contact information in the header of every [Scrivener][1] project I&amp;#8217;ve created. It was defaulting to an old email and physical address, but somehow had the correct phone number.&lt;/p&gt;
+      <description>&lt;p&gt;For the past few years, I&amp;#8217;ve had to manually update the contact information in the header of every &lt;a href=&#34;1&#34;&gt;Scrivener&lt;/a&gt; project I&amp;#8217;ve created. It was defaulting to an old email and physical address, but somehow had the correct phone number.&lt;/p&gt;
 
 &lt;p&gt;Scrivener can pull your contact information from the OS X application &lt;em&gt;Contacts&lt;/em&gt;, if you add the string &amp;#8220;(Scrivener:UseMe)&amp;#8221; to the notes of your contact card. As it turns out, I had done that already but my card has all of my email addresses (work and home) as well as my current and past physical addresses. In that case, Scrivener just uses the first phone, email, and physical address it finds.&lt;/p&gt;
 
 &lt;p&gt;The solution is simple, and doubly useful if you write under a pseudonym. Create a new contact card with the information you want in your manuscript&amp;#8217;s cover page. Don&amp;#8217;t forget to add &amp;#8220;(Scrivener:UseMe)&amp;#8221; to the notes section of your new contact, and remove it from the old.&lt;/p&gt;
 
 &lt;p&gt;The next time you create a project in Scrivener, it will use your new contact.&lt;/p&gt;
-
-&lt;p&gt;[1]: &lt;a href=&#34;http://www.literatureandlatte.com/scrivener.php&#34;&gt;http://www.literatureandlatte.com/scrivener.php&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -558,11 +449,11 @@ BUGS
       <pubDate>Wed, 19 Feb 2014 00:00:00 +0000</pubDate>
       
       <guid>http://dev.adamisrael.com/blog/2014/02/19/sfwa-accessiblity-and-diversity/</guid>
-      <description>&lt;p&gt;There’s have been many kerfluffles involving the &lt;a href=&#34;http://www.sfwa.org/about/who-we-are/&#34;&gt;Science Fiction &amp;amp; Fantasy Writers Association&lt;/a&gt; (SFWA). The latest one begin when a former member began a petition over recent changes to the staff and policy of the organization’s flagship publication, the Bulletin. As a result of the current back and forth between factions, one member — a vocal minority — made the suggestion that the bar for membership should be raised. There’s a lot I could say about the current debate(s) going on, but I want to specifically address the idea of accessibility and diversity.&lt;/p&gt;
+      <description>&lt;p&gt;There’s have been many kerfluffles involving the &lt;a href=&#34;1&#34;&gt;Science Fiction &amp;amp; Fantasy Writers Association&lt;/a&gt; (SFWA). The latest one begin when a former member began a petition over recent changes to the staff and policy of the organization’s flagship publication, the Bulletin. As a result of the current back and forth between factions, one member — a vocal minority — made the suggestion that the bar for membership should be raised. There’s a lot I could say about the current debate(s) going on, but I want to specifically address the idea of accessibility and diversity.&lt;/p&gt;
 
 &lt;p&gt;Membership requirements, in general, are a good thing for an organization but should be recognized for what they are: exclusion. To what degree they exclude depends on the type of organization, its goals, philosophies, etc. Billing itself as a :&amp;#8221;professional organization for authors of science fiction, fantasy, and related genres”, one would assume the requirements are imposed to limit membership to anyone who has a professional interest in writing science fiction, fantasy, and related genres. Seems simple, but there’s always fine print.&lt;/p&gt;
 
-&lt;p&gt;The argument made by &lt;a href=&#34;http://bradrtorgersen.wordpress.com/2014/02/19/how-to-fix-the-sfwa/&#34;&gt;Brad R. Torgersen&lt;/a&gt; is that to be a more professional organization, SFWA needs to be more exclusionary, with the goal of eliminating “non-professional” writers, thereby raising rates enough money through dues that the organization can then use to hire administration staff and increase benefits to its members.&lt;/p&gt;
+&lt;p&gt;The argument made by &lt;a href=&#34;2&#34;&gt;Brad R. Torgersen&lt;/a&gt; is that to be a more professional organization, SFWA needs to be more exclusionary, with the goal of eliminating “non-professional” writers, thereby raising rates enough money through dues that the organization can then use to hire administration staff and increase benefits to its members.&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;&amp;#8230;impose an annual fiction writing income floor, below which members cannot fall without being placed on the inactive list, and therefore losing the ability to vote and/or participate in the org.&lt;/p&gt;
@@ -572,15 +463,13 @@ BUGS
 
 &lt;p&gt;I will say, flat out, this is a bad idea. It&amp;#8217;s too exclusionary, and would decrease diversity. In fact, I would argue that SFWA should _lower_ its membership requirements.&lt;/p&gt;
 
-&lt;p&gt;For active writers, there are two &lt;a href=&#34;http://www.sfwa.org/about/join-us/sfwa-membership-requirements/&#34;&gt;membership&lt;/a&gt; tiers: Active and Associate, both of which require prose sales at a minimum rate of $0.05/word. I would like to see a third tier, for writers who have not yet made a sale to a market able to pay those rates but have demonstrated a commitment to their craft, such as 3 sales at a semi-pro rate, or a cumulative revenue total. Give this tier some limited benefits, such as access to the forum and the bulletin, but not all of the benefits of the higher tiers. Perhaps offer it at a lower yearly rate to adjust for the different benefits.&lt;/p&gt;
+&lt;p&gt;For active writers, there are two &lt;a href=&#34;3&#34;&gt;membership&lt;/a&gt; tiers: Active and Associate, both of which require prose sales at a minimum rate of $0.05/word. I would like to see a third tier, for writers who have not yet made a sale to a market able to pay those rates but have demonstrated a commitment to their craft, such as 3 sales at a semi-pro rate, or a cumulative revenue total. Give this tier some limited benefits, such as access to the forum and the bulletin, but not all of the benefits of the higher tiers. Perhaps offer it at a lower yearly rate to adjust for the different benefits.&lt;/p&gt;
 
-&lt;p&gt;Or, as has been pointed out to me on Twitter (thanks &lt;a href=&#34;https://twitter.com/john_chu&#34;&gt;John&lt;/a&gt; and [Tim][5]), use the Romance Writers Association (RWA) as a model or inspiration for how to include “non-professional” writers.&lt;/p&gt;
+&lt;p&gt;Or, as has been pointed out to me on Twitter (thanks &lt;a href=&#34;4&#34;&gt;John&lt;/a&gt; and &lt;a href=&#34;5&#34;&gt;Tim&lt;/a&gt;), use the Romance Writers Association (RWA) as a model or inspiration for how to include “non-professional” writers.&lt;/p&gt;
 
 &lt;p&gt;By being less exclusionary, the organization will become more accessible to a diverse group of people across income levels, gender, orientation, social classes, etc. The organization would gain new, interesting, and previously under-represented voices in building a future.&lt;/p&gt;
 
 &lt;p&gt;Many writers toiling in the semi-pro ranks treat their work with the same professionalism, if not more so, than those currently qualified by SFWA definitions to call themselves such. The previous SFWA administration, under John Scalzi, and the new helmed by Steven Gould, have made great strides in improving the organization as a whole. It should be recognized just how much work it is to retrofit a monolithic steam engine with maglev. I expect the diversification will continue, but I would love to see a bigger change to allow.&lt;/p&gt;
-
-&lt;p&gt;[5]: &lt;a href=&#34;http://www.twitter.com/TimAkers&#34;&gt;http://www.twitter.com/TimAkers&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -592,13 +481,11 @@ BUGS
       <guid>http://dev.adamisrael.com/blog/2013/12/10/hark-an-update/</guid>
       <description>&lt;p&gt;Hark! Inconsistent blogger has returned with news!&lt;/p&gt;
 
-&lt;p&gt;I am pleased to announce that I&amp;#8217;ve sold &amp;#8220;Aye of the Hagfish&amp;#8221; to &lt;a href=&#34;http://www.goldfishgrimm.com/&#34;&gt;Goldfish Grimm&amp;#8217;s Spicy Fiction Sushi&lt;/a&gt;. It should be appearing online early 2014. This will be my second appearance in the magazine (the first being [Control][2], in their debut issue).&lt;/p&gt;
+&lt;p&gt;I am pleased to announce that I&amp;#8217;ve sold &amp;#8220;Aye of the Hagfish&amp;#8221; to &lt;a href=&#34;1&#34;&gt;Goldfish Grimm&amp;#8217;s Spicy Fiction Sushi&lt;/a&gt;. It should be appearing online early 2014. This will be my second appearance in the magazine (the first being &lt;a href=&#34;2&#34;&gt;Control&lt;/a&gt;, in their debut issue).&lt;/p&gt;
 
 &lt;p&gt;I&amp;#8217;m down to one story in circulation, and no new short stories finished this year, but for good reason! I finished the first draft, first read-through, and have begun developmental edits on the novel tentatively titled (but almost guaranteed to be renamed) &amp;#8220;Black Mirror&amp;#8221;.&lt;/p&gt;
 
 &lt;p&gt;We&amp;#8217;re settling in for a long winter here at casa de Israel-Redman. The cupboards are stocked with tea, coffee, and non-perishable foodstuffs. Candles are lit, the fireplace channel is giving us the proper ambiance, and we&amp;#8217;re getting busy with the making of art and stuff. Come spring, we&amp;#8217;ll come out of our self-imposed hibernation with some fun new things to show off.&lt;/p&gt;
-
-&lt;p&gt;[2]: &lt;a href=&#34;http://www.goldfishgrimm.com/back-issues/issue-1-first-flight/control-adam-israel/&#34;&gt;http://www.goldfishgrimm.com/back-issues/issue-1-first-flight/control-adam-israel/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -624,7 +511,7 @@ BUGS
       <pubDate>Sat, 22 Jun 2013 00:00:00 +0000</pubDate>
       
       <guid>http://dev.adamisrael.com/blog/2013/06/21/clarion-write-a-thon-2/</guid>
-      <description>&lt;p&gt;It should be no surprise to anyone who knows me that the Clarion Writers Workshop is a thing near and dear to me. Attending the six-week workshop in 2010 was a milestone in my writing career. The annual &lt;a href=&#34;http://clarionwriteathon.org/&#34;&gt;write-a-thon&lt;/a&gt;, where writers commit to writing goals and ask friends, family,and strangers to pledge money to go towards funding the workshop.&lt;/p&gt;
+      <description>&lt;p&gt;It should be no surprise to anyone who knows me that the Clarion Writers Workshop is a thing near and dear to me. Attending the six-week workshop in 2010 was a milestone in my writing career. The annual &lt;a href=&#34;1&#34;&gt;write-a-thon&lt;/a&gt;, where writers commit to writing goals and ask friends, family,and strangers to pledge money to go towards funding the workshop.&lt;/p&gt;
 
 &lt;p&gt;Saying &amp;#8220;please give money&amp;#8221; is something I do on very rare occasion, but this is something worthwhile. The Clarion Workshop is one of very few programs in the world for writers of genre fiction. Hundreds of students apply every year but only a handful get in. The instructors are among the most experienced authors in the field. Donations go to keeping the workshop running and supplying scholarships for students in need.&lt;/p&gt;
 
@@ -632,11 +519,9 @@ BUGS
 
 &lt;p&gt;This year, I will spend the write-a-thon finishing my first novel. I&amp;#8217;ll be writing, by hand, 30,000 or so words, and transcribing the results into Scrivener along with the first 50,000. By the end, I will have a complete draft ready to be ripped apart, revised and rewritten. I&amp;#8217;ll even blog regular progress updates, which is more than I normally manage.&lt;/p&gt;
 
-&lt;p&gt;If you can [sponsor me][2], one dollar or ten, you will have my gratitude and the satisfaction of knowing you&amp;#8217;re making a difference in the life of up and coming writers of science fiction and fantasy.&lt;/p&gt;
+&lt;p&gt;If you can &lt;a href=&#34;2&#34;&gt;sponsor me&lt;/a&gt;, one dollar or ten, you will have my gratitude and the satisfaction of knowing you&amp;#8217;re making a difference in the life of up and coming writers of science fiction and fantasy.&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;[2]: &lt;a href=&#34;http://clarionwriteathon.org/members/profile.php?writerid=865519&#34;&gt;http://clarionwriteathon.org/members/profile.php?writerid=865519&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -650,17 +535,49 @@ BUGS
 
 &lt;p&gt;The annals of history are filled with stories of the famous, the successful, the victors. Finding tales about those broke their backs to make a living is harder. It&amp;#8217;s not glamorous work. No one does it to become rich or powerful. They&amp;#8217;re born into it, forced into it, marginalized into it. Their stories deserve to be told, too.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.adamisrael.com/wp-content/uploads/2013/03/dustbowl.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-903&#34; alt=&#34;dustbowl&#34; src=&#34;http://www.adamisrael.com/wp-content/uploads/2013/03/dustbowl.jpg&#34; width=&#34;640&#34; height=&#34;360&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;1&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-903&#34; alt=&#34;dustbowl&#34; src=&#34;http://www.adamisrael.com/wp-content/uploads/2013/03/dustbowl.jpg&#34; width=&#34;640&#34; height=&#34;360&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;There&amp;#8217;s a reason why &lt;a href=&#34;http://crossedgenres.com/&#34;&gt;Crossed Genres&lt;/a&gt; is of my favorite small presses. They have a long history of supporting diversity in it&amp;#8217;s many forms. Their latest project is &lt;a href=&#34;http://www.kickstarter.com/projects/1537879721/long-hidden-speculative-fiction-from-the-margins-o&#34;&gt;Long Hidden: Speculative Fiction From the Margins of History&lt;/a&gt;, and it could use your help. They&amp;#8217;ve made their initial Kickstarter goal so the anthology, edited by Rose Fox (who I have tons and tons of respect for) and Daniel José Older (who I&amp;#8217;m sure is equally awesome), but still have a bit to go for their stretch goals.&lt;/p&gt;
+&lt;p&gt;There&amp;#8217;s a reason why &lt;a href=&#34;2&#34;&gt;Crossed Genres&lt;/a&gt; is of my favorite small presses. They have a long history of supporting diversity in it&amp;#8217;s many forms. Their latest project is &lt;a href=&#34;3&#34;&gt;Long Hidden: Speculative Fiction From the Margins of History&lt;/a&gt;, and it could use your help. They&amp;#8217;ve made their initial Kickstarter goal so the anthology, edited by Rose Fox (who I have tons and tons of respect for) and Daniel José Older (who I&amp;#8217;m sure is equally awesome), but still have a bit to go for their stretch goals.&lt;/p&gt;
 
 &lt;p&gt;They are nearing the next goal, to add another 10 stories/50,000 words to the anthology. The bigger the book, the more diverse it will be. A no-brainer, right?&lt;/p&gt;
 
 &lt;p&gt;I think we can push it further. The third stretch goal will add original black &amp;amp; white art to every story, and if they make it to $50,000, the last stretch goal, they will produce a professional quality audio book.&lt;/p&gt;
 
-&lt;p&gt;I&amp;#8217;m all too familiar with Kickstarter fatigue. I feel it myself. This one is from an established publisher; [Bart and Kay][4] have been around for a while and have a proven track record behind them. If you&amp;#8217;re interested in the kind of stories they&amp;#8217;re telling, please give them a look.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;m all too familiar with Kickstarter fatigue. I feel it myself. This one is from an established publisher; &lt;a href=&#34;4&#34;&gt;Bart and Kay&lt;/a&gt; have been around for a while and have a proven track record behind them. If you&amp;#8217;re interested in the kind of stories they&amp;#8217;re telling, please give them a look.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>9</title>
+      <link>http://dev.adamisrael.com/blog/2013/03/13/9/</link>
+      <pubDate>Wed, 13 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://dev.adamisrael.com/blog/2013/03/13/9/</guid>
+      <description>&lt;p&gt;For months, we kept the animated film &amp;#8220;9&amp;#8221; (2009) on the DVR. I kept telling myself that I&amp;#8217;d sit down and watch it on the weekend, and inevitably being too distracted to do so. We came home a few nights ago and discovered the DVR had deleted several of the oldest recordings, including 9. That made me sad, because I really did intend on watching it soon. Kind of mad, I fired up Netflix and watched it that night.&lt;/p&gt;
 
-&lt;p&gt;[4]: &lt;a href=&#34;http://crossedgenres.com/about/&#34;&gt;http://crossedgenres.com/about/&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A rag doll that awakens in a post-apocalyptic future holds the key to humanity&amp;#8217;s salvation.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;1&#34;&gt;&lt;img class=&#34;aligncenter size-large wp-image-893&#34; alt=&#34;9characters-3208&#34; src=&#34;http://www.adamisrael.com/wp-content/uploads/2013/03/9characters-3208-1024x576.jpeg&#34; width=&#34;660&#34; height=&#34;371&#34; srcset=&#34;//www.adamisrael.com/wp-content/uploads/2013/03/9characters-3208-1024x576.jpeg 1024w, //www.adamisrael.com/wp-content/uploads/2013/03/9characters-3208-700x393.jpeg 700w&#34; sizes=&#34;(max-width: 660px) 100vw, 660px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Warning: spoilers ahead.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;9 is a visually beautiful film with a haunting story of survival and redemption but at only 79 minutes, I don&amp;#8217;t know if it had enough time to fully develop the characters to their full potential.&lt;/p&gt;
+
+&lt;p&gt;My first reaction after watching was that I wanted to see it again. I want to get to know the characters more. Especially the ones that had the least screen time, like 2, who first discovers 9, but it whisked away in the jaws of the cat monster a short time later. Most of the story focuses on 9, the last of the dolls to awaken.&lt;/p&gt;
+
+&lt;p&gt;There&amp;#8217;s a subtlety to the storytelling, I think, that I hope will come through more in rewatching. The story of humanity&amp;#8217;s last chance of redemption, through the journey of its destroyer&amp;#8217;s soul, split into tiny rag doll representations, is a delightful example of my favorite kind of genre story.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s not a perfect movie but it was enjoyable and made me think. I set out to Twitter immediately afterwards to find someone to talk to about it. That&amp;#8217;s a win in my book, at least.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
 </description>
     </item>
     

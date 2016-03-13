@@ -21,7 +21,7 @@ tags:
   - sale
 
 ---
-I am pleased to announce that I&#8217;ve sold my story, Dog Days, to [Crossed Genres][1] for their March issue, Superheroes. This is the story I referenced in my latest [Inkpunks][2] post, [Writer’s Toolkit: Tarot Cards][3].
+I am pleased to announce that I&#8217;ve sold my story, Dog Days, to [Crossed Genres](1) for their March issue, Superheroes. This is the story I referenced in my latest [Inkpunks](2) post, [Writer’s Toolkit: Tarot Cards](3).
 
 I&#8217;m particularly tickled by this sale. It&#8217;s my first acceptance post-Clarion, of a story I&#8217;m particularly enamored with, to one of my favorite markets. Happy writer is happy.
 

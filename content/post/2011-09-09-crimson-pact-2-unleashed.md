@@ -16,10 +16,10 @@ tags:
   - signal boost
 
 ---
-The [Crimson Pact][1] 2, which includes my flash fiction &#8220;[History of the Flesh][2]&#8220;, is now available from [Amazon.com][3], [Barnes & Noble][4], and probably other places that sell ebooks. Five bucks for twenty-eight stories and over 500 pages worth of fiction is a steal. There&#8217;s even a [Youtube channel][5] filled with book trailers if you need convincing.
-  
+The [Crimson Pact](1) 2, which includes my flash fiction &#8220;[History of the Flesh](2)&#8220;, is now available from [Amazon.com](3), [Barnes & Noble](4), and probably other places that sell ebooks. Five bucks for twenty-eight stories and over 500 pages worth of fiction is a steal. There&#8217;s even a [Youtube channel](5) filled with book trailers if you need convincing.
 
-  
+
+
 This little story is set in the same world as the novel I&#8217;m working and I&#8217;m very happy to see it in print, so to speak. Also,if you enjoy it, you&#8217;ll have a very small taste for what I&#8217;ll working on for the next year or more of my life.
 
  [1]: http://www.thecrimsonpact.com/index.html

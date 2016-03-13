@@ -17,15 +17,15 @@ Winter, as they say, is coming and appropriately enough, I celebrated it with a 
 Not my best work here, but I laid out the bones of what needs to be done. A hot mess of potential awesome might be the best way to describe it all. I started organizing my notes for a post-Nano reverse outline. In keeping with the spirit of Nano, no words will be deleted no matter how much my inner editor cringes.
 
 &#8212;
-  
+
 Project: Black Mirror
-  
+
 New words written: 1,738
-  
+
 Reason for stopping: Coffee shop closing
 
-![][1]
-  
+![](1)
+
 &#8212;
 
 When this is all over, I&#8217;ll be curious to read the blogs of/talk to other authors I know doing Nano and see what their experiences are. I know I&#8217;m essentially brute-forcing my way through a very extensive outline, but that was one of my expectations so I&#8217;m okay with it.
