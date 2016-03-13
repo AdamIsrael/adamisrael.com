@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Os X on Adam Israel</title>
-    <link>http://adamisrael.com/tags/os-x/</link>
+    <link>http://dev.adamisrael.com/tags/os-x/</link>
     <description>Recent content in Os X on Adam Israel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Dec 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://adamisrael.com/tags/os-x/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://dev.adamisrael.com/tags/os-x/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>sshuttle workaround for OS X 10.10 (Yosemite), Juju and Vagrant</title>
-      <link>http://adamisrael.com/blog/2014/12/12/sshuttle-workaround-for-os-x-10-10-yosemite-juju-and-vagrant/</link>
+      <link>http://dev.adamisrael.com/blog/2014/12/12/sshuttle-workaround-for-os-x-10-10-yosemite-juju-and-vagrant/</link>
       <pubDate>Fri, 12 Dec 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://adamisrael.com/blog/2014/12/12/sshuttle-workaround-for-os-x-10-10-yosemite-juju-and-vagrant/</guid>
+      <guid>http://dev.adamisrael.com/blog/2014/12/12/sshuttle-workaround-for-os-x-10-10-yosemite-juju-and-vagrant/</guid>
       <description>&lt;p class=&#34;p2&#34;&gt;
   &lt;a href=&#34;https://github.com/sshuttle/sshuttle&#34;&gt;sshuttle&lt;/a&gt; is a nifty little transparent proxy/vpn that works by tunneling TCP traffic over SSH, or more specifically, tearing down a TCP session and reassembling the data on the other side. I started using it earlier this year, as part of my workflow using &lt;a href=&#34;https://juju.ubuntu.com/&#34;&gt;Juju&lt;/a&gt; and developing under OS X. It&amp;#8217;s like a data center in a box, inside another box. Code locally in my editor of choice (vim, TextMate, and more recently, Atom). Deploy new code. Refresh web browser, thanks to sshuttle. With sshuttle, I could connect to the services running within my virtual machine running Ubuntu natively through OS X.
 &lt;/p&gt;
@@ -59,10 +59,10 @@
     
     <item>
       <title>Making OS X, Go, and Brew play happy</title>
-      <link>http://adamisrael.com/blog/2014/11/13/making-os-x-go-and-brew-play-happy/</link>
+      <link>http://dev.adamisrael.com/blog/2014/11/13/making-os-x-go-and-brew-play-happy/</link>
       <pubDate>Thu, 13 Nov 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://adamisrael.com/blog/2014/11/13/making-os-x-go-and-brew-play-happy/</guid>
+      <guid>http://dev.adamisrael.com/blog/2014/11/13/making-os-x-go-and-brew-play-happy/</guid>
       <description>
 
 &lt;h1 id=&#34;go-and-os-x:88ab873d5c8d53a90360c0026a04b5ae&#34;&gt;GO and OS X&lt;/h1&gt;
@@ -201,10 +201,10 @@ BUGS
     
     <item>
       <title>Q&amp;A: Why is Scrivener using my old contact information?</title>
-      <link>http://adamisrael.com/blog/2014/07/31/qa-why-is-scrivener-using-my-old-contact-information/</link>
+      <link>http://dev.adamisrael.com/blog/2014/07/31/qa-why-is-scrivener-using-my-old-contact-information/</link>
       <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://adamisrael.com/blog/2014/07/31/qa-why-is-scrivener-using-my-old-contact-information/</guid>
+      <guid>http://dev.adamisrael.com/blog/2014/07/31/qa-why-is-scrivener-using-my-old-contact-information/</guid>
       <description>&lt;p&gt;For the past few years, I&amp;#8217;ve had to manually update the contact information in the header of every [Scrivener][1] project I&amp;#8217;ve created. It was defaulting to an old email and physical address, but somehow had the correct phone number.&lt;/p&gt;
 
 &lt;p&gt;Scrivener can pull your contact information from the OS X application &lt;em&gt;Contacts&lt;/em&gt;, if you add the string &amp;#8220;(Scrivener:UseMe)&amp;#8221; to the notes of your contact card. As it turns out, I had done that already but my card has all of my email addresses (work and home) as well as my current and past physical addresses. In that case, Scrivener just uses the first phone, email, and physical address it finds.&lt;/p&gt;

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Canonical on Adam Israel</title>
-    <link>http://adamisrael.com/tags/canonical/</link>
+    <link>http://dev.adamisrael.com/tags/canonical/</link>
     <description>Recent content in Canonical on Adam Israel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 26 Aug 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://adamisrael.com/tags/canonical/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://dev.adamisrael.com/tags/canonical/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>New job!</title>
-      <link>http://adamisrael.com/blog/2014/08/25/new-job/</link>
+      <link>http://dev.adamisrael.com/blog/2014/08/25/new-job/</link>
       <pubDate>Tue, 26 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://adamisrael.com/blog/2014/08/25/new-job/</guid>
+      <guid>http://dev.adamisrael.com/blog/2014/08/25/new-job/</guid>
       <description>&lt;p&gt;I am delighted &amp;#8212; tickled, in fact &amp;#8212; to report that as of last Monday I am employed by &lt;a href=&#34;http://www.canonical.com/&#34;&gt;Canonical&lt;/a&gt;, the company behind &lt;a href=&#34;http://www.ubuntu.com/&#34;&gt;Ubuntu&lt;/a&gt; Linux.&lt;/p&gt;
 
 &lt;p&gt;I&amp;#8217;ve joined the Ecosystem Engineering team, part of Cloud Development and Operations, as a software engineer. More specifically, I&amp;#8217;m working on &lt;a href=&#34;https://juju.ubuntu.com/&#34;&gt;Juju&lt;/a&gt;, the cloud orchestration tool chain. I&amp;#8217;ll be writing [charms][4] and documentation, working on optimizations, and helping to make a cool product even cooler.&lt;/p&gt;

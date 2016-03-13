@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contacts on Adam Israel</title>
-    <link>http://adamisrael.com/contact/</link>
+    <link>http://dev.adamisrael.com/contact/</link>
     <description>Recent content in Contacts on Adam Israel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 25 Dec 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://adamisrael.com/contact/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://dev.adamisrael.com/contact/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Contact</title>
-      <link>http://adamisrael.com/contact/</link>
+      <link>http://dev.adamisrael.com/contact/</link>
       <pubDate>Fri, 25 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://adamisrael.com/contact/</guid>
+      <guid>http://dev.adamisrael.com/contact/</guid>
       <description>&lt;form action=&#34;//formspree.io/adam@adamisrael.com&#34; method=&#34;POST&#34;&gt;
   &lt;fieldset class=&#34;contact-info-group&#34;&gt;
 

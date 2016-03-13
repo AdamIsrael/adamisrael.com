@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homebrew on Adam Israel</title>
-    <link>http://adamisrael.com/tags/homebrew/</link>
+    <link>http://dev.adamisrael.com/tags/homebrew/</link>
     <description>Recent content in Homebrew on Adam Israel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Nov 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://adamisrael.com/tags/homebrew/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://dev.adamisrael.com/tags/homebrew/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Making OS X, Go, and Brew play happy</title>
-      <link>http://adamisrael.com/blog/2014/11/13/making-os-x-go-and-brew-play-happy/</link>
+      <link>http://dev.adamisrael.com/blog/2014/11/13/making-os-x-go-and-brew-play-happy/</link>
       <pubDate>Thu, 13 Nov 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://adamisrael.com/blog/2014/11/13/making-os-x-go-and-brew-play-happy/</guid>
+      <guid>http://dev.adamisrael.com/blog/2014/11/13/making-os-x-go-and-brew-play-happy/</guid>
       <description>
 
 &lt;h1 id=&#34;go-and-os-x:88ab873d5c8d53a90360c0026a04b5ae&#34;&gt;GO and OS X&lt;/h1&gt;

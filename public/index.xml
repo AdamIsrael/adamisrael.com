@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Adam Israel</title>
-    <link>http://adamisrael.com/</link>
+    <link>http://dev.adamisrael.com/</link>
     <description>Recent content on Adam Israel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 15 Oct 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://adamisrael.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://dev.adamisrael.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Ubuntu on Mac</title>
-      <link>http://adamisrael.com/blog/2015/10/15/ubuntu-on-mac/</link>
+      <link>http://dev.adamisrael.com/blog/2015/10/15/ubuntu-on-mac/</link>
       <pubDate>Thu, 15 Oct 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://adamisrael.com/blog/2015/10/15/ubuntu-on-mac/</guid>
+      <guid>http://dev.adamisrael.com/blog/2015/10/15/ubuntu-on-mac/</guid>
       <description>&lt;p&gt;I recently rebuilt a Mac Mini to work as the forth screen in my workflow. I googled around and pieced together what I needed to do by cherrypicking from various guides, and everything was running well until I updated to a new kernel and rebooted. I spent the better part of two nights trying to get the machine to boot.&lt;/p&gt;
 
 &lt;p&gt;Unfortunately, it happened just after I blacklisted a module to work around a USB bug that was causing one of my drives to go haywire occasionally, and it took a while before I finally figured out it wasn&amp;#8217;t a problem with my change but the kernel itself. Mac&amp;#8217;s use EFI for booting &amp;#8212; which requires a cryptographically signed kernel. I was finally able to boot up by following the first half of the instructions on [this][1] Ask Ubuntu answer. Essentially, do a manual boot via grub and make sure that I pick the secure kernel.&lt;/p&gt;
@@ -33,10 +33,10 @@ sudo reboot&lt;/pre&gt;
     
     <item>
       <title>American Serenade</title>
-      <link>http://adamisrael.com/blog/2015/07/06/american-serenade/</link>
+      <link>http://dev.adamisrael.com/blog/2015/07/06/american-serenade/</link>
       <pubDate>Mon, 06 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://adamisrael.com/blog/2015/07/06/american-serenade/</guid>
+      <guid>http://dev.adamisrael.com/blog/2015/07/06/american-serenade/</guid>
       <description>&lt;p&gt;Back in 2009, we were winding down our life in the U.S.. We drastically culled things we didn&amp;#8217;t want or need, and put the rest into storage for the eventual move to Canada.&lt;/p&gt;
 
 &lt;p&gt;Andrea was home in August 2009; I was there on and off, until I was officially issued a visitor record in November 2010 and filed for permanent resident status. On that day, I entered the country with one large suitcase and a backpack containing some notebooks and my laptop. That&amp;#8217;s it.&lt;/p&gt;
@@ -79,10 +79,10 @@ sudo reboot&lt;/pre&gt;
     
     <item>
       <title>Announcing Benchmarking with Juju</title>
-      <link>http://adamisrael.com/blog/2015/06/23/announcing-benchmarking-with-juju/</link>
+      <link>http://dev.adamisrael.com/blog/2015/06/23/announcing-benchmarking-with-juju/</link>
       <pubDate>Tue, 23 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://adamisrael.com/blog/2015/06/23/announcing-benchmarking-with-juju/</guid>
+      <guid>http://dev.adamisrael.com/blog/2015/06/23/announcing-benchmarking-with-juju/</guid>
       <description>&lt;p&gt;Benchmarking and performance are interesting problems, especially in today’s growing cloud-based microservice scene. It used to be a question of “how does this hardware compare to that hardware,” but as computing and service-oriented architectures grow the question has evolved. How does my cloud and application stack handle this? It’s no longer enough to run PTS on your web server and call it a day.&lt;/p&gt;
 
 &lt;p&gt;Measuring every microservice in your stack, from backend to frontend, is a complex task. We started thinking about how you would model a system to benchmark all of these services. It’s not just a matter of measuring the performance of one service, but also its interactions with other services. Now multiply that by every config option for every service, like PostgreSQL, which has hundreds of options that can affect performance.&lt;/p&gt;
@@ -163,10 +163,10 @@ benchmark-finish || true&lt;/pre&gt;
     
     <item>
       <title>The doppelgänger effect</title>
-      <link>http://adamisrael.com/blog/2015/03/29/the-doppelganger-effect/</link>
+      <link>http://dev.adamisrael.com/blog/2015/03/29/the-doppelganger-effect/</link>
       <pubDate>Sun, 29 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://adamisrael.com/blog/2015/03/29/the-doppelganger-effect/</guid>
+      <guid>http://dev.adamisrael.com/blog/2015/03/29/the-doppelganger-effect/</guid>
       <description>&lt;p&gt;Yesterday was a travel day, coming home from a week in Breckenridge, CO for a work sprint. These are usually uneventful days, riding trains or shuttles to and from airports. Yesterday was different, though. Yesterday, I ran into my doppelgänger.&lt;/p&gt;
 
 &lt;p&gt;The first indication that something was off was when I checked my bag curbside. The porter asked me if I&amp;#8217;d already checked a bag. I said no, and he gestured me to come around the counter and see what he was seeing. Sure enough, there was my name, showing one back checked.&lt;/p&gt;
@@ -187,10 +187,10 @@ benchmark-finish || true&lt;/pre&gt;
     
     <item>
       <title>sshuttle workaround for OS X 10.10 (Yosemite), Juju and Vagrant</title>
-      <link>http://adamisrael.com/blog/2014/12/12/sshuttle-workaround-for-os-x-10-10-yosemite-juju-and-vagrant/</link>
+      <link>http://dev.adamisrael.com/blog/2014/12/12/sshuttle-workaround-for-os-x-10-10-yosemite-juju-and-vagrant/</link>
       <pubDate>Fri, 12 Dec 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://adamisrael.com/blog/2014/12/12/sshuttle-workaround-for-os-x-10-10-yosemite-juju-and-vagrant/</guid>
+      <guid>http://dev.adamisrael.com/blog/2014/12/12/sshuttle-workaround-for-os-x-10-10-yosemite-juju-and-vagrant/</guid>
       <description>&lt;p class=&#34;p2&#34;&gt;
   &lt;a href=&#34;https://github.com/sshuttle/sshuttle&#34;&gt;sshuttle&lt;/a&gt; is a nifty little transparent proxy/vpn that works by tunneling TCP traffic over SSH, or more specifically, tearing down a TCP session and reassembling the data on the other side. I started using it earlier this year, as part of my workflow using &lt;a href=&#34;https://juju.ubuntu.com/&#34;&gt;Juju&lt;/a&gt; and developing under OS X. It&amp;#8217;s like a data center in a box, inside another box. Code locally in my editor of choice (vim, TextMate, and more recently, Atom). Deploy new code. Refresh web browser, thanks to sshuttle. With sshuttle, I could connect to the services running within my virtual machine running Ubuntu natively through OS X.
 &lt;/p&gt;
@@ -235,10 +235,10 @@ benchmark-finish || true&lt;/pre&gt;
     
     <item>
       <title>Making OS X, Go, and Brew play happy</title>
-      <link>http://adamisrael.com/blog/2014/11/13/making-os-x-go-and-brew-play-happy/</link>
+      <link>http://dev.adamisrael.com/blog/2014/11/13/making-os-x-go-and-brew-play-happy/</link>
       <pubDate>Thu, 13 Nov 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://adamisrael.com/blog/2014/11/13/making-os-x-go-and-brew-play-happy/</guid>
+      <guid>http://dev.adamisrael.com/blog/2014/11/13/making-os-x-go-and-brew-play-happy/</guid>
       <description>
 
 &lt;h1 id=&#34;go-and-os-x:88ab873d5c8d53a90360c0026a04b5ae&#34;&gt;GO and OS X&lt;/h1&gt;
@@ -377,10 +377,10 @@ BUGS
     
     <item>
       <title>Home</title>
-      <link>http://adamisrael.com/home/</link>
+      <link>http://dev.adamisrael.com/home/</link>
       <pubDate>Sun, 02 Nov 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://adamisrael.com/home/</guid>
+      <guid>http://dev.adamisrael.com/home/</guid>
       <description>&lt;div id=&#34;pl-984&#34;&gt;
   &lt;div class=&#34;panel-grid&#34; id=&#34;pg-984-0&#34; &gt;
     &lt;div class=&#34;panel-grid-cell&#34; id=&#34;pgc-984-0-0&#34; &gt;
@@ -474,10 +474,10 @@ BUGS
     
     <item>
       <title>A brief introduction to Juju</title>
-      <link>http://adamisrael.com/blog/2014/09/03/a-brief-introduction-to-juju/</link>
+      <link>http://dev.adamisrael.com/blog/2014/09/03/a-brief-introduction-to-juju/</link>
       <pubDate>Wed, 03 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://adamisrael.com/blog/2014/09/03/a-brief-introduction-to-juju/</guid>
+      <guid>http://dev.adamisrael.com/blog/2014/09/03/a-brief-introduction-to-juju/</guid>
       <description>&lt;p&gt;I had some concerns about how I was going to integrate posts of a technical nature with my blog, which has been predominantly writing-oriented for several years. What I failed take into account is that many of us who write Science Fiction are armchair technologists. We look at gadgets, scientific breakthroughs and tech policy, and make conjecture about what might come next.&lt;/p&gt;
 
 &lt;p&gt;What I talk about is less important than &lt;em&gt;how&lt;/em&gt; I talk about it. It’ll be interesting, or not, but no self-rejection.&lt;/p&gt;
@@ -520,10 +520,10 @@ BUGS
     
     <item>
       <title>New job!</title>
-      <link>http://adamisrael.com/blog/2014/08/25/new-job/</link>
+      <link>http://dev.adamisrael.com/blog/2014/08/25/new-job/</link>
       <pubDate>Tue, 26 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://adamisrael.com/blog/2014/08/25/new-job/</guid>
+      <guid>http://dev.adamisrael.com/blog/2014/08/25/new-job/</guid>
       <description>&lt;p&gt;I am delighted &amp;#8212; tickled, in fact &amp;#8212; to report that as of last Monday I am employed by &lt;a href=&#34;http://www.canonical.com/&#34;&gt;Canonical&lt;/a&gt;, the company behind &lt;a href=&#34;http://www.ubuntu.com/&#34;&gt;Ubuntu&lt;/a&gt; Linux.&lt;/p&gt;
 
 &lt;p&gt;I&amp;#8217;ve joined the Ecosystem Engineering team, part of Cloud Development and Operations, as a software engineer. More specifically, I&amp;#8217;m working on &lt;a href=&#34;https://juju.ubuntu.com/&#34;&gt;Juju&lt;/a&gt;, the cloud orchestration tool chain. I&amp;#8217;ll be writing [charms][4] and documentation, working on optimizations, and helping to make a cool product even cooler.&lt;/p&gt;
@@ -536,10 +536,10 @@ BUGS
     
     <item>
       <title>Q&amp;A: Why is Scrivener using my old contact information?</title>
-      <link>http://adamisrael.com/blog/2014/07/31/qa-why-is-scrivener-using-my-old-contact-information/</link>
+      <link>http://dev.adamisrael.com/blog/2014/07/31/qa-why-is-scrivener-using-my-old-contact-information/</link>
       <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://adamisrael.com/blog/2014/07/31/qa-why-is-scrivener-using-my-old-contact-information/</guid>
+      <guid>http://dev.adamisrael.com/blog/2014/07/31/qa-why-is-scrivener-using-my-old-contact-information/</guid>
       <description>&lt;p&gt;For the past few years, I&amp;#8217;ve had to manually update the contact information in the header of every [Scrivener][1] project I&amp;#8217;ve created. It was defaulting to an old email and physical address, but somehow had the correct phone number.&lt;/p&gt;
 
 &lt;p&gt;Scrivener can pull your contact information from the OS X application &lt;em&gt;Contacts&lt;/em&gt;, if you add the string &amp;#8220;(Scrivener:UseMe)&amp;#8221; to the notes of your contact card. As it turns out, I had done that already but my card has all of my email addresses (work and home) as well as my current and past physical addresses. In that case, Scrivener just uses the first phone, email, and physical address it finds.&lt;/p&gt;
@@ -554,10 +554,10 @@ BUGS
     
     <item>
       <title>SFWA, Accessiblity and Diversity</title>
-      <link>http://adamisrael.com/blog/2014/02/19/sfwa-accessiblity-and-diversity/</link>
+      <link>http://dev.adamisrael.com/blog/2014/02/19/sfwa-accessiblity-and-diversity/</link>
       <pubDate>Wed, 19 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://adamisrael.com/blog/2014/02/19/sfwa-accessiblity-and-diversity/</guid>
+      <guid>http://dev.adamisrael.com/blog/2014/02/19/sfwa-accessiblity-and-diversity/</guid>
       <description>&lt;p&gt;There’s have been many kerfluffles involving the &lt;a href=&#34;http://www.sfwa.org/about/who-we-are/&#34;&gt;Science Fiction &amp;amp; Fantasy Writers Association&lt;/a&gt; (SFWA). The latest one begin when a former member began a petition over recent changes to the staff and policy of the organization’s flagship publication, the Bulletin. As a result of the current back and forth between factions, one member — a vocal minority — made the suggestion that the bar for membership should be raised. There’s a lot I could say about the current debate(s) going on, but I want to specifically address the idea of accessibility and diversity.&lt;/p&gt;
 
 &lt;p&gt;Membership requirements, in general, are a good thing for an organization but should be recognized for what they are: exclusion. To what degree they exclude depends on the type of organization, its goals, philosophies, etc. Billing itself as a :&amp;#8221;professional organization for authors of science fiction, fantasy, and related genres”, one would assume the requirements are imposed to limit membership to anyone who has a professional interest in writing science fiction, fantasy, and related genres. Seems simple, but there’s always fine print.&lt;/p&gt;
@@ -586,10 +586,10 @@ BUGS
     
     <item>
       <title>Hark, an update!</title>
-      <link>http://adamisrael.com/blog/2013/12/10/hark-an-update/</link>
+      <link>http://dev.adamisrael.com/blog/2013/12/10/hark-an-update/</link>
       <pubDate>Tue, 10 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://adamisrael.com/blog/2013/12/10/hark-an-update/</guid>
+      <guid>http://dev.adamisrael.com/blog/2013/12/10/hark-an-update/</guid>
       <description>&lt;p&gt;Hark! Inconsistent blogger has returned with news!&lt;/p&gt;
 
 &lt;p&gt;I am pleased to announce that I&amp;#8217;ve sold &amp;#8220;Aye of the Hagfish&amp;#8221; to &lt;a href=&#34;http://www.goldfishgrimm.com/&#34;&gt;Goldfish Grimm&amp;#8217;s Spicy Fiction Sushi&lt;/a&gt;. It should be appearing online early 2014. This will be my second appearance in the magazine (the first being [Control][2], in their debut issue).&lt;/p&gt;
@@ -604,10 +604,10 @@ BUGS
     
     <item>
       <title>111 Weeks</title>
-      <link>http://adamisrael.com/blog/2013/09/19/111-weeks/</link>
+      <link>http://dev.adamisrael.com/blog/2013/09/19/111-weeks/</link>
       <pubDate>Thu, 19 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://adamisrael.com/blog/2013/09/19/111-weeks/</guid>
+      <guid>http://dev.adamisrael.com/blog/2013/09/19/111-weeks/</guid>
       <description>&lt;p&gt;To be exact, it&amp;#8217;s been 783 days since we filed for my Canadian Permanent Residence and I am happy to announce that it is official done. We have just walked out of the Immigration Centre in Windsor, Ontario, Social Insurance Number in hand.&lt;/p&gt;
 
 &lt;p&gt;I guess this makes me an expatriate; an American Citizen permanently living abroad, which is kind of cool. I&amp;#8217;ve been thinking a lot about getting a tattoo to commemorate the experience. More on that later.&lt;/p&gt;
@@ -620,10 +620,10 @@ BUGS
     
     <item>
       <title>Clarion Write-a-thon</title>
-      <link>http://adamisrael.com/blog/2013/06/21/clarion-write-a-thon-2/</link>
+      <link>http://dev.adamisrael.com/blog/2013/06/21/clarion-write-a-thon-2/</link>
       <pubDate>Sat, 22 Jun 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://adamisrael.com/blog/2013/06/21/clarion-write-a-thon-2/</guid>
+      <guid>http://dev.adamisrael.com/blog/2013/06/21/clarion-write-a-thon-2/</guid>
       <description>&lt;p&gt;It should be no surprise to anyone who knows me that the Clarion Writers Workshop is a thing near and dear to me. Attending the six-week workshop in 2010 was a milestone in my writing career. The annual &lt;a href=&#34;http://clarionwriteathon.org/&#34;&gt;write-a-thon&lt;/a&gt;, where writers commit to writing goals and ask friends, family,and strangers to pledge money to go towards funding the workshop.&lt;/p&gt;
 
 &lt;p&gt;Saying &amp;#8220;please give money&amp;#8221; is something I do on very rare occasion, but this is something worthwhile. The Clarion Workshop is one of very few programs in the world for writers of genre fiction. Hundreds of students apply every year but only a handful get in. The instructors are among the most experienced authors in the field. Donations go to keeping the workshop running and supplying scholarships for students in need.&lt;/p&gt;
@@ -642,10 +642,10 @@ BUGS
     
     <item>
       <title>Long Hidden: Speculative Fiction From the Margins of History</title>
-      <link>http://adamisrael.com/blog/2013/03/18/long-hidden-speculative-fiction-from-the-margins-of-history/</link>
+      <link>http://dev.adamisrael.com/blog/2013/03/18/long-hidden-speculative-fiction-from-the-margins-of-history/</link>
       <pubDate>Mon, 18 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://adamisrael.com/blog/2013/03/18/long-hidden-speculative-fiction-from-the-margins-of-history/</guid>
+      <guid>http://dev.adamisrael.com/blog/2013/03/18/long-hidden-speculative-fiction-from-the-margins-of-history/</guid>
       <description>&lt;p&gt;I&amp;#8217;ve always liked stories about mundane things. Everyday people who might be ignored or worse, shunned &amp;#8212; garbage men, teachers, farmers, butchers, prostitutes, factory workers &amp;#8212; who find themselves in extraordinary circumstance and rise up to the challenge.&lt;/p&gt;
 
 &lt;p&gt;The annals of history are filled with stories of the famous, the successful, the victors. Finding tales about those broke their backs to make a living is harder. It&amp;#8217;s not glamorous work. No one does it to become rich or powerful. They&amp;#8217;re born into it, forced into it, marginalized into it. Their stories deserve to be told, too.&lt;/p&gt;

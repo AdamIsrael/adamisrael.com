@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dog-days on Adam Israel</title>
-    <link>http://adamisrael.com/dog-days/</link>
+    <link>http://dev.adamisrael.com/dog-days/</link>
     <description>Recent content in Dog-days on Adam Israel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 15 Jun 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://adamisrael.com/dog-days/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://dev.adamisrael.com/dog-days/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Dog Days</title>
-      <link>http://adamisrael.com/dog-days/</link>
+      <link>http://dev.adamisrael.com/dog-days/</link>
       <pubDate>Fri, 15 Jun 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://adamisrael.com/dog-days/</guid>
+      <guid>http://dev.adamisrael.com/dog-days/</guid>
       <description>&lt;p align=&#34;center&#34;&gt;
   DOG DAYS
 &lt;/p&gt;

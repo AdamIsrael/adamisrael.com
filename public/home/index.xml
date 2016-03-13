@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Adam Israel</title>
-    <link>http://adamisrael.com/home/</link>
+    <link>http://dev.adamisrael.com/home/</link>
     <description>Recent content in Homes on Adam Israel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Nov 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://adamisrael.com/home/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://dev.adamisrael.com/home/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Home</title>
-      <link>http://adamisrael.com/home/</link>
+      <link>http://dev.adamisrael.com/home/</link>
       <pubDate>Sun, 02 Nov 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://adamisrael.com/home/</guid>
+      <guid>http://dev.adamisrael.com/home/</guid>
       <description>&lt;div id=&#34;pl-984&#34;&gt;
   &lt;div class=&#34;panel-grid&#34; id=&#34;pg-984-0&#34; &gt;
     &lt;div class=&#34;panel-grid-cell&#34; id=&#34;pgc-984-0-0&#34; &gt;

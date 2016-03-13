@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Benchmarking on Adam Israel</title>
-    <link>http://adamisrael.com/tags/benchmarking/</link>
+    <link>http://dev.adamisrael.com/tags/benchmarking/</link>
     <description>Recent content in Benchmarking on Adam Israel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 23 Jun 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://adamisrael.com/tags/benchmarking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://dev.adamisrael.com/tags/benchmarking/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Announcing Benchmarking with Juju</title>
-      <link>http://adamisrael.com/blog/2015/06/23/announcing-benchmarking-with-juju/</link>
+      <link>http://dev.adamisrael.com/blog/2015/06/23/announcing-benchmarking-with-juju/</link>
       <pubDate>Tue, 23 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://adamisrael.com/blog/2015/06/23/announcing-benchmarking-with-juju/</guid>
+      <guid>http://dev.adamisrael.com/blog/2015/06/23/announcing-benchmarking-with-juju/</guid>
       <description>&lt;p&gt;Benchmarking and performance are interesting problems, especially in today’s growing cloud-based microservice scene. It used to be a question of “how does this hardware compare to that hardware,” but as computing and service-oriented architectures grow the question has evolved. How does my cloud and application stack handle this? It’s no longer enough to run PTS on your web server and call it a day.&lt;/p&gt;
 
 &lt;p&gt;Measuring every microservice in your stack, from backend to frontend, is a complex task. We started thinking about how you would model a system to benchmark all of these services. It’s not just a matter of measuring the performance of one service, but also its interactions with other services. Now multiply that by every config option for every service, like PostgreSQL, which has hundreds of options that can affect performance.&lt;/p&gt;
