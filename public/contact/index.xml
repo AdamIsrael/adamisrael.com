@@ -15,22 +15,27 @@
       <pubDate>Fri, 25 Dec 2009 00:00:00 +0000</pubDate>
       
       <guid>http://adamisrael.com/contact/</guid>
-      <description>&lt;p&gt;The best way to connect with Adam is via through social media, or by using the contact form below.&lt;/p&gt;
+      <description>&lt;form action=&#34;//formspree.io/adam@adamisrael.com&#34; method=&#34;POST&#34;&gt;
+  &lt;fieldset class=&#34;contact-info-group&#34;&gt;
 
-&lt;p&gt;Twitter: &lt;a href=&#34;http://www.twitter.com/adamisrael&#34;&gt;@adamisrael&lt;/a&gt;&lt;/p&gt;
+    &lt;label&gt;&lt;span&gt;Your Name&lt;/span&gt;
+      &lt;input type=&#34;text&#34; name=&#34;name&#34;&gt;
+    &lt;/label&gt;
 
-&lt;p&gt;Facebook: [adam.israel][2]&lt;/p&gt;
+    &lt;label&gt;&lt;span&gt;Your Email&lt;/span&gt;
+      &lt;input type=&#34;email&#34; name=&#34;_replyto&#34;&gt;
+    &lt;/label&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+    &lt;label&gt;&lt;span&gt;Your Message&lt;/span&gt;
+      &lt;textarea cols=&#34;50&#34; name=&#34;message&#34;&gt;&lt;/textarea&gt;
+    &lt;/label&gt;
 
-&lt;div id=&#34;usermessage2a&#34; class=&#34;cf_info &#34;&gt;
-&lt;/div&gt;
-
-&lt;p class=&#34;linklove&#34; id=&#34;ll2&#34;&gt;
-  &lt;a href=&#34;http://www.deliciousdays.com/cforms-plugin&#34;&gt;&lt;em&gt;cforms&lt;/em&gt; contact form by delicious:days&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p&gt;[2]: &lt;a href=&#34;http://www.facebook.com/adam.israel&#34;&gt;http://www.facebook.com/adam.israel&lt;/a&gt;&lt;/p&gt;
+    &lt;input type=&#34;text&#34; name=&#34;_gotcha&#34; style=&#34;display:none&#34; /&gt;    
+    &lt;input type=&#34;submit&#34; value=&#34;Send&#34;&gt;
+    &lt;input type=&#34;hidden&#34; name=&#34;_next&#34; value=&#34;{{ % formspree thanks % }}&#34; /&gt;
+    &lt;input type=&#34;hidden&#34; name=&#34;_subject&#34; value=&#34;Email Subject&#34; /&gt;
+  &lt;/fieldset&gt;
+&lt;/form&gt;
 </description>
     </item>
     

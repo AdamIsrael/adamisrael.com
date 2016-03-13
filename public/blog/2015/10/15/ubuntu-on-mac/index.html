@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Ubuntu on Mac</title>
+  <link href="http://adamisrael.com//css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="http://adamisrael.com//css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/default.min.css">
+  <style type="text/css">
+  
+    footer.page-footer{background-image: url(http://adamisrael.com//images/default.png);}
+  
+  </style>
+</head>
+<body>
+  <ul id="slide-out" class="side-nav">
+    <li><a href="http://adamisrael.com/"><i class="mdi-action-home left"></i>Home<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
+    <li><a href="http://adamisrael.com//categories"><i class="mdi-action-perm-media left"></i>Categories<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
+    <li><a href="http://adamisrael.com//tags"><i class="mdi-action-loyalty left"></i>Tags<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
+  </ul>
+  <div id="index-banner" class="parallax-container">
+  <a data-activates="slide-out" class="btn-floating button-collapse" style="top: 5px; left: 5px;"><i class="mdi-navigation-menu"></i></a>
+    <div class="section no-pad-bot">
+      <div class="container">
+        
+        <h1 class="header center white-text text-darken-4">Adam Israel</h1>
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+        <div class="row center">
+        <a href="contact/"><img src="http://adamisrael.com//images/twitter-dreamstale71.png"></a>
+
+        
+          <a href="https://twitter.com/AdamIsrael"><img src="http://adamisrael.com//images/twitter-dreamstale71.png"></a>
+        
+        
+          <a href="https://github.com/AdamIsrael"><img src="http://adamisrael.com//images/github2-dreamstale35.png"></a>
+        
+        
+          <a href="https://www.facebook.com/adam.israel"><img src="http://adamisrael.com//images/facebook-dreamstale25.png"></a>
+        
+        
+        
+          <a href="http://adamisrael.com//index.xml"><img src="http://adamisrael.com//images/feed-dreamstale27.png"></a>
+        </div>
+      </div>
+    </div>
+    <div class="parallax">
+    
+      <img src="http://adamisrael.com//images/header.jpg">
+    
+    </div>
+  </div>
+
+
+
+<div class="container">
+  <div class="section">
+
+    <div class="row">
+      <div class="col s12">
+        <div class="card-panel">
+          <h4>Ubuntu on Mac</h4>
+          <p>
+          
+            
+              <a href="http://adamisrael.com//categories/technical/">Technical</a>
+            
+           
+          </p>
+          <p><p>I recently rebuilt a Mac Mini to work as the forth screen in my workflow. I googled around and pieced together what I needed to do by cherrypicking from various guides, and everything was running well until I updated to a new kernel and rebooted. I spent the better part of two nights trying to get the machine to boot.</p>
+
+<p>Unfortunately, it happened just after I blacklisted a module to work around a USB bug that was causing one of my drives to go haywire occasionally, and it took a while before I finally figured out it wasn&#8217;t a problem with my change but the kernel itself. Mac&#8217;s use EFI for booting &#8212; which requires a cryptographically signed kernel. I was finally able to boot up by following the first half of the instructions on [this][1] Ask Ubuntu answer. Essentially, do a manual boot via grub and make sure that I pick the secure kernel.</p>
+
+<p>I noticed that I only had a signed image for an older version of the Kernel. I dropped by #ubuntu-kernel and was pointed to the <strong>linux-signed-generic</strong> package. What happened is none of the guides I read had mentioned this package or its significance. Any time the kernel images are updated, the signed version is also updated, except you won&#8217;t get that image by default. The machine was trying to boot off an unsigned kernel, causing the boot sequence to freeze (with no indication as to why).</p>
+
+<pre class="lang:sh decode:true " >sudo apt-get update
+sudo apt-get install linux-signed-generic
+sudo reboot</pre>
+
+<p>A thorn with an easy fix. Install the meta package, which will pull in the current signed image, and reboot.</p>
+
+<p>[1]: <a href="http://askubuntu.com/questions/392723/trying-to-single-install-on-macbook-pro-but-wont-automatically-boot-from-new-os/550027">http://askubuntu.com/questions/392723/trying-to-single-install-on-macbook-pro-but-wont-automatically-boot-from-new-os/550027</a></p>
+</p>
+          <p>15 Oct 2015
+            
+              
+                <a href="http://adamisrael.com//tags/linux/">#linux</a>
+              
+                <a href="http://adamisrael.com//tags/ubuntu/">#ubuntu</a>
+              
+                <a href="http://adamisrael.com//tags/ubuntu-on-mac/">#ubuntu on mac</a>
+              
+            
+          </p>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s3 m1">
+      
+        <a class="btn-floating btn-large disabled"><i class="mdi-navigation-arrow-back"></i></a>
+      
+      </div>
+      <div class="col s6 m10 center">&nbsp</div>
+      <div class="col s3 m1">
+      
+        <a class="btn-floating btn-large waves-effect waves-light" href="http://adamisrael.com/blog/2015/07/06/american-serenade/"><i class="mdi-navigation-arrow-forward"></i></a>
+      
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  <footer class="page-footer">
+    <div class="footer-copyright">
+      <div class="container">
+      
+      <div class="right">Design <a class="grey-text text-lighten-4" href="http://pdevty.github.io/blog/">pdevty</a></div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="http://adamisrael.com//js/materialize.min.js"></script>
+  <script src="http://adamisrael.com//js/init.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  </body>
+</html>
+
