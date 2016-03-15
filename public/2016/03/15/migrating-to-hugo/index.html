@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Events</title>
+  <title>Migrating to Hugo</title>
   <link href="http://adamisrael.com//css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="http://adamisrael.com//css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="http://adamisrael.com//css/override.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -71,26 +71,56 @@
     <div class="row">
       <div class="col s12">
         <div class="card-panel">
-          <h4>Events</h4>
+          <h4>Migrating to Hugo</h4>
           <p>
           
+            
+              <a href="http://adamisrael.com//categories/technical/">Technical</a>
+            
+          
           </p>
-          <p>
+          <p><p><a href="1">Hugo</a>, the static website engine, not the <a href="2">award</a>.</p>
 
-<p>Travel is limited for the near future due to my immigration to Canada.</p>
+<p>I&rsquo;ve grown frustrated with Wordpress and Dreamhost. Running a Wordpress site
+on a shared web host is a ticking time bomb. More users crowded on a server. I
+threw turned on caching and Cloudflare; readers should have had little trouble
+using the site, but my sessions were consistently timing out while using the
+admin dashboard, which makes posting new content a frustrating experience.</p>
 
-<h3 id="conventions:d680e8a854a7cbad6d490c445cba2eba">Conventions</h3>
+<p>Wordpress on it&rsquo;s own is fine, especially on dedicated servers. I&rsquo;ve run
+hundreds of thousands of requests/day through Wordpress and it can handle it
+well, as long as you give it the right hardware.</p>
 
-<blockquote>
-<ul>
-<li><a href="http://torontocomics.com/">Toronto Comics Art Festival</a> &#8211; May 11th-12th, 2013</li>
-<li>[SF Contario 4][2] &#8211; November 29th &#8211; December 1st, 2013</li>
-</ul>
-</blockquote>
+<p>Dreamhost, as well, isn&rsquo;t at fault. I pay for fairly cheap hosting, and they
+don&rsquo;t have much control over the efficiency of the apps that their shared
+hosting customers run.</p>
 
-<p>[2]: <a href="http://sfcontario.ca/">http://sfcontario.ca/</a></p>
+<p>So in comes Hugo.</p>
+
+<p>There&rsquo;s a bunch of static site generators around, like jekyll or octopress. I
+wanted to write in Markdown, I wanted it to be fast, and I wanted it to be
+flexible. After playing around with a few generators, I was sold.</p>
+
+<p>I can basically write a blog post really quick, save it, and run a script that
+will generate the static pages, commit the changes to Github, and rsync it to
+this site.</p>
+
+<p>There may be a few formatting errors in the older posts, but I imported
+everything from Wordpress, converted it to Markdown, and kept all of the
+permalinks the same. All told, maybe twelve hours of work and I have a blog
+I&rsquo;m not frustrated to look at anymore.</p>
 </p>
-          <p>Posted on 9 May 2011
+          <p>Posted on 15 Mar 2016
+            
+              
+                <a href="http://adamisrael.com//tags/hugo/">#hugo</a>
+              
+                <a href="http://adamisrael.com//tags/wordpress/">#wordpress</a>
+              
+                <a href="http://adamisrael.com//tags/cloudflare/">#cloudflare</a>
+              
+                <a href="http://adamisrael.com//tags/dreamhost/">#dreamhost</a>
+              
             
           </p>
           
@@ -101,13 +131,13 @@
     <div class="row">
       <div class="col s3 m1">
       
-        <a class="btn-floating btn-large waves-effect waves-light" href="http://adamisrael.com/blog/2011/05/11/the-good-the-bad-and-the-awesome/"><i class="mdi-navigation-arrow-back"></i></a>
+        <a class="btn-floating btn-large disabled"><i class="mdi-navigation-arrow-back"></i></a>
       
       </div>
       <div class="col s6 m10 center">&nbsp</div>
       <div class="col s3 m1">
       
-        <a class="btn-floating btn-large waves-effect waves-light" href="http://adamisrael.com/blog/2011/05/09/website-overhaul/"><i class="mdi-navigation-arrow-forward"></i></a>
+        <a class="btn-floating btn-large waves-effect waves-light" href="http://adamisrael.com/blog/2015/10/15/ubuntu-on-mac/"><i class="mdi-navigation-arrow-forward"></i></a>
       
       </div>
     </div>
