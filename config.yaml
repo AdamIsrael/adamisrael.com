@@ -1,21 +1,28 @@
-baseurl: "http://dev.adamisrael.com/"
+baseurl: "http://adamisrael.com/"
 languageCode: "en-us"
 title: "Adam Israel"
 theme: "material-design"
+copyright: "© 2016 Adam Israel"
 
 permalinks:
   post: /:year/:month/:day/:title/
 
 params:
+  description: "An economy of words"
   Subtitle: ""
   AuthorName: "AdamIsrael"
   twitter: "AdamIsrael"
   github: "AdamIsrael"
   facebook: "adam.israel"
   email: "adam@adamisrael.com"
+  gplus: "AdamIsrael1975"
 
   headerCover: "images/header.jpg"
   footerCover: "images/footer.jpg"
+  googleAnalytics: "UA-12202287-1"
+  googleAnalyticsUserID: "UA-12202287-1"
+
+  disqusShortname: "adamisrael"
   # description = "Your Site Description" # optional
   # twitter = "Your Twitter Name" # optional
   # github = "Your Github Name" # optional
