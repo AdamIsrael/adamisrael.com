@@ -22,7 +22,7 @@ date: 2009-12-25
 
     <input type="text" name="_gotcha" style="display:none" />    
     <input type="submit" value="Send">
-    <input type="hidden" name="_next" value="{{ % formspree thanks % }}" />
-    <input type="hidden" name="_subject" value="Email Subject" />
+    <input type="hidden" name="_next" value="/contact/thanks/" />
+    <input type="hidden" name="_subject" value="Contact Request: adamisrael.com" />
   </fieldset>
 </form>
