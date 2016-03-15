@@ -2,19 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Juju on Adam Israel</title>
-    <link>http://dev.adamisrael.com/tags/juju/</link>
+    <link>http://adamisrael.com/tags/juju/</link>
     <description>Recent content in Juju on Adam Israel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>© 2016 Adam Israel</copyright>
     <lastBuildDate>Tue, 23 Jun 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dev.adamisrael.com/tags/juju/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://adamisrael.com/tags/juju/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Announcing Benchmarking with Juju</title>
-      <link>http://dev.adamisrael.com/blog/2015/06/23/announcing-benchmarking-with-juju/</link>
+      <link>http://adamisrael.com/blog/2015/06/23/announcing-benchmarking-with-juju/</link>
       <pubDate>Tue, 23 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://dev.adamisrael.com/blog/2015/06/23/announcing-benchmarking-with-juju/</guid>
+      <guid>http://adamisrael.com/blog/2015/06/23/announcing-benchmarking-with-juju/</guid>
       <description>&lt;p&gt;Benchmarking and performance are interesting problems, especially in today’s growing cloud-based microservice scene. It used to be a question of “how does this hardware compare to that hardware,” but as computing and service-oriented architectures grow the question has evolved. How does my cloud and application stack handle this? It’s no longer enough to run PTS on your web server and call it a day.&lt;/p&gt;
 
 &lt;p&gt;Measuring every microservice in your stack, from backend to frontend, is a complex task. We started thinking about how you would model a system to benchmark all of these services. It’s not just a matter of measuring the performance of one service, but also its interactions with other services. Now multiply that by every config option for every service, like PostgreSQL, which has hundreds of options that can affect performance.&lt;/p&gt;
@@ -93,10 +94,10 @@ benchmark-finish || true&lt;/pre&gt;
     
     <item>
       <title>sshuttle workaround for OS X 10.10 (Yosemite), Juju and Vagrant</title>
-      <link>http://dev.adamisrael.com/blog/2014/12/12/sshuttle-workaround-for-os-x-10-10-yosemite-juju-and-vagrant/</link>
+      <link>http://adamisrael.com/blog/2014/12/12/sshuttle-workaround-for-os-x-10-10-yosemite-juju-and-vagrant/</link>
       <pubDate>Fri, 12 Dec 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://dev.adamisrael.com/blog/2014/12/12/sshuttle-workaround-for-os-x-10-10-yosemite-juju-and-vagrant/</guid>
+      <guid>http://adamisrael.com/blog/2014/12/12/sshuttle-workaround-for-os-x-10-10-yosemite-juju-and-vagrant/</guid>
       <description>&lt;p class=&#34;p2&#34;&gt;
   &lt;a href=&#34;https://github.com/sshuttle/sshuttle&#34;&gt;sshuttle&lt;/a&gt; is a nifty little transparent proxy/vpn that works by tunneling TCP traffic over SSH, or more specifically, tearing down a TCP session and reassembling the data on the other side. I started using it earlier this year, as part of my workflow using &lt;a href=&#34;https://juju.ubuntu.com/&#34;&gt;Juju&lt;/a&gt; and developing under OS X. It&amp;#8217;s like a data center in a box, inside another box. Code locally in my editor of choice (vim, TextMate, and more recently, Atom). Deploy new code. Refresh web browser, thanks to sshuttle. With sshuttle, I could connect to the services running within my virtual machine running Ubuntu natively through OS X.
 &lt;/p&gt;
@@ -141,10 +142,10 @@ benchmark-finish || true&lt;/pre&gt;
     
     <item>
       <title>Making OS X, Go, and Brew play happy</title>
-      <link>http://dev.adamisrael.com/blog/2014/11/13/making-os-x-go-and-brew-play-happy/</link>
+      <link>http://adamisrael.com/blog/2014/11/13/making-os-x-go-and-brew-play-happy/</link>
       <pubDate>Thu, 13 Nov 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://dev.adamisrael.com/blog/2014/11/13/making-os-x-go-and-brew-play-happy/</guid>
+      <guid>http://adamisrael.com/blog/2014/11/13/making-os-x-go-and-brew-play-happy/</guid>
       <description>
 
 &lt;h1 id=&#34;go-and-os-x:88ab873d5c8d53a90360c0026a04b5ae&#34;&gt;GO and OS X&lt;/h1&gt;
@@ -281,10 +282,10 @@ BUGS
     
     <item>
       <title>A brief introduction to Juju</title>
-      <link>http://dev.adamisrael.com/blog/2014/09/03/a-brief-introduction-to-juju/</link>
+      <link>http://adamisrael.com/blog/2014/09/03/a-brief-introduction-to-juju/</link>
       <pubDate>Wed, 03 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://dev.adamisrael.com/blog/2014/09/03/a-brief-introduction-to-juju/</guid>
+      <guid>http://adamisrael.com/blog/2014/09/03/a-brief-introduction-to-juju/</guid>
       <description>&lt;p&gt;I had some concerns about how I was going to integrate posts of a technical nature with my blog, which has been predominantly writing-oriented for several years. What I failed take into account is that many of us who write Science Fiction are armchair technologists. We look at gadgets, scientific breakthroughs and tech policy, and make conjecture about what might come next.&lt;/p&gt;
 
 &lt;p&gt;What I talk about is less important than &lt;em&gt;how&lt;/em&gt; I talk about it. It’ll be interesting, or not, but no self-rejection.&lt;/p&gt;
@@ -325,10 +326,10 @@ BUGS
     
     <item>
       <title>New job!</title>
-      <link>http://dev.adamisrael.com/blog/2014/08/25/new-job/</link>
+      <link>http://adamisrael.com/blog/2014/08/25/new-job/</link>
       <pubDate>Tue, 26 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://dev.adamisrael.com/blog/2014/08/25/new-job/</guid>
+      <guid>http://adamisrael.com/blog/2014/08/25/new-job/</guid>
       <description>&lt;p&gt;I am delighted &amp;#8212; tickled, in fact &amp;#8212; to report that as of last Monday I am employed by &lt;a href=&#34;1&#34;&gt;Canonical&lt;/a&gt;, the company behind &lt;a href=&#34;2&#34;&gt;Ubuntu&lt;/a&gt; Linux.&lt;/p&gt;
 
 &lt;p&gt;I&amp;#8217;ve joined the Ecosystem Engineering team, part of Cloud Development and Operations, as a software engineer. More specifically, I&amp;#8217;m working on &lt;a href=&#34;3&#34;&gt;Juju&lt;/a&gt;, the cloud orchestration tool chain. I&amp;#8217;ll be writing &lt;a href=&#34;4&#34;&gt;charms&lt;/a&gt; and documentation, working on optimizations, and helping to make a cool product even cooler.&lt;/p&gt;

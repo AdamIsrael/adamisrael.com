@@ -2,19 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reviews on Adam Israel</title>
-    <link>http://dev.adamisrael.com/tags/reviews/</link>
+    <link>http://adamisrael.com/tags/reviews/</link>
     <description>Recent content in Reviews on Adam Israel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>© 2016 Adam Israel</copyright>
     <lastBuildDate>Tue, 12 Apr 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dev.adamisrael.com/tags/reviews/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://adamisrael.com/tags/reviews/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hey look, my first review!</title>
-      <link>http://dev.adamisrael.com/blog/2011/04/12/hey-look-my-first-review/</link>
+      <link>http://adamisrael.com/blog/2011/04/12/hey-look-my-first-review/</link>
       <pubDate>Tue, 12 Apr 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://dev.adamisrael.com/blog/2011/04/12/hey-look-my-first-review/</guid>
+      <guid>http://adamisrael.com/blog/2011/04/12/hey-look-my-first-review/</guid>
       <description>&lt;p&gt;As far as I&amp;#8217;m aware, this is &lt;a href=&#34;1&#34;&gt;my very first review&lt;/a&gt;.&lt;/p&gt;
 
 &lt;blockquote&gt;

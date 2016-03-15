@@ -2,19 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Personal on Adam Israel</title>
-    <link>http://dev.adamisrael.com/categories/personal/</link>
+    <link>http://adamisrael.com/categories/personal/</link>
     <description>Recent content in Personal on Adam Israel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>© 2016 Adam Israel</copyright>
     <lastBuildDate>Mon, 06 Jul 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dev.adamisrael.com/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://adamisrael.com/categories/personal/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>American Serenade</title>
-      <link>http://dev.adamisrael.com/blog/2015/07/06/american-serenade/</link>
+      <link>http://adamisrael.com/blog/2015/07/06/american-serenade/</link>
       <pubDate>Mon, 06 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://dev.adamisrael.com/blog/2015/07/06/american-serenade/</guid>
+      <guid>http://adamisrael.com/blog/2015/07/06/american-serenade/</guid>
       <description>&lt;p&gt;Back in 2009, we were winding down our life in the U.S.. We drastically culled things we didn&amp;#8217;t want or need, and put the rest into storage for the eventual move to Canada.&lt;/p&gt;
 
 &lt;p&gt;Andrea was home in August 2009; I was there on and off, until I was officially issued a visitor record in November 2010 and filed for permanent resident status. On that day, I entered the country with one large suitcase and a backpack containing some notebooks and my laptop. That&amp;#8217;s it.&lt;/p&gt;
@@ -57,10 +58,10 @@
     
     <item>
       <title>The doppelgänger effect</title>
-      <link>http://dev.adamisrael.com/blog/2015/03/29/the-doppelganger-effect/</link>
+      <link>http://adamisrael.com/blog/2015/03/29/the-doppelganger-effect/</link>
       <pubDate>Sun, 29 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://dev.adamisrael.com/blog/2015/03/29/the-doppelganger-effect/</guid>
+      <guid>http://adamisrael.com/blog/2015/03/29/the-doppelganger-effect/</guid>
       <description>&lt;p&gt;Yesterday was a travel day, coming home from a week in Breckenridge, CO for a work sprint. These are usually uneventful days, riding trains or shuttles to and from airports. Yesterday was different, though. Yesterday, I ran into my doppelgänger.&lt;/p&gt;
 
 &lt;p&gt;The first indication that something was off was when I checked my bag curbside. The porter asked me if I&amp;#8217;d already checked a bag. I said no, and he gestured me to come around the counter and see what he was seeing. Sure enough, there was my name, showing one back checked.&lt;/p&gt;
@@ -81,10 +82,10 @@
     
     <item>
       <title>New job!</title>
-      <link>http://dev.adamisrael.com/blog/2014/08/25/new-job/</link>
+      <link>http://adamisrael.com/blog/2014/08/25/new-job/</link>
       <pubDate>Tue, 26 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://dev.adamisrael.com/blog/2014/08/25/new-job/</guid>
+      <guid>http://adamisrael.com/blog/2014/08/25/new-job/</guid>
       <description>&lt;p&gt;I am delighted &amp;#8212; tickled, in fact &amp;#8212; to report that as of last Monday I am employed by &lt;a href=&#34;1&#34;&gt;Canonical&lt;/a&gt;, the company behind &lt;a href=&#34;2&#34;&gt;Ubuntu&lt;/a&gt; Linux.&lt;/p&gt;
 
 &lt;p&gt;I&amp;#8217;ve joined the Ecosystem Engineering team, part of Cloud Development and Operations, as a software engineer. More specifically, I&amp;#8217;m working on &lt;a href=&#34;3&#34;&gt;Juju&lt;/a&gt;, the cloud orchestration tool chain. I&amp;#8217;ll be writing &lt;a href=&#34;4&#34;&gt;charms&lt;/a&gt; and documentation, working on optimizations, and helping to make a cool product even cooler.&lt;/p&gt;
@@ -95,10 +96,10 @@
     
     <item>
       <title>111 Weeks</title>
-      <link>http://dev.adamisrael.com/blog/2013/09/19/111-weeks/</link>
+      <link>http://adamisrael.com/blog/2013/09/19/111-weeks/</link>
       <pubDate>Thu, 19 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://dev.adamisrael.com/blog/2013/09/19/111-weeks/</guid>
+      <guid>http://adamisrael.com/blog/2013/09/19/111-weeks/</guid>
       <description>&lt;p&gt;To be exact, it&amp;#8217;s been 783 days since we filed for my Canadian Permanent Residence and I am happy to announce that it is official done. We have just walked out of the Immigration Centre in Windsor, Ontario, Social Insurance Number in hand.&lt;/p&gt;
 
 &lt;p&gt;I guess this makes me an expatriate; an American Citizen permanently living abroad, which is kind of cool. I&amp;#8217;ve been thinking a lot about getting a tattoo to commemorate the experience. More on that later.&lt;/p&gt;
@@ -111,10 +112,10 @@
     
     <item>
       <title>A Month of Letters</title>
-      <link>http://dev.adamisrael.com/blog/2013/01/29/a-month-of-letters/</link>
+      <link>http://adamisrael.com/blog/2013/01/29/a-month-of-letters/</link>
       <pubDate>Tue, 29 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://dev.adamisrael.com/blog/2013/01/29/a-month-of-letters/</guid>
+      <guid>http://adamisrael.com/blog/2013/01/29/a-month-of-letters/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;1&#34;&gt;&lt;img class=&#34; wp-image-867 alignright&#34; alt=&#34;LetterMo2013square-300x300&#34; src=&#34;http://www.adamisrael.com/wp-content/uploads/2013/01/LetterMo2013square-300x300.jpg&#34; width=&#34;210&#34; height=&#34;210&#34; srcset=&#34;//www.adamisrael.com/wp-content/uploads/2013/01/LetterMo2013square-300x300-150x150.jpg 150w, //www.adamisrael.com/wp-content/uploads/2013/01/LetterMo2013square-300x300.jpg 300w&#34; sizes=&#34;(max-width: 210px) 100vw, 210px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;2&#34;&gt;Mary Robinette Kowal&lt;/a&gt; started a delightful challenge, in 2010, to go correspond via letter for an entire month. That has grown to become &lt;a href=&#34;3&#34;&gt;A Month of Letters&lt;/a&gt;, which runs for the whole of February. During the next month, I and the other 6,000 people who&amp;#8217;ve signed up to participate will be writing letters, post cards, and doing other creative things and dropping them into the mail.&lt;/p&gt;
@@ -127,10 +128,10 @@
     
     <item>
       <title>Two years and pocket change</title>
-      <link>http://dev.adamisrael.com/blog/2012/11/26/two-years-and-pocket-change/</link>
+      <link>http://adamisrael.com/blog/2012/11/26/two-years-and-pocket-change/</link>
       <pubDate>Mon, 26 Nov 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://dev.adamisrael.com/blog/2012/11/26/two-years-and-pocket-change/</guid>
+      <guid>http://adamisrael.com/blog/2012/11/26/two-years-and-pocket-change/</guid>
       <description>&lt;p&gt;Two years and two days ago, I started a journey from Santa Monica, California by foot, bus, train, and plane. Many hours later, I reached Detroit and was met by my friend Katni, who drove me through the Detroit-Windsor tunnel where, six months after being kicked out, I re-entered Canada and was reunited with Andrea.&lt;/p&gt;
 
 &lt;p&gt;Being home still feels really good.&lt;/p&gt;
@@ -139,10 +140,10 @@
     
     <item>
       <title>Independence</title>
-      <link>http://dev.adamisrael.com/blog/2012/07/05/independence/</link>
+      <link>http://adamisrael.com/blog/2012/07/05/independence/</link>
       <pubDate>Thu, 05 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://dev.adamisrael.com/blog/2012/07/05/independence/</guid>
+      <guid>http://adamisrael.com/blog/2012/07/05/independence/</guid>
       <description>&lt;p&gt;Yesterday was Independence Day back in the states. We already had our fireworks over the weekend, and I worked through Canada Day on Monday and had yesterday off instead. Among the joys of American/Canada relations are mixed holidays.&lt;/p&gt;
 
 &lt;p&gt;Our plans were a little more focused. Yesterday we saw an apartment, and made a deposit, and transfered utilities to our name. This was kind of a big deal, because for the first time in more than three years, we&amp;#8217;re in a position to start a new chapter in our lives. We left our house in May 2009 to stay with my Dad and help him recover with his surgery. We came to Ontario the following August and moved in with Andrea&amp;#8217;s Mom. Then there was that six month&amp;#8217;s being kicked out of the country thing. All told, we haven&amp;#8217;t lived together and alone for over three years.&lt;/p&gt;

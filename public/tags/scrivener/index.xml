@@ -2,19 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scrivener on Adam Israel</title>
-    <link>http://dev.adamisrael.com/tags/scrivener/</link>
+    <link>http://adamisrael.com/tags/scrivener/</link>
     <description>Recent content in Scrivener on Adam Israel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>© 2016 Adam Israel</copyright>
     <lastBuildDate>Thu, 31 Jul 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dev.adamisrael.com/tags/scrivener/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://adamisrael.com/tags/scrivener/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Q&amp;A: Why is Scrivener using my old contact information?</title>
-      <link>http://dev.adamisrael.com/blog/2014/07/31/qa-why-is-scrivener-using-my-old-contact-information/</link>
+      <link>http://adamisrael.com/blog/2014/07/31/qa-why-is-scrivener-using-my-old-contact-information/</link>
       <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://dev.adamisrael.com/blog/2014/07/31/qa-why-is-scrivener-using-my-old-contact-information/</guid>
+      <guid>http://adamisrael.com/blog/2014/07/31/qa-why-is-scrivener-using-my-old-contact-information/</guid>
       <description>&lt;p&gt;For the past few years, I&amp;#8217;ve had to manually update the contact information in the header of every &lt;a href=&#34;1&#34;&gt;Scrivener&lt;/a&gt; project I&amp;#8217;ve created. It was defaulting to an old email and physical address, but somehow had the correct phone number.&lt;/p&gt;
 
 &lt;p&gt;Scrivener can pull your contact information from the OS X application &lt;em&gt;Contacts&lt;/em&gt;, if you add the string &amp;#8220;(Scrivener:UseMe)&amp;#8221; to the notes of your contact card. As it turns out, I had done that already but my card has all of my email addresses (work and home) as well as my current and past physical addresses. In that case, Scrivener just uses the first phone, email, and physical address it finds.&lt;/p&gt;
@@ -27,10 +28,10 @@
     
     <item>
       <title>Clarion Write-a-thon Week 1</title>
-      <link>http://dev.adamisrael.com/blog/2012/07/02/clarion-write-a-thon-week-1/</link>
+      <link>http://adamisrael.com/blog/2012/07/02/clarion-write-a-thon-week-1/</link>
       <pubDate>Mon, 02 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://dev.adamisrael.com/blog/2012/07/02/clarion-write-a-thon-week-1/</guid>
+      <guid>http://adamisrael.com/blog/2012/07/02/clarion-write-a-thon-week-1/</guid>
       <description>&lt;table width=&#34;95%&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;
   &lt;tr&gt;
     &lt;td valign=&#34;top&#34;&gt;
@@ -160,10 +161,10 @@
     
     <item>
       <title>#NaNoWriMo day 11: Plotting, and a little Scrivener tip</title>
-      <link>http://dev.adamisrael.com/blog/2011/11/12/nanowrimo-day-11-plotting-and-a-little-scrivener-tip/</link>
+      <link>http://adamisrael.com/blog/2011/11/12/nanowrimo-day-11-plotting-and-a-little-scrivener-tip/</link>
       <pubDate>Sat, 12 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://dev.adamisrael.com/blog/2011/11/12/nanowrimo-day-11-plotting-and-a-little-scrivener-tip/</guid>
+      <guid>http://adamisrael.com/blog/2011/11/12/nanowrimo-day-11-plotting-and-a-little-scrivener-tip/</guid>
       <description>&lt;p&gt;The last few days haven&amp;#8217;t been the most productive ones. If I were to go by the official NaNoWriMo stats, my current estimated finish date is December 4th and I just won&amp;#8217;t accept that. There are weekends, holidays, and writing sprints between now and then. Anything can happen.&lt;/p&gt;
 
 &lt;p&gt;I stick to the time zone deadline pretty strictly, so I logged my numbers but kept writing and added another thousand words before bed. I&amp;#8217;ve killed off one minor character, in a pretty epic way, and am reaching the final arch for a second minor but notable character. Sitting down to re-outline character/plot arcs before I write for the day has been tremendously helpful as I get into the thick of the novel.&lt;/p&gt;

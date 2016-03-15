@@ -2,19 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Duotrope on Adam Israel</title>
-    <link>http://dev.adamisrael.com/tags/duotrope/</link>
+    <link>http://adamisrael.com/tags/duotrope/</link>
     <description>Recent content in Duotrope on Adam Israel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>© 2016 Adam Israel</copyright>
     <lastBuildDate>Sat, 27 Mar 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dev.adamisrael.com/tags/duotrope/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://adamisrael.com/tags/duotrope/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Twittertrope</title>
-      <link>http://dev.adamisrael.com/blog/2010/03/27/twittertrope/</link>
+      <link>http://adamisrael.com/blog/2010/03/27/twittertrope/</link>
       <pubDate>Sat, 27 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://dev.adamisrael.com/blog/2010/03/27/twittertrope/</guid>
+      <guid>http://adamisrael.com/blog/2010/03/27/twittertrope/</guid>
       <description>&lt;p&gt;I was updating my submission tracker on &lt;a href=&#34;1&#34;&gt;Duotrope&lt;/a&gt; this morning, after receiving a rejection from Writers of the Future. I was &lt;a href=&#34;2&#34;&gt;tweeting&lt;/a&gt; about the rejection when I had a slight epiphany. I realized how cool it would be if Duotrope had Twitter integration. They don’t, and as I discovered, neither do they have any presence on Twitter. I decided then and there that something must be done to correct this oversight.&lt;/p&gt;
 
 &lt;p&gt;After an hour or two of hacking, in between a heated battle between myself and my XBox, I finished today’s secret project: the &lt;a href=&#34;3&#34;&gt;unofficial Duotrope Twitterfeed&lt;/a&gt;.&lt;/p&gt;
