@@ -1,6 +1,17 @@
 a {
   color: #488855;
 }
-.header a {
-  color: white;
+/*.header a {
+  color: #488855;
 }
+.header {
+  color: #488855;
+}*/
+
+.cyber-green{background-color:#488855; border-color: black; !important}
+
+nav .nav-wrapper {font-weight: 300; border-style: solid; border-width: 2px; height: 75px; padding: 3px 3px 3px 3px; !important}
+
+nav .nav-wrapper .nav-mobile img {height:22px;}
+
+.card {margin-top: 0}
