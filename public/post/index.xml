@@ -7,8 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2016 Adam Israel</copyright>
-    <lastBuildDate>Thu, 15 Oct 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Mar 2016 18:47:58 -0400</lastBuildDate>
     <atom:link href="http://adamisrael.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Migrating to Hugo</title>
+      <link>http://adamisrael.com/2016/03/15/migrating-to-hugo/</link>
+      <pubDate>Tue, 15 Mar 2016 18:47:58 -0400</pubDate>
+      
+      <guid>http://adamisrael.com/2016/03/15/migrating-to-hugo/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;1&#34;&gt;Hugo&lt;/a&gt;, the static website engine, not the &lt;a href=&#34;2&#34;&gt;award&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve grown frustrated with Wordpress and Dreamhost. Running a Wordpress site
+on a shared web host is a ticking time bomb. More users crowded on a server. I
+threw turned on caching and Cloudflare; readers should have had little trouble
+using the site, but my sessions were consistently timing out while using the
+admin dashboard, which makes posting new content a frustrating experience.&lt;/p&gt;
+
+&lt;p&gt;Wordpress on it&amp;rsquo;s own is fine, especially on dedicated servers. I&amp;rsquo;ve run
+hundreds of thousands of requests/day through Wordpress and it can handle it
+well, as long as you give it the right hardware.&lt;/p&gt;
+
+&lt;p&gt;Dreamhost, as well, isn&amp;rsquo;t at fault. I pay for fairly cheap hosting, and they
+don&amp;rsquo;t have much control over the efficiency of the apps that their shared
+hosting customers run.&lt;/p&gt;
+
+&lt;p&gt;So in comes Hugo.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s a bunch of static site generators around, like jekyll or octopress. I
+wanted to write in Markdown, I wanted it to be fast, and I wanted it to be
+flexible. After playing around with a few generators, I was sold.&lt;/p&gt;
+
+&lt;p&gt;I can basically write a blog post really quick, save it, and run a script that
+will generate the static pages, commit the changes to Github, and rsync it to
+this site.&lt;/p&gt;
+
+&lt;p&gt;There may be a few formatting errors in the older posts, but I imported
+everything from Wordpress, converted it to Markdown, and kept all of the
+permalinks the same. All told, maybe twelve hours of work and I have a blog
+I&amp;rsquo;m not frustrated to look at anymore.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Ubuntu on Mac</title>
@@ -545,40 +584,6 @@ BUGS
 &lt;p&gt;I think we can push it further. The third stretch goal will add original black &amp;amp; white art to every story, and if they make it to $50,000, the last stretch goal, they will produce a professional quality audio book.&lt;/p&gt;
 
 &lt;p&gt;I&amp;#8217;m all too familiar with Kickstarter fatigue. I feel it myself. This one is from an established publisher; &lt;a href=&#34;4&#34;&gt;Bart and Kay&lt;/a&gt; have been around for a while and have a proven track record behind them. If you&amp;#8217;re interested in the kind of stories they&amp;#8217;re telling, please give them a look.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>9</title>
-      <link>http://adamisrael.com/blog/2013/03/13/9/</link>
-      <pubDate>Wed, 13 Mar 2013 00:00:00 +0000</pubDate>
-      
-      <guid>http://adamisrael.com/blog/2013/03/13/9/</guid>
-      <description>&lt;p&gt;For months, we kept the animated film &amp;#8220;9&amp;#8221; (2009) on the DVR. I kept telling myself that I&amp;#8217;d sit down and watch it on the weekend, and inevitably being too distracted to do so. We came home a few nights ago and discovered the DVR had deleted several of the oldest recordings, including 9. That made me sad, because I really did intend on watching it soon. Kind of mad, I fired up Netflix and watched it that night.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;A rag doll that awakens in a post-apocalyptic future holds the key to humanity&amp;#8217;s salvation.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;1&#34;&gt;&lt;img class=&#34;aligncenter size-large wp-image-893&#34; alt=&#34;9characters-3208&#34; src=&#34;http://www.adamisrael.com/wp-content/uploads/2013/03/9characters-3208-1024x576.jpeg&#34; width=&#34;660&#34; height=&#34;371&#34; srcset=&#34;//www.adamisrael.com/wp-content/uploads/2013/03/9characters-3208-1024x576.jpeg 1024w, //www.adamisrael.com/wp-content/uploads/2013/03/9characters-3208-700x393.jpeg 700w&#34; sizes=&#34;(max-width: 660px) 100vw, 660px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;Warning: spoilers ahead.&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;9 is a visually beautiful film with a haunting story of survival and redemption but at only 79 minutes, I don&amp;#8217;t know if it had enough time to fully develop the characters to their full potential.&lt;/p&gt;
-
-&lt;p&gt;My first reaction after watching was that I wanted to see it again. I want to get to know the characters more. Especially the ones that had the least screen time, like 2, who first discovers 9, but it whisked away in the jaws of the cat monster a short time later. Most of the story focuses on 9, the last of the dolls to awaken.&lt;/p&gt;
-
-&lt;p&gt;There&amp;#8217;s a subtlety to the storytelling, I think, that I hope will come through more in rewatching. The story of humanity&amp;#8217;s last chance of redemption, through the journey of its destroyer&amp;#8217;s soul, split into tiny rag doll representations, is a delightful example of my favorite kind of genre story.&lt;/p&gt;
-
-&lt;p&gt;It&amp;#8217;s not a perfect movie but it was enjoyable and made me think. I set out to Twitter immediately afterwards to find someone to talk to about it. That&amp;#8217;s a win in my book, at least.&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
 </description>
     </item>
     

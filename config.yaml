@@ -3,6 +3,7 @@ languageCode: "en-us"
 title: "Adam Israel"
 theme: "material-design"
 copyright: "© 2016 Adam Israel"
+MetaDataFormat: yaml
 
 permalinks:
   post: /:year/:month/:day/:title/

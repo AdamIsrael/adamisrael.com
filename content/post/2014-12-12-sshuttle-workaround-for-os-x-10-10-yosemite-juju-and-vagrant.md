@@ -4,8 +4,6 @@ author: Adam
 layout: post
 date: 2014-12-12
 url: /blog/2014/12/12/sshuttle-workaround-for-os-x-10-10-yosemite-juju-and-vagrant/
-masonry_settings:
-  - 'a:1:{s:4:"size";s:2:"11";}'
 categories:
   - Technical
 tags:
@@ -20,6 +18,8 @@ tags:
 <p class="p2">
   <a href="https://github.com/sshuttle/sshuttle">sshuttle</a> is a nifty little transparent proxy/vpn that works by tunneling TCP traffic over SSH, or more specifically, tearing down a TCP session and reassembling the data on the other side. I started using it earlier this year, as part of my workflow using <a href="https://juju.ubuntu.com/">Juju</a> and developing under OS X. It&#8217;s like a data center in a box, inside another box. Code locally in my editor of choice (vim, TextMate, and more recently, Atom). Deploy new code. Refresh web browser, thanks to sshuttle. With sshuttle, I could connect to the services running within my virtual machine running Ubuntu natively through OS X.
 </p>
+
+<!--more-->
 
 <p class="p2">
   Until I upgraded to Yosemite (OS X 10.10).

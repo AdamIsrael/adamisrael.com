@@ -16,6 +16,7 @@
           {{end}}
           </p>
           <p>{{ .Content }}</p>
+          {{ end }}
           <p>Posted on {{ .Date.Format "2 Jan 2006" }}
             {{if .Params.tags }}
               {{ range $index, $tag := .Params.tags }}

@@ -82,8 +82,14 @@
       
       </p>
       <p>Benchmarking and performance are interesting problems, especially in today’s growing cloud-based microservice scene. It used to be a question of “how does this hardware compare to that hardware,” but as computing and service-oriented architectures grow the question has evolved. How does my cloud and application stack handle this? It’s no longer enough to run PTS on your web server and call it a day. Measuring every microservice in your stack, from backend to frontend, is a complex task.</p>
+      
+      <div class="read-more-link">
+        <a href="/blog/2015/06/23/announcing-benchmarking-with-juju/">Read More…</a>
+      </div>
+      
       <p>
-      23 Jun 2015
+      Posted on 23 June 2015
+      <p>
       
         
           <a href="http://adamisrael.com//tags/actions/">#actions</a>
@@ -113,37 +119,15 @@
       <p><p class="p2">
   <a href="https://github.com/sshuttle/sshuttle">sshuttle</a> is a nifty little transparent proxy/vpn that works by tunneling TCP traffic over SSH, or more specifically, tearing down a TCP session and reassembling the data on the other side. I started using it earlier this year, as part of my workflow using <a href="https://juju.ubuntu.com/">Juju</a> and developing under OS X. It&#8217;s like a data center in a box, inside another box. Code locally in my editor of choice (vim, TextMate, and more recently, Atom). Deploy new code. Refresh web browser, thanks to sshuttle. With sshuttle, I could connect to the services running within my virtual machine running Ubuntu natively through OS X.
 </p>
-
-<p class="p2">
-  Until I upgraded to Yosemite (OS X 10.10).
 </p>
-
-<p class="p2">
-  ipfw, the FreeBSD ip packet filter, was replaced by OpenBSD&#8217;s pf in OS X 10.7, but the binary lived on through 10.9. sshuttle has no support for pf, which led me googling down a spiraling trail of despair and hope that someone, some day, would patch sshuttle.
-</p>
-
-<p class="p2">
-  I&#8217;m more familiar with iptables than either ipfw or pf, but I understand enough networking to know that ubuntu-in-a-virtual-machine was already setup to talk to the outside world. I figured that there must be something more obvious than setting up a poor man&#8217;s VPN to talk to it.
-</p>
-
-<p class="p2">
-  A few hours of testing later, I had a working solution using the route command.
-</p>
-
-<pre class="lang:sh decode:true ">$ sudo route add -net 10.0.3.0/24 172.16.250.15</pre>
-
-<p>The lxc containers run on the 10.0.3.0 network, and the lxc host (always, in the official Vagrant image) has eth1 bound to 172.16.250.15.</p>
-
-<p>There&#8217;s a few ways I could have implemented this. I could have made it a static route, always active, but that could lead to unintended side-effects if you were to join a network using the same ip range. Same logic rules out adding it to my ~/.bash_profile. I ended up finding vagrant-triggers, which allows you to run custom commands at various stages of the vagrant lifecycle. With that, I can add the route when I boot up a virtual machine, and remove it when I&#8217;ve shut it down.</p>
-
-<p class="p2">
-  While I can confirm that it works for me, I can&#8217;t say how well it&#8217;ll work for other use cases of sshuttle or earlier versions of OS X. Juju users can head over to the <a href="https://juju.ubuntu.com/docs/howto-vagrant-workflow.html">Vagrant Workflow</a> docs for the latest and greatest, or read on for the <a href="https://gist.github.com/AdamIsrael/cc51d3d704c18095f718">gist</a>.
-</p>
-
-<p><p class="p2"></p>
-</p>
+      
+      <div class="read-more-link">
+        <a href="/blog/2014/12/12/sshuttle-workaround-for-os-x-10-10-yosemite-juju-and-vagrant/">Read More…</a>
+      </div>
+      
       <p>
-      12 Dec 2014
+      Posted on 12 December 2014
+      <p>
       
         
           <a href="http://adamisrael.com//tags/ipfw/">#ipfw</a>
@@ -175,8 +159,14 @@
       
       </p>
       <p>GO and OS X I&#8217;m doing a little hacking with juju actions before they land in a stable release but I ran into some hurdles getting Go working with the brew-installed version. Trying to install Go packages failed with a bunch of &#8216;unrecognized import path&#8217; errors. Here&#8217;s how I fixed it. STOP, GO, STOP Even though you can install Go via brew, there&#8217;s more to be done to get it working.</p>
+      
+      <div class="read-more-link">
+        <a href="/blog/2014/11/13/making-os-x-go-and-brew-play-happy/">Read More…</a>
+      </div>
+      
       <p>
-      13 Nov 2014
+      Posted on 13 November 2014
+      <p>
       
         
           <a href="http://adamisrael.com//tags/go/">#go</a>
@@ -207,8 +197,14 @@
       
       </p>
       <p>I had some concerns about how I was going to integrate posts of a technical nature with my blog, which has been predominantly writing-oriented for several years. What I failed take into account is that many of us who write Science Fiction are armchair technologists. We look at gadgets, scientific breakthroughs and tech policy, and make conjecture about what might come next. What I talk about is less important than how I talk about it.</p>
+      
+      <div class="read-more-link">
+        <a href="/blog/2014/09/03/a-brief-introduction-to-juju/">Read More…</a>
+      </div>
+      
       <p>
-      3 Sep 2014
+      Posted on 3 September 2014
+      <p>
       
         
           <a href="http://adamisrael.com//tags/juju/">#juju</a>
@@ -232,8 +228,14 @@
       
       </p>
       <p>I am delighted &#8212; tickled, in fact &#8212; to report that as of last Monday I am employed by Canonical, the company behind Ubuntu Linux. I&#8217;ve joined the Ecosystem Engineering team, part of Cloud Development and Operations, as a software engineer. More specifically, I&#8217;m working on Juju, the cloud orchestration tool chain. I&#8217;ll be writing charms and documentation, working on optimizations, and helping to make a cool product even cooler.</p>
+      
+      <div class="read-more-link">
+        <a href="/blog/2014/08/25/new-job/">Read More…</a>
+      </div>
+      
       <p>
-      26 Aug 2014
+      Posted on 26 August 2014
+      <p>
       
         
           <a href="http://adamisrael.com//tags/canonical/">#canonical</a>
