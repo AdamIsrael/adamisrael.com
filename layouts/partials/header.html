@@ -18,47 +18,104 @@
   </style>
 </head>
 <body>
-  <ul id="slide-out" class="side-nav">
-    <li><a href="{{.Site.BaseURL}}"><i class="mdi-action-home left"></i>Home<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
-    <li><a href="{{.Site.BaseURL}}/categories"><i class="mdi-action-perm-media left"></i>Categories<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
-    <li><a href="{{.Site.BaseURL}}/tags"><i class="mdi-action-loyalty left"></i>Tags<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
-  </ul>
   <div id="index-banner" class="parallax-container">
-  <a data-activates="slide-out" class="btn-floating button-collapse" style="top: 5px; left: 5px;"><i class="mdi-navigation-menu"></i></a>
-    <div class="section no-pad-bot">
-      <div class="container">
-        <!-- <h1 class="header center teal-text text-lighten-2"><a href="{{.Site.BaseURL}}">{{.Site.Title}}</a></h1> -->
-        <h1 class="header center white-text text-darken-4"><a href="{{.Site.BaseURL}}">{{.Site.Title}}</a></h1>
-        <div class="row center">
-          <h5 class="header col s12 light">{{.Site.Params.description}}</h5>
+    <div class="no-pad-bot no-pad-top">
+      <div class="card">
+        <div class="card-image">
+          <a href="/">
+            <img src="{{.Site.BaseURL}}/{{.Site.Params.headerCover}}">
+            <span class="card-title">{{.Site.Title}}</span>
+          </a>
         </div>
-        <div class="row center">
-        <a href="contact/"><img  src="{{.Site.BaseURL}}/images/1457863200_mail-hexagon-shadow-social-media.svg"></a>
+        <div class="card-content cyber-green">
+          {{.Site.Params.description}}
 
-        {{if .Site.Params.twitter}}
-          <a href="https://twitter.com/{{.Site.Params.twitter}}"><img src="{{.Site.BaseURL}}/images/1457863195_twitter-hexagon-shadow-social-media.svg"></a>
-        {{end}}
-        {{if .Site.Params.github}}
-          <a href="https://github.com/{{ .Site.Params.github }}"><img src="{{.Site.BaseURL}}/images/1457863294_github-hexagon-shadow-social-media.svg"></a>
-        {{end}}
-        {{if .Site.Params.facebook}}
-          <a href="https://www.facebook.com/{{.Site.Params.facebook}}"><img src="{{.Site.BaseURL}}/images/1457863192_facebook-hexagon-shadow-social-media.svg"></a>
-        {{end}}
-        {{if .Site.Params.gplus}}
-          <a href="https://google.com/+{{.Site.Params.gplus}}"><img src="{{.Site.BaseURL}}/images/1457863208_google_plus-hexagon-shadow-social-media"></a>
-        {{end}}
-        {{if .Site.Params.linkedin}}
-          <a href="https://www.linkedin.com/in/{{.Site.Params.linkedin}}"><img src="{{.Site.BaseURL}}/images/1457863206_linkedin-hexagon-shadow-social-media.svg"></a>
-        {{end}}
-          <a href="{{.Site.BaseURL}}/index.xml"><img src="{{.Site.BaseURL}}/images/1457863230_rss-hexagon-shadow-social-media.svg"></a>
+          {{if .Site.Params.github}}
+          <span class="right">
+            {{if .Site.Params.facebook}}
+              <a href="https://www.facebook.com/{{.Site.Params.facebook}}"><img src="{{.Site.BaseURL}}/images/facebook-dreamstale25.png"></a>
+            {{end}}
+            {{if .Site.Params.twitter}}
+              <a href="https://twitter.com/{{.Site.Params.twitter}}"><img src="{{.Site.BaseURL}}/images/twitter-dreamstale71.png"></a>
+            {{end}}
+            {{if .Site.Params.gplus}}
+              <a href="https://google.com/+{{.Site.Params.gplus}}"><img src="{{.Site.BaseURL}}/images/gplus48x48.png"></a>
+            {{end}}
+            {{if .Site.Params.github}}
+              <a href="https://github.com/{{ .Site.Params.github }}"><img src="{{.Site.BaseURL}}/images/github2-dreamstale35.png"></a>
+            {{end}}
+
+            {{if .Site.Params.linkedin}}
+              <a href="https://www.linkedin.com/in/{{.Site.Params.linkedin}}"><img src="{{.Site.BaseURL}}/images/linkedin-dreamstale45.png"></a>
+            {{end}}
+              <a href="{{.Site.BaseURL}}index.xml"><img src="{{.Site.BaseURL}}/images/feed-dreamstale27.png"></a>
+
+          </span>
+          {{end}}
+
+        </div>
+        <div class="card-action cyber-green">
+          <a href="/"><span class="light-green-text text-lighten-5">Home</span></a>
+          <a href="/about/"><span class="light-green-text text-lighten-5">About</span></a>
+          <a href="/bibliography/"><span class="light-green-text text-lighten-5">Bibliography</span></a>
+          <a href="/contact/"><span class="light-green-text text-lighten-5">Contact</span></a>
         </div>
       </div>
     </div>
-    <div class="parallax">
+
+  </div>
+    <!-- <div class="parallax">
     {{if .Site.Params.headerCover}}
       <img src="{{.Site.BaseURL}}/{{.Site.Params.headerCover}}">
     {{else}}
       <img src="{{.Site.BaseURL}}/images/default.png">
     {{end}}
     </div>
-  </div>
+  </div> -->
+<!--
+  <nav>
+    <div class="nav-wrapper cyber-green">
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="/"><span class="light-green-text text-lighten-5">Home</span></a></li>
+        <li><a href="/about/"><span class="light-green-text text-lighten-5">About</span></a></li>
+        <li><a href="/bibliography/"><span class="light-green-text text-lighten-5">Bibliography</span></a></li>
+        <li><a href="/contact/"><span class="light-green-text text-lighten-5">Contact</span></a></li>
+      </ul>
+      <ul id="nav-mobile" class="right hide-on-med-and-down valign-wrapper">
+        <li>
+          <a href="contact/" ><img  src="{{.Site.BaseURL}}/images/1457863200_mail-hexagon-shadow-social-media.svg"></a>
+        </li>
+
+      {{if .Site.Params.twitter}}
+        <li>
+          <a href="https://twitter.com/{{.Site.Params.twitter}}"><img src="{{.Site.BaseURL}}/images/1457863195_twitter-hexagon-shadow-social-media.svg"></a>
+        </li>
+      {{end}}
+
+      {{if .Site.Params.github}}
+        <li>
+          <a href="https://github.com/{{ .Site.Params.github }}"><img src="{{.Site.BaseURL}}/images/1457863294_github-hexagon-shadow-social-media.svg"></a>
+        </li>
+      {{end}}
+      {{if .Site.Params.facebook}}
+        <li>
+          <a href="https://www.facebook.com/{{.Site.Params.facebook}}"><img src="{{.Site.BaseURL}}/images/1457863192_facebook-hexagon-shadow-social-media.svg"></a>
+        </li>
+      {{end}}
+      {{if .Site.Params.gplus}}
+        <li>
+          <a href="https://google.com/+{{.Site.Params.gplus}}"><img src="{{.Site.BaseURL}}/images/1457863208_google_plus-hexagon-shadow-social-media"></a>
+        </li>
+      {{end}}
+      {{if .Site.Params.linkedin}}
+        <li>
+          <a href="https://www.linkedin.com/in/{{.Site.Params.linkedin}}"><img src="{{.Site.BaseURL}}/images/1457863206_linkedin-hexagon-shadow-social-media.svg"></a>
+        </li>
+      {{end}}
+      <li>
+        <a href="{{.Site.BaseURL}}/index.xml"><img src="{{.Site.BaseURL}}/images/1457863230_rss-hexagon-shadow-social-media.svg"></a>
+      </li>
+
+      </ul>
+    </div>
+    </nav> -->
