@@ -18,6 +18,10 @@ params:
   email: "adam@adamisrael.com"
   gplus: "AdamIsrael1975"
 
+
+  ogimage: "http://adamisrael.com/images/background.jpg"
+
+
   headerCover: "images/header.jpg"
   footerCover: "images/footer.jpg"
   googleAnalytics: "UA-12202287-1"
@@ -34,7 +38,5 @@ params:
   # footerCover = "images/footerCover.png" # optional
   # googleAnalyticsUserID = "Your Analytics User Id" # optional
   #
-  ListOfFoo:
-    - "foo1"
-    - "foo2"
+
   SidebarRecentLimit: 5

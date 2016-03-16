@@ -16,6 +16,9 @@
     footer.page-footer{background-image: url({{.Site.BaseURL}}/images/default.png);}
   {{end}}
   </style>
+
+  {{ partial "og.html" . }}
+
 </head>
 <body>
   <div id="index-banner" class="parallax-container">
