@@ -112,7 +112,7 @@ export BZR_EDITOR=vim
 ```
 
 I've filed [lp:1579048](https://bugs.launchpad.net/bzr/+bug/1579048) to
-document the bugs and workaround(s)
+document the bugs and workaround(s).
 
 
 
