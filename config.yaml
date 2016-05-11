@@ -5,6 +5,11 @@ theme: "material-design"
 copyright: "© 2016 Adam Israel"
 MetaDataFormat: yaml
 
+# add syntax highlighting with GitHub flavoured code fences 
+PygmentsCodeFences: true
+PygmentsStyle: friendly
+
+
 permalinks:
   post: /:year/:month/:day/:title/
 

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>bzr &#34;Insecure string pickle&#34;</title>
+  <link href="http://adamisrael.com//css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="http://adamisrael.com//css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="http://adamisrael.com//css/override.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/default.min.css">
+  <style type="text/css">
+  
+    footer.page-footer{background-image: url(http://adamisrael.com//images/footer.jpg);}
+  
+  </style>
+
+  <meta property="og:title" content="bzr &#34;Insecure string pickle&#34;" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:url" content="http://adamisrael.com/2016/05/06/bzr-insecure-string-pickle/" />
+
+<meta property="og:image" content="http://adamisrael.com/images/background.jpg" />
+
+
+
+</head>
+<body>
+  <div id="index-banner" class="parallax-container">
+    <div class="no-pad-bot no-pad-top">
+      <div class="card">
+        <div class="card-image">
+          <a href="/">
+            <img src="http://adamisrael.com//images/header.jpg">
+            <span class="card-title">Adam Israel</span>
+          </a>
+        </div>
+        <div class="card-content cyber-green">
+          An economy of words
+
+          
+          <span class="right">
+            
+              <a href="https://www.facebook.com/adam.israel"><img src="http://adamisrael.com//images/facebook-dreamstale25.png"></a>
+            
+            
+              <a href="https://twitter.com/AdamIsrael"><img src="http://adamisrael.com//images/twitter-dreamstale71.png"></a>
+            
+            
+              <a href="https://google.com/+AdamIsrael1975"><img src="http://adamisrael.com//images/gplus48x48.png"></a>
+            
+            
+              <a href="https://github.com/AdamIsrael"><img src="http://adamisrael.com//images/github2-dreamstale35.png"></a>
+            
+
+            
+              <a href="http://adamisrael.com/index.xml"><img src="http://adamisrael.com//images/feed-dreamstale27.png"></a>
+
+          </span>
+          
+
+        </div>
+        <div class="card-action cyber-green">
+          <a href="/"><span class="light-green-text text-lighten-5">Home</span></a>
+          <a href="/about/"><span class="light-green-text text-lighten-5">About</span></a>
+          <a href="/bibliography/"><span class="light-green-text text-lighten-5">Bibliography</span></a>
+          <a href="/contact/"><span class="light-green-text text-lighten-5">Contact</span></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+    
+
+
+
+
+<div class="container">
+  <div class="section">
+
+    <div class="row">
+      <div class="col s12">
+        <div class="card-panel">
+          <h4>bzr &#34;Insecure string pickle&#34;</h4>
+          <p>
+          
+            
+              <a href="http://adamisrael.com//categories/technical/">Technical</a>
+            
+          
+          </p>
+          <p><p>I&rsquo;ve been bit by a bug in the <code>bzr</code> source code control system where running a commit
+throws an ugly stack trace blaming an &ldquo;insecure string pickle&rdquo;, but I&rsquo;ve found a workaround.</p>
+
+<p>Environment:</p>
+
+<ul>
+<li>Mac OS X 10.11.4 build 15E65</li>
+<li>Python 2.7.11 installed via <a href="https://brew.sh">homebrew</a></li>
+<li>bzr 2.7.0 installed via <a href="https://brew.sh">homebrew</a>.</li>
+</ul>
+<div class="highlight" style="background: #f0f0f0"><pre style="line-height: 125%"><span></span>$ <span style="color: #007020">cd</span> /path/to/dirty-bzr-repo/
+$ bzr commit
+bzr: ERROR: exceptions.ValueError: insecure string pickle
+
+Traceback <span style="color: #666666">(</span>most recent call last<span style="color: #666666">)</span>:
+  File <span style="color: #4070a0">&quot;/usr/local/lib/python2.7/site-packages/bzrlib/commands.py&quot;</span>, line 930, in exception_to_return_code
+    <span style="color: #007020; font-weight: bold">return</span> the_callable<span style="color: #666666">(</span>*args, **kwargs<span style="color: #666666">)</span>
+  File <span style="color: #4070a0">&quot;/usr/local/lib/python2.7/site-packages/bzrlib/commands.py&quot;</span>, line 1121, in run_bzr
+    <span style="color: #bb60d5">ret</span> <span style="color: #666666">=</span> run<span style="color: #666666">(</span>*run_argv<span style="color: #666666">)</span>
+  File <span style="color: #4070a0">&quot;/usr/local/lib/python2.7/site-packages/bzrlib/commands.py&quot;</span>, line 673, in run_argv_aliases
+    <span style="color: #007020; font-weight: bold">return</span> self.run<span style="color: #666666">(</span>**all_cmd_args<span style="color: #666666">)</span>
+  File <span style="color: #4070a0">&quot;/usr/local/lib/python2.7/site-packages/bzrlib/commands.py&quot;</span>, line 697, in run
+    <span style="color: #007020; font-weight: bold">return</span> self._operation.run_simple<span style="color: #666666">(</span>*args, **kwargs<span style="color: #666666">)</span>
+  File <span style="color: #4070a0">&quot;/usr/local/lib/python2.7/site-packages/bzrlib/cleanup.py&quot;</span>, line 136, in run_simple
+    self.cleanups, self.func, *args, **kwargs<span style="color: #666666">)</span>
+  File <span style="color: #4070a0">&quot;/usr/local/lib/python2.7/site-packages/bzrlib/cleanup.py&quot;</span>, line 166, in _do_with_cleanups
+    <span style="color: #bb60d5">result</span> <span style="color: #666666">=</span> func<span style="color: #666666">(</span>*args, **kwargs<span style="color: #666666">)</span>
+  File <span style="color: #4070a0">&quot;/usr/local/lib/python2.7/site-packages/bzrlib/builtins.py&quot;</span>, line 3687, in run
+    <span style="color: #bb60d5">lossy</span><span style="color: #666666">=</span>lossy<span style="color: #666666">)</span>
+  File <span style="color: #4070a0">&quot;/usr/local/lib/python2.7/site-packages/bzrlib/decorators.py&quot;</span>, line 218, in write_locked
+    <span style="color: #bb60d5">result</span> <span style="color: #666666">=</span> unbound<span style="color: #666666">(</span>self, *args, **kwargs<span style="color: #666666">)</span>
+  File <span style="color: #4070a0">&quot;/usr/local/lib/python2.7/site-packages/bzrlib/workingtree_4.py&quot;</span>, line 218, in commit
+    <span style="color: #bb60d5">result</span> <span style="color: #666666">=</span> WorkingTree.commit<span style="color: #666666">(</span>self, message, revprops, *args, **kwargs<span style="color: #666666">)</span>
+  File <span style="color: #4070a0">&quot;/usr/local/lib/python2.7/site-packages/bzrlib/decorators.py&quot;</span>, line 218, in write_locked
+    <span style="color: #bb60d5">result</span> <span style="color: #666666">=</span> unbound<span style="color: #666666">(</span>self, *args, **kwargs<span style="color: #666666">)</span>
+  File <span style="color: #4070a0">&quot;/usr/local/lib/python2.7/site-packages/bzrlib/mutabletree.py&quot;</span>, line 211, in commit
+    *args, **kwargs<span style="color: #666666">)</span>
+  File <span style="color: #4070a0">&quot;/usr/local/lib/python2.7/site-packages/bzrlib/commit.py&quot;</span>, line 290, in commit
+    <span style="color: #bb60d5">lossy</span><span style="color: #666666">=</span>lossy<span style="color: #666666">)</span>
+  File <span style="color: #4070a0">&quot;/usr/local/lib/python2.7/site-packages/bzrlib/cleanup.py&quot;</span>, line 132, in run
+    self.cleanups, self.func, self, *args, **kwargs<span style="color: #666666">)</span>
+  File <span style="color: #4070a0">&quot;/usr/local/lib/python2.7/site-packages/bzrlib/cleanup.py&quot;</span>, line 166, in _do_with_cleanups
+    <span style="color: #bb60d5">result</span> <span style="color: #666666">=</span> func<span style="color: #666666">(</span>*args, **kwargs<span style="color: #666666">)</span>
+  File <span style="color: #4070a0">&quot;/usr/local/lib/python2.7/site-packages/bzrlib/commit.py&quot;</span>, line 443, in _commit
+    <span style="color: #bb60d5">message</span> <span style="color: #666666">=</span> message_callback<span style="color: #666666">(</span>self<span style="color: #666666">)</span>
+  File <span style="color: #4070a0">&quot;/usr/local/lib/python2.7/site-packages/bzrlib/builtins.py&quot;</span>, line 3664, in get_message
+    <span style="color: #bb60d5">start_message</span><span style="color: #666666">=</span>start_message<span style="color: #666666">)</span>
+  File <span style="color: #4070a0">&quot;/usr/local/lib/python2.7/site-packages/bzrlib/msgeditor.py&quot;</span>, line 150, in edit_commit_message_encoded
+    <span style="color: #007020; font-weight: bold">if</span> not _run_editor<span style="color: #666666">(</span>msgfilename<span style="color: #666666">)</span>:
+  File <span style="color: #4070a0">&quot;/usr/local/lib/python2.7/site-packages/bzrlib/msgeditor.py&quot;</span>, line 67, in _run_editor
+    <span style="color: #bb60d5">x</span> <span style="color: #666666">=</span> call<span style="color: #666666">(</span>edargs + <span style="color: #666666">[</span>filename<span style="color: #666666">])</span>
+  File <span style="color: #4070a0">&quot;/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/subprocess.py&quot;</span>, line 522, in call
+    <span style="color: #007020; font-weight: bold">return</span> Popen<span style="color: #666666">(</span>*popenargs, **kwargs<span style="color: #666666">)</span>.wait<span style="color: #666666">()</span>
+  File <span style="color: #4070a0">&quot;/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/subprocess.py&quot;</span>, line 710, in __init__
+    errread, errwrite<span style="color: #666666">)</span>
+  File <span style="color: #4070a0">&quot;/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/subprocess.py&quot;</span>, line 1334, in _execute_child
+    <span style="color: #bb60d5">child_exception</span> <span style="color: #666666">=</span> pickle.loads<span style="color: #666666">(</span>data<span style="color: #666666">)</span>
+  File <span style="color: #4070a0">&quot;/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py&quot;</span>, line 1388, in loads
+    <span style="color: #007020; font-weight: bold">return</span> Unpickler<span style="color: #666666">(</span>file<span style="color: #666666">)</span>.load<span style="color: #666666">()</span>
+  File <span style="color: #4070a0">&quot;/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py&quot;</span>, line 864, in load
+    dispatch<span style="color: #666666">[</span>key<span style="color: #666666">](</span>self<span style="color: #666666">)</span>
+  File <span style="color: #4070a0">&quot;/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py&quot;</span>, line 972, in load_string
+    raise ValueError, <span style="color: #4070a0">&quot;insecure string pickle&quot;</span>
+ValueError: insecure string pickle
+
+bzr 2.7.0 on python 2.7.11 <span style="color: #666666">(</span>Darwin-15.4.0-x86_64-i386-64bit<span style="color: #666666">)</span>
+arguments: <span style="color: #666666">[</span><span style="color: #4070a0">&#39;/usr/local/bin/bzr&#39;</span>, <span style="color: #4070a0">&#39;commit&#39;</span><span style="color: #666666">]</span>
+plugins: bash_completion<span style="color: #666666">[</span>2.7.0<span style="color: #666666">]</span>, changelog_merge<span style="color: #666666">[</span>2.7.0<span style="color: #666666">]</span>,
+    fastimport<span style="color: #666666">[</span>0.14.0dev<span style="color: #666666">]</span>, grep<span style="color: #666666">[</span>2.7.0<span style="color: #666666">]</span>, launchpad<span style="color: #666666">[</span>2.7.0<span style="color: #666666">]</span>,
+    netrc_credential_store<span style="color: #666666">[</span>2.7.0<span style="color: #666666">]</span>, news_merge<span style="color: #666666">[</span>2.7.0<span style="color: #666666">]</span>, po_merge<span style="color: #666666">[</span>2.7.0<span style="color: #666666">]</span>,
+    weave_fmt<span style="color: #666666">[</span>2.7.0<span style="color: #666666">]</span>
+encoding: <span style="color: #4070a0">&#39;utf-8&#39;</span>, fsenc: <span style="color: #4070a0">&#39;utf-8&#39;</span>, lang: <span style="color: #4070a0">&#39;en_CA.UTF-8&#39;</span>
+
+*** Bazaar has encountered an internal error.  This probably indicates a
+    bug in Bazaar.  You can <span style="color: #007020">help</span> us fix it by filing a bug report at
+        https://bugs.launchpad.net/bzr/+filebug
+    including this traceback and a description of the problem.
+</pre></div>
+
+<p>I&rsquo;ve been bit by this bug a few times. The easy workaround was to set the
+commit message on the command line:</p>
+<div class="highlight" style="background: #f0f0f0"><pre style="line-height: 125%"><span></span>$ <span style="color: #007020">cd</span> /path/to/dirty-bzr-repo/
+$ bzr commit -m <span style="color: #4070a0">&quot;Some commit message&quot;</span>
+</pre></div>
+
+<p>Ultimately, the problem is that bzr expects BZR_EDITOR to be set. If it&rsquo;s not,
+it will throw this cryptic exception. You can fix this by setting this
+environment variable in your shell.</p>
+<div class="highlight" style="background: #f0f0f0"><pre style="line-height: 125%"><span></span><span style="color: #60a0b0; font-style: italic"># ~/.bash_profile</span>
+
+<span style="color: #60a0b0; font-style: italic"># Tell bzr which editor to use</span>
+<span style="color: #007020">export</span> <span style="color: #bb60d5">BZR_EDITOR</span><span style="color: #666666">=</span>vim
+</pre></div>
+
+<p>I&rsquo;ve filed <a href="https://bugs.launchpad.net/bzr/+bug/1579048">lp:1579048</a> to
+document the bugs and workaround(s)</p>
+</p>
+          <p>Posted on 6 May 2016
+            
+              
+                <a href="http://adamisrael.com//tags/brew/">#brew</a>
+              
+                <a href="http://adamisrael.com//tags/osx/">#osx</a>
+              
+                <a href="http://adamisrael.com//tags/python/">#python</a>
+              
+                <a href="http://adamisrael.com//tags/bzr/">#bzr</a>
+              
+            
+          </p>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s3 m1">
+      
+        <a class="btn-floating btn-large disabled"><i class="mdi-navigation-arrow-back"></i></a>
+      
+      </div>
+      <div class="col s6 m10 center">&nbsp</div>
+      <div class="col s3 m1">
+      
+        <a class="btn-floating btn-large waves-effect waves-light" href="http://adamisrael.com/2016/03/16/configuring-charm-repositories-via-install_sources/"><i class="mdi-navigation-arrow-forward"></i></a>
+      
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  <footer class="page-footer">
+    <div class="footer-copyright">
+      <div class="container">
+      © 2016 Adam Israel
+      <div class="right">Design <a class="grey-text text-lighten-4" href="http://pdevty.github.io/blog/">pdevty</a></div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="http://adamisrael.com//js/materialize.min.js"></script>
+  <script src="http://adamisrael.com//js/init.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-12202287-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  
+
+  </body>
+</html>
+
