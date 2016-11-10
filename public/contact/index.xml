@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Contacts on Adam Israel</title>
-    <link>http://adamisrael.com/contact/</link>
-    <description>Recent content in Contacts on Adam Israel</description>
+    <title>Contact-rsses on Adam Israel</title>
+    <link>http://adamisrael.com/contact/index.xml</link>
+    <description>Recent content in Contact-rsses on Adam Israel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2016 Adam Israel</copyright>

@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yosemite on Adam Israel</title>
-    <link>http://adamisrael.com/tags/yosemite/</link>
-    <description>Recent content in Yosemite on Adam Israel</description>
+    <title>Adam Israel</title>
+    <link>http://adamisrael.com/tags/yosemite/index.xml</link>
+    <description>Recent content on Adam Israel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2016 Adam Israel</copyright>
-    <lastBuildDate>Fri, 12 Dec 2014 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://adamisrael.com/tags/yosemite/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -19,6 +18,8 @@
       <description>&lt;p class=&#34;p2&#34;&gt;
   &lt;a href=&#34;https://github.com/sshuttle/sshuttle&#34;&gt;sshuttle&lt;/a&gt; is a nifty little transparent proxy/vpn that works by tunneling TCP traffic over SSH, or more specifically, tearing down a TCP session and reassembling the data on the other side. I started using it earlier this year, as part of my workflow using &lt;a href=&#34;https://juju.ubuntu.com/&#34;&gt;Juju&lt;/a&gt; and developing under OS X. It&amp;#8217;s like a data center in a box, inside another box. Code locally in my editor of choice (vim, TextMate, and more recently, Atom). Deploy new code. Refresh web browser, thanks to sshuttle. With sshuttle, I could connect to the services running within my virtual machine running Ubuntu natively through OS X.
 &lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p class=&#34;p2&#34;&gt;
   Until I upgraded to Yosemite (OS X 10.10).
@@ -47,15 +48,14 @@
 &lt;/p&gt;
 
 &lt;p class=&#34;p2&#34;&gt;
-  
+  &lt;!--more--&gt;
 &lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p class=&#34;p3&#34;&gt;
 
 &lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+&lt;/blockquote&gt;</description>
     </item>
     
   </channel>

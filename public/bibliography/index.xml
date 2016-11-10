@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bibliographies on Adam Israel</title>
-    <link>http://adamisrael.com/bibliography/</link>
-    <description>Recent content in Bibliographies on Adam Israel</description>
+    <title>Bibliography-rsses on Adam Israel</title>
+    <link>http://adamisrael.com/bibliography/index.xml</link>
+    <description>Recent content in Bibliography-rsses on Adam Israel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2016 Adam Israel</copyright>

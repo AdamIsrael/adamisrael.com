@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dreamhost on Adam Israel</title>
-    <link>http://adamisrael.com/tags/dreamhost/</link>
-    <description>Recent content in Dreamhost on Adam Israel</description>
+    <title>Adam Israel</title>
+    <link>http://adamisrael.com/tags/dreamhost/index.xml</link>
+    <description>Recent content on Adam Israel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2016 Adam Israel</copyright>
-    <lastBuildDate>Tue, 15 Mar 2016 18:47:58 -0400</lastBuildDate>
     <atom:link href="http://adamisrael.com/tags/dreamhost/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -23,6 +22,8 @@ on a shared web host is a ticking time bomb. More users crowded on a server. I
 threw turned on caching and Cloudflare; readers should have had little trouble
 using the site, but my sessions were consistently timing out while using the
 admin dashboard, which makes posting new content a frustrating experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;Wordpress on it&amp;rsquo;s own is fine, especially on dedicated servers. I&amp;rsquo;ve run
 hundreds of thousands of requests/day through Wordpress and it can handle it
@@ -45,8 +46,7 @@ this site.&lt;/p&gt;
 &lt;p&gt;There may be a few formatting errors in the older posts, but I imported
 everything from Wordpress, converted it to Markdown, and kept all of the
 permalinks the same. All told, maybe twelve hours of work and I have a blog
-I&amp;rsquo;m not frustrated to look at anymore.&lt;/p&gt;
-</description>
+I&amp;rsquo;m not frustrated to look at anymore.&lt;/p&gt;</description>
     </item>
     
   </channel>

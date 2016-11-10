@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dog-days on Adam Israel</title>
-    <link>http://adamisrael.com/dog-days/</link>
-    <description>Recent content in Dog-days on Adam Israel</description>
+    <title>Dog-days-rsses on Adam Israel</title>
+    <link>http://adamisrael.com/dog-days/index.xml</link>
+    <description>Recent content in Dog-days-rsses on Adam Israel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2016 Adam Israel</copyright>
@@ -222,9 +222,7 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;Originally published at [Crossed Genres][1], April 2011. All rights reserved.&lt;/p&gt;
-
-&lt;p&gt;[1]: &lt;a href=&#34;http://www.crossedgenres.com/&#34;&gt;http://www.crossedgenres.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Originally published at &lt;a href=&#34;http://www.crossedgenres.com/&#34;&gt;Crossed Genres&lt;/a&gt;, April 2011. All rights reserved.&lt;/p&gt;
 </description>
     </item>
     

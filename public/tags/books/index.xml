@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Books on Adam Israel</title>
-    <link>http://adamisrael.com/tags/books/</link>
-    <description>Recent content in Books on Adam Israel</description>
+    <title>Adam Israel</title>
+    <link>http://adamisrael.com/tags/books/index.xml</link>
+    <description>Recent content on Adam Israel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2016 Adam Israel</copyright>
-    <lastBuildDate>Wed, 11 May 2011 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://adamisrael.com/tags/books/index.xml" rel="self" type="application/rss+xml" />
     
     <item>

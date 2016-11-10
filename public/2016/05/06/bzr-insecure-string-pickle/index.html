@@ -93,14 +93,15 @@
           <p><p>I&rsquo;ve been bit by a bug in the <code>bzr</code> source code control system where running a commit
 throws an ugly stack trace blaming an &ldquo;insecure string pickle&rdquo;, but I&rsquo;ve found a workaround.</p>
 
-<p>Environment:</p>
+<p>
+Environment:</p>
 
 <ul>
 <li>Mac OS X 10.11.4 build 15E65</li>
 <li>Python 2.7.11 installed via <a href="https://brew.sh">homebrew</a></li>
 <li>bzr 2.7.0 installed via <a href="https://brew.sh">homebrew</a>.</li>
 </ul>
-<div class="highlight" style="background: #f0f0f0"><pre style="line-height: 125%"><span></span>$ <span style="color: #007020">cd</span> /path/to/dirty-bzr-repo/
+<div class="highlight" style="background: #f0f0f0"><pre style="line-height: 125%">$ <span style="color: #007020">cd</span> /path/to/dirty-bzr-repo/
 $ bzr commit
 bzr: ERROR: exceptions.ValueError: insecure string pickle
 
@@ -171,22 +172,21 @@ encoding: <span style="color: #4070a0">&#39;utf-8&#39;</span>, fsenc: <span styl
 
 <p>I&rsquo;ve been bit by this bug a few times. The easy workaround was to set the
 commit message on the command line:</p>
-<div class="highlight" style="background: #f0f0f0"><pre style="line-height: 125%"><span></span>$ <span style="color: #007020">cd</span> /path/to/dirty-bzr-repo/
+<div class="highlight" style="background: #f0f0f0"><pre style="line-height: 125%">$ <span style="color: #007020">cd</span> /path/to/dirty-bzr-repo/
 $ bzr commit -m <span style="color: #4070a0">&quot;Some commit message&quot;</span>
 </pre></div>
 
 <p>Ultimately, the problem is that bzr expects BZR_EDITOR to be set. If it&rsquo;s not,
 it will throw this cryptic exception. You can fix this by setting this
 environment variable in your shell.</p>
-<div class="highlight" style="background: #f0f0f0"><pre style="line-height: 125%"><span></span><span style="color: #60a0b0; font-style: italic"># ~/.bash_profile</span>
+<div class="highlight" style="background: #f0f0f0"><pre style="line-height: 125%"><span style="color: #60a0b0; font-style: italic"># ~/.bash_profile</span>
 
 <span style="color: #60a0b0; font-style: italic"># Tell bzr which editor to use</span>
 <span style="color: #007020">export</span> <span style="color: #bb60d5">BZR_EDITOR</span><span style="color: #666666">=</span>vim
 </pre></div>
 
 <p>I&rsquo;ve filed <a href="https://bugs.launchpad.net/bzr/+bug/1579048">lp:1579048</a> to
-document the bugs and workaround(s).</p>
-</p>
+document the bugs and workaround(s).</p></p>
           <p>Posted on 6 May 2016
             
               
@@ -208,7 +208,7 @@ document the bugs and workaround(s).</p>
     <div class="row">
       <div class="col s3 m1">
       
-        <a class="btn-floating btn-large disabled"><i class="mdi-navigation-arrow-back"></i></a>
+        <a class="btn-floating btn-large waves-effect waves-light" href="http://adamisrael.com/2016/10/24/the-authenticity-of-grief/"><i class="mdi-navigation-arrow-back"></i></a>
       
       </div>
       <div class="col s6 m10 center">&nbsp</div>

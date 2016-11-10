@@ -92,11 +92,11 @@
           </p>
           <p>
 
-<h1 id="go-and-os-x:88ab873d5c8d53a90360c0026a04b5ae">GO and OS X</h1>
+<h1 id="go-and-os-x">GO and OS X</h1>
 
 <p>I&#8217;m doing a little hacking with <a href="1">juju actions</a> before they land in a stable release but I ran into some hurdles getting Go working with the <a href="2">brew</a>-installed version. Trying to install Go packages failed with a bunch of &#8216;unrecognized import path&#8217; errors. Here&#8217;s how I fixed it.</p>
 
-<h1 id="stop-go-stop:88ab873d5c8d53a90360c0026a04b5ae">STOP, GO, STOP</h1>
+<h1 id="stop-go-stop">STOP, GO, STOP</h1>
 
 <p>Even though you can install Go via brew, there&#8217;s more to be done to get it working. Go relies on two environment variables: <a href="3">GOPATH</a>, and GOROOT. GOROOT is the path where Go is installed, and GOPATH is the directory you&#8217;ve created for your code workspace (which I&#8217;ve defaulted to $HOME/go).  We then need to tell our shell where to find these installed executable and run them first<sup><a href="#1">1</a></sup>.</p>
 
@@ -212,7 +212,7 @@ BUGS
    The implementation of -r is a bit slow.
 </pre>
 
-<h1 id="homebrew-gotchas:88ab873d5c8d53a90360c0026a04b5ae">Homebrew Gotchas</h1>
+<h1 id="homebrew-gotchas">Homebrew Gotchas</h1>
 
 <p>Homebrew installs the go formula with a bin/ directory, which symlinks to the go and gofmt binaries in libexec/. Other binaries, such as godoc, will be installed to libexec but are not symlinked to bin/. Adding go/$GOVERSION/libexec, instead of go/$GOVERSION/bin, to PATH makes sure we&#8217;re looking in the right place, and this setup will survive a version upgrade.</p>
 
