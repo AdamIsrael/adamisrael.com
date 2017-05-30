@@ -2,7 +2,7 @@
 author: Adam
 categories:
 - Technical
-date: 2017-05-30T13:23:56-04:00
+date: 2017-05-30T14:59:56-04:00
 hidden: false
 tags:
 - ubuntu
@@ -10,7 +10,6 @@ tags:
 - xenial
 title: Nested LXD on Ubuntu 16.04.2 (Xenial)
 ---
-
 tl;dr: Nested LXD containers on Ubuntu 16.04.2 (Xenial) are currently broken by default. You need to install the lxd package from backports.
 
 Sometime in the last couple of months, [nested lxd containers on Ubuntu 16.04 broke](https://github.com/lxc/lxd/issues/3172). A [fix](https://github.com/lxc/lxd/pull/3194) landed a week later. Unfortunately, the patch hasn't been applied to the version of lxd (2.0.9-0ubuntu1~16.04.2) in xenial-updates, so a new privileged container, by default, won't be able to launch nested containers. 
@@ -58,8 +57,21 @@ lxd:
 To fix this, you need to explicitly install lxd from backports. *Do not use the lxd/stable PPA, as it is targetted at the most recent release, not the latest LTS release.*
 
 ```bash
+# Update your host OS
 apt update
 apt install -t xenial-backports lxd
+
+# Create a new privileged container w/nesting
+lxc launch ubuntu:16.04 lxd-test -c security.privileged=true -c security.nesting=true
+
+# Update it to the latest LXD in backports
+lxc exec lxd-test bash
+apt update
+apt install -t xenial-backports lxd
+
+# Verify you can launch a nested container
+lxc launch ubuntu:16.04
+
 ```
 
 If you still encounter the above error, it may be necessary to purge lxd before installing the version in backports. I suspect this happens when you used an earlier version of lxd and upgraded to the later version with this bug. **This will remove all existing containers**:
