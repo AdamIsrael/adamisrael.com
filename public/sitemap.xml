@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://adamisrael.com/</loc>
-    <lastmod>2016-05-06T08:34:39-04:00</lastmod>
-    <priority>0</priority>
+    <loc>http://adamisrael.com/2016/06/02/perfkit-and-juju/</loc>
+    <lastmod>2016-06-02T13:42:46-04:00</lastmod>
   </url>
   
   <url>
@@ -876,7 +876,702 @@
   </url>
   
   <url>
+    <loc>http://adamisrael.com/tags/20spec/</loc>
+    <lastmod>2010-12-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/about/</loc>
+    <lastmod>2009-12-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/actions/</loc>
+    <lastmod>2015-06-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/</loc>
+    <lastmod>2016-06-02T13:42:46-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/adastra/</loc>
+    <lastmod>2012-04-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/administration/</loc>
+    <lastmod>2012-02-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/alternano/</loc>
+    <lastmod>2010-11-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/anthology/</loc>
+    <lastmod>2011-10-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/astrophotography/</loc>
+    <lastmod>2011-07-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/awards/</loc>
+    <lastmod>2012-04-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/backbone/</loc>
+    <lastmod>2011-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/benchmarking/</loc>
+    <lastmod>2016-06-02T13:42:46-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/bibliography/</loc>
+    <lastmod>2009-12-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/body-hacks/</loc>
+    <lastmod>2012-01-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/booklife/</loc>
+    <lastmod>2010-01-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/books/</loc>
+    <lastmod>2011-05-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/brew/</loc>
+    <lastmod>2016-05-06T08:34:39-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/bzr/</loc>
+    <lastmod>2016-05-06T08:34:39-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/canada/</loc>
+    <lastmod>2012-11-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/canonical/</loc>
+    <lastmod>2014-08-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/clarion/</loc>
+    <lastmod>2013-06-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/cloudflare/</loc>
+    <lastmod>2016-03-15T18:47:58-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/codex/</loc>
+    <lastmod>2011-07-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/contact/</loc>
+    <lastmod>2009-12-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/conventions/</loc>
+    <lastmod>2012-11-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/crossed-genres/</loc>
+    <lastmod>2012-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/death/</loc>
+    <lastmod>2011-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/diversity/</loc>
+    <lastmod>2014-02-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/divorce/</loc>
+    <lastmod>2011-04-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/doctor-who/</loc>
+    <lastmod>2011-04-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/dog-days/</loc>
+    <lastmod>2012-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/dog-days/</loc>
+    <lastmod>2012-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/dreamhost/</loc>
+    <lastmod>2016-03-15T18:47:58-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/duotrope/</loc>
+    <lastmod>2010-03-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/events/</loc>
+    <lastmod>2011-05-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/fibromyalgia/</loc>
+    <lastmod>2010-12-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/fiction/</loc>
+    <lastmod>2011-03-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/finishing-things/</loc>
+    <lastmod>2011-01-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/fitness/</loc>
+    <lastmod>2011-07-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/free-fiction/</loc>
+    <lastmod>2012-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/friends/</loc>
+    <lastmod>2011-11-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/ftw/</loc>
+    <lastmod>2011-01-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/go/</loc>
+    <lastmod>2014-11-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/health/</loc>
+    <lastmod>2012-04-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/homebrew/</loc>
+    <lastmod>2014-11-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/homestead/</loc>
+    <lastmod>2012-07-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/house/</loc>
+    <lastmod>2012-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/hugo/</loc>
+    <lastmod>2016-03-15T18:47:58-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/illinois/</loc>
+    <lastmod>2012-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/immigration/</loc>
+    <lastmod>2013-09-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/ink/</loc>
+    <lastmod>2010-02-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/ipfw/</loc>
+    <lastmod>2014-12-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/juju/</loc>
+    <lastmod>2016-06-02T13:42:46-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/kismet/</loc>
+    <lastmod>2011-10-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/life/</loc>
+    <lastmod>2011-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/linux/</loc>
+    <lastmod>2015-10-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/markets/</loc>
+    <lastmod>2011-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/moving/</loc>
+    <lastmod>2012-07-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/nanowrimo/</loc>
+    <lastmod>2011-12-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/nebula/</loc>
+    <lastmod>2011-02-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/news/</loc>
+    <lastmod>2011-07-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/novel/</loc>
+    <lastmod>2011-08-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/os-x/</loc>
+    <lastmod>2014-12-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/osx/</loc>
+    <lastmod>2016-05-06T08:34:39-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/pay-it-forward/</loc>
+    <lastmod>2010-05-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/perfkit/</loc>
+    <lastmod>2016-06-02T13:42:46-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/categories/personal/</loc>
+    <lastmod>2015-07-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/pets/</loc>
+    <lastmod>2011-10-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/ping/</loc>
+    <lastmod>2010-12-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/politics/</loc>
+    <lastmod>2012-03-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/poll/</loc>
+    <lastmod>2011-07-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/poppet/</loc>
+    <lastmod>2011-01-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/post/</loc>
+    <lastmod>2016-06-02T13:42:46-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/process/</loc>
+    <lastmod>2012-02-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/professionalism/</loc>
+    <lastmod>2011-08-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/progress/</loc>
+    <lastmod>2012-06-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/publication/</loc>
+    <lastmod>2012-07-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/python/</loc>
+    <lastmod>2016-05-06T08:34:39-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/reading/</loc>
+    <lastmod>2011-05-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/reviews/</loc>
+    <lastmod>2011-04-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/sale/</loc>
+    <lastmod>2012-03-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/scattered-thoughts/</loc>
+    <lastmod>2011-11-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/scrivener/</loc>
+    <lastmod>2014-07-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/sfwa/</loc>
+    <lastmod>2014-02-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/shoutout/</loc>
+    <lastmod>2011-02-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/signal-boost/</loc>
+    <lastmod>2012-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/small-press/</loc>
+    <lastmod>2011-08-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/soapbox/</loc>
+    <lastmod>2010-01-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/space/</loc>
+    <lastmod>2011-07-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/spam/</loc>
+    <lastmod>2010-09-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/sshuttle/</loc>
+    <lastmod>2014-12-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/stargazing/</loc>
+    <lastmod>2011-07-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/statistics/</loc>
+    <lastmod>2010-10-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/stats/</loc>
+    <lastmod>2013-01-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/submission/</loc>
+    <lastmod>2011-10-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/submissions/</loc>
+    <lastmod>2010-01-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/</loc>
+    <lastmod>2010-12-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/categories/technical/</loc>
+    <lastmod>2016-06-02T13:42:46-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/tesla/</loc>
+    <lastmod>2012-07-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://adamisrael.com/contact/thanks/</loc>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/toronto/</loc>
+    <lastmod>2012-11-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/travel/</loc>
+    <lastmod>2015-03-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/twitter/</loc>
+    <lastmod>2010-03-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/ubuntu/</loc>
+    <lastmod>2015-10-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/ubuntu-on-mac/</loc>
+    <lastmod>2015-10-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/categories/uncategorized/</loc>
+    <lastmod>2014-02-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/vagrant/</loc>
+    <lastmod>2014-12-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/weather/</loc>
+    <lastmod>2012-02-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/wordpress/</loc>
+    <lastmod>2016-03-15T18:47:58-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/work/</loc>
+    <lastmod>2010-05-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/world-fantasy/</loc>
+    <lastmod>2010-11-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/wotf/</loc>
+    <lastmod>2010-01-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/write-a-thon/</loc>
+    <lastmod>2013-06-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/categories/writing/</loc>
+    <lastmod>2013-01-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/year-in-review/</loc>
+    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://adamisrael.com/tags/yosemite/</loc>
+    <lastmod>2014-12-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

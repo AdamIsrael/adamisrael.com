@@ -7,8 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2016 Adam Israel</copyright>
-    <lastBuildDate>Fri, 06 May 2016 08:34:39 -0400</lastBuildDate>
-    <atom:link href="http://adamisrael.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Jun 2016 13:42:46 -0400</lastBuildDate>
+    
+	<atom:link href="http://adamisrael.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Perfkit and Juju</title>
+      <link>http://adamisrael.com/2016/06/02/perfkit-and-juju/</link>
+      <pubDate>Thu, 02 Jun 2016 13:42:46 -0400</pubDate>
+      
+      <guid>http://adamisrael.com/2016/06/02/perfkit-and-juju/</guid>
+      <description>State the problem
+Performance is hard. That&amp;rsquo;s why there are so many tools to measure it. Getting to the bottom of the performance monkey barrel requires a deft hand and good aim. Requirements change, hardware is in flux, and bottlenecks shift.
+Solution is benchmarking
+Performance is hard, but benchmarking isn&amp;rsquo;t (or shouldn&amp;rsquo;t be). There are many tools to do it, and we&amp;rsquo;ve had an emergence of benchmarking suites, like the Phoronix Test Suite, that collect individual benchmarks into one package.</description>
+    </item>
     
     <item>
       <title>bzr &#34;Insecure string pickle&#34;</title>
@@ -17,102 +31,7 @@
       
       <guid>http://adamisrael.com/2016/05/06/bzr-insecure-string-pickle/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been bit by a bug in the &lt;code&gt;bzr&lt;/code&gt; source code control system where running a commit
-throws an ugly stack trace blaming an &amp;ldquo;insecure string pickle&amp;rdquo;, but I&amp;rsquo;ve found a workaround.&lt;/p&gt;
-
-&lt;p&gt;Environment:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Mac OS X 10.11.4 build 15E65&lt;/li&gt;
-&lt;li&gt;Python 2.7.11 installed via &lt;a href=&#34;https://brew.sh&#34;&gt;homebrew&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;bzr 2.7.0 installed via &lt;a href=&#34;https://brew.sh&#34;&gt;homebrew&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34; style=&#34;background: #f0f0f0&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;$ &lt;span style=&#34;color: #007020&#34;&gt;cd&lt;/span&gt; /path/to/dirty-bzr-repo/
-$ bzr commit
-bzr: ERROR: exceptions.ValueError: insecure string pickle
-
-Traceback &lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;most recent call last&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;:
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/commands.py&amp;quot;&lt;/span&gt;, line 930, in exception_to_return_code
-    &lt;span style=&#34;color: #007020; font-weight: bold&#34;&gt;return&lt;/span&gt; the_callable&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;*args, **kwargs&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/commands.py&amp;quot;&lt;/span&gt;, line 1121, in run_bzr
-    &lt;span style=&#34;color: #bb60d5&#34;&gt;ret&lt;/span&gt; &lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt; run&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;*run_argv&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/commands.py&amp;quot;&lt;/span&gt;, line 673, in run_argv_aliases
-    &lt;span style=&#34;color: #007020; font-weight: bold&#34;&gt;return&lt;/span&gt; self.run&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;**all_cmd_args&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/commands.py&amp;quot;&lt;/span&gt;, line 697, in run
-    &lt;span style=&#34;color: #007020; font-weight: bold&#34;&gt;return&lt;/span&gt; self._operation.run_simple&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;*args, **kwargs&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/cleanup.py&amp;quot;&lt;/span&gt;, line 136, in run_simple
-    self.cleanups, self.func, *args, **kwargs&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/cleanup.py&amp;quot;&lt;/span&gt;, line 166, in _do_with_cleanups
-    &lt;span style=&#34;color: #bb60d5&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt; func&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;*args, **kwargs&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/builtins.py&amp;quot;&lt;/span&gt;, line 3687, in run
-    &lt;span style=&#34;color: #bb60d5&#34;&gt;lossy&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;lossy&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/decorators.py&amp;quot;&lt;/span&gt;, line 218, in write_locked
-    &lt;span style=&#34;color: #bb60d5&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt; unbound&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;self, *args, **kwargs&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/workingtree_4.py&amp;quot;&lt;/span&gt;, line 218, in commit
-    &lt;span style=&#34;color: #bb60d5&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt; WorkingTree.commit&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;self, message, revprops, *args, **kwargs&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/decorators.py&amp;quot;&lt;/span&gt;, line 218, in write_locked
-    &lt;span style=&#34;color: #bb60d5&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt; unbound&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;self, *args, **kwargs&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/mutabletree.py&amp;quot;&lt;/span&gt;, line 211, in commit
-    *args, **kwargs&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/commit.py&amp;quot;&lt;/span&gt;, line 290, in commit
-    &lt;span style=&#34;color: #bb60d5&#34;&gt;lossy&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;lossy&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/cleanup.py&amp;quot;&lt;/span&gt;, line 132, in run
-    self.cleanups, self.func, self, *args, **kwargs&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/cleanup.py&amp;quot;&lt;/span&gt;, line 166, in _do_with_cleanups
-    &lt;span style=&#34;color: #bb60d5&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt; func&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;*args, **kwargs&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/commit.py&amp;quot;&lt;/span&gt;, line 443, in _commit
-    &lt;span style=&#34;color: #bb60d5&#34;&gt;message&lt;/span&gt; &lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt; message_callback&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;self&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/builtins.py&amp;quot;&lt;/span&gt;, line 3664, in get_message
-    &lt;span style=&#34;color: #bb60d5&#34;&gt;start_message&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;start_message&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/msgeditor.py&amp;quot;&lt;/span&gt;, line 150, in edit_commit_message_encoded
-    &lt;span style=&#34;color: #007020; font-weight: bold&#34;&gt;if&lt;/span&gt; not _run_editor&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;msgfilename&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;:
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/msgeditor.py&amp;quot;&lt;/span&gt;, line 67, in _run_editor
-    &lt;span style=&#34;color: #bb60d5&#34;&gt;x&lt;/span&gt; &lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt; call&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;edargs + &lt;span style=&#34;color: #666666&#34;&gt;[&lt;/span&gt;filename&lt;span style=&#34;color: #666666&#34;&gt;])&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/subprocess.py&amp;quot;&lt;/span&gt;, line 522, in call
-    &lt;span style=&#34;color: #007020; font-weight: bold&#34;&gt;return&lt;/span&gt; Popen&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;*popenargs, **kwargs&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;.wait&lt;span style=&#34;color: #666666&#34;&gt;()&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/subprocess.py&amp;quot;&lt;/span&gt;, line 710, in __init__
-    errread, errwrite&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/subprocess.py&amp;quot;&lt;/span&gt;, line 1334, in _execute_child
-    &lt;span style=&#34;color: #bb60d5&#34;&gt;child_exception&lt;/span&gt; &lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt; pickle.loads&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;data&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py&amp;quot;&lt;/span&gt;, line 1388, in loads
-    &lt;span style=&#34;color: #007020; font-weight: bold&#34;&gt;return&lt;/span&gt; Unpickler&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;file&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;.load&lt;span style=&#34;color: #666666&#34;&gt;()&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py&amp;quot;&lt;/span&gt;, line 864, in load
-    dispatch&lt;span style=&#34;color: #666666&#34;&gt;[&lt;/span&gt;key&lt;span style=&#34;color: #666666&#34;&gt;](&lt;/span&gt;self&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py&amp;quot;&lt;/span&gt;, line 972, in load_string
-    raise ValueError, &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;insecure string pickle&amp;quot;&lt;/span&gt;
-ValueError: insecure string pickle
-
-bzr 2.7.0 on python 2.7.11 &lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;Darwin-15.4.0-x86_64-i386-64bit&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-arguments: &lt;span style=&#34;color: #666666&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color: #4070a0&#34;&gt;&amp;#39;/usr/local/bin/bzr&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;#39;commit&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;]&lt;/span&gt;
-plugins: bash_completion&lt;span style=&#34;color: #666666&#34;&gt;[&lt;/span&gt;2.7.0&lt;span style=&#34;color: #666666&#34;&gt;]&lt;/span&gt;, changelog_merge&lt;span style=&#34;color: #666666&#34;&gt;[&lt;/span&gt;2.7.0&lt;span style=&#34;color: #666666&#34;&gt;]&lt;/span&gt;,
-    fastimport&lt;span style=&#34;color: #666666&#34;&gt;[&lt;/span&gt;0.14.0dev&lt;span style=&#34;color: #666666&#34;&gt;]&lt;/span&gt;, grep&lt;span style=&#34;color: #666666&#34;&gt;[&lt;/span&gt;2.7.0&lt;span style=&#34;color: #666666&#34;&gt;]&lt;/span&gt;, launchpad&lt;span style=&#34;color: #666666&#34;&gt;[&lt;/span&gt;2.7.0&lt;span style=&#34;color: #666666&#34;&gt;]&lt;/span&gt;,
-    netrc_credential_store&lt;span style=&#34;color: #666666&#34;&gt;[&lt;/span&gt;2.7.0&lt;span style=&#34;color: #666666&#34;&gt;]&lt;/span&gt;, news_merge&lt;span style=&#34;color: #666666&#34;&gt;[&lt;/span&gt;2.7.0&lt;span style=&#34;color: #666666&#34;&gt;]&lt;/span&gt;, po_merge&lt;span style=&#34;color: #666666&#34;&gt;[&lt;/span&gt;2.7.0&lt;span style=&#34;color: #666666&#34;&gt;]&lt;/span&gt;,
-    weave_fmt&lt;span style=&#34;color: #666666&#34;&gt;[&lt;/span&gt;2.7.0&lt;span style=&#34;color: #666666&#34;&gt;]&lt;/span&gt;
-encoding: &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;, fsenc: &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;, lang: &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;#39;en_CA.UTF-8&amp;#39;&lt;/span&gt;
-
-*** Bazaar has encountered an internal error.  This probably indicates a
-    bug in Bazaar.  You can &lt;span style=&#34;color: #007020&#34;&gt;help&lt;/span&gt; us fix it by filing a bug report at
-        https://bugs.launchpad.net/bzr/+filebug
-    including this traceback and a description of the problem.
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;I&amp;rsquo;ve been bit by this bug a few times. The easy workaround was to set the
-commit message on the command line:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34; style=&#34;background: #f0f0f0&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;$ &lt;span style=&#34;color: #007020&#34;&gt;cd&lt;/span&gt; /path/to/dirty-bzr-repo/
-$ bzr commit -m &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;Some commit message&amp;quot;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Ultimately, the problem is that bzr expects BZR_EDITOR to be set. If it&amp;rsquo;s not,
-it will throw this cryptic exception. You can fix this by setting this
-environment variable in your shell.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34; style=&#34;background: #f0f0f0&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #60a0b0; font-style: italic&#34;&gt;# ~/.bash_profile&lt;/span&gt;
-
-&lt;span style=&#34;color: #60a0b0; font-style: italic&#34;&gt;# Tell bzr which editor to use&lt;/span&gt;
-&lt;span style=&#34;color: #007020&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color: #bb60d5&#34;&gt;BZR_EDITOR&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;vim
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;I&amp;rsquo;ve filed &lt;a href=&#34;https://bugs.launchpad.net/bzr/+bug/1579048&#34;&gt;lp:1579048&lt;/a&gt; to
-document the bugs and workaround(s).&lt;/p&gt;
-</description>
+throws an ugly stack trace blaming an &amp;ldquo;insecure string pickle&amp;rdquo;, but I&amp;rsquo;ve found a workaround.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -129,29 +48,7 @@ threw turned on caching and Cloudflare; readers should have had little trouble
 using the site, but my sessions were consistently timing out while using the
 admin dashboard, which makes posting new content a frustrating experience.&lt;/p&gt;
 
-&lt;p&gt;Wordpress on it&amp;rsquo;s own is fine, especially on dedicated servers. I&amp;rsquo;ve run
-hundreds of thousands of requests/day through Wordpress and it can handle it
-well, as long as you give it the right hardware.&lt;/p&gt;
-
-&lt;p&gt;Dreamhost, as well, isn&amp;rsquo;t at fault. I pay for fairly cheap hosting, and they
-don&amp;rsquo;t have much control over the efficiency of the apps that their shared
-hosting customers run.&lt;/p&gt;
-
-&lt;p&gt;So in comes Hugo.&lt;/p&gt;
-
-&lt;p&gt;There&amp;rsquo;s a bunch of static site generators around, like jekyll or octopress. I
-wanted to write in Markdown, I wanted it to be fast, and I wanted it to be
-flexible. After playing around with a few generators, I was sold.&lt;/p&gt;
-
-&lt;p&gt;I can basically write a blog post really quick, save it, and run a script that
-will generate the static pages, commit the changes to Github, and rsync it to
-this site.&lt;/p&gt;
-
-&lt;p&gt;There may be a few formatting errors in the older posts, but I imported
-everything from Wordpress, converted it to Markdown, and kept all of the
-permalinks the same. All told, maybe twelve hours of work and I have a blog
-I&amp;rsquo;m not frustrated to look at anymore.&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -160,18 +57,8 @@ I&amp;rsquo;m not frustrated to look at anymore.&lt;/p&gt;
       <pubDate>Thu, 15 Oct 2015 00:00:00 +0000</pubDate>
       
       <guid>http://adamisrael.com/blog/2015/10/15/ubuntu-on-mac/</guid>
-      <description>&lt;p&gt;I recently rebuilt a Mac Mini to work as the forth screen in my workflow. I googled around and pieced together what I needed to do by cherrypicking from various guides, and everything was running well until I updated to a new kernel and rebooted. I spent the better part of two nights trying to get the machine to boot.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, it happened just after I blacklisted a module to work around a USB bug that was causing one of my drives to go haywire occasionally, and it took a while before I finally figured out it wasn&amp;#8217;t a problem with my change but the kernel itself. Mac&amp;#8217;s use EFI for booting &amp;#8212; which requires a cryptographically signed kernel. I was finally able to boot up by following the first half of the instructions on &lt;a href=&#34;1&#34;&gt;this&lt;/a&gt; Ask Ubuntu answer. Essentially, do a manual boot via grub and make sure that I pick the secure kernel.&lt;/p&gt;
-
-&lt;p&gt;I noticed that I only had a signed image for an older version of the Kernel. I dropped by #ubuntu-kernel and was pointed to the &lt;strong&gt;linux-signed-generic&lt;/strong&gt; package. What happened is none of the guides I read had mentioned this package or its significance. Any time the kernel images are updated, the signed version is also updated, except you won&amp;#8217;t get that image by default. The machine was trying to boot off an unsigned kernel, causing the boot sequence to freeze (with no indication as to why).&lt;/p&gt;
-
-&lt;pre class=&#34;lang:sh decode:true &#34; &gt;sudo apt-get update
-sudo apt-get install linux-signed-generic
-sudo reboot&lt;/pre&gt;
-
-&lt;p&gt;A thorn with an easy fix. Install the meta package, which will pull in the current signed image, and reboot.&lt;/p&gt;
-</description>
+      <description>I recently rebuilt a Mac Mini to work as the forth screen in my workflow. I googled around and pieced together what I needed to do by cherrypicking from various guides, and everything was running well until I updated to a new kernel and rebooted. I spent the better part of two nights trying to get the machine to boot.
+Unfortunately, it happened just after I blacklisted a module to work around a USB bug that was causing one of my drives to go haywire occasionally, and it took a while before I finally figured out it wasn&amp;#8217;t a problem with my change but the kernel itself.</description>
     </item>
     
     <item>
@@ -180,44 +67,8 @@ sudo reboot&lt;/pre&gt;
       <pubDate>Mon, 06 Jul 2015 00:00:00 +0000</pubDate>
       
       <guid>http://adamisrael.com/blog/2015/07/06/american-serenade/</guid>
-      <description>&lt;p&gt;Back in 2009, we were winding down our life in the U.S.. We drastically culled things we didn&amp;#8217;t want or need, and put the rest into storage for the eventual move to Canada.&lt;/p&gt;
-
-&lt;p&gt;Andrea was home in August 2009; I was there on and off, until I was officially issued a visitor record in November 2010 and filed for permanent resident status. On that day, I entered the country with one large suitcase and a backpack containing some notebooks and my laptop. That&amp;#8217;s it.&lt;/p&gt;
-
-&lt;p&gt;This weekend, my brother-in-law and I had an epic 30 hour adventure: driving a U-Haul cargo van on a round-trip from Ontario to Aurora, IL and back. Our choice of weekend was suspect from the start; most people thought it was crazy to do this on a weekend when terror alerts were escalated and traffic was sure to be horrible, but I had a plan.&lt;/p&gt;
-
-&lt;p&gt;We crossed the border Friday night around 9:30. It was John&amp;#8217;s first time in the states, and he was greeted almost immediately by fireworks, like a dignitary being being greeted with festivities. After a minor detour that almost put us in Toledo, OH, we were back on schedule, driving across Michigan. Traffic was light, only hindered by various police-directed road closures. We got to my mom&amp;#8217;s place around 4AM, and were back out the door around 9:30.&lt;/p&gt;
-
-&lt;p&gt;I&amp;#8217;d done some research on bringing our stuff back to Canada. By all accounts, a straightforward task. We unpacked almost everything in the storage unit, numbering the boxes and documenting their contents in a notebook. It was a lot of work on a sunny July day. I wore a tube sock as a bandana, to keep the sweat from my eyes, and we drank so much water that I had to run for refills at one point.&lt;/p&gt;
-
-&lt;p&gt;Andrea was pretty skeptical that we&amp;#8217;d be able to fit everything into the cargo van, but it was exponentially more expensive to rent and drive a larger truck that far. Sure enough, we fit everything in the truck, minus bed linens that didn&amp;#8217;t fit any bed we own and a few other things that had long since been replaced.&lt;/p&gt;
-
-&lt;p&gt;It was about 4pm by the time we left the storage unit. I did what any good host would do and continued giving John a tour of the things Andrea and I were used to. A trip to the massive warehouse that is Woodman Food (part of the side-quest to find Vanilla Coke), and then a winding trek through downtown Aurora and the suburbs.&lt;/p&gt;
-
-&lt;p&gt;Our wanderings were accompanied by fireworks in every direction, from Aurora to the Indiana border. A good and proper showing for anyone&amp;#8217;s first visit.&lt;/p&gt;
-
-&lt;p&gt;Another side-quest was to introduce him to as many different foods as possible, and specifically from places we couldn&amp;#8217;t find in Ontario. Considering the short time we had, we focused on smaller meals. A Steak &amp;#8216;n Shake at midnight, so busy that we had to wait for a table. IHOP, which despite international being in its name is far from it. Portillo&amp;#8217;s for lunch; nothing beats a hot dog and cheese fries. Sonic for a drink and tater tot snack.&lt;/p&gt;
-
-&lt;p&gt;So it comes to the accounting of things; the detritus of a life lived in privilege.&lt;/p&gt;
-
-&lt;p&gt;Most of the boxes we hauled were full of books. Reference books, text books, hard cover and paperback books, some of which I acquired in my early teens. Books by my instructors at Clarion 2010, and a few spoils from Comic Con San Diego that same year.&lt;/p&gt;
-
-&lt;p&gt;All sorts of miscellanea; ham radios to tools to crochet and quilted blankets. Cookware. Clothes. LEGO, Star Trek models, my childhood (and not so childhood) Transformer toys, and more nerdy/geeky knickknacks than anyone has a right to. Also, sixteen short boxes of comic books.&lt;/p&gt;
-
-&lt;p&gt;I even found a 20+ year old model of a Klingon &lt;em&gt;Bird of Prey&lt;/em&gt;, which we put on the dashboard as a sort of mascot.&lt;/p&gt;
-
-&lt;p&gt;Clearly, we are adult-sized children with a love for the fantastic. Which saved our asses when we reached the Canadian border.&lt;/p&gt;
-
-&lt;p&gt;Apparently, I was supposed to have filed a B-4 form when I landed in Canada in late 2010, documenting what I was bringing with me and what I would be bringing over at some future date. No one informed me of this, and as a result, we faced paying import duties on everything brought with us, as if it were new.&lt;/p&gt;
-
-&lt;p&gt;We pulled in for secondary inspection around 3:30AM. Four officers approach, one to my open window. He reiterates the issue of not having filed a B-4, and the potentially heavy penalty. And then things got interesting. At mention of the comic books, he asked which series we had. And then what series of fantasy novel. And which generation of Transformers toys, and US or Japanese issue.&lt;/p&gt;
-
-&lt;p&gt;This went on for ten minutes, an exploration of genre cornucopia. And then the strangest thing happened. The guard that initially met us in secondary exception says, &amp;#8220;Ok, that&amp;#8217;s enough. You win,&amp;#8221; and we were sent on our way. No duties. No fines. Just relief that this adventure was coming to a close.&lt;/p&gt;
-
-&lt;p&gt;We&amp;#8217;re home now, with boxes filling our dining and living room. We&amp;#8217;ll be spending the rest of the month unpacking and figuring out where to put all this stuff. A minor collection of the best of our childhood (and later) memorabilia. Forgotten memories of good and bad times. And another to-read pile to add to the existing one. &lt;strong&gt;Shit&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;All kidding aside, this was one of the best experiences. A road trip, with all of that entails (including a minor brush with the police in Michigan because I forgot to use a turn signal on an otherwise empty street), with someone I genuinely consider to be a friend. A massive item removed from the TODO list and the erasure of a constant stress of &amp;#8220;what if&amp;#8221; with most of our worldly belongings a country and three states away.&lt;/p&gt;
-</description>
+      <description>Back in 2009, we were winding down our life in the U.S.. We drastically culled things we didn&amp;#8217;t want or need, and put the rest into storage for the eventual move to Canada.
+Andrea was home in August 2009; I was there on and off, until I was officially issued a visitor record in November 2010 and filed for permanent resident status. On that day, I entered the country with one large suitcase and a backpack containing some notebooks and my laptop.</description>
     </item>
     
     <item>
@@ -226,80 +77,8 @@ sudo reboot&lt;/pre&gt;
       <pubDate>Tue, 23 Jun 2015 00:00:00 +0000</pubDate>
       
       <guid>http://adamisrael.com/blog/2015/06/23/announcing-benchmarking-with-juju/</guid>
-      <description>&lt;p&gt;Benchmarking and performance are interesting problems, especially in today’s growing cloud-based microservice scene. It used to be a question of “how does this hardware compare to that hardware,” but as computing and service-oriented architectures grow the question has evolved. How does my cloud and application stack handle this? It’s no longer enough to run PTS on your web server and call it a day.&lt;/p&gt;
-
-&lt;p&gt;Measuring every microservice in your stack, from backend to frontend, is a complex task. We started thinking about how you would model a system to benchmark all of these services. It’s not just a matter of measuring the performance of one service, but also its interactions with other services. Now multiply that by every config option for every service, like PostgreSQL, which has hundreds of options that can affect performance.&lt;/p&gt;
-
-&lt;p&gt;Juju has been modeling service orchestration since 2010. It’s done a great job of taking complex scenarios that are now booming, such as containerization, service oriented architectures and hyperscale, and condensing those ideas down into composable, reusable, pieces. Today we’re adding benchmarking. The ability not just to define the relationships between these services, but how they should be measured in relation to each other.&lt;/p&gt;
-
-&lt;p&gt;As an example, monitoring the effect of adjusting the cache in nginx is a solved problem. What we’re going after is what happens when you adjust any service in your stack in relation to every other service. Turn every knob programmatically and measure it at any scale, on any cloud. Where exactly will you get the best performance: your application, the cache layer, or the backend database? Which configuration of that database stack is most performant? Which microservice benefits from faster disk I/O? These are the kinds of questions we want answered.&lt;/p&gt;
-
-&lt;p&gt;With &lt;a href=&#34;1&#34;&gt;Juju Actions&lt;/a&gt;, we can now encapsulate tasks to run against a single unit or service in a repeatable, reliable, and composable way. Benchmarking is a natural extension of Actions, allowing authors to encapsulate the best practices for measuring the performance of a service and serve those results &amp;#8212; in a standard way &amp;#8212; that any user or tool can digest.&lt;/p&gt;
-
-&lt;p&gt;We’re announcing &lt;a href=&#34;2&#34;&gt;charm-benchmark&lt;/a&gt;, a library written in Python that includes bash scripts so you can write benchmarks in any language. It uses action-set under the covers to create a simple schema that anyone can use and parse.&lt;/p&gt;
-
-&lt;p&gt;While we may intimately know a few services, we’re by no means the experts. We’ve created benchmarks for some of popular services in the charm store, such as &lt;a href=&#34;3&#34;&gt;mongodb&lt;/a&gt;, &lt;a href=&#34;4&#34;&gt;cassandra&lt;/a&gt;, &lt;a href=&#34;5&#34;&gt;mysql&lt;/a&gt; and &lt;a href=&#34;6&#34;&gt;siege&lt;/a&gt;, in order to provide a basic set of examples. Now we’re looking for community experts who are interested in benchmarking in order to fill the gap of knowledge. We’re excited about performance and how Juju can be used to model performance validation. We need more expertise on how to stress a service or workload to measure that performance.&lt;/p&gt;
-
-&lt;p&gt;For example, here&amp;#8217;s what a benchmark for &lt;em&gt;siege&lt;/em&gt; would look like:&lt;/p&gt;
-
-&lt;p&gt;actions.yaml:&lt;/p&gt;
-
-&lt;pre class=&#34;lang:yaml decode:true &#34; title=&#34;actions.yaml&#34;&gt;siege:
-  description: Standard siege benchmark.
-  params:
-    concurrent:
-      description: The number of simultaneous users to stress the web server with.
-      type: integer
-      default: 25
-    time:
-      description: The time to run the siege test for.
-      type: string
-      default: &#34;1M&#34;
-    delay:
-      description: |
-        Delay each simulated user for a random number of seconds between
-        one and DELAY seconds.
-      type: integer
-      default: 3
-&lt;/pre&gt;
-
-&lt;p&gt;actions/siege:&lt;/p&gt;
-
-&lt;pre class=&#34;lang:default decode:true &#34; title=&#34;siege&#34;&gt;#!/bin/bash
-set -eux
-
-# Make sure charm-benchmark is installed
-if ! hash benchmark-start 2&amp;&gt;/dev/null; then
-    apt-get install -y python-pip
-    pip install -U charm-benchmark
-fi
-
-runtime=`action-get time`
-concurrency=`action-get concurrency`
-delay=`action-get delay`
-run=`date +%s`
-
-mkdir -p /opt/siege/results/$run
-
-benchmark-start
-
-# Run your benchmark
-siege -R $CHARM_DIR/.siegerc -t ${runtime:-1M} -c ${concurrency:-25} -d ${delay:-3} -q --log=/opt/siege/results/$run/siege.log
-
-# Grep/awk/parse the results
-
-benchmark-data transactions $transactions hits desc
-benchmark-data transaction_rate $hits “hits/sec” desc
-benchmark-data transferred $transferred MB desc
-benchmark-data response_time $response ms asc
-
-# Set the composite, which is the single most important score
-benchmark-composite transaction_rate $hits hits/sec desc
-
-benchmark-finish || true&lt;/pre&gt;
-
-&lt;p&gt;We’ll be covering benchmarking in the next &lt;a href=&#34;7&#34;&gt;Juju Office Hours&lt;/a&gt; on &lt;a href=&#34;8&#34;&gt;July 9th at 1600 EDT/20:00 UTC&lt;/a&gt; and we’d love to help anyone who wants to get started, you can find me, Adam Israel (aisrael), Marco Ceppi (marcoceppi), and Tim Van Steenburgh (tvansteenburgh) on #juju on Freenode and on the &lt;a href=&#34;9&#34;&gt;Juju mailing list&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Benchmarking and performance are interesting problems, especially in today’s growing cloud-based microservice scene. It used to be a question of “how does this hardware compare to that hardware,” but as computing and service-oriented architectures grow the question has evolved. How does my cloud and application stack handle this? It’s no longer enough to run PTS on your web server and call it a day.
+Measuring every microservice in your stack, from backend to frontend, is a complex task.</description>
     </item>
     
     <item>
@@ -308,22 +87,8 @@ benchmark-finish || true&lt;/pre&gt;
       <pubDate>Sun, 29 Mar 2015 00:00:00 +0000</pubDate>
       
       <guid>http://adamisrael.com/blog/2015/03/29/the-doppelganger-effect/</guid>
-      <description>&lt;p&gt;Yesterday was a travel day, coming home from a week in Breckenridge, CO for a work sprint. These are usually uneventful days, riding trains or shuttles to and from airports. Yesterday was different, though. Yesterday, I ran into my doppelgänger.&lt;/p&gt;
-
-&lt;p&gt;The first indication that something was off was when I checked my bag curbside. The porter asked me if I&amp;#8217;d already checked a bag. I said no, and he gestured me to come around the counter and see what he was seeing. Sure enough, there was my name, showing one back checked.&lt;/p&gt;
-
-&lt;p&gt;I assumed it was because I&amp;#8217;d checked-in online and paid the baggage fee, and said as much. We figured it was just some kind of oddity and carried on.&lt;/p&gt;
-
-&lt;p&gt;Grabbing a bite to eat inside the terminal, I noticed the second oddity. The boarding pass the porter handed me listed seat 6C, but the Delta app showed me in seat 18F. I thought maybe it was just a lag in my information being updated since arriving at the airport, but no. The app updated to show my gate information, but I was still in 18F.&lt;/p&gt;
-
-&lt;p&gt;At this point, I was pretty convinced that, despite the odds, there was another Adam Israel was on the flight; I had his bordering pass and he had my luggage.&lt;/p&gt;
-
-&lt;p&gt;Fast forward a couple hours (because we were there way early), I talk to the agent at the gate. She becomes apologetic very quickly, mentioning that this happened to her with a passenger last week as well, and confirms that I did have the wrong bordering pass. She makes sure that the other me&amp;#8217;s final destination is the same as mine, and it is, so no luggage juggling has to be done.&lt;/p&gt;
-
-&lt;p&gt;Here&amp;#8217;s the thing: I cleared security with someone else&amp;#8217;s boarding pass. I had identification with my photo on it, but the boarding pass I presented wasn&amp;#8217;t mine. Think about that. It&amp;#8217;s a potentially serious lapse in security.&lt;/p&gt;
-
-&lt;p&gt;Everything worked out fine in the end. I saw (but didn&amp;#8217;t get a chance to talk to) another Adam Israel. I got my luggage, and even caught a shuttle home three hours earlier than scheduled. I can&amp;#8217;t help but wonder, though, what could happen if someone not as honest, with not so good intentions, could clear security at an airport simply by sharing a name with another passenger.&lt;/p&gt;
-</description>
+      <description>Yesterday was a travel day, coming home from a week in Breckenridge, CO for a work sprint. These are usually uneventful days, riding trains or shuttles to and from airports. Yesterday was different, though. Yesterday, I ran into my doppelgänger.
+The first indication that something was off was when I checked my bag curbside. The porter asked me if I&amp;#8217;d already checked a bag. I said no, and he gestured me to come around the counter and see what he was seeing.</description>
     </item>
     
     <item>
@@ -336,42 +101,7 @@ benchmark-finish || true&lt;/pre&gt;
   &lt;a href=&#34;https://github.com/sshuttle/sshuttle&#34;&gt;sshuttle&lt;/a&gt; is a nifty little transparent proxy/vpn that works by tunneling TCP traffic over SSH, or more specifically, tearing down a TCP session and reassembling the data on the other side. I started using it earlier this year, as part of my workflow using &lt;a href=&#34;https://juju.ubuntu.com/&#34;&gt;Juju&lt;/a&gt; and developing under OS X. It&amp;#8217;s like a data center in a box, inside another box. Code locally in my editor of choice (vim, TextMate, and more recently, Atom). Deploy new code. Refresh web browser, thanks to sshuttle. With sshuttle, I could connect to the services running within my virtual machine running Ubuntu natively through OS X.
 &lt;/p&gt;
 
-&lt;p class=&#34;p2&#34;&gt;
-  Until I upgraded to Yosemite (OS X 10.10).
-&lt;/p&gt;
-
-&lt;p class=&#34;p2&#34;&gt;
-  ipfw, the FreeBSD ip packet filter, was replaced by OpenBSD&amp;#8217;s pf in OS X 10.7, but the binary lived on through 10.9. sshuttle has no support for pf, which led me googling down a spiraling trail of despair and hope that someone, some day, would patch sshuttle.
-&lt;/p&gt;
-
-&lt;p class=&#34;p2&#34;&gt;
-  I&amp;#8217;m more familiar with iptables than either ipfw or pf, but I understand enough networking to know that ubuntu-in-a-virtual-machine was already setup to talk to the outside world. I figured that there must be something more obvious than setting up a poor man&amp;#8217;s VPN to talk to it.
-&lt;/p&gt;
-
-&lt;p class=&#34;p2&#34;&gt;
-  A few hours of testing later, I had a working solution using the route command.
-&lt;/p&gt;
-
-&lt;pre class=&#34;lang:sh decode:true &#34;&gt;$ sudo route add -net 10.0.3.0/24 172.16.250.15&lt;/pre&gt;
-
-&lt;p&gt;The lxc containers run on the 10.0.3.0 network, and the lxc host (always, in the official Vagrant image) has eth1 bound to 172.16.250.15.&lt;/p&gt;
-
-&lt;p&gt;There&amp;#8217;s a few ways I could have implemented this. I could have made it a static route, always active, but that could lead to unintended side-effects if you were to join a network using the same ip range. Same logic rules out adding it to my ~/.bash_profile. I ended up finding vagrant-triggers, which allows you to run custom commands at various stages of the vagrant lifecycle. With that, I can add the route when I boot up a virtual machine, and remove it when I&amp;#8217;ve shut it down.&lt;/p&gt;
-
-&lt;p class=&#34;p2&#34;&gt;
-  While I can confirm that it works for me, I can&amp;#8217;t say how well it&amp;#8217;ll work for other use cases of sshuttle or earlier versions of OS X. Juju users can head over to the &lt;a href=&#34;https://juju.ubuntu.com/docs/howto-vagrant-workflow.html&#34;&gt;Vagrant Workflow&lt;/a&gt; docs for the latest and greatest, or read on for the &lt;a href=&#34;https://gist.github.com/AdamIsrael/cc51d3d704c18095f718&#34;&gt;gist&lt;/a&gt;.
-&lt;/p&gt;
-
-&lt;p class=&#34;p2&#34;&gt;
-  
-&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p class=&#34;p3&#34;&gt;
-
-&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -380,138 +110,8 @@ benchmark-finish || true&lt;/pre&gt;
       <pubDate>Thu, 13 Nov 2014 00:00:00 +0000</pubDate>
       
       <guid>http://adamisrael.com/blog/2014/11/13/making-os-x-go-and-brew-play-happy/</guid>
-      <description>
-
-&lt;h1 id=&#34;go-and-os-x:88ab873d5c8d53a90360c0026a04b5ae&#34;&gt;GO and OS X&lt;/h1&gt;
-
-&lt;p&gt;I&amp;#8217;m doing a little hacking with &lt;a href=&#34;1&#34;&gt;juju actions&lt;/a&gt; before they land in a stable release but I ran into some hurdles getting Go working with the &lt;a href=&#34;2&#34;&gt;brew&lt;/a&gt;-installed version. Trying to install Go packages failed with a bunch of &amp;#8216;unrecognized import path&amp;#8217; errors. Here&amp;#8217;s how I fixed it.&lt;/p&gt;
-
-&lt;h1 id=&#34;stop-go-stop:88ab873d5c8d53a90360c0026a04b5ae&#34;&gt;STOP, GO, STOP&lt;/h1&gt;
-
-&lt;p&gt;Even though you can install Go via brew, there&amp;#8217;s more to be done to get it working. Go relies on two environment variables: &lt;a href=&#34;3&#34;&gt;GOPATH&lt;/a&gt;, and GOROOT. GOROOT is the path where Go is installed, and GOPATH is the directory you&amp;#8217;ve created for your code workspace (which I&amp;#8217;ve defaulted to $HOME/go).  We then need to tell our shell where to find these installed executable and run them first&lt;sup&gt;&lt;a href=&#34;#1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-
-&lt;pre class=&#34;lang:default decode:true&#34; title=&#34;Add go to your bash profile&#34;&gt;cat &amp;lt;&amp;lt; EOF &amp;gt; ~/.bash_profile
-# Go go gadget Go!
-GOVERSION=$(brew list go | head -n 1 | cut -d &#39;/&#39; -f 6)
-export GOPATH=$HOME/go
-export GOROOT=$(brew --prefix)/Cellar/go/$GOVERSION/libexec
-PATH=$GOROOT/bin:&#34;${PATH}&#34;
-EOF
-&lt;/pre&gt;
-
-&lt;p&gt;Now you can run something like to have easier access to docs:&lt;/p&gt;
-
-&lt;pre class=&#34;theme:terminal lang:default decode:true&#34;&gt;$ go get code.google.com/p/go.tools/cmd/godoc
-$ godoc gofmt
-COMMAND DOCUMENTATION
-
-    Gofmt formats Go programs. It uses tabs (width = 8) for indentation and
-    blanks for alignment.
-
-    Without an explicit path, it processes the standard input. Given a file,
-    it operates on that file; given a directory, it operates on all .go
-    files in that directory, recursively. (Files starting with a period are
-    ignored.) By default, gofmt prints the reformatted sources to standard
-    output.
-
-    Usage:
-
-    gofmt [flags] [path ...]
-
-    The flags are:
-
-    -d
-        Do not print reformatted sources to standard output.
-        If a file&#39;s formatting is different than gofmt&#39;s, print diffs
-        to standard output.
-    -e
-        Print all (including spurious) errors.
-    -l
-        Do not print reformatted sources to standard output.
-        If a file&#39;s formatting is different from gofmt&#39;s, print its name
-        to standard output.
-    -r rule
-        Apply the rewrite rule to the source before reformatting.
-    -s
-        Try to simplify code (after applying the rewrite rule, if any).
-    -w
-        Do not print reformatted sources to standard output.
-        If a file&#39;s formatting is different from gofmt&#39;s, overwrite it
-        with gofmt&#39;s version.
-
-    Debugging support:
-
-    -cpuprofile filename
-        Write cpu profile to the specified file.
-
-    The rewrite rule specified with the -r flag must be a string of the
-    form:
-
-    pattern -&amp;gt; replacement
-
-    Both pattern and replacement must be valid Go expressions. In the
-    pattern, single-character lowercase identifiers serve as wildcards
-    matching arbitrary sub-expressions; those expressions will be
-    substituted for the same identifiers in the replacement.
-
-    When gofmt reads from standard input, it accepts either a full Go
-    program or a program fragment. A program fragment must be a
-    syntactically valid declaration list, statement list, or expression.
-    When formatting such a fragment, gofmt preserves leading indentation as
-    well as leading and trailing spaces, so that individual sections of a Go
-    program can be formatted by piping them through gofmt.
-
-    Examples
-
-    To check files for unnecessary parentheses:
-
-    gofmt -r &#39;(a) -&amp;gt; a&#39; -l *.go
-
-    To remove the parentheses:
-
-    gofmt -r &#39;(a) -&amp;gt; a&#39; -w *.go
-
-    To convert the package tree from explicit slice upper bounds to implicit
-    ones:
-
-    gofmt -r &#39;α[β:len(α)] -&amp;gt; α[β:]&#39; -w $GOROOT/src/pkg
-
-
-    The simplify command
-
-    When invoked with -s gofmt will make the following source
-    transformations where possible.
-
-    An array, slice, or map composite literal of the form:
-        []T{T{}, T{}}
-    will be simplified to:
-        []T{{}, {}}
-
-    A slice expression of the form:
-        s[a:len(s)]
-    will be simplified to:
-        s[a:]
-
-    A range of the form:
-        for x, _ = range v {...}
-    will be simplified to:
-        for x = range v {...}
-
-BUGS
-
-   The implementation of -r is a bit slow.
-&lt;/pre&gt;
-
-&lt;h1 id=&#34;homebrew-gotchas:88ab873d5c8d53a90360c0026a04b5ae&#34;&gt;Homebrew Gotchas&lt;/h1&gt;
-
-&lt;p&gt;Homebrew installs the go formula with a bin/ directory, which symlinks to the go and gofmt binaries in libexec/. Other binaries, such as godoc, will be installed to libexec but are not symlinked to bin/. Adding go/$GOVERSION/libexec, instead of go/$GOVERSION/bin, to PATH makes sure we&amp;#8217;re looking in the right place, and this setup will survive a version upgrade.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a name=&#34;1&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;sup&gt;1&lt;/sup&gt;: It would probably be better to create a script that would toggle the PATH to include/exclude my $GOPATH/bin in $PATH. I&amp;#8217;m using this to run the latest cutting edge version of juju, but I can see the need to switch back to using the released version of juju, without having to hack my ~/.bash_profile&lt;/p&gt;
-</description>
+      <description>GO and OS X I&amp;#8217;m doing a little hacking with juju actions before they land in a stable release but I ran into some hurdles getting Go working with the brew-installed version. Trying to install Go packages failed with a bunch of &amp;#8216;unrecognized import path&amp;#8217; errors. Here&amp;#8217;s how I fixed it.
+STOP, GO, STOP Even though you can install Go via brew, there&amp;#8217;s more to be done to get it working.</description>
     </item>
     
     <item>
@@ -520,42 +120,8 @@ BUGS
       <pubDate>Wed, 03 Sep 2014 00:00:00 +0000</pubDate>
       
       <guid>http://adamisrael.com/blog/2014/09/03/a-brief-introduction-to-juju/</guid>
-      <description>&lt;p&gt;I had some concerns about how I was going to integrate posts of a technical nature with my blog, which has been predominantly writing-oriented for several years. What I failed take into account is that many of us who write Science Fiction are armchair technologists. We look at gadgets, scientific breakthroughs and tech policy, and make conjecture about what might come next.&lt;/p&gt;
-
-&lt;p&gt;What I talk about is less important than &lt;em&gt;how&lt;/em&gt; I talk about it. It’ll be interesting, or not, but no self-rejection.&lt;/p&gt;
-
-&lt;p&gt;Onward.&lt;/p&gt;
-
-&lt;p&gt;In one of my previous jobs, I ran a cluster of servers responsible for serving upwards of 1.5 &lt;em&gt;Billion&lt;/em&gt; ads/day. I had a half dozen racks of hardware sitting in a data center in Chicago. Some of those servers were from the early days, while others were a few years newer.&lt;/p&gt;
-
-&lt;p&gt;When business was good, we&amp;#8217;d buy more equipment &amp;#8212; servers, racks, switches, electricity, and bandwidth &amp;#8212; to handle the traffic. The new business justified the fixed and recurring costs (to buy and lease hardware, and to host the equipment), locked in to a 1-3 year contract.&lt;/p&gt;
-
-&lt;p&gt;When business dropped off, and it inevitably did, we were still paying the bills for all of that extra hardware and the associated services.&lt;/p&gt;
-
-&lt;p&gt;There&amp;#8217;s also an ebb and flow to internet traffic, an inevitable tidal force. We might serve twice as many ads after 9AM EST as we did at 3AM. So you beefed up hardware to handle the daily peaks and pay for the idle costs otherwise.&lt;/p&gt;
-
-&lt;p&gt;Almost everyone in the modern world today carries a cell phone. Maybe you buy the latest and greatest smartphone, at a subsidized price, and are locked into a contract, paying every month for the privilege, even for the services you never use. Or you buy your phone outright and pay as you go, only responsible for what you use.&lt;/p&gt;
-
-&lt;p&gt;This is where the cloud comes in. You can almost see the Jedi hand wavy motion being made when someone says, &amp;#8220;it&amp;#8217;s in the cloud&amp;#8221;. What is this ethereal thing and where does it live?&lt;/p&gt;
-
-&lt;p&gt;The simplified version is that the cloud is simply a large cluster of computers sitting in a data center somewhere. It might be massive, power-consuming supercomputers. It could be a ton of off-the-shelf hardware stringed together. And all of that gear is pieced together with software to run virtual computers, which those companies will the lease out to people like you and me.&lt;/p&gt;
-
-&lt;p&gt;There’s no question that the future of business computing involves the cloud. It&amp;#8217;s super cost-effective. In may ways, though, it&amp;#8217;s still in its infancy.&lt;/p&gt;
-
-&lt;p&gt;Here&amp;#8217;s where I get to the point, and talk about Juju.&lt;/p&gt;
-
-&lt;p&gt;Back when I was managing that cluster of ad servers, we&amp;#8217;d cobbled together a mix of shell scripts using ssh and puppet to automate the deployment and management of those dozens of computers. It worked, but was far from ideal, and only worked with our hardware.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;1&#34;&gt;Juju&lt;/a&gt; is a system that lets you automate the deployment of software, via bundled instructions called &lt;em&gt;Charms&lt;/em&gt;, to servers across multiple Clouds, like EC2, Azure, HP, Digital Ocean, or even your own hardware.&lt;/p&gt;
-
-&lt;p&gt;Say your awesome website is suddenly getting linked to by the Neil Gaiman and John Scalzi&amp;#8217;s of the world, and your site is being crushed under the load. Problem?&lt;/p&gt;
-
-&lt;p&gt;No problem. You tell juju you want two more servers, or five or ten. A few minutes later, they&amp;#8217;re online and so&amp;#8217;s your website. When the &lt;a href=&#34;2&#34;&gt;slashdot effect&lt;/a&gt; has worn off, you can remove those extra servers. Only paying for the time use you needed them.&lt;/p&gt;
-
-&lt;p&gt;Scalability and affordability, in a nutshell. And juju is there to help you manage that.&lt;/p&gt;
-
-&lt;p&gt;TL;DR: Juju is a cloud orchestration toolkit, to aid in the deployment and manage of services across a variety of cloud providers.&lt;/p&gt;
-</description>
+      <description>I had some concerns about how I was going to integrate posts of a technical nature with my blog, which has been predominantly writing-oriented for several years. What I failed take into account is that many of us who write Science Fiction are armchair technologists. We look at gadgets, scientific breakthroughs and tech policy, and make conjecture about what might come next.
+What I talk about is less important than how I talk about it.</description>
     </item>
     
     <item>
@@ -564,12 +130,8 @@ BUGS
       <pubDate>Tue, 26 Aug 2014 00:00:00 +0000</pubDate>
       
       <guid>http://adamisrael.com/blog/2014/08/25/new-job/</guid>
-      <description>&lt;p&gt;I am delighted &amp;#8212; tickled, in fact &amp;#8212; to report that as of last Monday I am employed by &lt;a href=&#34;1&#34;&gt;Canonical&lt;/a&gt;, the company behind &lt;a href=&#34;2&#34;&gt;Ubuntu&lt;/a&gt; Linux.&lt;/p&gt;
-
-&lt;p&gt;I&amp;#8217;ve joined the Ecosystem Engineering team, part of Cloud Development and Operations, as a software engineer. More specifically, I&amp;#8217;m working on &lt;a href=&#34;3&#34;&gt;Juju&lt;/a&gt;, the cloud orchestration tool chain. I&amp;#8217;ll be writing &lt;a href=&#34;4&#34;&gt;charms&lt;/a&gt; and documentation, working on optimizations, and helping to make a cool product even cooler.&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-</description>
+      <description>I am delighted &amp;#8212; tickled, in fact &amp;#8212; to report that as of last Monday I am employed by Canonical, the company behind Ubuntu Linux.
+I&amp;#8217;ve joined the Ecosystem Engineering team, part of Cloud Development and Operations, as a software engineer. More specifically, I&amp;#8217;m working on Juju, the cloud orchestration tool chain. I&amp;#8217;ll be writing charms and documentation, working on optimizations, and helping to make a cool product even cooler.</description>
     </item>
     
     <item>
@@ -578,14 +140,8 @@ BUGS
       <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
       
       <guid>http://adamisrael.com/blog/2014/07/31/qa-why-is-scrivener-using-my-old-contact-information/</guid>
-      <description>&lt;p&gt;For the past few years, I&amp;#8217;ve had to manually update the contact information in the header of every &lt;a href=&#34;1&#34;&gt;Scrivener&lt;/a&gt; project I&amp;#8217;ve created. It was defaulting to an old email and physical address, but somehow had the correct phone number.&lt;/p&gt;
-
-&lt;p&gt;Scrivener can pull your contact information from the OS X application &lt;em&gt;Contacts&lt;/em&gt;, if you add the string &amp;#8220;(Scrivener:UseMe)&amp;#8221; to the notes of your contact card. As it turns out, I had done that already but my card has all of my email addresses (work and home) as well as my current and past physical addresses. In that case, Scrivener just uses the first phone, email, and physical address it finds.&lt;/p&gt;
-
-&lt;p&gt;The solution is simple, and doubly useful if you write under a pseudonym. Create a new contact card with the information you want in your manuscript&amp;#8217;s cover page. Don&amp;#8217;t forget to add &amp;#8220;(Scrivener:UseMe)&amp;#8221; to the notes section of your new contact, and remove it from the old.&lt;/p&gt;
-
-&lt;p&gt;The next time you create a project in Scrivener, it will use your new contact.&lt;/p&gt;
-</description>
+      <description>For the past few years, I&amp;#8217;ve had to manually update the contact information in the header of every Scrivener project I&amp;#8217;ve created. It was defaulting to an old email and physical address, but somehow had the correct phone number.
+Scrivener can pull your contact information from the OS X application Contacts, if you add the string &amp;#8220;(Scrivener:UseMe)&amp;#8221; to the notes of your contact card. As it turns out, I had done that already but my card has all of my email addresses (work and home) as well as my current and past physical addresses.</description>
     </item>
     
     <item>
@@ -594,28 +150,7 @@ BUGS
       <pubDate>Wed, 19 Feb 2014 00:00:00 +0000</pubDate>
       
       <guid>http://adamisrael.com/blog/2014/02/19/sfwa-accessiblity-and-diversity/</guid>
-      <description>&lt;p&gt;There’s have been many kerfluffles involving the &lt;a href=&#34;1&#34;&gt;Science Fiction &amp;amp; Fantasy Writers Association&lt;/a&gt; (SFWA). The latest one begin when a former member began a petition over recent changes to the staff and policy of the organization’s flagship publication, the Bulletin. As a result of the current back and forth between factions, one member — a vocal minority — made the suggestion that the bar for membership should be raised. There’s a lot I could say about the current debate(s) going on, but I want to specifically address the idea of accessibility and diversity.&lt;/p&gt;
-
-&lt;p&gt;Membership requirements, in general, are a good thing for an organization but should be recognized for what they are: exclusion. To what degree they exclude depends on the type of organization, its goals, philosophies, etc. Billing itself as a :&amp;#8221;professional organization for authors of science fiction, fantasy, and related genres”, one would assume the requirements are imposed to limit membership to anyone who has a professional interest in writing science fiction, fantasy, and related genres. Seems simple, but there’s always fine print.&lt;/p&gt;
-
-&lt;p&gt;The argument made by &lt;a href=&#34;2&#34;&gt;Brad R. Torgersen&lt;/a&gt; is that to be a more professional organization, SFWA needs to be more exclusionary, with the goal of eliminating “non-professional” writers, thereby raising rates enough money through dues that the organization can then use to hire administration staff and increase benefits to its members.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;#8230;impose an annual fiction writing income floor, below which members cannot fall without being placed on the inactive list, and therefore losing the ability to vote and/or participate in the org.&lt;/p&gt;
-
-&lt;p&gt;Anyone capable and willing to contributing $500 or even $1,000 U.S. dollars (or more) per year, is unlikely to be an amateur, or a pro-am.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I will say, flat out, this is a bad idea. It&amp;#8217;s too exclusionary, and would decrease diversity. In fact, I would argue that SFWA should _lower_ its membership requirements.&lt;/p&gt;
-
-&lt;p&gt;For active writers, there are two &lt;a href=&#34;3&#34;&gt;membership&lt;/a&gt; tiers: Active and Associate, both of which require prose sales at a minimum rate of $0.05/word. I would like to see a third tier, for writers who have not yet made a sale to a market able to pay those rates but have demonstrated a commitment to their craft, such as 3 sales at a semi-pro rate, or a cumulative revenue total. Give this tier some limited benefits, such as access to the forum and the bulletin, but not all of the benefits of the higher tiers. Perhaps offer it at a lower yearly rate to adjust for the different benefits.&lt;/p&gt;
-
-&lt;p&gt;Or, as has been pointed out to me on Twitter (thanks &lt;a href=&#34;4&#34;&gt;John&lt;/a&gt; and &lt;a href=&#34;5&#34;&gt;Tim&lt;/a&gt;), use the Romance Writers Association (RWA) as a model or inspiration for how to include “non-professional” writers.&lt;/p&gt;
-
-&lt;p&gt;By being less exclusionary, the organization will become more accessible to a diverse group of people across income levels, gender, orientation, social classes, etc. The organization would gain new, interesting, and previously under-represented voices in building a future.&lt;/p&gt;
-
-&lt;p&gt;Many writers toiling in the semi-pro ranks treat their work with the same professionalism, if not more so, than those currently qualified by SFWA definitions to call themselves such. The previous SFWA administration, under John Scalzi, and the new helmed by Steven Gould, have made great strides in improving the organization as a whole. It should be recognized just how much work it is to retrofit a monolithic steam engine with maglev. I expect the diversification will continue, but I would love to see a bigger change to allow.&lt;/p&gt;
-</description>
+      <description>There’s have been many kerfluffles involving the Science Fiction &amp;amp; Fantasy Writers Association (SFWA). The latest one begin when a former member began a petition over recent changes to the staff and policy of the organization’s flagship publication, the Bulletin. As a result of the current back and forth between factions, one member — a vocal minority — made the suggestion that the bar for membership should be raised. There’s a lot I could say about the current debate(s) going on, but I want to specifically address the idea of accessibility and diversity.</description>
     </item>
     
     <item>
@@ -624,14 +159,9 @@ BUGS
       <pubDate>Tue, 10 Dec 2013 00:00:00 +0000</pubDate>
       
       <guid>http://adamisrael.com/blog/2013/12/10/hark-an-update/</guid>
-      <description>&lt;p&gt;Hark! Inconsistent blogger has returned with news!&lt;/p&gt;
-
-&lt;p&gt;I am pleased to announce that I&amp;#8217;ve sold &amp;#8220;Aye of the Hagfish&amp;#8221; to &lt;a href=&#34;1&#34;&gt;Goldfish Grimm&amp;#8217;s Spicy Fiction Sushi&lt;/a&gt;. It should be appearing online early 2014. This will be my second appearance in the magazine (the first being &lt;a href=&#34;2&#34;&gt;Control&lt;/a&gt;, in their debut issue).&lt;/p&gt;
-
-&lt;p&gt;I&amp;#8217;m down to one story in circulation, and no new short stories finished this year, but for good reason! I finished the first draft, first read-through, and have begun developmental edits on the novel tentatively titled (but almost guaranteed to be renamed) &amp;#8220;Black Mirror&amp;#8221;.&lt;/p&gt;
-
-&lt;p&gt;We&amp;#8217;re settling in for a long winter here at casa de Israel-Redman. The cupboards are stocked with tea, coffee, and non-perishable foodstuffs. Candles are lit, the fireplace channel is giving us the proper ambiance, and we&amp;#8217;re getting busy with the making of art and stuff. Come spring, we&amp;#8217;ll come out of our self-imposed hibernation with some fun new things to show off.&lt;/p&gt;
-</description>
+      <description>Hark! Inconsistent blogger has returned with news!
+I am pleased to announce that I&amp;#8217;ve sold &amp;#8220;Aye of the Hagfish&amp;#8221; to Goldfish Grimm&amp;#8217;s Spicy Fiction Sushi. It should be appearing online early 2014. This will be my second appearance in the magazine (the first being Control, in their debut issue).
+I&amp;#8217;m down to one story in circulation, and no new short stories finished this year, but for good reason! I finished the first draft, first read-through, and have begun developmental edits on the novel tentatively titled (but almost guaranteed to be renamed) &amp;#8220;Black Mirror&amp;#8221;.</description>
     </item>
     
     <item>
@@ -640,14 +170,8 @@ BUGS
       <pubDate>Thu, 19 Sep 2013 00:00:00 +0000</pubDate>
       
       <guid>http://adamisrael.com/blog/2013/09/19/111-weeks/</guid>
-      <description>&lt;p&gt;To be exact, it&amp;#8217;s been 783 days since we filed for my Canadian Permanent Residence and I am happy to announce that it is official done. We have just walked out of the Immigration Centre in Windsor, Ontario, Social Insurance Number in hand.&lt;/p&gt;
-
-&lt;p&gt;I guess this makes me an expatriate; an American Citizen permanently living abroad, which is kind of cool. I&amp;#8217;ve been thinking a lot about getting a tattoo to commemorate the experience. More on that later.&lt;/p&gt;
-
-&lt;p&gt;There&amp;#8217;s been a lot of stress involved around this process, most notably the difficulty traveling back to the US. In a few weeks, when I have the official card in hand, I&amp;#8217;ll be free to cross the border without fear of being turned away and having to restart the immigration process. That&amp;#8217;s going to be a cathartic experience, finally going back to visit my family and friends.&lt;/p&gt;
-
-&lt;p&gt;Now that I&amp;#8217;m all official, we can start thinking about normal, grown-up things like buying a house, and getting all of our stuff out of storage back in Illinois.&lt;/p&gt;
-</description>
+      <description>To be exact, it&amp;#8217;s been 783 days since we filed for my Canadian Permanent Residence and I am happy to announce that it is official done. We have just walked out of the Immigration Centre in Windsor, Ontario, Social Insurance Number in hand.
+I guess this makes me an expatriate; an American Citizen permanently living abroad, which is kind of cool. I&amp;#8217;ve been thinking a lot about getting a tattoo to commemorate the experience.</description>
     </item>
     
     <item>
@@ -656,18 +180,1649 @@ BUGS
       <pubDate>Sat, 22 Jun 2013 00:00:00 +0000</pubDate>
       
       <guid>http://adamisrael.com/blog/2013/06/21/clarion-write-a-thon-2/</guid>
-      <description>&lt;p&gt;It should be no surprise to anyone who knows me that the Clarion Writers Workshop is a thing near and dear to me. Attending the six-week workshop in 2010 was a milestone in my writing career. The annual &lt;a href=&#34;1&#34;&gt;write-a-thon&lt;/a&gt;, where writers commit to writing goals and ask friends, family,and strangers to pledge money to go towards funding the workshop.&lt;/p&gt;
+      <description>It should be no surprise to anyone who knows me that the Clarion Writers Workshop is a thing near and dear to me. Attending the six-week workshop in 2010 was a milestone in my writing career. The annual write-a-thon, where writers commit to writing goals and ask friends, family,and strangers to pledge money to go towards funding the workshop.
+Saying &amp;#8220;please give money&amp;#8221; is something I do on very rare occasion, but this is something worthwhile.</description>
+    </item>
+    
+    <item>
+      <title>Long Hidden: Speculative Fiction From the Margins of History</title>
+      <link>http://adamisrael.com/blog/2013/03/18/long-hidden-speculative-fiction-from-the-margins-of-history/</link>
+      <pubDate>Mon, 18 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2013/03/18/long-hidden-speculative-fiction-from-the-margins-of-history/</guid>
+      <description>I&amp;#8217;ve always liked stories about mundane things. Everyday people who might be ignored or worse, shunned &amp;#8212; garbage men, teachers, farmers, butchers, prostitutes, factory workers &amp;#8212; who find themselves in extraordinary circumstance and rise up to the challenge.
+The annals of history are filled with stories of the famous, the successful, the victors. Finding tales about those broke their backs to make a living is harder. It&amp;#8217;s not glamorous work. No one does it to become rich or powerful.</description>
+    </item>
+    
+    <item>
+      <title>9</title>
+      <link>http://adamisrael.com/blog/2013/03/13/9/</link>
+      <pubDate>Wed, 13 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2013/03/13/9/</guid>
+      <description>For months, we kept the animated film &amp;#8220;9&amp;#8221; (2009) on the DVR. I kept telling myself that I&amp;#8217;d sit down and watch it on the weekend, and inevitably being too distracted to do so. We came home a few nights ago and discovered the DVR had deleted several of the oldest recordings, including 9. That made me sad, because I really did intend on watching it soon. Kind of mad, I fired up Netflix and watched it that night.</description>
+    </item>
+    
+    <item>
+      <title>A Month of Letters</title>
+      <link>http://adamisrael.com/blog/2013/01/29/a-month-of-letters/</link>
+      <pubDate>Tue, 29 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2013/01/29/a-month-of-letters/</guid>
+      <description>Mary Robinette Kowal started a delightful challenge, in 2010, to go correspond via letter for an entire month. That has grown to become A Month of Letters, which runs for the whole of February. During the next month, I and the other 6,000 people who&amp;#8217;ve signed up to participate will be writing letters, post cards, and doing other creative things and dropping them into the mail.
+I love to write longhand, and this gives me a wonderful reason to do so.</description>
+    </item>
+    
+    <item>
+      <title>Finding my footing</title>
+      <link>http://adamisrael.com/blog/2013/01/16/finding-my-footing/</link>
+      <pubDate>Wed, 16 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2013/01/16/finding-my-footing/</guid>
+      <description>As writers, we fill our toolbox with things that help us in our craft. I&amp;#8217;ve been experimenting with a few new things of late, trying to boost my productivity. Two of them in particular are making a difference.
+I haven&amp;#8217;t been involved in many word wars &amp;#8212; timed writing sessions with one or more other writers. Set a short time limit, say 15 or 30 minutes, and write until it&amp;#8217;s over.</description>
+    </item>
+    
+    <item>
+      <title>Back in the saddle, week 1</title>
+      <link>http://adamisrael.com/blog/2013/01/07/back-in-the-saddle-week-1/</link>
+      <pubDate>Mon, 07 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2013/01/07/back-in-the-saddle-week-1/</guid>
+      <description>Part of my new and improved resolve to Finish Things is accountability, and to that end I&amp;#8217;ve created a master spreadsheet for the year where I&amp;#8217;m tracking my daily writing, good things that happen (h/t Christie Yant), projects I want to work on, and deadlines I&amp;#8217;m working towards. It&amp;#8217;s not perfect, but it&amp;#8217;s a start.
+I&amp;#8217;m trying to work every day while I&amp;#8217;m involved in a project. Writing is, or should be, what I spend the most time on, at least at this stage in my current WIP.</description>
+    </item>
+    
+    <item>
+      <title>A look back, and two steps forward</title>
+      <link>http://adamisrael.com/blog/2013/01/02/a-look-back-and-two-steps-forward/</link>
+      <pubDate>Wed, 02 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2013/01/02/a-look-back-and-two-steps-forward/</guid>
+      <description>The calendar has been replaced. Sins of the past tallied and new resolutions made. As far as years go, 2012 was mediocre on many fronts but there were a few bright moments that give me hope for what&amp;#8217;s to come.
+Home:
+When we moved out of our house to help my Dad after surgery in May of 2009, I could never have foreseen the journey ahead of us. Alone or apart, we&amp;#8217;ve been staying with other people ever since.</description>
+    </item>
+    
+    <item>
+      <title>Two years and pocket change</title>
+      <link>http://adamisrael.com/blog/2012/11/26/two-years-and-pocket-change/</link>
+      <pubDate>Mon, 26 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2012/11/26/two-years-and-pocket-change/</guid>
+      <description>Two years and two days ago, I started a journey from Santa Monica, California by foot, bus, train, and plane. Many hours later, I reached Detroit and was met by my friend Katni, who drove me through the Detroit-Windsor tunnel where, six months after being kicked out, I re-entered Canada and was reunited with Andrea.
+Being home still feels really good.</description>
+    </item>
+    
+    <item>
+      <title>Con report: World Fantasy 2012</title>
+      <link>http://adamisrael.com/blog/2012/11/05/con-report-world-fantasy-2012/</link>
+      <pubDate>Mon, 05 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2012/11/05/con-report-world-fantasy-2012/</guid>
+      <description>Andrea and I drove up to Toronto &amp;#8212; or Richmond Hill, one of its northern suburbs &amp;#8212; for World Fantasy 2012 on Friday. This was my second World Fantasy (the first being Columbus two years ago) and Andrea&amp;#8217;s first.
+The hotel(s):
+We stayed at the Holiday Inn Express, one of the overflow hotels. That hotel itself was pleasant, albiet slightly incompetent. One elevator was out of order the entire stay. Andrea was trapped between floors in the second elevator on Saturday and had to be rescued by the fire department.</description>
+    </item>
+    
+    <item>
+      <title>Publication – “Man Out of Time”</title>
+      <link>http://adamisrael.com/blog/2012/07/09/publication-man-out-of-time/</link>
+      <pubDate>Tue, 10 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2012/07/09/publication-man-out-of-time/</guid>
+      <description>I may burst with glee. Tomorrow is Nikola Tesla day. Today, the Mad Scientist Journal published my secret history of Tesla, &amp;#8220;Man Out of Time&amp;#8220;. I even have word that someone on Facebook commented that they thought the story was a &amp;#8220;great idea to run a game/one-shot on&amp;#8221;. Katie Nyborg did the fabulous illustration for the interior.
+How much does this mean to me? Well, Tesla is my hero more so than any other historical figure ever.</description>
+    </item>
+    
+    <item>
+      <title>Independence</title>
+      <link>http://adamisrael.com/blog/2012/07/05/independence/</link>
+      <pubDate>Thu, 05 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2012/07/05/independence/</guid>
+      <description>Yesterday was Independence Day back in the states. We already had our fireworks over the weekend, and I worked through Canada Day on Monday and had yesterday off instead. Among the joys of American/Canada relations are mixed holidays.
+Our plans were a little more focused. Yesterday we saw an apartment, and made a deposit, and transfered utilities to our name. This was kind of a big deal, because for the first time in more than three years, we&amp;#8217;re in a position to start a new chapter in our lives.</description>
+    </item>
+    
+    <item>
+      <title>Clarion Write-a-thon Week 1</title>
+      <link>http://adamisrael.com/blog/2012/07/02/clarion-write-a-thon-week-1/</link>
+      <pubDate>Mon, 02 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2012/07/02/clarion-write-a-thon-week-1/</guid>
+      <description>Sun  Mon  Tue  Wed  Thu  Fri  Sat  Total  Avg    582  171  309  473  91   783  2,409  344    A little bit of a rocky week, especially Friday. Ideally, I&amp;#8217;d like to average 1,000 words/day. That&amp;#8217;d be awesome. Life creeps up, with unavoidable things like responsibility and sleep but I have a secret that I&amp;#8217;ll share with you.</description>
+    </item>
+    
+    <item>
+      <title>Clarion Write-a-thon: Day 1</title>
+      <link>http://adamisrael.com/blog/2012/06/25/clarion-write-a-thon-day-1/</link>
+      <pubDate>Mon, 25 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2012/06/25/clarion-write-a-thon-day-1/</guid>
+      <description>The Clarion Write-a-thon began yesterday. I got some decent writing time in, despite a late start to the day and having to confront a would-be pervert attempting to flash his private bits at my favorite writing spot. I expect the first several days of writing to go slow as I revise the first chapter of the novel, trying to set the right tone and pace. The 25k words I wrote during last year&amp;#8217;s Nanowrimo are, I realize, mostly outline but do span the length of the novel.</description>
+    </item>
+    
+    <item>
+      <title>Around my desk</title>
+      <link>http://adamisrael.com/blog/2012/06/20/around-my-desk/</link>
+      <pubDate>Wed, 20 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2012/06/20/around-my-desk/</guid>
+      <description>There are now four days until the Clarion write-a-thon begins on June 24th, where I will continue work on my novel-in-progress and attempt to add 30k new words over the course of six weeks.
+It&amp;#8217;s been a busy lead up to the write-a-thon because, frankly, I&amp;#8217;ve been unfucking a few things structurally. Writing a novel feels a bit like building an engine from scratch when your only previous experience is with watching someone else do it.</description>
+    </item>
+    
+    <item>
+      <title>Dog Days</title>
+      <link>http://adamisrael.com/dog-days/</link>
+      <pubDate>Fri, 15 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/dog-days/</guid>
+      <description>DOG DAYS by Adam Israel Bronwyn stared at the unopened letter on the table as if it might come alive any minute and bite her. The postmark on the envelope read San Francisco, dated three weeks ago. The only person she knew outside of Manhattan who was too cowardly to call was her supposed boyfriend, George Westinghouse III. Nearly seven months ago he boarded a zeppelin heading west, claiming to have found business associates eager to invest in the new Westinghouse Industries.</description>
+    </item>
+    
+    <item>
+      <title>Free fiction in support of making Crossed Genres a pro-paying magazine</title>
+      <link>http://adamisrael.com/blog/2012/06/15/free-fiction-in-support-of-making-crossed-genres-a-pro-paying-magazine/</link>
+      <pubDate>Fri, 15 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2012/06/15/free-fiction-in-support-of-making-crossed-genres-a-pro-paying-magazine/</guid>
+      <description>I&amp;#8217;ve been a fan of Crossed Genres for a long time &amp;#8212; just shy of three years, which is forever in Internet time. As a small press, they&amp;#8217;ve done a massive amount of good work publishing hundreds of authors (including myself) but Bart and Kay, proprietors, fell on hard times and were forced to turn to Kickstarter to keep CG alive. And made their goal of $4,000 in just 22 hours.</description>
+    </item>
+    
+    <item>
+      <title>Clarion Write-a-Thon</title>
+      <link>http://adamisrael.com/blog/2012/06/13/clarion-write-a-thon/</link>
+      <pubDate>Wed, 13 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2012/06/13/clarion-write-a-thon/</guid>
+      <description>The Clarion Write-a-thon starts on June 24th, running parallel to the six week workshop I attended in 2010. While this summers workshop students toil away in San Diego, I’ll be one of many writers helping to raise awareness and solicit donations to a cause we believe in.
+ What is a write-a-thon, anyway? It&amp;#8217;s just like a walk-a-thon. But instead of walking, we&amp;#8217;re writing, and instead of making pledges per mile, we&amp;#8217;re making pledges per word, chapter, or story.</description>
+    </item>
+    
+    <item>
+      <title>Love affair with a house</title>
+      <link>http://adamisrael.com/blog/2012/06/10/love-affair-with-a-house/</link>
+      <pubDate>Sun, 10 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2012/06/10/love-affair-with-a-house/</guid>
+      <description>We built the house, my ex-wife and I, a decade ago. We poured our love into her foundations as we watched her bones rise over the snowy plains of Illinois. Vein and sinew were strung throughout and were covered by skin. A miraculous thing, to witness for the first time.
+A house is a thing but things have feelings, too. Ask any little girl who’s every owned a doll. My house took care of us, and I took care of her the best I could, clumsy hands and all.</description>
+    </item>
+    
+    <item>
+      <title>Ad Astra Wrapup</title>
+      <link>http://adamisrael.com/blog/2012/04/16/ad-astra-wrapup/</link>
+      <pubDate>Mon, 16 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2012/04/16/ad-astra-wrapup/</guid>
+      <description>My first Ad Astra is over, and I didn&amp;#8217;t completely embarrass myself. Huzzah!
+I&amp;#8217;ll admit to being intimidated at first, not knowing anyone. It&amp;#8217;s a good-sized local convention with a lot of history and people know already each other. What I finally realized, though, is that I just needed to _politely_ join in the conversation. Everyone was welcoming and, even better, assumed I was Canadian. I swear, I am in all but name.</description>
+    </item>
+    
+    <item>
+      <title>Going to Ad Astra 2012</title>
+      <link>http://adamisrael.com/blog/2012/04/09/going-to-ad-astra-2012/</link>
+      <pubDate>Mon, 09 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2012/04/09/going-to-ad-astra-2012/</guid>
+      <description>So, due to timing of unfortunate circumstances, it&amp;#8217;s become rather convenient for me to go to Ad Astra, April 13-15th. This will, notably, be my first convention since moving to Canada.
+I&amp;#8217;m relatively new to both country and the local genre community. I know there are a few members of Codex going and I recognize a few names from the panelist list (including Ed Greenwood, who was very kind towards a 19-year old me at Gen Con Milwaukee some years ago) but I&amp;#8217;m otherwise winging this.</description>
+    </item>
+    
+    <item>
+      <title>2012 Hugo Nominations</title>
+      <link>http://adamisrael.com/blog/2012/04/07/2012-hugo-nominations/</link>
+      <pubDate>Sat, 07 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2012/04/07/2012-hugo-nominations/</guid>
+      <description>The Hugo Nominations were announced this afternoon. I watched the cheers streaming on Twitter, mostly before I saw the nomination itself. Congrats to all nominees. I take particular happiness in seeing many familiar names among the bunch.
+Best Novel
+ Among Others, Jo Walton (Tor) A Dance With Dragons, George R. R. Martin (Bantam Spectra) Deadline, Mira Grant (Orbit) Embassytown, China Miéville (Macmillan / Del Rey) Leviathan Wakes, James S. A.</description>
+    </item>
+    
+    <item>
+      <title>Designated Driver</title>
+      <link>http://adamisrael.com/blog/2012/04/06/designated-driver/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2012/04/06/designated-driver/</guid>
+      <description>We spent the better part of this week in Toronto &amp;#8212; an impromptu trip after receiving a call with some concerning medical news on Sunday night. So, for the first half of the week we’ve explored the inner workings of the Toronto hospital system. As someone who more or less grew up inside hospitals, I’ve made some observations:
+ Whoever is running the parking system is making a killing. We spent as much on parking as we did on food for two.</description>
+    </item>
+    
+    <item>
+      <title>Calls for Submissions</title>
+      <link>http://adamisrael.com/blog/2012/03/30/calls-for-submissions/</link>
+      <pubDate>Fri, 30 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2012/03/30/calls-for-submissions/</guid>
+      <description>Urban Green Man: An Archetype of Renewal, edited by Adria Laycraft &amp;amp; Janice Blaine, and to be published by EDGE Science Fiction &amp;amp; Fantasy.
+ The Green Man has haunted our churches and buildings and global subconscious for countless generations, becoming just another forgotten mythology that is relegated to garden statuary and English pub signs.
+No longer. Witness as the Green Man rises to capture our imagination in this anthology of original new fiction, the Urban Green Man.</description>
+    </item>
+    
+    <item>
+      <title>Dipping into Canadian Immigration/Politics</title>
+      <link>http://adamisrael.com/blog/2012/03/05/dipping-into-canadian-immigrationpolitics/</link>
+      <pubDate>Tue, 06 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2012/03/05/dipping-into-canadian-immigrationpolitics/</guid>
+      <description>I&amp;#8217;ve been following the news regarding Canadian Immigration pretty closely &amp;#8212; not surprising considering my immigrant status. Last week this article in the Globe and Mail talks about the percentage of immigrants who settle in Ontario vs. other provinces, which kind of bored me. What was interesting, though, were two issues in the continued fight against immigration fraud. When Andrea and I filled out our application, most of our time was spent collecting evidence to prove our relationship &amp;#8212; records of emails, phone calls, meetings between us, friends, and family, etc.</description>
+    </item>
+    
+    <item>
+      <title>“Control” now available at Goldfish Grimm’s Spicy Fiction Sushi</title>
+      <link>http://adamisrael.com/blog/2012/03/01/control-now-available-at-goldfish-grimms-spicy-fiction-sushi/</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2012/03/01/control-now-available-at-goldfish-grimms-spicy-fiction-sushi/</guid>
+      <description>It&amp;#8217;s launch day at Goldfish Grimm&amp;#8217;s Spicy Fiction Sushi, which includes my story &amp;#8220;Control&amp;#8221; and an interview with yours truly.
+This is one of my Clarion stories. Like any writer, I&amp;#8217;m happy when a story sells but I&amp;#8217;m also particularly pleased that this story has found its home.</description>
+    </item>
+    
+    <item>
+      <title>Leap Day</title>
+      <link>http://adamisrael.com/blog/2012/02/29/leap-day/</link>
+      <pubDate>Wed, 29 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2012/02/29/leap-day/</guid>
+      <description>Leap day will always be special to me for one very important reason. On this day in 2008, I proposed to Andrea.
+Best. Question. Ever.</description>
+    </item>
+    
+    <item>
+      <title>The Loneliness of the Long Distance Runner</title>
+      <link>http://adamisrael.com/blog/2012/02/27/the-loneliness-of-the-long-distance-runner/</link>
+      <pubDate>Mon, 27 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2012/02/27/the-loneliness-of-the-long-distance-runner/</guid>
+      <description>Sometimes, when I sit down and stare at a white blank page, my heart races. I fear the mistakes I’m about to make, at the same time I’m in awe of the creation about to spring forth the tip of my pen. I’ve done it before. I’ll do it again. I am not a fast writer, but I am a sprinter.
+Sprinting is this — pen to paper, writing around 500 words/day until a story is done.</description>
+    </item>
+    
+    <item>
+      <title>You can take the grey out of his beard, but Unix stays in a man’s blood.</title>
+      <link>http://adamisrael.com/blog/2012/02/26/you-can-take-the-grey-out-of-his-beard-but-unix-stays-in-a-mans-blood/</link>
+      <pubDate>Sun, 26 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2012/02/26/you-can-take-the-grey-out-of-his-beard-but-unix-stays-in-a-mans-blood/</guid>
+      <description>I sat down this morning, meaning to write a blog post about focus and patience, with OCD tendencies. It would have been my first substantial post since the beginning of the month, but when I logged in to WordPress I found my site unresponsive. Temperamental, even. Other sites I host on the same server, but different accounts, were fine. I was about to blame my half-full cup of coffee when Google interceded and warned me that my site was being suspicious as all fuck.</description>
+    </item>
+    
+    <item>
+      <title>Februhuh? The winter that wasn’t.</title>
+      <link>http://adamisrael.com/blog/2012/02/01/februhuh-the-winter-that-wasnt/</link>
+      <pubDate>Wed, 01 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2012/02/01/februhuh-the-winter-that-wasnt/</guid>
+      <description>It&amp;#8217;s now my second February living in southwest Ontario, with 50F weather and scattered rain showers. The snow, which didn&amp;#8217;t fall until mid-January, is a memory and it will be at least a week before we have any chance of seeing more.
+What the hell, Canada?
+When people learned I was moving to Canada, I heard all kinds of jokes. Eh? Eh? One was about seeing moose, which I&amp;#8217;ve seen no trace of here but I have found in northern Wisconsin, where my Dad lives.</description>
+    </item>
+    
+    <item>
+      <title>Wither the sickness</title>
+      <link>http://adamisrael.com/blog/2012/01/04/wither-the-sickness/</link>
+      <pubDate>Wed, 04 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2012/01/04/wither-the-sickness/</guid>
+      <description>Life with chronic health conditions and no health insurance is interesting.
+Celiac disease is pretty much a condition of maintenance. There’s no cure and the only preventative measure is avoiding eating or drinking gluten (wheat, barley, rye, and oats). Gluten is everywhere. Beer and bread are bad but I’ve found it in foods I would never have suspected, like tomato soup, sausage and lunch meats, and many, many sauces. Flour is a cheap filler and thickener so it’s commonly used, which makes the life of a celiac a royal bitch.</description>
+    </item>
+    
+    <item>
+      <title>Quick Stats – 2010 vs. 2011 submissions</title>
+      <link>http://adamisrael.com/blog/2012/01/01/quick-stats-2010-vs-2011-submissions/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2012/01/01/quick-stats-2010-vs-2011-submissions/</guid>
+      <description>I thought it&amp;#8217;d be interesting to look at some rough numbers, based on my Duotrope stats, year over year.
+2010
+13 submissions to 10 different markets
+4 stories on submission
+13 rejections, 5 personal (38%)
+10 markets
+0 acceptances
+2011
+43 submissions to 36 different markets
+11 stories on submission
+39 rejections, 16 personal (41%)
+4 acceptances
+Misc. Stats
+Each year saw one story pulled from circulation after one submission (one was a reprint from 2008)</description>
+    </item>
+    
+    <item>
+      <title>2011 Published Short Fiction</title>
+      <link>http://adamisrael.com/blog/2011/12/19/2011-published-short-fiction/</link>
+      <pubDate>Mon, 19 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/12/19/2011-published-short-fiction/</guid>
+      <description>Seeing as we&amp;#8217;re close to the end of 2011 and it&amp;#8217;s unlikely I&amp;#8217;ll have anything else published this calendar year, now is as good a time as any to recap the short fiction I&amp;#8217;ve had published in the last twelve months.
+Self-promotion is so totally not my thing. Jaym Gates recent Inkpunks post about awards season was a good reminder that I should be doing this, though. I&amp;#8217;m not entirely certain I&amp;#8217;m doing this the right way, but here it is.</description>
+    </item>
+    
+    <item>
+      <title>Three Years</title>
+      <link>http://adamisrael.com/blog/2011/12/13/three-years/</link>
+      <pubDate>Tue, 13 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/12/13/three-years/</guid>
+      <description>We&amp;#8217;d been in California for a few days and the previous night at my work Christmas party. Three years ago this morning, we flew to Las Vegas. One of us (not me) was airsick as we landed in the middle of a sand storm. Ironic, because this was literally a whirlwind. Work put us up in a lavish hotel on the strip, one of the last acts of kindness I&amp;#8217;ll remember them for.</description>
+    </item>
+    
+    <item>
+      <title>Why insider trading by members of Congress is worse than it sounds</title>
+      <link>http://adamisrael.com/blog/2011/12/01/why-insider-trading-by-members-of-congress-is-worse-than-it-sounds/</link>
+      <pubDate>Fri, 02 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/12/01/why-insider-trading-by-members-of-congress-is-worse-than-it-sounds/</guid>
+      <description>If you had asked me if members of Congress were exempt from insider trading before today, I would have said yes, of course. I would have argued that, with the kinds of information that our congressmen and -woman are privy to, they especially should not be allowed to use non-public information to trade stock for financial gain. Knowing when to buy or sell a stock when a company is about to have a contract terminated, or is about to come under congressional investigation, for example, is privileged, sometimes even classified information.</description>
+    </item>
+    
+    <item>
+      <title>Fail. Fail Harder. Fail Better.</title>
+      <link>http://adamisrael.com/blog/2011/12/01/fail-fail-harder-fail-better/</link>
+      <pubDate>Thu, 01 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/12/01/fail-fail-harder-fail-better/</guid>
+      <description>NaNoWriMo is over. I failed to win. I failed, but there are lessons in failure.
+I set out to do a few things aside from writing 50k words. I wanted to learn to turn off my internal editor when I needed to, so that I could write first drafts on the computer. I wanted to write something longer than I&amp;#8217;d written before, previously around 6,000 words. I wanted to get a better understanding of novel structure.</description>
+    </item>
+    
+    <item>
+      <title>An occupied mind can never be evicted</title>
+      <link>http://adamisrael.com/blog/2011/11/30/an-occupied-mind-can-never-be-evicted/</link>
+      <pubDate>Wed, 30 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/11/30/an-occupied-mind-can-never-be-evicted/</guid>
+      <description>I wrote this in the middle of the night as news of the raid on the #occulyla camp was breaking on twitter, half asleep but compelled to get some of my thoughts written down before I fell asleep:
+ The police are within their duties to do remove occupiers as occupiers are within theirs to commit acts of peaceful civil disobedience. Where law breaks down, in my mind, is when those in the upper echelons of authority usurp the power of the press by controlling who can report when, and by what media, which by extension raises the question of the accuracy and lens through which the truth is filtered.</description>
+    </item>
+    
+    <item>
+      <title>#NaNoWriMo day 20: Struggling against the event horizon</title>
+      <link>http://adamisrael.com/blog/2011/11/21/nanowrimo-day-20-struggling-against-the-event-horizon/</link>
+      <pubDate>Mon, 21 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/11/21/nanowrimo-day-20-struggling-against-the-event-horizon/</guid>
+      <description>I feel like I&amp;#8217;ve been at a near standstill the last four days. With one zero day among them, I&amp;#8217;ve barely scratched a thousand words among them. To make up for the shortfall, I need to write roughly 2,400 words/day though the rest of the month in order to hit the Nano goal of 50k. I&amp;#8217;ve hit that number once this month.
+It&amp;#8217;s going to be a nail biter.
+—</description>
+    </item>
+    
+    <item>
+      <title>#NaNoWriMo day 16</title>
+      <link>http://adamisrael.com/blog/2011/11/17/nanowrimo-day-16/</link>
+      <pubDate>Thu, 17 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/11/17/nanowrimo-day-16/</guid>
+      <description>I found my stride yesterday, sixteen days in. I didn&amp;#8217;t strictly follow end of day guidelines for Nano, calling it a day somewhere close to 1AM. I drafted a scene and a part of the next and it&amp;#8217;s the best writing I&amp;#8217;ve done all month. It&amp;#8217;s what all others will be held up and compared to, and mocked mercilessly when they fall short.
+—
+Project: Black Mirror
+New words written: 1,803</description>
+    </item>
+    
+    <item>
+      <title>#NaNoWriMo day 15: I can see for miles and miles</title>
+      <link>http://adamisrael.com/blog/2011/11/16/nanowrimo-day-15-i-can-see-for-miles-and-miles/</link>
+      <pubDate>Wed, 16 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/11/16/nanowrimo-day-15-i-can-see-for-miles-and-miles/</guid>
+      <description>Hello, folks, this is your captain speaking. We&amp;#8217;ve reached the halfway mark in our journey to noveldom. There&amp;#8217;s been some minor turbulence along the way but we&amp;#8217;re in blue skies now.
+Almost.
+—
+Project: Black Mirror
+New words written: 2,421
+Reason for stopping: End of day
+—
+In this hot mess of first draft spagetti and a generous serving of cheese, I&amp;#8217;m learning a lot. One being that I&amp;#8217;m frighteningly close to the climax of the story and that the later part of the month will see me going back through and filling in things that I skipped over.</description>
+    </item>
+    
+    <item>
+      <title>#NaNoWriMo day 14: Peeking over the hump</title>
+      <link>http://adamisrael.com/blog/2011/11/15/nanowrimo-day-14-peeking-over-the-hump/</link>
+      <pubDate>Tue, 15 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/11/15/nanowrimo-day-14-peeking-over-the-hump/</guid>
+      <description>Yesterday was the fourteenth day of Nano and I haven&amp;#8217;t missed a one. I feel pretty good about that, no matter what else happens. I crossed the 20k mark, which feels awesome.
+I am beginning to grok this pacing thing. Fires are smoldering inside my cranium. You can read about this, talk about this, but there is no substitute for doing.
+—
+Project: Black Mirror
+New words written: 1,150
+Reason for stopping: End of day</description>
+    </item>
+    
+    <item>
+      <title>A follow-up to Spoon! (not the musical)</title>
+      <link>http://adamisrael.com/blog/2011/11/14/a-follow-up-to-spoon-not-the-musical/</link>
+      <pubDate>Tue, 15 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/11/14/a-follow-up-to-spoon-not-the-musical/</guid>
+      <description>I can&amp;#8217;t believe it&amp;#8217;s been almost a year and a half since my Spoon! blog post, where a group of friends conspired to sent me their spoons to counteract the loss of my own thanks to newly acquired but chronic illness during a time of great life upheaval.
+      I carried this box of carefully wrapped spoons with me everywhere. I received it in Illinois, where I was living with my Mom pre-Clarion.</description>
+    </item>
+    
+    <item>
+      <title>#NaNoWriMo day 13, plus some short story pondering</title>
+      <link>http://adamisrael.com/blog/2011/11/14/nanowrimo-day-13-plus-some-short-story-pondering/</link>
+      <pubDate>Mon, 14 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/11/14/nanowrimo-day-13-plus-some-short-story-pondering/</guid>
+      <description>Yesterday was another low day, both in mood and writing. My daily target is creeping up slightly, to 1,932 words. Still within reason but I&amp;#8217;m not happy about the lack of progress the last few days.
+Mostly, this comes down to November being November, and my inexperience writing at this length. This shake down cruise is not without its bumps.
+—
+Project: Black Mirror
+New words written: 473
+Reason for stopping: End of Day</description>
+    </item>
+    
+    <item>
+      <title>#NaNoWriMo day 12 – Climbing back up the hill</title>
+      <link>http://adamisrael.com/blog/2011/11/13/nanowrimo-day-12-climbing-back-up-the-hill/</link>
+      <pubDate>Sun, 13 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/11/13/nanowrimo-day-12-climbing-back-up-the-hill/</guid>
+      <description>Good progress today, making up for last week&amp;#8217;s shortfall. Making bullet point outlines of character/plot has been useful in figuring out some pacing/plot arc issues and giving me things to write that I hadn&amp;#8217;t even realized I needed. I&amp;#8217;ll need to do a massive reverse outline come December, though. Stitching the various plots and subplots together will take some work and much rewriting.
+&amp;#8212;
+Project: Black Mirror
+New words written: 2,044</description>
+    </item>
+    
+    <item>
+      <title>#NaNoWriMo day 11: Plotting, and a little Scrivener tip</title>
+      <link>http://adamisrael.com/blog/2011/11/12/nanowrimo-day-11-plotting-and-a-little-scrivener-tip/</link>
+      <pubDate>Sat, 12 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/11/12/nanowrimo-day-11-plotting-and-a-little-scrivener-tip/</guid>
+      <description>The last few days haven&amp;#8217;t been the most productive ones. If I were to go by the official NaNoWriMo stats, my current estimated finish date is December 4th and I just won&amp;#8217;t accept that. There are weekends, holidays, and writing sprints between now and then. Anything can happen.
+I stick to the time zone deadline pretty strictly, so I logged my numbers but kept writing and added another thousand words before bed.</description>
+    </item>
+    
+    <item>
+      <title>#NaNoWriMo day 10</title>
+      <link>http://adamisrael.com/blog/2011/11/11/nanowrimo-day-10/</link>
+      <pubDate>Fri, 11 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/11/11/nanowrimo-day-10/</guid>
+      <description>Not a great day all around and I was feeling pretty crummy about it, but as a wise man reminded me, 300 words is still 300 words closer to where I need to be.
+&amp;#8212;
+Project: Black Mirror
+New words written: 300
+Reason for stopping: Hit a wall
+&amp;#8212;
+Back on the saddle today. It&amp;#8217;s the beginning of a long weekend and I intend to mine some words.</description>
+    </item>
+    
+    <item>
+      <title>#NaNoWriMo day 9: 15k and beyond</title>
+      <link>http://adamisrael.com/blog/2011/11/10/nanowrimo-day-9-15k-and-beyond/</link>
+      <pubDate>Thu, 10 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/11/10/nanowrimo-day-9-15k-and-beyond/</guid>
+      <description>Winter, as they say, is coming and appropriately enough, I celebrated it with a London Fog Latte (Earl Grey tea, a shot of vanilla, and steamed milk).
+Not my best work here, but I laid out the bones of what needs to be done. A hot mess of potential awesome might be the best way to describe it all. I started organizing my notes for a post-Nano reverse outline. In keeping with the spirit of Nano, no words will be deleted no matter how much my inner editor cringes.</description>
+    </item>
+    
+    <item>
+      <title>#NaNoWriMo Day 8: What is this I don’t even</title>
+      <link>http://adamisrael.com/blog/2011/11/09/nanowrimo-day-8-what-is-this-i-dont-even/</link>
+      <pubDate>Wed, 09 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/11/09/nanowrimo-day-8-what-is-this-i-dont-even/</guid>
+      <description>Not everyone realizes that Nanowrimo, and being a writer in general, is a marathon, not a sprint. As such, I&amp;#8217;ve given myself permission for a skip day, should I need one. I haven&amp;#8217;t needed to call a mulligan yet but today was damn close.
+I went to the local coffee shop early this morning and added a third of my words. Head down and hauling ass on the day job (optimizing database queries, woo!</description>
+    </item>
+    
+    <item>
+      <title>#NaNoWriMo Day 7: Filling in the gaps</title>
+      <link>http://adamisrael.com/blog/2011/11/08/nanowrimo-day-7-filling-in-the-gaps/</link>
+      <pubDate>Tue, 08 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/11/08/nanowrimo-day-7-filling-in-the-gaps/</guid>
+      <description>Doing nano during the week is the most challenging for me. I work a lot, which means I need to be even more disciplined with my time. Thanks to some work issues, I didn&amp;#8217;t even start to think about writing until close to 7PM and I really didn&amp;#8217;t think I was going to make it. Also, I had a bad case of the don&amp;#8217;t wanna&amp;#8217;s. So, I gave myself an hour break and played XBox before I got to writing.</description>
+    </item>
+    
+    <item>
+      <title>#NaNoWriMo Day 6: Parity!</title>
+      <link>http://adamisrael.com/blog/2011/11/07/nanowrimo-day-6-parity/</link>
+      <pubDate>Mon, 07 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/11/07/nanowrimo-day-6-parity/</guid>
+      <description>Not as much writing as I&amp;#8217;d like today, mostly my own fault. When I actually sit down to write, I can knock out the words but today I procrastinated and was easily distracted. Still, I managed to hit parity with the Nano model of 1,667 words/day.
+&amp;#8212;
+Project: Black Mirror
+New words written: 1,975
+Reason for stopping: Midnight
+&amp;#8212;
+Almost a week in to this draft, I still feel pretty good about it.</description>
+    </item>
+    
+    <item>
+      <title>#NaNoWriMo day 5: milestones</title>
+      <link>http://adamisrael.com/blog/2011/11/06/nanowrimo-day-5-milestones/</link>
+      <pubDate>Sun, 06 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/11/06/nanowrimo-day-5-milestones/</guid>
+      <description>A mostly solid day of writing. Andrea and I went out to the coffee shop for a morning session. I struggled with the words. Came home and napped.
+Woke and procrastinated until the late evening and then&amp;#8230;something broke open. Next thing I knew, I was over 2,000 words and it was almost midnight. I&amp;#8217;m not saying they&amp;#8217;re great words. Hell, some of them ain&amp;#8217;t even good words. They&amp;#8217;re my words, though, and I&amp;#8217;m keeping them.</description>
+    </item>
+    
+    <item>
+      <title>NaNoWriMo Day 4 – Studying structure</title>
+      <link>http://adamisrael.com/blog/2011/11/05/nanowrimo-day-4-studying-structure/</link>
+      <pubDate>Sat, 05 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/11/05/nanowrimo-day-4-studying-structure/</guid>
+      <description>The bad news is I am now fluent in Fluish, having spent a good chunk of the day sleeping away the sickness.
+When I did bother to wake up and shake off the cobwebs, I grabbed 10 books off the shelf and started making notes. A few favorites, a few classics, a few modern contemporaries, SF and F. I looked at point of view and how each was structured. The results were interesting.</description>
+    </item>
+    
+    <item>
+      <title>NaNoWriMo 2011: Day 3</title>
+      <link>http://adamisrael.com/blog/2011/11/04/nanowrimo-2011-day-3/</link>
+      <pubDate>Fri, 04 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/11/04/nanowrimo-2011-day-3/</guid>
+      <description>I haven&amp;#8217;t managed to get back to my usual morning schedule of writing yet. Dayjobbery filled most of the day, until I realized that the stack of tissues piling up beside me and the general malaise that I felt was part of a deeper issue. I&amp;#8217;m not sure if it&amp;#8217;s some weird combination of a head cold, flu, a fibro flare, or accidental glutening but I spent a chunk of the afternoon in bed and the first few hours of the evening just trying to focus.</description>
+    </item>
+    
+    <item>
+      <title>NaNoWriMo 2011: Day 2</title>
+      <link>http://adamisrael.com/blog/2011/11/03/nanowrimo-2011-day-2/</link>
+      <pubDate>Thu, 03 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/11/03/nanowrimo-2011-day-2/</guid>
+      <description>Work all day followed by a quick nap and no words before 7:30pm. Andrea kicked me out of the house and I trundled off to the coffee house, was disappointed by the lack of London Fog Tea, and sat to write.
+When I&amp;#8217;m working on a project, it takes me a few days to hit my stride. So far, so good. I did a lot better with suppressing the urge to edit and hey, I made up for yesterdays shortfall.</description>
+    </item>
+    
+    <item>
+      <title>NaNoWriMo 2011: Day 1</title>
+      <link>http://adamisrael.com/blog/2011/11/02/nanowrimo-2011-day-1/</link>
+      <pubDate>Wed, 02 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/11/02/nanowrimo-2011-day-1/</guid>
+      <description>I think I&amp;#8217;m going to try blogging as I go &amp;#8212; nothing extensive because I don&amp;#8217;t want to take away from the real writing but I do want to jot down my thoughts. This is a process of learning and experimentation for me. I&amp;#8217;ve been writing short stories seriously for four years but writing something novel-length is a different kind of beast.
+One thing talked about on Twitter today was that some people actually start querying their Nano novels shortly after they&amp;#8217;ve finished.</description>
+    </item>
+    
+    <item>
+      <title>NaNoWriMo 2011</title>
+      <link>http://adamisrael.com/blog/2011/11/01/nanowrimo-2011/</link>
+      <pubDate>Tue, 01 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/11/01/nanowrimo-2011/</guid>
+      <description>Today is November 1st, the start of a new NaNoWriMo. I&amp;#8217;ve been doing, or trying to do, NaNoWriMo, on and off unsuccessfully since 2002 when my efforts netted about 4,500 words.
+Timing is a bitch. After I start writing seriously in 2007, I intended to do Nano that year. That November, a few days into the month, my marriage split up. The following November was the official divorce. A few slim years later, it preceded bankruptcy.</description>
+    </item>
+    
+    <item>
+      <title>Finding Home: Community in Apocalyptic Worlds</title>
+      <link>http://adamisrael.com/blog/2011/10/31/finding-home-community-in-apocalyptic-worlds/</link>
+      <pubDate>Mon, 31 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/10/31/finding-home-community-in-apocalyptic-worlds/</guid>
+      <description>I&amp;#8217;ve been running slow on spoons and managing my time carefully, and I neglected to post this sooner. I am extremely delighted to announce the sale of my story, My City of Ruins, to Timid Pirate Publishing, for their anthology Finding Home: Community in Apocalyptic Worlds.
+Pre-orders will be available on their website November 1st, and the anthology will be released on December 15th, just in time for Christmas.
+Behold, the Table of Contents:</description>
+    </item>
+    
+    <item>
+      <title>Storylife — A process of wrangling submissions</title>
+      <link>http://adamisrael.com/blog/2011/10/28/storylife-a-process-of-wrangling-submissions/</link>
+      <pubDate>Fri, 28 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/10/28/storylife-a-process-of-wrangling-submissions/</guid>
+      <description>I just mailed off my first story submission since 2009. Most of my submissions are electronic but, dating back to my first submissions circa 2007, I think I&amp;#8217;ve mailed off 5 or 6 stories or about 5% of my total submissions.
+Some writers don&amp;#8217;t even own printers (John Scalzi comes to mind). Markets are evolving &amp;#8212; not quite matching pace, but at least trailing the pack. Analog and Asimov both use the electronic submissions system developed by Neil Clarke.</description>
+    </item>
+    
+    <item>
+      <title>A funny little thing called Kismet</title>
+      <link>http://adamisrael.com/blog/2011/10/11/a-funny-little-thing-called-kismet/</link>
+      <pubDate>Tue, 11 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/10/11/a-funny-little-thing-called-kismet/</guid>
+      <description>Fate. Destiny. The word Kismet is the Turkish word to describe something I don&amp;#8217;t normally lend much weight to. Sometimes things happen, though. A completely random series of events that leads to something wonderful and there&amp;#8217;s no better way to describe it.
+Yesterday started off kind of shitty. I was already in a bad mood, thanks to the Sunday dinner with family that ended in a bullying event by an asshole uncle-in-law that left me with back spasms, followed by a shredded tire on the borrowed truck driven by my brother-in-law that should never have been driven in the condition it was in.</description>
+    </item>
+    
+    <item>
+      <title>The closing of Crossed Genres Magazine</title>
+      <link>http://adamisrael.com/blog/2011/10/04/the-closing-of-crossed-genres-magazine/</link>
+      <pubDate>Tue, 04 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/10/04/the-closing-of-crossed-genres-magazine/</guid>
+      <description>July 6th, 2009. That&amp;#8217;s the date I discovered Crossed Genres. I know this because that&amp;#8217;s the same date I submitted a story to them, and withdrew it the following day. See, I was still a very wet behind the ears writer and I was so excited about their current genre to notice that it was the previous month&amp;#8217;s genre. Still, I had the good sense to email Bart and Kay the next day to let them know about my mistake but from that day forward I was a fan.</description>
+    </item>
+    
+    <item>
+      <title>Recapping Toronto</title>
+      <link>http://adamisrael.com/blog/2011/09/23/recapping-toronto/</link>
+      <pubDate>Fri, 23 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/09/23/recapping-toronto/</guid>
+      <description>We went to Toronto last week. Sort of a mini-vacation. We planned the trip around a few events and winged the rest. We didn&amp;#8217;t realize the Toronto International Film Festival (TIFF) was happening, which sort of made finding last minute hotel rooms an adventure.
+We headed up Sunday, with an all too brief stopover along the way to meet up with twitter pal SheikYurbouti, followed by a mad rush to make it downtown in time for the first of our first of three Pearl Jam concerts.</description>
+    </item>
+    
+    <item>
+      <title>Crimson Pact 2 Unleashed</title>
+      <link>http://adamisrael.com/blog/2011/09/09/crimson-pact-2-unleashed/</link>
+      <pubDate>Fri, 09 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/09/09/crimson-pact-2-unleashed/</guid>
+      <description>The Crimson Pact 2, which includes my flash fiction &amp;#8220;History of the Flesh&amp;#8220;, is now available from Amazon.com, Barnes &amp;amp; Noble, and probably other places that sell ebooks. Five bucks for twenty-eight stories and over 500 pages worth of fiction is a steal. There&amp;#8217;s even a Youtube channel filled with book trailers if you need convincing.
+This little story is set in the same world as the novel I&amp;#8217;m working and I&amp;#8217;m very happy to see it in print, so to speak.</description>
+    </item>
+    
+    <item>
+      <title>Drifting through the evening trees like scattered leaves</title>
+      <link>http://adamisrael.com/blog/2011/09/01/drifting-through-the-evening-trees-like-scattered-leaves/</link>
+      <pubDate>Thu, 01 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/09/01/drifting-through-the-evening-trees-like-scattered-leaves/</guid>
+      <description>August, blessedly, is over.
+Besides the heat, humidity, and histamine that&amp;#8217;s kept me inside for most of the month, I shouldn&amp;#8217;t complain too much. I watched my friends get married via Google Handout. The car broke down, requiring a tow and new battery. I watched Life on Mars (the UK version) and Andrea and I finally caught up on Fringe.
+Life on Mars &amp;#8212; what a fabulous idea. Now that I&amp;#8217;ve seen both the US and original UK versions I feel like I should say something about it.</description>
+    </item>
+    
+    <item>
+      <title>Brainjuice</title>
+      <link>http://adamisrael.com/blog/2011/08/23/brainjuice/</link>
+      <pubDate>Tue, 23 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/08/23/brainjuice/</guid>
+      <description>Can you believe I managed to blog three whole days in a row last week two weeks ago? Yeah.
+Apparently I&amp;#8217;m running in low power mode right now. New meds, a heavy work schedule, and two short story deadlines. Oh, and I&amp;#8217;m outlining NOVEL.
+I&amp;#8217;ve got around twenty unfinished short stories in inventory. My plan is to revise a short story every month or so while drafting novel. I don&amp;#8217;t plan to draft any new short stories until I&amp;#8217;ve finished this novel draft, unless something new like Shanghai Steam comes along or a specific invite comes along that catches my interest.</description>
+    </item>
+    
+    <item>
+      <title>Signal boost: Broken Time Blues</title>
+      <link>http://adamisrael.com/blog/2011/08/12/signal-boost-broken-time-blues/</link>
+      <pubDate>Fri, 12 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/08/12/signal-boost-broken-time-blues/</guid>
+      <description>Broken Time Blues: Fantastic Tales in the Roaring &amp;#8217;20s, or as some of you folks may remember it from it&amp;#8217;s twitter hashtag, #20spec, is now available for sale on Amazon. From the publisher&amp;#8217;s description:
+ No blind tigers or poisonous coffin varnish here! Broken Time Blues is a classy establishment, see? The cat&amp;#8217;s meow. So toss on your glad rags and get a wiggle on! Make sure no one&amp;#8217;s following you, then take a right down the alley and knock three times on the brown door.</description>
+    </item>
+    
+    <item>
+      <title>Small does not mean amateur</title>
+      <link>http://adamisrael.com/blog/2011/08/11/small-does-not-mean-amateur/</link>
+      <pubDate>Thu, 11 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/08/11/small-does-not-mean-amateur/</guid>
+      <description>I sent a submission to a market whose name I will not reveal on July 15th. Acknowledgement was received on July 17th, which I&amp;#8217;ve included below, modified only to anonymize the publisher. There are enough mistakes contained in this experience that I think it&amp;#8217;s worth examining, both for writers, editors, and small press publishers.
+ Thank you for your submission.
+I expect to begin story review for Name Withheld in late July/early August and you should hear from me no later than September 15th.</description>
+    </item>
+    
+    <item>
+      <title>Less talk, more word count</title>
+      <link>http://adamisrael.com/blog/2011/08/10/less-talk-more-word-count/</link>
+      <pubDate>Wed, 10 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/08/10/less-talk-more-word-count/</guid>
+      <description>I need to post a full recap of my Clarion write-a-thon efforts and a thank you to the donors. In the meantime, a little bit about accountability.
+I&amp;#8217;ve been bad about writing consistently lately (blogging seems to be a chronic problem). I&amp;#8217;d write sporadically, finishing stories here and there, revising and evening submitting a few of them with some success. Mostly, though, I&amp;#8217;ve been draft stories and that&amp;#8217;s it. I still have some sitting in my moleskines waiting to be typed up.</description>
+    </item>
+    
+    <item>
+      <title>Off with the Sloth</title>
+      <link>http://adamisrael.com/blog/2011/07/30/off-with-the-sloth/</link>
+      <pubDate>Sat, 30 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/07/30/off-with-the-sloth/</guid>
+      <description>I&amp;#8217;ve survived day two of walking myself into a non-round shape. It&amp;#8217;s not an easy task. Fibromyalgia, my version of it, includes bouts of fatigue. I tried doing something as simple as lunges as part of my friend Sandra&amp;#8217;s virtual bootcamp; twenty minutes of that put me into a fatigue crash that had me sleeping 36 out of the next 48 hours and, frankly, weeks of depression just thinking about that failure.</description>
+    </item>
+    
+    <item>
+      <title>I know Immigration-Fu</title>
+      <link>http://adamisrael.com/blog/2011/07/28/i-know-immigration-fu/</link>
+      <pubDate>Thu, 28 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/07/28/i-know-immigration-fu/</guid>
+      <description>The inches-thick stack of paper greeting us on Tuesday only needed one thing: signatures. With today&amp;#8217;s batch of packages to Fedex, my application for immigration to Canada is on its way north, where it will sit in processing for the next nine or ten months. Around April or May next year, I will start frantically refreshing the status page to see if it changes from &amp;#8216;in process&amp;#8217; to &amp;#8216;approved&amp;#8217; and we wait for the final paperwork to come in the mail.</description>
+    </item>
+    
+    <item>
+      <title>Speaking with Authority</title>
+      <link>http://adamisrael.com/blog/2011/07/16/speaking-with-authority/</link>
+      <pubDate>Sat, 16 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/07/16/speaking-with-authority/</guid>
+      <description>It&amp;#8217;s a funny thing. When I wrote tech news and my Linux column, I felt pretty confident about what I was doing. I could debate policy and technology without hesitation. I&amp;#8217;ve been on panels, given demonstrations and was, frankly, highly opinionated and usually right.
+It&amp;#8217;s different when it comes to fiction, though. I&amp;#8217;ve made sales and gone to Clarion. I&amp;#8217;m comfortable with what I do and don&amp;#8217;t know but I don&amp;#8217;t usually feel like I&amp;#8217;m speaking with authority.</description>
+    </item>
+    
+    <item>
+      <title>In the Company of Strangers</title>
+      <link>http://adamisrael.com/blog/2011/07/10/in-the-company-of-strangers/</link>
+      <pubDate>Sun, 10 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/07/10/in-the-company-of-strangers/</guid>
+      <description>Andrea&amp;#8217;s gift of striking up a conversation led to the discovery that tonight was the open house for the local brand of the Royal Astronomy Society of Canada. I&amp;#8217;ve been a space nerd since the moment I saw Star Trek in theatre in the 1979. Joining the club seemed like a no-brainer and I&amp;#8217;d researched it, before my border crossing nightmare last year and had slipped my mind since returning last November.</description>
+    </item>
+    
+    <item>
+      <title>Guys, how do you shave?</title>
+      <link>http://adamisrael.com/blog/2011/07/06/guys-how-do-you-shave/</link>
+      <pubDate>Thu, 07 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/07/06/guys-how-do-you-shave/</guid>
+      <description>I&amp;#8217;ve owned one electric razor in my life. It didn&amp;#8217;t do a great job of shaving my face and cleaning it out was a pain in the ass. I&amp;#8217;ve been using a disposable instead (one of those three-razor things) but replacement blades are expensive and the entire process annoys me. I&amp;#8217;m wondering if that electric razor I tried before just wasn&amp;#8217;t that good? So, to try out this nifty polling plugin, a question!</description>
+    </item>
+    
+    <item>
+      <title>Sale: History of the Flesh</title>
+      <link>http://adamisrael.com/blog/2011/07/07/sale-history-of-the-flesh/</link>
+      <pubDate>Thu, 07 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/07/07/sale-history-of-the-flesh/</guid>
+      <description>I&amp;#8217;m pleased to announce the sale of a flash fiction story, &amp;#8220;History of the Flesh&amp;#8221;, to volume 2 of The Crimson Pact anthology.
+My story of a psychometrist turned sineater started almost two and a half years ago, during the Codex Weekend Warrior contest. For five consecutive weekends, we write a flash fiction inspired by one of three posted prompts and post it by the wee hours of Monday morning.</description>
+    </item>
+    
+    <item>
+      <title>Clarion Diego Write-a-thon</title>
+      <link>http://adamisrael.com/blog/2011/06/25/clarion-diego-write-a-thon/</link>
+      <pubDate>Sat, 25 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/06/25/clarion-diego-write-a-thon/</guid>
+      <description>Two things make this upcoming Monday special: it marks the beginning of the Clarion (San Diego) Write-a-thon, and my one year anniversary of attending the Clarion Workshop. Clarion was a significant event in my life. One way I can give back is by participating in the write-a-thon and raising money to help the program that helped me.
+For six weeks, we learned to write better (but still shitty!) first drafts. I wrote three new stories at Clarion, and revised two previously written ones.</description>
+    </item>
+    
+    <item>
+      <title>Take two milestones and call me next week, son.</title>
+      <link>http://adamisrael.com/blog/2011/06/10/take-two-milestones-and-call-me-next-week-son/</link>
+      <pubDate>Fri, 10 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/06/10/take-two-milestones-and-call-me-next-week-son/</guid>
+      <description>We reached two long-awaited milestones in our household this week.
+The last maintenance payment to my ex-wife, month 30 of 30, was mailed off. This represented a sizable portion of my income. It’s been a wild, dramatic ride that is now officially over. No more living in fear that I’m going to get a call from my lawyer and have to shuttle back to Illinois on short notice for an ‘emergency’ hearing or stressing out about what I say on the Internet because it will (and it did) find it’s way back to my ex and used against me in wildly out-of-context ways.</description>
+    </item>
+    
+    <item>
+      <title>Dying is not a crime</title>
+      <link>http://adamisrael.com/blog/2011/06/01/dying-is-not-a-crime/</link>
+      <pubDate>Wed, 01 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/06/01/dying-is-not-a-crime/</guid>
+      <description>Death comes to us all, eventually. It&amp;#8217;s a topic that artists have explored, he said tongue-in-cheek, to death. Daredevils and thrill seekers challenge it, doctors work to postpone it, and we all live with the fact that it is inevitable and can take us or someone we love at any moment.
+Robert Heinlein, one of my earliest influences, lead off his The Past Through Tomorrow collection with Life-Line, about a machine that predicts how long a person will live.</description>
+    </item>
+    
+    <item>
+      <title>The Backbone Project</title>
+      <link>http://adamisrael.com/blog/2011/05/25/the-backbone-project/</link>
+      <pubDate>Wed, 25 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/05/25/the-backbone-project/</guid>
+      <description>I was reading Ferret&amp;#8217;s blog this morning, as I often do, and I saw a familiar name mentioned: Amy Sundberg. I&amp;#8217;ve realized over the last year that I have much in common with Amy, who I had the pleasure to meet at World Fantasy last year. Her posts on Ambiversion and the awesomeness of being an introvert kind of clued me in but her latest one about being less wishy-washy really hits home.</description>
+    </item>
+    
+    <item>
+      <title>Signal Boost: Finnish Science Fiction/Fantasy</title>
+      <link>http://adamisrael.com/blog/2011/05/13/signal-boost-finnish-science-fictionfantasy/</link>
+      <pubDate>Sat, 14 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/05/13/signal-boost-finnish-science-fictionfantasy/</guid>
+      <description>Diversity is something often on my mind. I&amp;#8217;ve been thrilled to see translated Science Fiction becoming available in bookstores recently. It&amp;#8217;s easy to forget that we &amp;#8212; the white, english speakers of the world &amp;#8212; aren&amp;#8217;t the only ones with fantastic imaginations.
+My Clarion instructors Jeff and Ann VanderMeer have an almost encyclopedia-like knowledge of foreign fiction. They recently spent some time in Finland, meeting with many of the Finnish SF/F community.</description>
+    </item>
+    
+    <item>
+      <title>The good, the bad, and the awesome</title>
+      <link>http://adamisrael.com/blog/2011/05/11/the-good-the-bad-and-the-awesome/</link>
+      <pubDate>Wed, 11 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/05/11/the-good-the-bad-and-the-awesome/</guid>
+      <description>The package of mail from the states that I&amp;#8217;ve been anxiously waiting for arrived today. I now have the last of the paperwork I need to continue with my permanent residence application, my Square reader, so I can accept credit card payments, and the sealed letter from the Illinois DMV so I can get my Ontario drivers license.
+We drive to the nearest driving center with the sealed letter in hand.</description>
+    </item>
+    
+    <item>
+      <title>Events</title>
+      <link>http://adamisrael.com/events/</link>
+      <pubDate>Mon, 09 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/events/</guid>
+      <description> Travel is limited for the near future due to my immigration to Canada.
+Conventions   Toronto Comics Art Festival &amp;#8211; May 11th-12th, 2013 SF Contario 4 &amp;#8211; November 29th &amp;#8211; December 1st, 2013   </description>
+    </item>
+    
+    <item>
+      <title>Website Overhaul</title>
+      <link>http://adamisrael.com/blog/2011/05/09/website-overhaul/</link>
+      <pubDate>Mon, 09 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/05/09/website-overhaul/</guid>
+      <description>My dear friend and fellow Inkpunk Christie Yant recently wrote about the dos and don&amp;#8217;ts of your online presence and it inspired me to do a heavy overhaul of my own website. I haven&amp;#8217;t been happy with it for a while. It pulled in things like images from flickr, recently played music from Last.fm, and didn&amp;#8217;t show enough real content.
+This new theme suites me, I think.</description>
+    </item>
+    
+    <item>
+      <title>Draft Zero</title>
+      <link>http://adamisrael.com/blog/2011/04/28/draft-zero/</link>
+      <pubDate>Thu, 28 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/04/28/draft-zero/</guid>
+      <description>I didn&amp;#8217;t reach my original estimate of 5,000 words but this draft is done.
+Project: Motown Blues (tentative)
+New words written: 811
+Reason for stopping: End of story
+No matter how much I outline and plan, these stories tend to take on a life of their own once I get started. The voice fluctuates until it finds its pace and pitch. Tangents emerge, sidetrack, and must be wrestled into submission. I like what this is shaping up to be.</description>
+    </item>
+    
+    <item>
+      <title>What do you mean, fifteen minutes *each*?</title>
+      <link>http://adamisrael.com/blog/2011/04/24/what-do-you-mean-fifteen-minutes-each/</link>
+      <pubDate>Mon, 25 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/04/24/what-do-you-mean-fifteen-minutes-each/</guid>
+      <description>I missed a couple days of writing last week, which included a day spent trying to get fingerprints taken for immigration and ended up with an appointment one week out. Who knew that fingerprint technology had advanced beyond ink pads? One set for Ontario, and a set each for the FBI and State of Illinois to request my records. The saga, she continues.
+My Illinois driving records have been received by Mom and will soon be on their way here.</description>
+    </item>
+    
+    <item>
+      <title>Watching Doctor Who for the first time, mostly.</title>
+      <link>http://adamisrael.com/blog/2011/04/22/watching-doctor-who-for-the-first-time-mostly/</link>
+      <pubDate>Fri, 22 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/04/22/watching-doctor-who-for-the-first-time-mostly/</guid>
+      <description>[](1) Up until a year ago, I&amp;#8217;d only seen a few episodes of Doctor Who &amp;#8212; mostly season 1. I was interested by what I saw but I prefer to watch shows sequentially, even though the wibbly-wobbly, timey-wimey nature of the show makes viewing out of order just as enjoyable. Then Season 5 came along and I made a point of watching it from the beginning. I was hooked within the first episode.</description>
+    </item>
+    
+    <item>
+      <title>Dusk fell and so did the green haze of the Aurora Borealis</title>
+      <link>http://adamisrael.com/blog/2011/04/20/dusk-fell-and-so-did-the-green-haze-of-the-aurora-borealis/</link>
+      <pubDate>Wed, 20 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/04/20/dusk-fell-and-so-did-the-green-haze-of-the-aurora-borealis/</guid>
+      <description>A pretty good day all around. I&amp;#8217;m loving my new schedule. This draft&amp;#8217;s a bit rough but I&amp;#8217;m on track to finish it up by the end of the weekend, and then I have a few weeks to revise before it&amp;#8217;s due.
+Project: Motown Blues
+New words written: 1,022
+Reason for stopping: End of scene and out of time.
+&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>Progress report, 4/18/11</title>
+      <link>http://adamisrael.com/blog/2011/04/18/progress-report-41811/</link>
+      <pubDate>Tue, 19 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/04/18/progress-report-41811/</guid>
+      <description>I&amp;#8217;m trying to do a better job of writing every day, getting things done, and keeping to a schedule. This might not be of interest to anyone else, but public shaming accountability keeps me honest.
+Projects: Motown Blues (tentative)
+New words written: 571
+Reason for stopping: End of scene
+Even though I know exactly where the story is headed, it&amp;#8217;s fun to discover the bits that jump out of the ether, waving their arms and screaming, &amp;#8220;hey, look at me!</description>
+    </item>
+    
+    <item>
+      <title>Dear @neilhimself – Has American Gods ruined Norse re-imaginings for other writers?</title>
+      <link>http://adamisrael.com/blog/2011/04/15/dear-neilhimself-has-american-gods-ruined-norse-re-imaginings-for-other-writers/</link>
+      <pubDate>Fri, 15 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/04/15/dear-neilhimself-has-american-gods-ruined-norse-re-imaginings-for-other-writers/</guid>
+      <description>I&amp;#8217;d ask Neil Gaiman this himself (and yes, I know I&amp;#8217;ve tagged him on Twitter on the off chance he sees this), but he&amp;#8217;s a busy guy and the odds of getting a chance to talk to him are, frankly, bewilderingly astronomical. I&amp;#8217;ll throw this question out to everyone because I&amp;#8217;m genuinely curious to hear more thoughts on this.
+At Clarion last year, I wrote a short story inspired by Norse mythology, set in America.</description>
+    </item>
+    
+    <item>
+      <title>Quitting Time</title>
+      <link>http://adamisrael.com/blog/2011/04/15/quitting-time/</link>
+      <pubDate>Fri, 15 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/04/15/quitting-time/</guid>
+      <description>Six years ago, I was a freelance software engineer, with a background in advertising, search engines and high-performance web applications, when an introductory email lead me to help build a new company. I was employee #1; I built a multi-million dollar ad serving platform from scratch and in the process I worked sales, accounting, administration, development, and management. In the end, though, there is something to be said about being your own man, being able to make decisions and see your visions to fruition.</description>
+    </item>
+    
+    <item>
+      <title>Hey look, my first review!</title>
+      <link>http://adamisrael.com/blog/2011/04/12/hey-look-my-first-review/</link>
+      <pubDate>Tue, 12 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/04/12/hey-look-my-first-review/</guid>
+      <description>As far as I&amp;#8217;m aware, this is my very first review.
+ Extinct Doesn&amp;#8217;t Mean Forever is an anthology of 19 stories exploring the concept of extinction, with genres ranging from far future SF to others that happily straddle the line between speculative fiction and the mainstream.
+&amp;#8230;
+The second half of the book slows down somewhat. Some of the stories are longer and some of them frankly wear out their welcome.</description>
+    </item>
+    
+    <item>
+      <title>1,185 days.</title>
+      <link>http://adamisrael.com/blog/2011/04/06/1185-days/</link>
+      <pubDate>Thu, 07 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/04/06/1185-days/</guid>
+      <description>I alluded to some good news yesterday; the first piece of it is more or less final now. As of this morning, I am done with divorce court. I have two months of maintenance (alimony) and lawyer fees left to pay and this will be a memory.
+3 years, 2 months, 30 days
+102,384,000 seconds
+1,706,400 minutes
+28,440 hours
+169 weeks
+In the time it took for this ordeal to end , I could have walked 5,925 miles (assuming 5 miles/day), from the Pacific to Atlantic coast and back.</description>
+    </item>
+    
+    <item>
+      <title>Extinct Doesn’t Mean Forever</title>
+      <link>http://adamisrael.com/blog/2011/04/06/extinct-doesnt-mean-forever/</link>
+      <pubDate>Wed, 06 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/04/06/extinct-doesnt-mean-forever/</guid>
+      <description>&amp;nbsp;
 
-&lt;p&gt;Saying &amp;#8220;please give money&amp;#8221; is something I do on very rare occasion, but this is something worthwhile. The Clarion Workshop is one of very few programs in the world for writers of genre fiction. Hundreds of students apply every year but only a handful get in. The instructors are among the most experienced authors in the field. Donations go to keeping the workshop running and supplying scholarships for students in need.&lt;/p&gt;
+I realize that I neglected to mention that the anthology Extinct Doesn&amp;#8217;t Mean Forever, containing my story Indigo&amp;#8217;s Gambit, is now available on Amazon.
+ Three, two, one, bang — the Drifting Star skipped on the wave of a collapsing micro-sun, soaring through the void between the stars. The astronautical library contained surveys and charts on hundreds of thousands of star systems within the alliance of civilized worlds the Fringe called Sing Xu.</description>
+    </item>
+    
+    <item>
+      <title>Ten things make a post</title>
+      <link>http://adamisrael.com/blog/2011/04/05/ten-things-make-a-post/</link>
+      <pubDate>Wed, 06 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/04/05/ten-things-make-a-post/</guid>
+      <description>Yes, I still suck at blogging regularly. I don&amp;#8217;t expect that&amp;#8217;ll change, but I sure keep trying. So, to catch you up on the life of Adam, here&amp;#8217;s a quick rundown of what I&amp;#8217;ve been up to.
+ Achieved INBOX=0 and rocked the hell out of my calendar and TODO list. Yes, I might be micro-managing my time but it seems to be working. I&amp;#8217;ve been more productive this last week than I have in the last few months, both personally and professionally.</description>
+    </item>
+    
+    <item>
+      <title>Rainforest Writers Village</title>
+      <link>http://adamisrael.com/blog/2011/03/17/rainforest-writers-village/</link>
+      <pubDate>Thu, 17 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/03/17/rainforest-writers-village/</guid>
+      <description>Last weekend, Andrea and I attended the Rainforest Writers Village at Lake Quinalt in western Washington state. It was our first trip together in more than two years, the first time either of us had been to the Pacific Northwest, and our first to the states since my return to Canada last year.
+My hat goes off to Patrick Swenson, who puts heart and soul into making the retreat an awesome event.</description>
+    </item>
+    
+    <item>
+      <title>Fiction – “Dog Days” now available</title>
+      <link>http://adamisrael.com/blog/2011/03/01/fiction-dog-days-now-available/</link>
+      <pubDate>Tue, 01 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/03/01/fiction-dog-days-now-available/</guid>
+      <description>Crossed Genres Superhero-themed issue is now available, including my story &amp;#8220;Dog Days&amp;#8220;. What a hell of a line-up, too. I&amp;#8217;m sharing a table of contents with friend and Clarion West 2010 graduate Tracie Welser (How Molière Saved Lydia Bruer: A History in Two Fragments) and introduced me to Nathan Crowder (Hard Ride to Yuma), Leow Hui Min Annabeth (Idris on the Job) and KB Lawrence (Across the City’s Belly). All of this great fiction is topped off by As Weak as Women’s Magic, an article by Athena Andreadis.</description>
+    </item>
+    
+    <item>
+      <title>Happy birthday, Johnny.</title>
+      <link>http://adamisrael.com/blog/2011/02/26/happy-birthday-johnny/</link>
+      <pubDate>Sun, 27 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/02/26/happy-birthday-johnny/</guid>
+      <description>I missed seeing the last time you performed in Chicago. A client offered me tickets to see you and I scoffed. You, after all, were a country singer and I was too good for that; I&amp;#8217;d rather listen to my heavy metal, thank you very much. So when I actually listened to your music for the first time, really listened, it was like you were speaking to me. I was hooked.</description>
+    </item>
+    
+    <item>
+      <title>2010 Nebula Nominations</title>
+      <link>http://adamisrael.com/blog/2011/02/22/2010-nebula-nominations/</link>
+      <pubDate>Tue, 22 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/02/22/2010-nebula-nominations/</guid>
+      <description>The Nebula Nominations are out! I&amp;#8217;m pleased to see several friends and acquaintances on the list. Congratulations to all nominees, but especially to Kij Johnson, Vylar Kaftan, Shweta Narayan, Eric James Stone, J. Kathleen Cheney, M.K. Hobson, Mary Robinette Kowal, and Nnedi Okorafor.
+I also let out a little squee to see that my favorite episode of Doctor Who, &amp;#8220;Vincent and the Doctor&amp;#8221;, is up for the Ray Bradbury Award for Outstanding Dramatic Presentation.</description>
+    </item>
+    
+    <item>
+      <title>SALE: Dog Days, to Crossed Genres</title>
+      <link>http://adamisrael.com/blog/2011/02/10/sale-dog-days-to-crossed-genres/</link>
+      <pubDate>Thu, 10 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/02/10/sale-dog-days-to-crossed-genres/</guid>
+      <description>I am pleased to announce that I&amp;#8217;ve sold my story, Dog Days, to Crossed Genres for their March issue, Superheroes. This is the story I referenced in my latest Inkpunks post, Writer’s Toolkit: Tarot Cards.
+I&amp;#8217;m particularly tickled by this sale. It&amp;#8217;s my first acceptance post-Clarion, of a story I&amp;#8217;m particularly enamored with, to one of my favorite markets. Happy writer is happy.</description>
+    </item>
+    
+    <item>
+      <title>SALE: Indigo’s Gambit, to the EXTINCT anthology</title>
+      <link>http://adamisrael.com/blog/2011/02/10/sale-indigos-gambit-to-the-extinct-anthology/</link>
+      <pubDate>Thu, 10 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/02/10/sale-indigos-gambit-to-the-extinct-anthology/</guid>
+      <description>Coming on the heels of my sale to Crossed Genres, I can also announce that I&amp;#8217;ve sold the story, Indigo&amp;#8217;s Gambit, to the EXTINCT anthology, to be published as an eBook later this year.</description>
+    </item>
+    
+    <item>
+      <title>Finishing Things Follow-up</title>
+      <link>http://adamisrael.com/blog/2011/01/24/finishing-things-follow-up/</link>
+      <pubDate>Mon, 24 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/01/24/finishing-things-follow-up/</guid>
+      <description>I had a Finishing Things Weekend, joined by many friends on Twitter. I almost failed miserably. I finished none of the three things I&amp;#8217;d planned on, instead crashing into a fibro-induced sleep state. Spending half of a weekend asleep and the other half wishing I were wasn&amp;#8217;t what I had in mind, but I did salvage something from it.
+After another nap, I checked my Duotrope stats. Saw a nifty new feature that let me search for markets I hadn&amp;#8217;t submitted a story to yet.</description>
+    </item>
+    
+    <item>
+      <title>Five things I learned at Clarion</title>
+      <link>http://adamisrael.com/blog/2011/01/22/five-things-i-learned-at-clarion/</link>
+      <pubDate>Sat, 22 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/01/22/five-things-i-learned-at-clarion/</guid>
+      <description>Via Jim Kelly, by way of Tim Pratt, and because I am desperately avoiding the writing I need to do tonight, here are a few things I learned (or confirmed) while at Clarion.
+ I write stories about the human condition. It&amp;#8217;s the people that interest me, their struggles that move me, and their pain that moves my pen. So, I guess that explains my fascination with people-watching. Find what works for and stick with it.</description>
+    </item>
+    
+    <item>
+      <title>Finishing Things Weekend</title>
+      <link>http://adamisrael.com/blog/2011/01/21/finishing-things-weekend/</link>
+      <pubDate>Fri, 21 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/01/21/finishing-things-weekend/</guid>
+      <description>This weekend has been declared crunch time, and as it turns out there&amp;#8217;s also a Finishing Things Weekend (#FTW) happening on Twitter this weekend. Rockin&amp;#8217;. I love peer pressure.
+The things that I want/need to get done:
+ Revise last weekend&amp;#8217;s flash story (flutters eyelashes at critiquers) and submit it Draft another Tesla&amp;#8217;s Daughter Super Hero story (yes, it&amp;#8217;s apparently turning into a series) Write new flash fiction for this weekend&amp;#8217;s Codex Weekend Warriors contest  That&amp;#8217;s kind of a lot, but I think I can pull it off.</description>
+    </item>
+    
+    <item>
+      <title>A Poppet Army of One</title>
+      <link>http://adamisrael.com/blog/2011/01/14/a-poppet-army-of-one/</link>
+      <pubDate>Fri, 14 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/01/14/a-poppet-army-of-one/</guid>
+      <description>It almost became a joke; when will the package show up in Canada? Canada Post, I&amp;#8217;ve found, is notoriously slow. I diligently checked the post office every couple days (because they don&amp;#8217;t deliver to the house). Christmas came and went and finally, on the last day of the year, a package from California arrived.
+My good friend Christie sent packages to a group of us; we met online and a tight bond formed by a love of words and writing and genre developed, and it&amp;#8217;s only grown since.</description>
+    </item>
+    
+    <item>
+      <title>I have a &lt;3 for words</title>
+      <link>http://adamisrael.com/blog/2011/01/13/i-have-a/</link>
+      <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/01/13/i-have-a/</guid>
+      <description>I&amp;#8217;m planning a submissions party this weekend and you are all welcome to join me on Twitter. I have at least one story that that I should be sending out for reprints and a second that I&amp;#8217;m not sure when, offhand, the reprint rights revert. I need to do market research, update my spreadsheets, and get submitting. I&amp;#8217;ve also got some stories that have been sitting gathering dust and that&amp;#8217;s a crying shame.</description>
+    </item>
+    
+    <item>
+      <title>2010 in review</title>
+      <link>http://adamisrael.com/blog/2011/01/01/2010-in-review/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/01/01/2010-in-review/</guid>
+      <description>Every year has its ups and downs and 2010 was no exception. Still, it felt like a harder year in many ways. There were unexpected challenges by way of financial disasters, health setbacks and personal roadblocks. At times, I didn&amp;#8217;t know how I&amp;#8217;d get by day to day. Despite everything, the year ended on a high note. All we can do for the days ahead is work smart and move forward.</description>
+    </item>
+    
+    <item>
+      <title>Hard days</title>
+      <link>http://adamisrael.com/blog/2010/12/28/hard-days/</link>
+      <pubDate>Tue, 28 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/12/28/hard-days/</guid>
+      <description>I&amp;#8217;ve been slogging away, the last few weeks, trying to string together words that make sense. It&amp;#8217;s been rough. A nameless ennui that I blame on not having a place to personalize yet. That&amp;#8217;s something Andrea and I will be working towards in the new year. Meanwhile, life goes on and the writing must continue so I had to find a way. Deadlines usually help, but I&amp;#8217;ve been staring two or three, maybe four, up the ugly side so much lately that I&amp;#8217;m beginning to go cross-eyed.</description>
+    </item>
+    
+    <item>
+      <title>Holiday Sundry</title>
+      <link>http://adamisrael.com/blog/2010/12/22/holiday-sundry/</link>
+      <pubDate>Wed, 22 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/12/22/holiday-sundry/</guid>
+      <description>Eventually I&amp;#8217;ll get on to something resembling a schedule. This is a note to let you know that yes, I am still alive, despite what my twitter feed may appear to indicate.
+ Don&amp;#8217;t Ask, Don&amp;#8217;t Tell has finally been repealed. About fucking time. Maybe this&amp;#8217;ll be the tipping point to establishing equal rights for everyone regardless of race, gender or orientation. My brother&amp;#8217;s back out of the hospital. It&amp;#8217;s complex.</description>
+    </item>
+    
+    <item>
+      <title>Fibrosomnia</title>
+      <link>http://adamisrael.com/blog/2010/12/09/fibrosomnia/</link>
+      <pubDate>Fri, 10 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/12/09/fibrosomnia/</guid>
+      <description>Insomnia and I are old friends who nod in passing, acknowledging our shared history like lovers but say nothing. The latest flare of pain caused by fibromyalgia has rekindled that flame and brought an entirely new facet to the relationship.
+Fibro flares can be difficult. It&amp;#8217;s sometimes easy to forget I&amp;#8217;m in the middle of one when I&amp;#8217;m sitting and working or active around the house but when I lay down to rest and my body starts to relax the pain gets worse.</description>
+    </item>
+    
+    <item>
+      <title>Reasons why I love living in a small town</title>
+      <link>http://adamisrael.com/blog/2010/12/10/reasons-why-i-love-living-in-a-small-town/</link>
+      <pubDate>Fri, 10 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/12/10/reasons-why-i-love-living-in-a-small-town/</guid>
+      <description>We had our first measurable snowfall today &amp;#8212; a meager quarter inch or so. I was awake early, or late, depending on your point of view thanks to fibrosomnia day 2. I decided to walk uptown to our favorite breakfast joint where I had three eggs, three slices of bacon, and fried potatoes and onions for under $5. I jotted down some words, made some notes on the next story I&amp;#8217;m working on, and on the way back home picked up an extra large half hot chocolate, half coffee at Tim Hortons (which is open 24&amp;frasl;7, btw) for less than $2.</description>
+    </item>
+    
+    <item>
+      <title>Valhalla, I am home.</title>
+      <link>http://adamisrael.com/blog/2010/11/26/valhalla-i-am-home/</link>
+      <pubDate>Fri, 26 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/11/26/valhalla-i-am-home/</guid>
+      <description>6 months, 17 days. 201 days. It was May 7th when I had my original issues at the border resulting in my denial of entry. It was three weeks ago that we were planning to have Andrea follow me to California. And then events transpired which changed our mind. A plan was hatched. Action was taken. To our pleasant shock and awe, it worked. I am home. I am officially, and quite legally, in Canada.</description>
+    </item>
+    
+    <item>
+      <title>Brief World Fantasy wrap-up</title>
+      <link>http://adamisrael.com/blog/2010/11/04/brief-world-fantasy-wrap-up/</link>
+      <pubDate>Thu, 04 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/11/04/brief-world-fantasy-wrap-up/</guid>
+      <description>I went to my first World Fantasy Convention last weekend. I&amp;#8217;ve been to other conventions &amp;#8212; mostly smaller, regional conventions like Penguicon, Windycon, and a one-day stop at WisCon last year. I thought I knew what to expect. Boy was I wrong.
+First, the new friends. So many of my friends converged upon Columbus that World Fantasy was, for many of us, our first face-to-face meeting. I met what seemed like half of my rival Clarion class, all but one of the Inkpunks (Wendy, we missed you dearly), and so many others from Facebook, Twitter, and LiveJournal.</description>
+    </item>
+    
+    <item>
+      <title>AlterNaNoWriMo 2010 – #alternano</title>
+      <link>http://adamisrael.com/blog/2010/10/31/alternanowrimo-2010-alternano/</link>
+      <pubDate>Mon, 01 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/10/31/alternanowrimo-2010-alternano/</guid>
+      <description>November 1st is here and that means NaNoWriMo &amp;#8211; National Novel Writing Month. As someone who is a short story writer, I often look at my friends writing the long form with some envy. They have their own month and I don&amp;#8217;t want to be left out so I tell myself that I will finally write one of those novel ideas I&amp;#8217;ve been noodling on for forever. Just when I think I&amp;#8217;ve picked one and made a decision, the weight of my backlog of revisions, rewrites, or markets I want to submit to smacks me like a brick.</description>
+    </item>
+    
+    <item>
+      <title>Sparkpunk won’t stand for that crap anymore</title>
+      <link>http://adamisrael.com/blog/2010/10/19/sparkpunk-wont-stand-for-that-crap-anymore/</link>
+      <pubDate>Tue, 19 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/10/19/sparkpunk-wont-stand-for-that-crap-anymore/</guid>
+      <description>I should have known I was in for a rough day when I woke up to rain. Not that rain is unusual, but I&amp;#8217;d never seen it rain in Santa Monica before. It was a nice rain, though, the kind that you don&amp;#8217;t mind walking to work in. After a weekend spent riding buses and enjoying the company of good friends (not that I&amp;#8217;m complaining), I found myself in a deficit of spoons, though.</description>
+    </item>
+    
+    <item>
+      <title>Travel ahoy</title>
+      <link>http://adamisrael.com/blog/2010/10/10/travel-ahoy/</link>
+      <pubDate>Mon, 11 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/10/10/travel-ahoy/</guid>
+      <description>It&amp;#8217;s a good feeling to put the word END after the last paragraph of a manuscript. This story was born week five of Clarion but I couldn&amp;#8217;t make it work then. A little bit of time away and with four days of sporadic effort, it&amp;#8217;s a story. Rough around the edges like any first draft but I expect those will be caught when I sent it to beta readers later this week.</description>
+    </item>
+    
+    <item>
+      <title>Armed with a palm full of spit and vigor</title>
+      <link>http://adamisrael.com/blog/2010/10/10/armed-with-a-palm-full-of-spit-and-vigor/</link>
+      <pubDate>Sun, 10 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/10/10/armed-with-a-palm-full-of-spit-and-vigor/</guid>
+      <description>Project: Sex/magic story, now with more poly love, a plump dominatrix, a Chicago swinger&amp;#8217;s club, and one pissed off magician.
+New words written: 1,210
+Reason for stopping: End of scene
+One more scene left before I can make draft, so I&amp;#8217;m on target to wrap this up by the end of the weekend. Today&amp;#8217;s been upside down thanks to insomnia but I don&amp;#8217;t mind the word count. It&amp;#8217;ll be nice to get back to regular sleep schedule, though.</description>
+    </item>
+    
+    <item>
+      <title>I should have brought my ink well</title>
+      <link>http://adamisrael.com/blog/2010/10/09/i-should-have-brought-my-ink-well/</link>
+      <pubDate>Sat, 09 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/10/09/i-should-have-brought-my-ink-well/</guid>
+      <description>One good thing, maybe the only good thing, about being so far removed from friends and family is that there isn&amp;#8217;t much social life to speak of. That means on Friday night, after a post-work nap, I made some serious story progress. If all goes according to plan, I&amp;#8217;ll make draft on this by the end of the weekend. Next I only need a title.
+Project: Tantric sex/magic story, now with more poly love, a plump dominatrix, a Chicago swinger&amp;#8217;s club, and one pissed off magician.</description>
+    </item>
+    
+    <item>
+      <title>Progress stuffs itself up</title>
+      <link>http://adamisrael.com/blog/2010/10/08/progress-stuffs-itself-up/</link>
+      <pubDate>Fri, 08 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/10/08/progress-stuffs-itself-up/</guid>
+      <description>This cold/sinus/allergy thing that&amp;#8217;s been sneaking its way into my head has finally arrived, triggering a slight fibro flare and a pretty good ear infection to boot. That cut my writing time short tonight and ended with me foggy enough that I left the drug store with cough medicine, not the cough and cold I meant to pick up.
+Project: Tantric sex/magic story, now with more poly love, a plump dominatrix, and a Chicago swinger&amp;#8217;s club.</description>
+    </item>
+    
+    <item>
+      <title>Back in the saddle, now with statistics</title>
+      <link>http://adamisrael.com/blog/2010/10/07/back-in-the-saddle-now-with-statistics/</link>
+      <pubDate>Thu, 07 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/10/07/back-in-the-saddle-now-with-statistics/</guid>
+      <description>I&amp;#8217;ve been a little slow getting back into the habit of writing new words since I&amp;#8217;ve been back from Clarion. Besides catching up on ye olde day job, I&amp;#8217;ve been working on revisions and submissions, organizing my inventory list, and other life issues.
+Most of the stories in my backlog are either trunked, needing rewrites, or massive revision. Unfortunate, but them&amp;#8217;s the breaks. Not including the current work(s) in progress, there are:</description>
+    </item>
+    
+    <item>
+      <title>Friday is for Friends who are Awesome</title>
+      <link>http://adamisrael.com/blog/2010/10/01/friday-is-for-friends-who-are-awesome/</link>
+      <pubDate>Fri, 01 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/10/01/friday-is-for-friends-who-are-awesome/</guid>
+      <description>Happy fifth birthday to Hadley Rille Books, who published my first in print story. They publish many fine books and anthologies, so please consider supporting this great small press.
+Today is release day for Rigor Amortis, edited by Jaym Gates and Erika Holt, and containing stories by R. Schuyler Devin, Kaolin Imago Fire, Kay T. Holt, John Nakamura Remy, Andrew Penn Romine, Wendy N. Wagner, and many others.
+This first of October 2010 also marks the launch of Inkpunks, a group blog by some of the brightest up and coming writers and editors in speculative fiction.</description>
+    </item>
+    
+    <item>
+      <title>Study: Bangkok street fruit often contaminated</title>
+      <link>http://adamisrael.com/blog/2010/09/14/study-bangkok-street-fruit-often-contaminated/</link>
+      <pubDate>Tue, 14 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/09/14/study-bangkok-street-fruit-often-contaminated/</guid>
+      <description>The spam of the day award goes to this gem. I&amp;#8217;m not sure the point, but it did make me giggle.
+ O&amp;#8217;Donnell&amp;#8217;s Tempest in a Tea Party Pot Groups mount new challenge to Ruby Pipeline plan Helena, repeated several times, was never accepted by Napoleon. She died in 1825 at Florence, from consumption, reconciled to her husband, from whom she had been separated since 1807. She was buried at Sta Maria Maggiore, Rome.</description>
+    </item>
+    
+    <item>
+      <title>Aren’t you that guy that went to that writing thing?</title>
+      <link>http://adamisrael.com/blog/2010/09/08/arent-you-that-guy-that-went-to-that-writing-thing/</link>
+      <pubDate>Wed, 08 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/09/08/arent-you-that-guy-that-went-to-that-writing-thing/</guid>
+      <description>By Internet speeds, it&amp;#8217;s been years since Clarion ended and not just a month. And the neglectful blogger I&amp;#8217;ve been, it was six weeks before that since I last posted anything resembling an update. It&amp;#8217;s time I said something, don&amp;#8217;t you think? Well yes, but not exactly what you might expect.
+Eighteen people met as strangers in late June, in San Diego, and became a family. Along the way, aunts and uncles and cousins, and a grandfather or two, who guided us through the Clarion process.</description>
+    </item>
+    
+    <item>
+      <title>It begins</title>
+      <link>http://adamisrael.com/blog/2010/06/28/it-begins/</link>
+      <pubDate>Mon, 28 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/06/28/it-begins/</guid>
+      <description>This will be my last communique for six weeks. Despite some weather delays in Chicago, I made it to San Diego and am ensconced on the UCSD campus. I&amp;#8217;m as prepared as I can be for a very intense experience and that means throwing myself into it completely. No blogging, no LiveJournal or Facebook, nor Twitter. I will be in the dark until my return, so keep the joint in good shape until I&amp;#8217;m back.</description>
+    </item>
+    
+    <item>
+      <title>Spoon!</title>
+      <link>http://adamisrael.com/blog/2010/06/21/spoon/</link>
+      <pubDate>Mon, 21 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/06/21/spoon/</guid>
+      <description>The Spoon Theory became very real for me earlier this year. Along with all of the other challenges, getting into Clarion almost seemed more a curse than a blessing at times.
+ “Your living is determined not so much by what life brings to you as by the attitude you bring to life; not so much by what happens to you as by the way your mind looks at what happens.</description>
+    </item>
+    
+    <item>
+      <title>Cognitive Dissidence</title>
+      <link>http://adamisrael.com/blog/2010/06/07/cognitive-dissidence/</link>
+      <pubDate>Tue, 08 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/06/07/cognitive-dissidence/</guid>
+      <description>Guess what? I feel better. Better than I have in five years or so. What changed? Interesting, that&amp;#8230;
+A couple weeks ago, I decided to do a reboot of the diet. My reading on Fibromyalgia led me to discussions of Celiac disease and how much of an overlap there is between the two. I figured that going back to a basic diet of protein, vegetable, and fruit for a week or two would be a good reset.</description>
+    </item>
+    
+    <item>
+      <title>Sale – “A Cup of Tea”</title>
+      <link>http://adamisrael.com/blog/2010/05/29/sale-a-cup-of-tea/</link>
+      <pubDate>Sat, 29 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/05/29/sale-a-cup-of-tea/</guid>
+      <description>I’m happy to announce that my story, “A Cup of Tea”, has sold to Golden Visions Magazine and will be in their July 2010 print issue. Support a small press and buy a copy (or PDF), won’t you?</description>
+    </item>
+    
+    <item>
+      <title>Into the urban jungle</title>
+      <link>http://adamisrael.com/blog/2010/05/26/into-the-urban-jungle/</link>
+      <pubDate>Wed, 26 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/05/26/into-the-urban-jungle/</guid>
+      <description>I&amp;#8217;m off to Chicago for another day of work meetings and decided to give the WordPress iPhone app a try. Not bad so far.
+I spent several years working downtown in the late nineties so going back via train is always a bit nostalgic. I made a few transient friends along the way &amp;#8212; names forgotten but faces that will always be familiar.
+Walking through the tall marble white walls in Union Station&amp;#8217;s grand ballroom or its darker coridoors I catch the scent of popcorn and it takes me back in time to those younger days.</description>
+    </item>
+    
+    <item>
+      <title>This and that</title>
+      <link>http://adamisrael.com/blog/2010/05/24/this-and-that/</link>
+      <pubDate>Mon, 24 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/05/24/this-and-that/</guid>
+      <description>This was a good news/bad news kind of week on the medical front. I wish I had more energy to talk about it, but I am running low on spoons and need to conserve them.
+Good news:
+ Kidneys and Thyroid are normal.   It’s not Multiple Sclerosis.   It’s probably not Lupus.   The bad news:
+ There is still a chance it could be Lupus, so I had more blood drawn to confirm/deny.</description>
+    </item>
+    
+    <item>
+      <title>Lemon Lyme</title>
+      <link>http://adamisrael.com/blog/2010/05/14/lemon-lyme/</link>
+      <pubDate>Fri, 14 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/05/14/lemon-lyme/</guid>
+      <description>I had hopefully one of the last post-divorce court dates this morning. Nothing terribly surprising came out of it. Judge says I need to pay my ex’s lawyer fees since I didn’t meet the original terms of the agreement (to which my attorney still argues was an impossibility). That’s a hard lesson chalked up to experience. Never be afraid to question your lawyer, or fire them, if you don’t think they have your best interest at heart.</description>
+    </item>
+    
+    <item>
+      <title>Tears in the Rain</title>
+      <link>http://adamisrael.com/blog/2010/05/12/tears-in-the-rain/</link>
+      <pubDate>Wed, 12 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/05/12/tears-in-the-rain/</guid>
+      <description>I’ve spent the last few days in a work and stress-induced fugue state, trying to wrap my head around things. Andrea and family went to meet with our immigration person on Monday. The only sure way that I’ll be allowed back into Canada is for us to file for immigration first. That sounds easier and quicker than it actually is. We’re facing up to a few months before that can happen.</description>
+    </item>
+    
+    <item>
+      <title>Soup Karma</title>
+      <link>http://adamisrael.com/blog/2010/05/10/soup-karma/</link>
+      <pubDate>Mon, 10 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/05/10/soup-karma/</guid>
+      <description>I spent the weekend in Ann Arbor, Michigan, where the day job graciously put me up in a hotel in exchange for some long and late work hours. On Saturday I went to the Arbor Brewing Company on the recommendation of a friend, both for a change of scenery and because I have not been eating much of anything since the whole border ordeal went down.
+I sat in a window booth, watching the wind blow and the rain drive down on hapless pedestrians as I hacked away at the keyboard.</description>
+    </item>
+    
+    <item>
+      <title>To fight the horde, sing and cry: Valhalla, I am coming!</title>
+      <link>http://adamisrael.com/blog/2010/05/08/to-fight-the-horde-sing-and-cry-valhalla-i-am-coming/</link>
+      <pubDate>Sat, 08 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/05/08/to-fight-the-horde-sing-and-cry-valhalla-i-am-coming/</guid>
+      <description>There’s so much that’s happened in the last twenty-four hours that I scarcely know where to start. For the uninitiated, I am American and my wife, Andrea, is Canadian. I have a house in Illinois, empty and for sale by court order from a previous marriage. In August of last year, my wife and I moved in with her Mom in Ontario, Canada. Prior that we had been living with my Dad in Wisconsin, in his three bedroom trailer, with our three large dogs and four cats, helping him recover from major back surgery.</description>
+    </item>
+    
+    <item>
+      <title>It’s never Lupus.</title>
+      <link>http://adamisrael.com/blog/2010/04/20/its-never-lupus/</link>
+      <pubDate>Wed, 21 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/04/20/its-never-lupus/</guid>
+      <description>&lt;p&gt;Earlier this month I &lt;a href=&#34;1&#34;&gt;mentioned&lt;/a&gt; that I was heading in for some long overdue checkup with the doctor. Many of you have been following my progress on &lt;a href=&#34;2&#34;&gt;Twitter&lt;/a&gt;. I’m a firm believer in paying it forward and that includes being open and honest about sensitive topics. Forewarned is forearmed.&lt;/p&gt;
 
-&lt;p&gt;The write-a-thon runs for six weeks, along side the workshop in San Diego. It&amp;#8217;s an act of solidarity with this years class of writers and, as extra motivation, a public accountability of my goals.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The State of Adam</title>
+      <link>http://adamisrael.com/blog/2010/04/10/the-state-of-adam/</link>
+      <pubDate>Sat, 10 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/04/10/the-state-of-adam/</guid>
+      <description>I used to think I was a superhero. A rotund, pasty, privileged superhero, but superhero none the less. I’ve held jobs more or less consistently since the time I was twelve. How much I work became a running joke among my friends. I abused my body with unhealthy amounts of caffeine to squeeze more work hours out of each day, and I did this for years without much of a break.</description>
+    </item>
+    
+    <item>
+      <title>2010 Hugo Nom Nom Nominations</title>
+      <link>http://adamisrael.com/blog/2010/04/04/2010-hugo-nom-nom-nominations/</link>
+      <pubDate>Mon, 05 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/04/04/2010-hugo-nom-nom-nominations/</guid>
+      <description>Via The Hugo Awards:
+**
+ Best Novel (699 Ballots)
+  Boneshaker, Cherie Priest (Tor)
+ The City &amp;amp; The City, China Miéville (Del Rey; Macmillan UK)
+ Julian Comstock: A Story of 22nd-Century America, Robert Charles Wilson (Tor)
+ Palimpsest, Catherynne M. Valente (Bantam Spectra)
+ Wake, Robert J. Sawyer (Ace; Penguin; Gollancz; Analog)
+ The Windup Girl, Paolo Bacigalupi (Night Shade)
+  Both Boneshaker and Palimpsest are in my to-read pile and I can’t wait to get my hands on The Windup Girl.</description>
+    </item>
+    
+    <item>
+      <title>Twittertrope</title>
+      <link>http://adamisrael.com/blog/2010/03/27/twittertrope/</link>
+      <pubDate>Sat, 27 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/03/27/twittertrope/</guid>
+      <description>I was updating my submission tracker on Duotrope this morning, after receiving a rejection from Writers of the Future. I was tweeting about the rejection when I had a slight epiphany. I realized how cool it would be if Duotrope had Twitter integration. They don’t, and as I discovered, neither do they have any presence on Twitter. I decided then and there that something must be done to correct this oversight.</description>
+    </item>
+    
+    <item>
+      <title>Why do they always use blue cups?</title>
+      <link>http://adamisrael.com/blog/2010/03/21/why-do-they-always-use-blue-cups/</link>
+      <pubDate>Mon, 22 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/03/21/why-do-they-always-use-blue-cups/</guid>
+      <description>Still swamped with work and Clarion preparation, but I couldn&amp;#8217;t help sharing this little ditty I just slapped together.
+ In the speculative fiction genre, the fen are represented by two separate yet equally important groups: the readers, who read fiction, and the writers, who tell lies for a living. These are their stories.
+ Why yes, we do watch lots and lots of Law &amp;amp; Order. Why do you ask?</description>
+    </item>
+    
+    <item>
+      <title>Clarion 2010</title>
+      <link>http://adamisrael.com/blog/2010/03/15/clarion-2010-2/</link>
+      <pubDate>Mon, 15 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/03/15/clarion-2010-2/</guid>
+      <description>I&amp;#8217;ve been sent word that I can publicly announce the news I&amp;#8217;ve been sitting on since last week: I have been accepted into the 2010 Clarion Workshop.
+More later, after the celebration has ended.</description>
+    </item>
+    
+    <item>
+      <title>Clarion 2010</title>
+      <link>http://adamisrael.com/blog/2010/03/07/clarion-2010/</link>
+      <pubDate>Mon, 08 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/03/07/clarion-2010/</guid>
+      <description>Believe it or not, I’m still a little under the weather. I’m beginning to suspect I had the hamthrax. Five weeks out and I’m just now starting to feel like myself again. All it really means is that I’m sleeping way more than usual, drinking a gallon of water a day, and a bit behind in my correspondence.
+So better late than never, I’m happy to announce that I’ve applied to Clarion and Clarion West.</description>
+    </item>
+    
+    <item>
+      <title>Deadlines cometh</title>
+      <link>http://adamisrael.com/blog/2010/02/24/deadlines-cometh/</link>
+      <pubDate>Wed, 24 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/02/24/deadlines-cometh/</guid>
+      <description>February is coming to a close and I&amp;#8217;m scrambling like mad. Clarion closes to applications on March 1st. One application story is done. I have a second one more or less ready, but I&amp;#8217;m debating a last minute replacement.
+I&amp;#8217;m putting the grind wheel and polish to my as yet untitled story for the Scheherazade&amp;#8217;s Facade anthology, due February 28th. It&amp;#8217;s shaping up into something that makes me happy. I pushed myself when writing this and for that reason I&amp;#8217;m also considering using it as my second Clarion story.</description>
+    </item>
+    
+    <item>
+      <title>Not dead yet.</title>
+      <link>http://adamisrael.com/blog/2010/02/18/not-dead-yet/</link>
+      <pubDate>Fri, 19 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/02/18/not-dead-yet/</guid>
+      <description>My mom had reconstructive ankle surgery to correct some of long-term damage caused by polio so I spent the last few weeks with her, doing laundry and cooking and whatnot. I also took the opportunity to wear down my annual deductible and get a few lingering medical issues looked at. And while in Illinois, I picked up a rather nasty flu that has wiped me out completely.
+Most of the effects of the flu are gone, knock on wood.</description>
+    </item>
+    
+    <item>
+      <title>Reason #634 why Kyle Cassidy is awesome</title>
+      <link>http://adamisrael.com/blog/2010/02/11/reason-634-why-kyle-cassidy-is-awesome/</link>
+      <pubDate>Thu, 11 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/02/11/reason-634-why-kyle-cassidy-is-awesome/</guid>
+      <description>Not only is Kyle Cassidy a heck of a photographer, writer and teacher, he is also one hell of a nice guy. I had a lucky chance to meet and learn a few photography skills some months back. He learned that I was also a writer and offered to send me one of his extra fountain pens. I very nearly squeed.
+I&amp;#8217;ve been interested in fountain pens for as long as I can remember.</description>
+    </item>
+    
+    <item>
+      <title>Week 4 coughs up a lung</title>
+      <link>http://adamisrael.com/blog/2010/02/02/week-4-coughs-up-a-lung/</link>
+      <pubDate>Wed, 03 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/02/02/week-4-coughs-up-a-lung/</guid>
+      <description>Week 4 ended on a bit of a downer. I&amp;#8217;d been doing well, writing a bit each day but the streak came to an end. I drafted two short stories and three flash fiction. I started a fourth but it wasn&amp;#8217;t ready to be told. Instead of forcing it, I skipped a day.
+Somewhere along the way, I caught a nice little cold/flu, was diagnosed with some vitamin deficiencies (insert scurvy joke here, matey) and started a few new prescribed drugs.</description>
+    </item>
+    
+    <item>
+      <title>This glass ceiling also has a floor and four walls</title>
+      <link>http://adamisrael.com/blog/2010/01/27/this-glass-ceiling-also-has-a-floor-and-four-walls/</link>
+      <pubDate>Wed, 27 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/01/27/this-glass-ceiling-also-has-a-floor-and-four-walls/</guid>
+      <description>&lt;p&gt;From time to time I talk about things of an extremely personal nature. Talking is cathartic and healthier than the alternative. Herein I ramble about depression, anxiety, and other foibles.&lt;/p&gt;
 
-&lt;p&gt;This year, I will spend the write-a-thon finishing my first novel. I&amp;#8217;ll be writing, by hand, 30,000 or so words, and transcribing the results into Scrivener along with the first 50,000. By the end, I will have a complete draft ready to be ripped apart, revised and rewritten. I&amp;#8217;ll even blog regular progress updates, which is more than I normally manage.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Week 3: Practice Stories</title>
+      <link>http://adamisrael.com/blog/2010/01/22/week-3-practice-stories/</link>
+      <pubDate>Fri, 22 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/01/22/week-3-practice-stories/</guid>
+      <description>Another kind of successful week &amp;#8212; 3,237 new words, bringing the years total to 10,404.
+I&amp;#8217;m still struggling with revisions. I got critiques back on two of my stories this week. The crits were brutally honest, the way I like them, and resonated with things I&amp;#8217;d been trying to figure out myself. One thing I&amp;#8217;m uncovering is that I don&amp;#8217;t read critically enough. Having a third party point out an issue is great.</description>
+    </item>
+    
+    <item>
+      <title>Is this one of those things I’m going to read about on your blog tomorrow?</title>
+      <link>http://adamisrael.com/blog/2010/01/19/is-this-one-of-those-things-im-going-to-read-about-on-your-blog-tomorrow/</link>
+      <pubDate>Tue, 19 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/01/19/is-this-one-of-those-things-im-going-to-read-about-on-your-blog-tomorrow/</guid>
+      <description>Well no, because I&amp;#8217;m not ready to talk about that just yet.
+Hershel posted his list of stuff he can&amp;#8217;t live without the other day and it got me to thinking. I&amp;#8217;ve learned a lot about myself and materialism over the past two years. I found that I don&amp;#8217;t need a lot of stuff to be happy. Not that I&amp;#8217;m a monk or anything but I&amp;#8217;ve come to understand the &amp;#8220;less is more&amp;#8221; mentality.</description>
+    </item>
+    
+    <item>
+      <title>Week 2: A step slightly staggered</title>
+      <link>http://adamisrael.com/blog/2010/01/16/week-2-a-step-slightly-staggered/</link>
+      <pubDate>Sat, 16 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/01/16/week-2-a-step-slightly-staggered/</guid>
+      <description>A new short story and a flash fiction drafted, and a second short story underway. Over 7,500 new words this year, with my average rising to 509 words/day. The Honorable Mention nod and a personal rejection also came in. The year is off to a good start.
+I&amp;#8217;m still struggling with revisions. I failed my weekly goals this week, getting almost no editing done nor my outline for the Dollhouse essay.</description>
+    </item>
+    
+    <item>
+      <title>Writers of the Future: Honorable Mention</title>
+      <link>http://adamisrael.com/blog/2010/01/14/writers-of-the-future-honorable-mention/</link>
+      <pubDate>Thu, 14 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/01/14/writers-of-the-future-honorable-mention/</guid>
+      <description>I felt a little blue this week, grousing over revisions and my sometimes fragile ego. I distracted myself by patiently refreshing the Writers of the Future blog and checking the mail every few minutes, hoping to see some word of the 2009 Q4 results. Well, the list of Honorable Mentions was released before they had a chance to update the blog.
+ &amp;#8220;Out of the thousands of stories that get submitted to the contest, a small percentage make it this far,&amp;#8221; Wentworth continued.</description>
+    </item>
+    
+    <item>
+      <title>The best laid intentions, felled by a lack of 3×5″ notecards</title>
+      <link>http://adamisrael.com/blog/2010/01/11/the-best-laid-intentions-felled-by-a-lack-of-3x5-notecards/</link>
+      <pubDate>Mon, 11 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/01/11/the-best-laid-intentions-felled-by-a-lack-of-3x5-notecards/</guid>
+      <description>When I kicked off the year writing 250 new words a day, I had a plan. A story. An outline, man. I finished that story yesterday. Plus an impromptu flash fiction piece. Today? I have no plan.
+I have a theme (thank you, upcoming anthology). I have the kernel of a plot and main character. Tonight, I write without my safety net. I&amp;#8217;m curious to see what this change in process produces.</description>
+    </item>
+    
+    <item>
+      <title>The Lemonhead defense: a plea to Warren Lapine</title>
+      <link>http://adamisrael.com/blog/2010/01/09/the-lemonhead-defense-a-plea-to-warren-lapine/</link>
+      <pubDate>Sat, 09 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/01/09/the-lemonhead-defense-a-plea-to-warren-lapine/</guid>
+      <description>It started with an announcement by Realms of Fantasy (RoF) magazine. A special themed issue. &amp;#8220;Girl writers only.&amp;#8221; A slight faux pas that was eventually correctly revised and apologized for. In the interim, some people were vocal about their discern that RoF would again make such a slip given the last gender-related fail. Catherine Valente, a well-respected writer, commented on the issue. She noted her take on the problem, and why she would rather see the issue of gender balance addressed in a smart way, not an appease-the-greasy-wheel way.</description>
+    </item>
+    
+    <item>
+      <title>Week 1: Knock on wood</title>
+      <link>http://adamisrael.com/blog/2010/01/08/week-1-knock-on-wood/</link>
+      <pubDate>Fri, 08 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/01/08/week-1-knock-on-wood/</guid>
+      <description>When I started out following Booklife and documenting my writing progress, I suspected the first few weeks would either be really easy or really hard. Establishing a habit takes times and it&amp;#8217;s easy to make excuses to skip writing. We all hear or use them &amp;#8212; I&amp;#8217;m too busy, too much day job work, kids/family, etc. Then there&amp;#8217;s the Resolutionists, who make a bunch of goals at the beginning of the year and waver after a few weeks.</description>
+    </item>
+    
+    <item>
+      <title>Miscellanea</title>
+      <link>http://adamisrael.com/blog/2010/01/06/miscellanea/</link>
+      <pubDate>Wed, 06 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/01/06/miscellanea/</guid>
+      <description>Writing It&amp;#8217;s really too early to tell how things are going to work out long-term but so far I feel good. Not overwhelmed by keeping my spreadsheets updated or gut checking my short-term goals. I&amp;#8217;m right where I want to be. I hope I can say the same thing a week and a month from now.
 
-&lt;p&gt;If you can &lt;a href=&#34;2&#34;&gt;sponsor me&lt;/a&gt;, one dollar or ten, you will have my gratitude and the satisfaction of knowing you&amp;#8217;re making a difference in the life of up and coming writers of science fiction and fantasy.&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-</description>
+I&amp;#8217;m writing a little bit every day. I&amp;#8217;ve surpassed my 250 words/day goal.</description>
+    </item>
+    
+    <item>
+      <title>Achievements and goals</title>
+      <link>http://adamisrael.com/blog/2010/01/03/achievements-and-goals/</link>
+      <pubDate>Mon, 04 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/01/03/achievements-and-goals/</guid>
+      <description>On the heels of yesterdays post about Booklife and my personal mission statement, I have added My Booklife to the sidebar. From here, I have posted and will keep updated my public weekly, monthly, 1 year and 5 year goals. I&amp;#8217;ve also included my list of career achievements.
+I&amp;#8217;m feeling pretty good about how things are shaping. I&amp;#8217;m starting the year with a more or less clean slate; new domain, new blog, and new goals.</description>
+    </item>
+    
+    <item>
+      <title>In the beginning, there was the Mission Statement</title>
+      <link>http://adamisrael.com/blog/2010/01/03/in-the-beginning-there-was-the-mission-statement/</link>
+      <pubDate>Sun, 03 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/01/03/in-the-beginning-there-was-the-mission-statement/</guid>
+      <description>I am horrible with deadlines. In high school I was forced to take a special class on time management because I never turned anything in on time. It&amp;#8217;s one of those things that I struggle with on a daily basis. Occasionally I discover something useful that helps, like Things, that help me keep track of the things I need to be doing. The most recent one was Jeff VanderMeer&amp;#8216;s Booklife.</description>
+    </item>
+    
+    <item>
+      <title>2009 Submission Statistics</title>
+      <link>http://adamisrael.com/blog/2010/01/01/2009-submission-statistics/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2010/01/01/2009-submission-statistics/</guid>
+      <description>It wasn&amp;#8217;t the best year writing-wise. Eight new stories, one of which was flash and four were &amp;#8220;hint fiction&amp;#8221;. Two stories from 2008 were edited repeatedly and eventually submitted, both to Writers of the Future. Fifteen submissions, thirteen rejections, and one rewrite request. If my Duotope statistics are accurate, nine were personal rejections (one from a pro market).
+Could be worse. 2010 will be much better, though.</description>
+    </item>
+    
+    <item>
+      <title>It’s the end of the world as we know it (and I feel fine)</title>
+      <link>http://adamisrael.com/blog/2009/12/31/its-the-end-of-the-world-as-we-know-it-and-i-feel-fine/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2009/12/31/its-the-end-of-the-world-as-we-know-it-and-i-feel-fine/</guid>
+      <description>I&amp;#8217;m going to try keeping this brief, because there&amp;#8217;s not much good to say about two thousand and nine. I&amp;#8217;m sure that, many years ahead, I&amp;#8217;ll look back upon this year and have kinder words for it: character building, challenging, a turning point. Right now the pain is too close to analyze.
+I believe the next year will be a turning point. There are many fine tendrils weaving their way towards good things.</description>
+    </item>
+    
+    <item>
+      <title>Help the Robinsons</title>
+      <link>http://adamisrael.com/blog/2009/12/28/help-the-robinsons/</link>
+      <pubDate>Tue, 29 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2009/12/28/help-the-robinsons/</guid>
+      <description>Jeanne and Spider Robinson need your help.
+ Earlier his year a brilliant surgeon, Dr. Andresz Busczowski, helped Jeanne Robinson beat back a rare and virulent form of biliary cancer. But it’s so rare even he can’t say how much time he‘s bought her, how soon it might recur—and her latest blood tests have been so discouraging they’ve now decided she needs to start chemotherapy as soon as possible. Besides the prescription drugs to counteract the chemotherapy, she needs special therapies and supplements, counseling, and extensive diet and lifestyle changes, to reduce her stress level and the strain on her liver to as close to zero as possible.</description>
+    </item>
+    
+    <item>
+      <title>New beginnings</title>
+      <link>http://adamisrael.com/blog/2009/12/27/new-beginnings/</link>
+      <pubDate>Sun, 27 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2009/12/27/new-beginnings/</guid>
+      <description>I&amp;#8217;ve been posting under the nom de plume &amp;#8220;Stone Table&amp;#8221; for the better part of fifteen years. As my writing career begins to bloom I&amp;#8217;ve realized that a more professional web presence would be prudent. Not that I have a problem with my moniker but having to introduce myself as an inanimate object at conventions in order to be recognized as that guy from the Internet is kind of awkward and not the kind of impression I want to leave with people.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://adamisrael.com/about/</link>
+      <pubDate>Fri, 25 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/about/</guid>
+      <description>Adam Israel is a software engineer, author, and daydreamer. As an American expatriate living in Canada with his wife, who he met online via Absolute Write, they spend their days and nights creating art, writing fiction, and raising trios of dogs and cats.</description>
+    </item>
+    
+    <item>
+      <title>Bibliography</title>
+      <link>http://adamisrael.com/bibliography/</link>
+      <pubDate>Fri, 25 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/bibliography/</guid>
+      <description>Short Fiction January 2015 &amp;#8211; &amp;#8220;My City of Ruins&amp;#8221; &amp;#8211; Life After Ashes (reprint)  January 2014 &amp;#8211; &amp;#8220;Aye of the Hagfish&amp;#8221; &amp;#8211; Goldfish Grimm&amp;#8217;s Spicy Fiction Sushi  July 2012 &amp;#8211; &amp;#8220;Man Out of Time&amp;#8221; &amp;#8211; Mad Scientist Journal  March 2012 &amp;#8211; &amp;#8220;Control&amp;#8221; &amp;#8211; Goldfish Grimm&amp;#8217;s Spicy Fiction Sushi  December 2011 &amp;#8211; &amp;#8220;My City of Ruins&amp;#8221; &amp;#8211; Finding Home: Community in Apocalyptic Worlds  September 2011 &amp;#8211; &amp;#8220;History of the Flesh&amp;#8221; &amp;#8211; Crimson Pact 2  April 2011 &amp;#8211; &amp;#8220;Dog Days&amp;#8221; &amp;#8211; Crossed Genres  April 2011 &amp;#8211; &amp;#8220;Indigo&amp;#8217;s Gambit&amp;#8221; &amp;#8211; Extinct Doesn&amp;#8217;t Mean Forever  July 2010 &amp;#8211; &amp;#8220;A Cup of Tea&amp;#8221; &amp;#8211; Golden Visions Magazine  December 2008 &amp;#8211; &amp;#8220;Misdirected&amp;#8221; &amp;#8211; Return to Luna, Hadley Rille Books  May 2008 &amp;#8211; &amp;#8220;That&amp;#8217;s Just How I Roll&amp;#8221; &amp;#8211; Static Movement   Non-Fiction Interviews Ted Chiang &amp;#8211; Clarion Foundation Blog  Stuart Boon &amp;#8211; BookLifeNow  Jay Lake &amp;#8211; Inkpunks   Inkpunks &amp;#8211; A group blog of authors and editors.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://adamisrael.com/contact/</link>
+      <pubDate>Fri, 25 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/contact/</guid>
+      <description>Your Name  Your Email  Your Message     </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://adamisrael.com/google5ea34a3bb3286873/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/google5ea34a3bb3286873/</guid>
+      <description>google-site-verification: google5ea34a3bb3286873.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://adamisrael.com/pinterest-9fd70/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/pinterest-9fd70/</guid>
+      <description>// /* */          Hi, Adam!               Looking good! You are ready to return to the verification page and complete the process.
+  &amp;nbsp;&amp;nbsp; Go To Pinterest &amp;nbsp;&amp;nbsp;                            Happy pinning!</description>
+    </item>
+    
+    <item>
+      <title>Thanks</title>
+      <link>http://adamisrael.com/contact/thanks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/contact/thanks/</guid>
+      <description>Thanks for contacting me! I try to respond to all email within 48 hours. If this is an urgent matter, please reach out to me on Twitter.</description>
     </item>
     
   </channel>

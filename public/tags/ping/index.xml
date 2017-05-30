@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>© 2016 Adam Israel</copyright>
     <lastBuildDate>Wed, 22 Dec 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://adamisrael.com/tags/ping/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://adamisrael.com/tags/ping/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Holiday Sundry</title>
@@ -16,16 +18,8 @@
       <pubDate>Wed, 22 Dec 2010 00:00:00 +0000</pubDate>
       
       <guid>http://adamisrael.com/blog/2010/12/22/holiday-sundry/</guid>
-      <description>&lt;p&gt;Eventually I&amp;#8217;ll get on to something resembling a schedule. This is a note to let you know that yes, I am still alive, despite what my twitter feed may appear to indicate.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;1&#34;&gt;Don&amp;#8217;t Ask, Don&amp;#8217;t Tell&lt;/a&gt; has finally been repealed. About fucking time. Maybe this&amp;#8217;ll be the tipping point to establishing equal rights for everyone regardless of race, gender or orientation.&lt;/li&gt;
-&lt;li&gt;My brother&amp;#8217;s back out of the hospital. It&amp;#8217;s complex. He&amp;#8217;s been in this particular hospital, who handled his last kidney transplant, every two weeks for the past three months. They release him, he gets sick, is admitted to his local hospital several hundred miles away, and they transfer him back for diagnosis/&amp;#8221;treatment&amp;#8221;. My sarcastic hat is off to the doctor who, when asked if they were sure he was ready to be released again so quickly this time, said, in reference to being bounced between hospitals, &amp;#8220;if you don&amp;#8217;t like it, move.&amp;#8221;&lt;/li&gt;
-&lt;li&gt;It&amp;#8217;s Christmas already? Really? I am completely not prepared. I had higher aspirations for this holiday and I&amp;#8217;ve failed completely.&lt;/li&gt;
-&lt;li&gt;I&amp;#8217;ve been in a creative sinkhole lately. Plenty of ideas and things to do but a total lack of clarity and focus to get anything done. I&amp;#8217;d like to break not having a writing space to go to, but really that&amp;#8217;s a weak argument. I&amp;#8217;ve got three deadlines to make by years end, though, so I need to put on my big boy pants and take advantage of the upcoming holiday break.&lt;/li&gt;
-&lt;li&gt;Doctor Who: &lt;a href=&#34;2&#34;&gt;A Christmas Carol&lt;/a&gt;. Oh. My. Gawd. Yes.&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+      <description>Eventually I&amp;#8217;ll get on to something resembling a schedule. This is a note to let you know that yes, I am still alive, despite what my twitter feed may appear to indicate.
+ Don&amp;#8217;t Ask, Don&amp;#8217;t Tell has finally been repealed. About fucking time. Maybe this&amp;#8217;ll be the tipping point to establishing equal rights for everyone regardless of race, gender or orientation. My brother&amp;#8217;s back out of the hospital. It&amp;#8217;s complex.</description>
     </item>
     
   </channel>

@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>© 2016 Adam Israel</copyright>
     <lastBuildDate>Thu, 07 Jul 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://adamisrael.com/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://adamisrael.com/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Sale: History of the Flesh</title>
@@ -16,18 +18,8 @@
       <pubDate>Thu, 07 Jul 2011 00:00:00 +0000</pubDate>
       
       <guid>http://adamisrael.com/blog/2011/07/07/sale-history-of-the-flesh/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;1&#34;&gt;&lt;img class=&#34;size-medium wp-image-524 alignright&#34; title=&#34;Crimson Pact&#34; src=&#34;http://www.adamisrael.com/wp-content/uploads/2011/07/GargoylewBorder-205x300.jpg&#34; alt=&#34;&#34; width=&#34;205&#34; height=&#34;300&#34; /&gt;&lt;/a&gt; I&amp;#8217;m pleased to announce the sale of a flash fiction story, &amp;#8220;History of the Flesh&amp;#8221;, to volume 2 of The Crimson Pact anthology.&lt;/p&gt;
-
-&lt;p&gt;My story of a &lt;a href=&#34;2&#34;&gt;psychometrist&lt;/a&gt; turned &lt;a href=&#34;3&#34;&gt;sineater&lt;/a&gt; started almost two and a half years ago, during the Codex Weekend Warrior contest. For five consecutive weekends, we write a flash fiction inspired by one of three posted prompts and post it by the wee hours of Monday morning. The prompt I chose was:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Imagine someone had an extra sense to perceive the physical world. How would it work and what would s/he do with it? Write a story about it.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I&amp;#8217;d had the idea for a character who saw the history of things that he touched (and the personal toll such an ability would bring) in mind for a while and I&amp;#8217;ve long been fascinated with things like sineaters. The story, from the same world as my novel-in-progress, snowballed from there.&lt;/p&gt;
-
-&lt;p&gt;The anthology will be available in August and will include stories by many other fine writers that I&amp;#8217;m excited to share a Table of Contents with (details forthcoming).&lt;/p&gt;
-</description>
+      <description>I&amp;#8217;m pleased to announce the sale of a flash fiction story, &amp;#8220;History of the Flesh&amp;#8221;, to volume 2 of The Crimson Pact anthology.
+My story of a psychometrist turned sineater started almost two and a half years ago, during the Codex Weekend Warrior contest. For five consecutive weekends, we write a flash fiction inspired by one of three posted prompts and post it by the wee hours of Monday morning.</description>
     </item>
     
   </channel>

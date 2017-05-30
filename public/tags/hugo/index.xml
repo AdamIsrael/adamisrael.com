@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>© 2016 Adam Israel</copyright>
     <lastBuildDate>Tue, 15 Mar 2016 18:47:58 -0400</lastBuildDate>
-    <atom:link href="http://adamisrael.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://adamisrael.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Migrating to Hugo</title>
@@ -24,29 +26,7 @@ threw turned on caching and Cloudflare; readers should have had little trouble
 using the site, but my sessions were consistently timing out while using the
 admin dashboard, which makes posting new content a frustrating experience.&lt;/p&gt;
 
-&lt;p&gt;Wordpress on it&amp;rsquo;s own is fine, especially on dedicated servers. I&amp;rsquo;ve run
-hundreds of thousands of requests/day through Wordpress and it can handle it
-well, as long as you give it the right hardware.&lt;/p&gt;
-
-&lt;p&gt;Dreamhost, as well, isn&amp;rsquo;t at fault. I pay for fairly cheap hosting, and they
-don&amp;rsquo;t have much control over the efficiency of the apps that their shared
-hosting customers run.&lt;/p&gt;
-
-&lt;p&gt;So in comes Hugo.&lt;/p&gt;
-
-&lt;p&gt;There&amp;rsquo;s a bunch of static site generators around, like jekyll or octopress. I
-wanted to write in Markdown, I wanted it to be fast, and I wanted it to be
-flexible. After playing around with a few generators, I was sold.&lt;/p&gt;
-
-&lt;p&gt;I can basically write a blog post really quick, save it, and run a script that
-will generate the static pages, commit the changes to Github, and rsync it to
-this site.&lt;/p&gt;
-
-&lt;p&gt;There may be a few formatting errors in the older posts, but I imported
-everything from Wordpress, converted it to Markdown, and kept all of the
-permalinks the same. All told, maybe twelve hours of work and I have a blog
-I&amp;rsquo;m not frustrated to look at anymore.&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

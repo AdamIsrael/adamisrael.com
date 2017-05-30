@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>© 2016 Adam Israel</copyright>
     <lastBuildDate>Fri, 06 May 2016 08:34:39 -0400</lastBuildDate>
-    <atom:link href="http://adamisrael.com/tags/brew/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://adamisrael.com/tags/brew/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>bzr &#34;Insecure string pickle&#34;</title>
@@ -17,102 +19,7 @@
       
       <guid>http://adamisrael.com/2016/05/06/bzr-insecure-string-pickle/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been bit by a bug in the &lt;code&gt;bzr&lt;/code&gt; source code control system where running a commit
-throws an ugly stack trace blaming an &amp;ldquo;insecure string pickle&amp;rdquo;, but I&amp;rsquo;ve found a workaround.&lt;/p&gt;
-
-&lt;p&gt;Environment:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Mac OS X 10.11.4 build 15E65&lt;/li&gt;
-&lt;li&gt;Python 2.7.11 installed via &lt;a href=&#34;https://brew.sh&#34;&gt;homebrew&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;bzr 2.7.0 installed via &lt;a href=&#34;https://brew.sh&#34;&gt;homebrew&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34; style=&#34;background: #f0f0f0&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;$ &lt;span style=&#34;color: #007020&#34;&gt;cd&lt;/span&gt; /path/to/dirty-bzr-repo/
-$ bzr commit
-bzr: ERROR: exceptions.ValueError: insecure string pickle
-
-Traceback &lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;most recent call last&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;:
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/commands.py&amp;quot;&lt;/span&gt;, line 930, in exception_to_return_code
-    &lt;span style=&#34;color: #007020; font-weight: bold&#34;&gt;return&lt;/span&gt; the_callable&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;*args, **kwargs&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/commands.py&amp;quot;&lt;/span&gt;, line 1121, in run_bzr
-    &lt;span style=&#34;color: #bb60d5&#34;&gt;ret&lt;/span&gt; &lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt; run&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;*run_argv&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/commands.py&amp;quot;&lt;/span&gt;, line 673, in run_argv_aliases
-    &lt;span style=&#34;color: #007020; font-weight: bold&#34;&gt;return&lt;/span&gt; self.run&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;**all_cmd_args&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/commands.py&amp;quot;&lt;/span&gt;, line 697, in run
-    &lt;span style=&#34;color: #007020; font-weight: bold&#34;&gt;return&lt;/span&gt; self._operation.run_simple&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;*args, **kwargs&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/cleanup.py&amp;quot;&lt;/span&gt;, line 136, in run_simple
-    self.cleanups, self.func, *args, **kwargs&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/cleanup.py&amp;quot;&lt;/span&gt;, line 166, in _do_with_cleanups
-    &lt;span style=&#34;color: #bb60d5&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt; func&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;*args, **kwargs&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/builtins.py&amp;quot;&lt;/span&gt;, line 3687, in run
-    &lt;span style=&#34;color: #bb60d5&#34;&gt;lossy&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;lossy&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/decorators.py&amp;quot;&lt;/span&gt;, line 218, in write_locked
-    &lt;span style=&#34;color: #bb60d5&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt; unbound&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;self, *args, **kwargs&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/workingtree_4.py&amp;quot;&lt;/span&gt;, line 218, in commit
-    &lt;span style=&#34;color: #bb60d5&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt; WorkingTree.commit&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;self, message, revprops, *args, **kwargs&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/decorators.py&amp;quot;&lt;/span&gt;, line 218, in write_locked
-    &lt;span style=&#34;color: #bb60d5&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt; unbound&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;self, *args, **kwargs&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/mutabletree.py&amp;quot;&lt;/span&gt;, line 211, in commit
-    *args, **kwargs&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/commit.py&amp;quot;&lt;/span&gt;, line 290, in commit
-    &lt;span style=&#34;color: #bb60d5&#34;&gt;lossy&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;lossy&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/cleanup.py&amp;quot;&lt;/span&gt;, line 132, in run
-    self.cleanups, self.func, self, *args, **kwargs&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/cleanup.py&amp;quot;&lt;/span&gt;, line 166, in _do_with_cleanups
-    &lt;span style=&#34;color: #bb60d5&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt; func&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;*args, **kwargs&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/commit.py&amp;quot;&lt;/span&gt;, line 443, in _commit
-    &lt;span style=&#34;color: #bb60d5&#34;&gt;message&lt;/span&gt; &lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt; message_callback&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;self&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/builtins.py&amp;quot;&lt;/span&gt;, line 3664, in get_message
-    &lt;span style=&#34;color: #bb60d5&#34;&gt;start_message&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;start_message&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/msgeditor.py&amp;quot;&lt;/span&gt;, line 150, in edit_commit_message_encoded
-    &lt;span style=&#34;color: #007020; font-weight: bold&#34;&gt;if&lt;/span&gt; not _run_editor&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;msgfilename&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;:
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/lib/python2.7/site-packages/bzrlib/msgeditor.py&amp;quot;&lt;/span&gt;, line 67, in _run_editor
-    &lt;span style=&#34;color: #bb60d5&#34;&gt;x&lt;/span&gt; &lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt; call&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;edargs + &lt;span style=&#34;color: #666666&#34;&gt;[&lt;/span&gt;filename&lt;span style=&#34;color: #666666&#34;&gt;])&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/subprocess.py&amp;quot;&lt;/span&gt;, line 522, in call
-    &lt;span style=&#34;color: #007020; font-weight: bold&#34;&gt;return&lt;/span&gt; Popen&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;*popenargs, **kwargs&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;.wait&lt;span style=&#34;color: #666666&#34;&gt;()&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/subprocess.py&amp;quot;&lt;/span&gt;, line 710, in __init__
-    errread, errwrite&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/subprocess.py&amp;quot;&lt;/span&gt;, line 1334, in _execute_child
-    &lt;span style=&#34;color: #bb60d5&#34;&gt;child_exception&lt;/span&gt; &lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt; pickle.loads&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;data&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py&amp;quot;&lt;/span&gt;, line 1388, in loads
-    &lt;span style=&#34;color: #007020; font-weight: bold&#34;&gt;return&lt;/span&gt; Unpickler&lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;file&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;.load&lt;span style=&#34;color: #666666&#34;&gt;()&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py&amp;quot;&lt;/span&gt;, line 864, in load
-    dispatch&lt;span style=&#34;color: #666666&#34;&gt;[&lt;/span&gt;key&lt;span style=&#34;color: #666666&#34;&gt;](&lt;/span&gt;self&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-  File &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py&amp;quot;&lt;/span&gt;, line 972, in load_string
-    raise ValueError, &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;insecure string pickle&amp;quot;&lt;/span&gt;
-ValueError: insecure string pickle
-
-bzr 2.7.0 on python 2.7.11 &lt;span style=&#34;color: #666666&#34;&gt;(&lt;/span&gt;Darwin-15.4.0-x86_64-i386-64bit&lt;span style=&#34;color: #666666&#34;&gt;)&lt;/span&gt;
-arguments: &lt;span style=&#34;color: #666666&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color: #4070a0&#34;&gt;&amp;#39;/usr/local/bin/bzr&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;#39;commit&amp;#39;&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;]&lt;/span&gt;
-plugins: bash_completion&lt;span style=&#34;color: #666666&#34;&gt;[&lt;/span&gt;2.7.0&lt;span style=&#34;color: #666666&#34;&gt;]&lt;/span&gt;, changelog_merge&lt;span style=&#34;color: #666666&#34;&gt;[&lt;/span&gt;2.7.0&lt;span style=&#34;color: #666666&#34;&gt;]&lt;/span&gt;,
-    fastimport&lt;span style=&#34;color: #666666&#34;&gt;[&lt;/span&gt;0.14.0dev&lt;span style=&#34;color: #666666&#34;&gt;]&lt;/span&gt;, grep&lt;span style=&#34;color: #666666&#34;&gt;[&lt;/span&gt;2.7.0&lt;span style=&#34;color: #666666&#34;&gt;]&lt;/span&gt;, launchpad&lt;span style=&#34;color: #666666&#34;&gt;[&lt;/span&gt;2.7.0&lt;span style=&#34;color: #666666&#34;&gt;]&lt;/span&gt;,
-    netrc_credential_store&lt;span style=&#34;color: #666666&#34;&gt;[&lt;/span&gt;2.7.0&lt;span style=&#34;color: #666666&#34;&gt;]&lt;/span&gt;, news_merge&lt;span style=&#34;color: #666666&#34;&gt;[&lt;/span&gt;2.7.0&lt;span style=&#34;color: #666666&#34;&gt;]&lt;/span&gt;, po_merge&lt;span style=&#34;color: #666666&#34;&gt;[&lt;/span&gt;2.7.0&lt;span style=&#34;color: #666666&#34;&gt;]&lt;/span&gt;,
-    weave_fmt&lt;span style=&#34;color: #666666&#34;&gt;[&lt;/span&gt;2.7.0&lt;span style=&#34;color: #666666&#34;&gt;]&lt;/span&gt;
-encoding: &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;, fsenc: &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;, lang: &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;#39;en_CA.UTF-8&amp;#39;&lt;/span&gt;
-
-*** Bazaar has encountered an internal error.  This probably indicates a
-    bug in Bazaar.  You can &lt;span style=&#34;color: #007020&#34;&gt;help&lt;/span&gt; us fix it by filing a bug report at
-        https://bugs.launchpad.net/bzr/+filebug
-    including this traceback and a description of the problem.
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;I&amp;rsquo;ve been bit by this bug a few times. The easy workaround was to set the
-commit message on the command line:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34; style=&#34;background: #f0f0f0&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;$ &lt;span style=&#34;color: #007020&#34;&gt;cd&lt;/span&gt; /path/to/dirty-bzr-repo/
-$ bzr commit -m &lt;span style=&#34;color: #4070a0&#34;&gt;&amp;quot;Some commit message&amp;quot;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Ultimately, the problem is that bzr expects BZR_EDITOR to be set. If it&amp;rsquo;s not,
-it will throw this cryptic exception. You can fix this by setting this
-environment variable in your shell.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34; style=&#34;background: #f0f0f0&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #60a0b0; font-style: italic&#34;&gt;# ~/.bash_profile&lt;/span&gt;
-
-&lt;span style=&#34;color: #60a0b0; font-style: italic&#34;&gt;# Tell bzr which editor to use&lt;/span&gt;
-&lt;span style=&#34;color: #007020&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color: #bb60d5&#34;&gt;BZR_EDITOR&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;=&lt;/span&gt;vim
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;I&amp;rsquo;ve filed &lt;a href=&#34;https://bugs.launchpad.net/bzr/+bug/1579048&#34;&gt;lp:1579048&lt;/a&gt; to
-document the bugs and workaround(s).&lt;/p&gt;
-</description>
+throws an ugly stack trace blaming an &amp;ldquo;insecure string pickle&amp;rdquo;, but I&amp;rsquo;ve found a workaround.&lt;/p&gt;</description>
     </item>
     
   </channel>
