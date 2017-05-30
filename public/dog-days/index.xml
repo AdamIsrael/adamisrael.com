@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dog-days on Adam Israel</title>
+    <link>http://adamisrael.com/dog-days/</link>
+    <description>Recent content in Dog-days on Adam Israel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2016 Adam Israel</copyright>
+    <lastBuildDate>Fri, 15 Jun 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://adamisrael.com/dog-days/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dog Days</title>
+      <link>http://adamisrael.com/dog-days/</link>
+      <pubDate>Fri, 15 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/dog-days/</guid>
+      <description>DOG DAYS by Adam Israel Bronwyn stared at the unopened letter on the table as if it might come alive any minute and bite her. The postmark on the envelope read San Francisco, dated three weeks ago. The only person she knew outside of Manhattan who was too cowardly to call was her supposed boyfriend, George Westinghouse III. Nearly seven months ago he boarded a zeppelin heading west, claiming to have found business associates eager to invest in the new Westinghouse Industries.</description>
+    </item>
+    
+  </channel>
+</rss>

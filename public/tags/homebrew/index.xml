@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homebrew on Adam Israel</title>
+    <link>http://adamisrael.com/tags/homebrew/</link>
+    <description>Recent content in Homebrew on Adam Israel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2016 Adam Israel</copyright>
+    <lastBuildDate>Thu, 13 Nov 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://adamisrael.com/tags/homebrew/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Making OS X, Go, and Brew play happy</title>
+      <link>http://adamisrael.com/blog/2014/11/13/making-os-x-go-and-brew-play-happy/</link>
+      <pubDate>Thu, 13 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2014/11/13/making-os-x-go-and-brew-play-happy/</guid>
+      <description>GO and OS X I&amp;#8217;m doing a little hacking with juju actions before they land in a stable release but I ran into some hurdles getting Go working with the brew-installed version. Trying to install Go packages failed with a bunch of &amp;#8216;unrecognized import path&amp;#8217; errors. Here&amp;#8217;s how I fixed it.
+STOP, GO, STOP Even though you can install Go via brew, there&amp;#8217;s more to be done to get it working.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contacts on Adam Israel</title>
+    <link>http://adamisrael.com/contact/</link>
+    <description>Recent content in Contacts on Adam Israel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2016 Adam Israel</copyright>
+    <lastBuildDate>Fri, 25 Dec 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://adamisrael.com/contact/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contact</title>
+      <link>http://adamisrael.com/contact/</link>
+      <pubDate>Fri, 25 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/contact/</guid>
+      <description>Your Name  Your Email  Your Message     </description>
+    </item>
+    
+    <item>
+      <title>Thanks</title>
+      <link>http://adamisrael.com/contact/thanks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/contact/thanks/</guid>
+      <description>Thanks for contacting me! I try to respond to all email within 48 hours. If this is an urgent matter, please reach out to me on Twitter.</description>
+    </item>
+    
+  </channel>
+</rss>

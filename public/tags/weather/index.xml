@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Weather on Adam Israel</title>
+    <link>http://adamisrael.com/tags/weather/</link>
+    <description>Recent content in Weather on Adam Israel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2016 Adam Israel</copyright>
+    <lastBuildDate>Wed, 01 Feb 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://adamisrael.com/tags/weather/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Februhuh? The winter that wasn’t.</title>
+      <link>http://adamisrael.com/blog/2012/02/01/februhuh-the-winter-that-wasnt/</link>
+      <pubDate>Wed, 01 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2012/02/01/februhuh-the-winter-that-wasnt/</guid>
+      <description>It&amp;#8217;s now my second February living in southwest Ontario, with 50F weather and scattered rain showers. The snow, which didn&amp;#8217;t fall until mid-January, is a memory and it will be at least a week before we have any chance of seeing more.
+What the hell, Canada?
+When people learned I was moving to Canada, I heard all kinds of jokes. Eh? Eh? One was about seeing moose, which I&amp;#8217;ve seen no trace of here but I have found in northern Wisconsin, where my Dad lives.</description>
+    </item>
+    
+  </channel>
+</rss>

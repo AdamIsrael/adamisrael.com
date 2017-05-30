@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reviews on Adam Israel</title>
+    <link>http://adamisrael.com/tags/reviews/</link>
+    <description>Recent content in Reviews on Adam Israel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2016 Adam Israel</copyright>
+    <lastBuildDate>Tue, 12 Apr 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://adamisrael.com/tags/reviews/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hey look, my first review!</title>
+      <link>http://adamisrael.com/blog/2011/04/12/hey-look-my-first-review/</link>
+      <pubDate>Tue, 12 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamisrael.com/blog/2011/04/12/hey-look-my-first-review/</guid>
+      <description>As far as I&amp;#8217;m aware, this is my very first review.
+ Extinct Doesn&amp;#8217;t Mean Forever is an anthology of 19 stories exploring the concept of extinction, with genres ranging from far future SF to others that happily straddle the line between speculative fiction and the mainstream.
+&amp;#8230;
+The second half of the book slows down somewhat. Some of the stories are longer and some of them frankly wear out their welcome.</description>
+    </item>
+    
+  </channel>
+</rss>
