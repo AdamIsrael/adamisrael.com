@@ -10,7 +10,10 @@ tags:
 - xenial
 title: Nested LXD on Ubuntu 16.04.2 (Xenial)
 ---
-tl;dr: Nested LXD containers on Ubuntu 16.04.2 (Xenial) are currently broken by default. You need to install the lxd package from backports.
+
+*Edit -- 1 Jun 2017*: The issue is a problematic patch that caused a breakage between 2.0.9 and 2.13. LXD 2.0.10 is currently in the SRU review queue, and once it lands in xenial-updates the problem should go away.
+
+tl;dr: Nested LXD containers on Ubuntu 16.04.2 (Xenial) will break if you're running LXD 2.12+ on the host machine, because the Xenial cloud image ships with LXD 2.0.9 and a version conflict between host and container causes nesting to fail.
 
 Sometime in the last couple of months, [nested lxd containers on Ubuntu 16.04 broke](https://github.com/lxc/lxd/issues/3172). A [fix](https://github.com/lxc/lxd/pull/3194) landed a week later. Unfortunately, the patch hasn't been applied to the version of lxd (2.0.9-0ubuntu1~16.04.2) in xenial-updates, so a new privileged container, by default, won't be able to launch nested containers. 
 
@@ -54,33 +57,12 @@ lxd:
 
 ```
 
-To fix this, you need to explicitly install lxd from backports. *Do not use the lxd/stable PPA, as it is targetted at the most recent release, not the latest LTS release.*
-
-```bash
-# Update your host OS
-apt update
-apt install -t xenial-backports lxd
-
-# Create a new privileged container w/nesting
-lxc launch ubuntu:16.04 lxd-test -c security.privileged=true -c security.nesting=true
-
-# Update it to the latest LXD in backports
-lxc exec lxd-test bash
-apt update
-apt install -t xenial-backports lxd
-
-# Verify you can launch a nested container
-lxc launch ubuntu:16.04
-
-```
-
-If you still encounter the above error, it may be necessary to purge lxd before installing the version in backports. I suspect this happens when you used an earlier version of lxd and upgraded to the later version with this bug. **This will remove all existing containers**:
+To fix this, you need to make sure the version of LXD in the nested container matches that of the host machine. In other words, if you're running LXD from backports or ppa, you should install that version in the nested container as well.
 
 
-```bash
-apt remove --purge lxd
-apt install -t xenial-backports lxd
-```
+Alternatively, you can downgrade your host machine's LXD to 2.0.9, but be warned that this may break any existing containers.
+
+
 
 
 
