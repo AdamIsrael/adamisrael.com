@@ -25,8 +25,8 @@ The first release I was involved with was source only, which meant installing al
 $ lxc launch ubuntu:16.04 nested-demo -c security.privileged=true -c security.nesting=true
 
 # Set some limits to keep everything playing nicely
-lxc config set osmr2 limits.cpu 4
-lxc config set osmr2 limits.memory 8GB
+lxc config set nested-demo limits.cpu 4
+lxc config set nested-demo limits.memory 8GB
 
 # Open a shell inside the container
 $ lxc exec nested-demo bash
