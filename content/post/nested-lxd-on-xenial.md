@@ -1,21 +1,19 @@
----
-author: Adam
-categories:
-- Technical
-date: 2017-05-30T14:59:56-04:00
-hidden: false
-tags:
-- ubuntu
-- lxd
-- xenial
-title: Nested LXD on Ubuntu 16.04.2 (Xenial)
----
++++
+author = "Adam"
+categories = ["Technical"]
+date = "2017-05-30T14:59:56-04:00"
+hidden = false
+tags = ["ubuntu", "lxd", "xenial"]
+title = "Nested LXD on Ubuntu 16.04.2 (Xenial)"
+
++++
+
 
 *Edit -- 1 Jun 2017*: The issue is a problematic patch that caused a breakage between 2.0.9 and 2.13. LXD 2.0.10 is currently in the SRU review queue, and once it lands in xenial-updates the problem should go away.
 
 tl;dr: Nested LXD containers on Ubuntu 16.04.2 (Xenial) will break if you're running LXD 2.12+ on the host machine, because the Xenial cloud image ships with LXD 2.0.9 and a version conflict between host and container causes nesting to fail.
 
-Sometime in the last couple of months, [nested lxd containers on Ubuntu 16.04 broke](https://github.com/lxc/lxd/issues/3172). A [fix](https://github.com/lxc/lxd/pull/3194) landed a week later. Unfortunately, the patch hasn't been applied to the version of lxd (2.0.9-0ubuntu1~16.04.2) in xenial-updates, so a new privileged container, by default, won't be able to launch nested containers. 
+Sometime in the last couple of months, [nested lxd containers on Ubuntu 16.04 broke](https://github.com/lxc/lxd/issues/3172). A [fix](https://github.com/lxc/lxd/pull/3194) landed a week later. Unfortunately, the patch hasn't been applied to the version of lxd (2.0.9-0ubuntu1~16.04.2) in xenial-updates, so a new privileged container, by default, won't be able to launch nested containers.
 
 ```bash
 $ lxc launch ubuntu:16.04 lxd-test -c security.privileged=true -c security.nesting=true
@@ -38,8 +36,8 @@ Try `lxc info --show-log local:coherent-reptile` for more info
 ```
 
 LXD, installed from xenial-updates, doesn't contain the patch for this bug:
-   
-```bash 
+
+```bash
 $ apt-cache policy lxd
 lxd:
   Installed: 2.0.9-0ubuntu1~16.04.2
@@ -61,11 +59,3 @@ To fix this, you need to make sure the version of LXD in the nested container ma
 
 
 Alternatively, you can downgrade your host machine's LXD to 2.0.9, but be warned that this may break any existing containers.
-
-
-
-
-
-
-
-
