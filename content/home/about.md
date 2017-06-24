@@ -59,4 +59,4 @@ Adam Israel is a software engineer at Canonical, Ltd. His professional interests
 
 Adam is also a husband, a published author, an amateur genealogist, and an immigrant. His interests include writing, building models, and fixing broken things.
 
-He is a member of the Ubuntu community, <a href="">Windsor Hackforge</a> and <a href="">SF Canada</a>.
+He is a member of the <a href="http://community.ubuntu.com/">Ubuntu community</a>, <a href="">Windsor Hackforge</a> and <a href="">SF Canada</a>.
