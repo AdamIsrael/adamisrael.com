@@ -29,6 +29,11 @@ view = 1
   name = "Publishing"
   tag = ".publishing"
 
+
+[[filter]]
+name = "Genealogy"
+tag = ".genealogy"
+
 [[filter]]
   name = "Other"
   tag = ".demo"
