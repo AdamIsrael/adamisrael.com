@@ -1,7 +1,7 @@
 +++
 # About/Biography widget.
 
-date = "2016-04-20T00:00:00"
+date = "2017-07-01T00:00:00"
 draft = false
 
 widget = "about"
@@ -26,30 +26,10 @@ weight = 1
   institution = "University of California - San Diego"
   year = 2010
 
-#[[education.courses]]
-#  course = "C++"
-#  institution = "College of DuPage"
-#  year = 2005
-
-#[[education.courses]]
-#  course = "Childrens Literature"
-#  institution = "College of DuPage"
-#  year = 2005
-
-#[[education.courses]]
-#  course = "Creative Writing"
-#  institution = "College of DuPage"
-#  year = 2005      
-
-#[[education.courses]]
-#  course = "History of the CIA"
-#  institution = "College of DuPage"
-#  year = 2005
-
-#[[education.courses]]
-#  course = "Holocaust Literature"
-#  institution = "College of DuPage"
-#  year = 2005
+[[education.courses]]
+  course = "Children's Literature, Creative Writing, Holocaust Literature"
+  institution = "College of DuPage"
+  year = 2005
 
 +++
 
@@ -57,6 +37,6 @@ weight = 1
 
 Adam Israel is a software engineer at Canonical, Ltd. His professional interests include benchmarking, performance tuning, cloud computing, network function virtualization, neural networks, artificial intelligence, and the internet of things.
 
-Adam is also a husband, a published author, an amateur genealogist, and an immigrant. His interests include writing, building models, and fixing broken things.
+Adam is also husband to Andrea Redman, an immigrant to Canada, a published author, and an amateur genealogist. His interests include, but are not limited to, writing, building models, and fixing broken things.
 
-He is a member of the <a href="http://community.ubuntu.com/">Ubuntu community</a>, <a href="">Windsor Hackforge</a> and <a href="">SF Canada</a>.
+He is a member of the <a href="http://community.ubuntu.com/">Ubuntu community</a>, <a href="http://hackf.org/">Windsor Hackforge</a> and <a href="http://www.sfcanada.org/">SF Canada</a>.
