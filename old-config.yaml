@@ -1,0 +1,39 @@
+baseurl: "http://adamisrael.com/"
+languageCode: "en-us"
+title: "Adam Israel"
+theme: "material-design"
+copyright: "© 2016 Adam Israel"
+MetaDataFormat: yaml
+paginate: 9
+
+disqusShortname: "adamisrael"    
+
+# add syntax highlighting with GitHub flavoured code fences
+PygmentsCodeFences: true
+PygmentsStyle: friendly
+
+permalinks:
+  post: /:year/:month/:day/:title/
+
+params:
+  description: ""
+  Subtitle: ""
+  headerCover: "/images/header.jpg"
+  footerCover: "/images/footer.jpg"
+  
+  author:
+    firstName: "Adam"
+    lastName: "Israel"
+    gender: "male"
+  
+  twitter: "AdamIsrael"
+  github: "AdamIsrael"
+  facebook: "adam.israel"
+  email: "adam@adamisrael.com"
+  gplus: "AdamIsrael1975"
+  linkedin: "adamisrael"
+
+  googleAnalyticsUserID: "UA-12202287-1"
+
+
+  SidebarRecentLimit: 5
