@@ -26,30 +26,30 @@ weight = 1
   institution = "University of California - San Diego"
   year = 2010
 
-[[education.courses]]
-  course = "C++"
-  institution = "College of DuPage"
-  year = 2005
+#[[education.courses]]
+#  course = "C++"
+#  institution = "College of DuPage"
+#  year = 2005
 
-[[education.courses]]
-  course = "Childrens Literature"
-  institution = "College of DuPage"
-  year = 2005
+#[[education.courses]]
+#  course = "Childrens Literature"
+#  institution = "College of DuPage"
+#  year = 2005
 
-[[education.courses]]
-  course = "Creative Writing"
-  institution = "College of DuPage"
-  year = 2005      
+#[[education.courses]]
+#  course = "Creative Writing"
+#  institution = "College of DuPage"
+#  year = 2005      
 
-[[education.courses]]
-  course = "History of the CIA"
-  institution = "College of DuPage"
-  year = 2005
+#[[education.courses]]
+#  course = "History of the CIA"
+#  institution = "College of DuPage"
+#  year = 2005
 
-[[education.courses]]
-  course = "Holocaust Literature"
-  institution = "College of DuPage"
-  year = 2005
+#[[education.courses]]
+#  course = "Holocaust Literature"
+#  institution = "College of DuPage"
+#  year = 2005
 
 +++
 

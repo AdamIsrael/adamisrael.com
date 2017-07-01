@@ -6,10 +6,10 @@ date = "2016-04-27"
 title = "Ebook Store"
 
 # Project summary to display on homepage.
-summary = "An ebook store."
+summary = "A storefront to sell and manage ebook sales and subscriptions."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "bubbles.jpg"
+image_preview = "headers/ebook.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -23,17 +23,25 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/bubbles-wide.jpg"
-caption = "My caption :smile:"
+image = "headers/ebook.jpg"
+caption = "©Andrew Mason via <a href='https://www.flickr.com/photos/a_mason/4738779282/'>Flickr</a>"
 
 +++
 
 Credits: John Klima, John Joseph Adams, and Jacob Haddon.
 
-The idea for the ebook store was born out of frustration when I had a few magazine subscription's expire without notice.
+The idea for the ebook store was born back in 2011. I was frustrated with subscriptions to small presses that expired without notice. I reached out to John Klima at Electric Velocipede and we started talking.
 
-I discovered how many small presses are labors of love. They are often small groups of dedicated folks whose time is stretched thin.
+I learned more about the distribution side of the publishing business. A small press is a labour of love, often run by small groups of folks whose time is stretched thin. I decided that I would start building tools to
+make their jobs easier, allowing them more time to spend on the *craft* of publishing.
 
-Over the past few years, I've been running the custom-built ebook store for Lightspeed Magazine, Fantasy Magazine, Nightmare Magazine, <a href="http://lamplightmagazine.com/">Lamplight Magazine</a>, and Fireside Magazine (before they moved to Patreon).
+Since then, I've written the ebook store in use today by Lightspeed Magazine, Fantasy Magazine, Nightmare Magazine, and <a href="http://lamplightmagazine.com/">Lamplight Magazine</a>, and previously served Fireside Magazine, before they moved to Patreon.
 
-There is a new version of the ebook store in the works. Stay tuned for more details!
+## Ebook Store 1.0
+It's implemented via a plugin that integrates into Wordpress. Wordpress is a solid content management system used by a lot of people but it's not without its drawbacks. This platform has served us well, but we're hitting limitations on what we can do without some seriously hacky code.
+
+## Ebook Store 2.0
+
+With the above experience in mind, I've started work on a new ebook store that'll bring with it a slew of new features. The main feature will be centralization. One login will get you access to your account on every ebook store, and a single place where you can see manage all of your magazine subscriptions.
+
+The current stores will continue unchanged for the foreseeable future. When the new storefront is ready, the Wordpress plugin will be deprecate for a new one that takes advantage of the new asynchronous API.
