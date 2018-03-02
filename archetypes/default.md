@@ -1,4 +1,7 @@
 ---
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
+date: {{ .Date }}
+draft: true
 author: Adam
 categories:
   - Uncategorized
@@ -10,4 +13,7 @@ tags:
   - bar
   - baz
 hidden: false
+header:
+    image: ""
+    caption: ""
 ---
