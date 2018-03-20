@@ -2,7 +2,7 @@
 title = "Auer/Allen"
 subtitle = "Test"
 date = 2018-01-04T10:52:16-05:00
-draft = false
+draft = true
 
 # Project summary to display on homepage.
 summary = "Born Adolf Auer in Albany, NY, my maternal 2nd great-grandfather changed his name to Andrew Allen and moved to Chicago, IL."

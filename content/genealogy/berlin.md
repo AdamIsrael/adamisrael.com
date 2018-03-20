@@ -2,7 +2,7 @@
 title = "Berlin"
 subtitle = "Test"
 date = 2018-01-04T10:52:16-05:00
-draft = false
+draft = true
 
 # Project summary to display on homepage.
 summary = "Wilhelmine Berlin (1855-1911) arrived on 8 Nov 1880, aboard the steamship Weser, possibly with her sister, Maria."
