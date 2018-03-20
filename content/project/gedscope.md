@@ -6,11 +6,11 @@ date = "2017-07-01"
 title = "GEDScope"
 
 # Project summary to display on homepage.
-summary = "A Python library for performing advanced search and analysis of genealogical data contained in a GEDCOM file."
+summary = "A project for aiding genealogists by providing research hints, tips and tools by employing pattern matching, machine learning, and artificial intelligence in the analysis of genealogical data contained in a GEDCOM file."
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["genealogy"]
+tags = ["genealogy", "machine-language", "artificial-intelligence"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -21,18 +21,22 @@ math = false
 image_preview = "griendels_lantern.jpg"
 
 [header]
-image = "griendels_lantern.jpg"
-caption = "via <a href='https://commons.wikimedia.org/wiki/File:1676_Johann_Christoph_Sturm_-_Griendel%27s_lantern.jpg'>Wikipedia</a>"
+image = ""
+caption = ""
 
 +++
 
-GEDScope is a new project that's goal is to provide a toolkit for doing better search and analysis of genealogical data, inspired by the idea of using a microscope for the fine details.
+{{< figure src="/img/griendels_lantern.jpg" title="Griendel's lantern" link="https://en.wikipedia.org/wiki/Magic_lantern" >}}
 
-The data contained within a GEDCOM file -- the de facto specification for exchanging genealogical data between different genealogy software -- contains very useful information that is under-utilized. To that end, I intend to build this library, and a companion website, to allow researches to:
+GEDScope is a project, inspired by the idea of using a microscope to examine fine details otherwise obscured to the naked eye, whose goal is to provide a modern toolkit for new and seasoned Genealogists. This will allow researches to better identify patterns within their genealogical data.
+
+The data contained within a GEDCOM file -- the de facto specification for exchanging genealogical data between different genealogy software -- contains very useful information that is under-utilized. To that end, I am build this tool that does this, and much more:
 
 - View a confidence rating of an individual.
 - Find individuals by date of birth or death, or occupation, or location.
 - Generate a heat map to show the migration of ancestors.
 - Analyze variations in the surnames of a line of descendants.
+- Create virtual links between individuals where DNA has confirmed a match but the connection is unknown.
+- Help plan research visits by showing all ancestors in a specific geographic region.
 
-That's just a few of the ideas. The project is very young, but you can find the project on <a href="https://github.com/AdamIsrael/gedscope">Github</a>, where you can contribute code or just ideas for what you'd like to see in a tool like this.
+The project is very young, but I'll be launching a public version of the site as soon as possible, and blogging about my own genealogy research, which has inspired GEDScope.
