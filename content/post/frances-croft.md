@@ -21,7 +21,7 @@ summary: "My 4th great-grandmother, Frances Croft (1796-1884) was a bit of a mys
 
 I've been researching the Appleyard family -- my immediate maternal line -- from the Old Clee, Grimsby, Lincolnshire, England area where, as far as I've found, they lived starting around 1663.
 
-My 4th great-great grandparents, Amos Appleyard, Jr. (1793-1869) and Frances Croft (1796-1884), lived in the Old Clee area their entire lives. They had as many as ten children, with son Henry (1821-1906) immigrating to Orillia, Ontario, Canada sometime in his fifty's.
+My 4th great-grandparents, Amos Appleyard, Jr. (1793-1869) and Frances Croft (1796-1884), lived in the Old Clee area their entire lives. They had as many as ten children, with son Henry (1821-1906) immigrating to Orillia, Ontario, Canada sometime in his fifty's.
 
 {{< figure src="/img/hullminster.jpg" title="Holy Trinity Church (now Hull Minster), Kingston Upon Hull, Yorkshire, England, where Amos and Frances were married on 29 July 1818. Photo by Tom Adamson Photography" >}}
 
