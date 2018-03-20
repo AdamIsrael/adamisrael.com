@@ -45,7 +45,7 @@ defaultContentLanguageInSubdir = false
   font = "default"
 
   name = "Adam Israel"
-  role = "Software Engineer"
+  role = "Software Engineer, Genealogist, Author"
 
   organizations = [ { name = "Canonical, Ltd.", url = "https://www.canonical.com/" } ]
 
