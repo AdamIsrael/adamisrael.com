@@ -71,6 +71,6 @@ user_groups:
 
 Adam Israel is a software engineer at Canonical, Ltd. His professional interests include benchmarking, performance tuning, cloud computing, network function virtualization, neural networks, artificial intelligence, and the internet of things.
 
-He is also a husband, an immigrant to Canada, a published author, and an professional genealogist. His interests include, but are not limited to, writing, building models, researching dead people, and fixing broken things.
+He is also a husband, an immigrant to Canada, a published author, and a professional genealogist. His interests include, but are not limited to, writing, building models, researching dead people, and fixing broken things.
 
 Professional memberships include: the <a href="http://community.ubuntu.com/">Ubuntu community</a>, <a href="http://hackf.org/">Windsor Hackforge</a>, <a href="http://www.sfcanada.org/">SF Canada</a>, and the <a href="http://www.codexwriters.com">Codex Writers Group</a>.
