@@ -1,7 +1,7 @@
 ---
 title: "Tracking Distributed Teams"
 date: 2019-11-16T07:52:04-08:00
-draft: false
+draft: true
 author: Adam
 categories:
   - Technology
