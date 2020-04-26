@@ -1,24 +1,23 @@
 ---
-title: Hard days
-author: Adam
-layout: post
-date: 2010-12-28
-url: /blog/2010/12/28/hard-days/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 321
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 198828130
+- 1
+author: Adam
 categories:
-  - Uncategorized
-  - Writing
+- Uncategorized
+- Writing
+date: "2010-12-28"
+dsq_thread_id:
+- 198828130
+layout: post
+ljID:
+- 321
 tags:
-  - 20spec
-  - process
-
+- 20spec
+- process
+title: Hard days
+url: /blog/2010/12/28/hard-days/
 ---
 I&#8217;ve been slogging away, the last few weeks, trying to string together words that make sense. It&#8217;s been rough. A nameless ennui that I blame on not having a place to personalize yet. That&#8217;s something Andrea and I will be working towards in the new year. Meanwhile, life goes on and the writing must continue so I had to find a way. Deadlines usually help, but I&#8217;ve been staring two or three, maybe four, up the ugly side so much lately that I&#8217;m beginning to go cross-eyed.
 

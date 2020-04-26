@@ -1,18 +1,17 @@
 ---
-title: Why do they always use blue cups?
-author: Adam
-layout: post
-date: 2010-03-22
-url: /blog/2010/03/21/why-do-they-always-use-blue-cups/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 287
+- true
 aktt_tweeted:
-  - 1
+- 1
+author: Adam
 categories:
-  - Uncategorized
-
+- Uncategorized
+date: "2010-03-22"
+layout: post
+ljID:
+- 287
+title: Why do they always use blue cups?
+url: /blog/2010/03/21/why-do-they-always-use-blue-cups/
 ---
 Still swamped with work and Clarion preparation, but I couldn&#8217;t help sharing this little ditty I just slapped together.
 

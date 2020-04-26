@@ -1,22 +1,21 @@
 ---
-title: Friday is for Friends who are Awesome
-author: Adam
-layout: post
-date: 2010-10-01
-url: /blog/2010/10/01/friday-is-for-friends-who-are-awesome/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 308
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 175204839
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2010-10-01"
+dsq_thread_id:
+- 175204839
+layout: post
+ljID:
+- 308
 tags:
-  - signal boost
-
+- signal boost
+title: Friday is for Friends who are Awesome
+url: /blog/2010/10/01/friday-is-for-friends-who-are-awesome/
 ---
 Happy fifth birthday to [Hadley Rille Books](1), who published my first [in print](2) story. They publish many fine books and anthologies, so please consider supporting this great small press.
 

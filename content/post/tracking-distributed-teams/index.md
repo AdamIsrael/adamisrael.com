@@ -1,19 +1,19 @@
 ---
-title: "Tracking Distributed Teams"
-date: 2019-11-22T07:52:04-08:00
-draft: false
 author: Adam
 categories:
-  - Technology
-tags:
-  - remote work
-  - open source
-  - gnome
-hidden: false
+- Technology
+date: "2019-11-22T07:52:04-08:00"
+draft: false
 header:
-    image: ""
-    caption: ""
+  caption: ""
+  image: ""
+hidden: false
 summary: ""
+tags:
+- remote work
+- open source
+- gnome
+title: Tracking Distributed Teams
 ---
 
 One challenge of working on a distributed team is keeping track of everyone's time zone. Most of my immediate team are Europe-based, and my colleagues in the Open Source Mano project are spread across the world. That makes timely collaboration complex. I often need to coordinate a task with someone several timezones away. If I miss them, I have to wait until my next day to talk to them. Not very efficient.

@@ -1,22 +1,21 @@
 ---
-title: This glass ceiling also has a floor and four walls
-author: Adam
-layout: post
-date: 2010-01-27
-url: /blog/2010/01/27/this-glass-ceiling-also-has-a-floor-and-four-walls/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 280
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 175204602
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2010-01-27"
+dsq_thread_id:
+- 175204602
+layout: post
+ljID:
+- 280
 tags:
-  - health
-
+- health
+title: This glass ceiling also has a floor and four walls
+url: /blog/2010/01/27/this-glass-ceiling-also-has-a-floor-and-four-walls/
 ---
 From time to time I talk about things of an extremely personal nature. Talking is cathartic and healthier than the alternative. Herein I ramble about depression, anxiety, and other foibles.
 

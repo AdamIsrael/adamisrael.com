@@ -1,22 +1,21 @@
 ---
-title: Lemon Lyme
-author: Adam
-layout: post
-date: 2010-05-14
-url: /blog/2010/05/14/lemon-lyme/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 297
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 175204706
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2010-05-14"
+dsq_thread_id:
+- 175204706
+layout: post
+ljID:
+- 297
 tags:
-  - health
-
+- health
+title: Lemon Lyme
+url: /blog/2010/05/14/lemon-lyme/
 ---
 I had hopefully one of the last post-divorce court dates this morning. Nothing terribly surprising came out of it. Judge says I need to pay my ex’s lawyer fees since I didn’t meet the original terms of the agreement (to which my attorney still argues was an impossibility). That’s a hard lesson chalked up to experience. Never be afraid to question your lawyer, or fire them, if you don’t think they have your best interest at heart. This morning boils down to:
 

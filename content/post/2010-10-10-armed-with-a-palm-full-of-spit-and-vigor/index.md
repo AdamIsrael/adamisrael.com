@@ -1,21 +1,20 @@
 ---
-title: Armed with a palm full of spit and vigor
-author: Adam
-layout: post
-date: 2010-10-10
-url: /blog/2010/10/10/armed-with-a-palm-full-of-spit-and-vigor/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 312
+- true
 aktt_tweeted:
-  - 1
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2010-10-10"
+layout: post
+ljID:
+- 312
 tags:
-  - progress
-  - statistics
-
+- progress
+- statistics
+title: Armed with a palm full of spit and vigor
+url: /blog/2010/10/10/armed-with-a-palm-full-of-spit-and-vigor/
 ---
 Project: Sex/magic story, now with more poly love, a plump dominatrix, a Chicago swinger&#8217;s club, and one pissed off magician.
 

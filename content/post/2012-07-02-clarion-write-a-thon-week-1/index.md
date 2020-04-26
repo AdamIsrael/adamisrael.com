@@ -1,26 +1,25 @@
 ---
-title: Clarion Write-a-thon Week 1
 author: Adam
-layout: post
-date: 2012-07-02
-url: /blog/2012/07/02/clarion-write-a-thon-week-1/
-tumblrize_post-type:
-  - regular
-tumblrize_post-group:
-  - adamisrael.tumblr.com
-ljID:
-  - 363
-ljURL:
-  - http://stonetable.livejournal.com/93062.html
-tumblrize_post-id:
-  - 26341877195
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2012-07-02"
+layout: post
+ljID:
+- 363
+ljURL:
+- http://stonetable.livejournal.com/93062.html
 tags:
-  - clarion
-  - scrivener
-  - write-a-thon
-
+- clarion
+- scrivener
+- write-a-thon
+title: Clarion Write-a-thon Week 1
+tumblrize_post-group:
+- adamisrael.tumblr.com
+tumblrize_post-id:
+- 26341877195
+tumblrize_post-type:
+- regular
+url: /blog/2012/07/02/clarion-write-a-thon-week-1/
 ---
 <table width="95%" cellspacing="0" cellpadding="0">
   <tr>

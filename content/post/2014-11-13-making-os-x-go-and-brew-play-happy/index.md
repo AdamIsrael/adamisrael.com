@@ -1,25 +1,24 @@
 ---
-title: Making OS X, Go, and Brew play happy
 author: Adam
-layout: post
-date: 2014-11-13
-url: /blog/2014/11/13/making-os-x-go-and-brew-play-happy/
-panels_data:
-  - 'a:0:{}'
-masonry_settings:
-  - 'a:1:{s:4:"size";s:2:"11";}'
-ljID:
-  - 382
-ljURL:
-  - http://stonetable.livejournal.com/97985.html
 categories:
-  - Technical
+- Technical
+date: "2014-11-13"
+layout: post
+ljID:
+- 382
+ljURL:
+- http://stonetable.livejournal.com/97985.html
+masonry_settings:
+- a:1:{s:4:"size";s:2:"11";}
+panels_data:
+- a:0:{}
 tags:
-  - go
-  - homebrew
-  - juju
-  - os x
-
+- go
+- homebrew
+- juju
+- os x
+title: Making OS X, Go, and Brew play happy
+url: /blog/2014/11/13/making-os-x-go-and-brew-play-happy/
 ---
 # GO and OS X
 

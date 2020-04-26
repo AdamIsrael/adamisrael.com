@@ -1,22 +1,21 @@
 ---
-title: 'Writers of the Future: Honorable Mention'
-author: Adam
-layout: post
-date: 2010-01-14
-url: /blog/2010/01/14/writers-of-the-future-honorable-mention/
 aktt_notify_twitter:
-  - yes
+- true
 aktt_tweeted:
-  - 1
-ljID:
-  - 276
+- 1
+author: Adam
 categories:
-  - Uncategorized
-  - Writing
+- Uncategorized
+- Writing
+date: "2010-01-14"
+layout: post
+ljID:
+- 276
 tags:
-  - submissions
-  - wotf
-
+- submissions
+- wotf
+title: 'Writers of the Future: Honorable Mention'
+url: /blog/2010/01/14/writers-of-the-future-honorable-mention/
 ---
 I felt a little blue this week, grousing over revisions and my sometimes fragile ego. I distracted myself by patiently refreshing the Writers of the Future blog and checking the mail every few minutes, hoping to see some word of the 2009 Q4 results. Well, the [list of Honorable Mentions](1) was released before they had a chance to [update the blog](2).
 

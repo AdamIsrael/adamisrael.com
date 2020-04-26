@@ -1,16 +1,15 @@
 ---
-title: 'NaNoWriMo 2011: Day 2'
 author: Adam
-layout: post
-date: 2011-11-03
-url: /blog/2011/11/03/nanowrimo-2011-day-2/
-dsq_thread_id:
-  - 460607602
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-11-03"
+dsq_thread_id:
+- 460607602
+layout: post
 tags:
-  - nanowrimo
-
+- nanowrimo
+title: 'NaNoWriMo 2011: Day 2'
+url: /blog/2011/11/03/nanowrimo-2011-day-2/
 ---
 Work all day followed by a quick nap and no words before 7:30pm. Andrea kicked me out of the house and I trundled off to the coffee house, was disappointed by the lack of London Fog Tea, and sat to write.
 

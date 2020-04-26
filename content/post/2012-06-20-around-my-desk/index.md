@@ -1,24 +1,23 @@
 ---
-title: Around my desk
 author: Adam
-layout: post
-date: 2012-06-20
-url: /blog/2012/06/20/around-my-desk/
-tumblrize_post-type:
-  - regular
-tumblrize_post-group:
-  - adamisrael.tumblr.com
-ljID:
-  - 361
-ljURL:
-  - http://stonetable.livejournal.com/92523.html
-tumblrize_post-id:
-  - 25512412086
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2012-06-20"
+layout: post
+ljID:
+- 361
+ljURL:
+- http://stonetable.livejournal.com/92523.html
 tags:
-  - write-a-thon
-
+- write-a-thon
+title: Around my desk
+tumblrize_post-group:
+- adamisrael.tumblr.com
+tumblrize_post-id:
+- 25512412086
+tumblrize_post-type:
+- regular
+url: /blog/2012/06/20/around-my-desk/
 ---
 There are now four days until the Clarion write-a-thon begins on June 24th, where I will continue work on my novel-in-progress and attempt to add 30k new words over the course of six weeks.
 

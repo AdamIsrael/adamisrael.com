@@ -1,19 +1,18 @@
 ---
-title: Clarion Write-a-thon
 author: Adam
-layout: post
-date: 2013-06-22
-url: /blog/2013/06/21/clarion-write-a-thon-2/
-ljID:
-  - 375
-ljURL:
-  - http://stonetable.livejournal.com/96199.html
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2013-06-22"
+layout: post
+ljID:
+- 375
+ljURL:
+- http://stonetable.livejournal.com/96199.html
 tags:
-  - clarion
-  - write-a-thon
-
+- clarion
+- write-a-thon
+title: Clarion Write-a-thon
+url: /blog/2013/06/21/clarion-write-a-thon-2/
 ---
 It should be no surprise to anyone who knows me that the Clarion Writers Workshop is a thing near and dear to me. Attending the six-week workshop in 2010 was a milestone in my writing career. The annual [write-a-thon](1), where writers commit to writing goals and ask friends, family,and strangers to pledge money to go towards funding the workshop.
 

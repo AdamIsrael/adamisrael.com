@@ -1,20 +1,19 @@
 ---
-title: 2012 Hugo Nominations
 author: Adam
-layout: post
-date: 2012-04-07
-url: /blog/2012/04/07/2012-hugo-nominations/
-tumblrize_post-type:
-  - regular
-tumblrize_post-group:
-  - adamisrael.tumblr.com
-tumblrize_post-id:
-  - 20675368255
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2012-04-07"
+layout: post
 tags:
-  - awards
-
+- awards
+title: 2012 Hugo Nominations
+tumblrize_post-group:
+- adamisrael.tumblr.com
+tumblrize_post-id:
+- 20675368255
+tumblrize_post-type:
+- regular
+url: /blog/2012/04/07/2012-hugo-nominations/
 ---
 The [Hugo Nominations](1) were announced this afternoon. I watched the cheers streaming on Twitter, mostly before I saw the nomination itself. Congrats to all nominees. I take particular happiness in seeing many familiar names among the bunch.
 

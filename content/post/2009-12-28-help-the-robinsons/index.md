@@ -1,20 +1,19 @@
 ---
-title: Help the Robinsons
-author: Adam
-layout: post
-date: 2009-12-29
-url: /blog/2009/12/28/help-the-robinsons/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 265
+- true
 aktt_tweeted:
-  - 1
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2009-12-29"
+layout: post
+ljID:
+- 265
 tags:
-  - pay it forward
-
+- pay it forward
+title: Help the Robinsons
+url: /blog/2009/12/28/help-the-robinsons/
 ---
 [Jeanne](1) and [Spider Robinson](2) need your help.
 

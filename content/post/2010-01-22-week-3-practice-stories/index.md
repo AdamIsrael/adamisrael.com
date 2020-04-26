@@ -1,22 +1,21 @@
 ---
-title: 'Week 3: Practice Stories'
-author: Adam
-layout: post
-date: 2010-01-22
-url: /blog/2010/01/22/week-3-practice-stories/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 279
+- true
 aktt_tweeted:
-  - 1
+- 1
+author: Adam
 categories:
-  - Uncategorized
-  - Writing
+- Uncategorized
+- Writing
+date: "2010-01-22"
+layout: post
+ljID:
+- 279
 tags:
-  - booklife
-  - process
-
+- booklife
+- process
+title: 'Week 3: Practice Stories'
+url: /blog/2010/01/22/week-3-practice-stories/
 ---
 Another kind of successful week &#8212; 3,237 new words, bringing the years total to 10,404.
 

@@ -1,20 +1,19 @@
 ---
-title: Week 4 coughs up a lung
-author: Adam
-layout: post
-date: 2010-02-03
-url: /blog/2010/02/02/week-4-coughs-up-a-lung/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 281
+- true
 aktt_tweeted:
-  - 1
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2010-02-03"
+layout: post
+ljID:
+- 281
 tags:
-  - progress
-
+- progress
+title: Week 4 coughs up a lung
+url: /blog/2010/02/02/week-4-coughs-up-a-lung/
 ---
 Week 4 ended on a bit of a downer. I&#8217;d been doing well, writing a bit each day but the streak came to an end. I drafted two short stories and three flash fiction. I started a fourth but it wasn&#8217;t ready to be told. Instead of forcing it, I skipped a day.
 

@@ -1,16 +1,15 @@
 ---
-title: 'NaNoWriMo 2011: Day 1'
 author: Adam
-layout: post
-date: 2011-11-02
-url: /blog/2011/11/02/nanowrimo-2011-day-1/
-dsq_thread_id:
-  - 459454931
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-11-02"
+dsq_thread_id:
+- 459454931
+layout: post
 tags:
-  - nanowrimo
-
+- nanowrimo
+title: 'NaNoWriMo 2011: Day 1'
+url: /blog/2011/11/02/nanowrimo-2011-day-1/
 ---
 I think I&#8217;m going to try blogging as I go &#8212; nothing extensive because I don&#8217;t want to take away from the real writing but I do want to jot down my thoughts. This is a process of learning and experimentation for me. I&#8217;ve been writing short stories seriously for four years but writing something novel-length is a different kind of beast.
 

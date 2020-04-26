@@ -1,28 +1,29 @@
 ---
-title: Hey look, my first review!
-author: Adam
-layout: post
-date: 2011-04-12
-url: /blog/2011/04/12/hey-look-my-first-review/
 aktt_notify_twitter:
-  - yes
-wordbooker_options:
-  - 'a:9:{s:18:"wordbook_noncename";s:10:"0490fbd930";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog post :  %title% - %link%";}'
-ljID:
-  - 337
-wordbooker_extract:
-  - |
-    As far as I'm aware, this is my very first review.
-    Extinct Doesn't Mean Forever is an anthology of 19 stories exploring the concept of extinction, with genres ranging from far future SF to others that happily straddle the line between speculative fict ...
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 277807046
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-04-12"
+dsq_thread_id:
+- 277807046
+layout: post
+ljID:
+- 337
 tags:
-  - reviews
-
+- reviews
+title: Hey look, my first review!
+url: /blog/2011/04/12/hey-look-my-first-review/
+wordbooker_extract:
+- |
+  As far as I'm aware, this is my very first review.
+  Extinct Doesn't Mean Forever is an anthology of 19 stories exploring the concept of extinction, with genres ranging from far future SF to others that happily straddle the line between speculative fict ...
+wordbooker_options:
+- 'a:9:{s:18:"wordbook_noncename";s:10:"0490fbd930";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote
+  a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog
+  post :  %title% - %link%";}'
 ---
 As far as I&#8217;m aware, this is [my very first review](1).
 

@@ -8,6 +8,11 @@
   url = "#about"
   weight = 10
 
+# [[main]]
+#   name = "Bibliography"
+#   url = "/bibliography"
+#   weight = 20
+
 [[main]]
   name = "Posts"
   url = "#posts"

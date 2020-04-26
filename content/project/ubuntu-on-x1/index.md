@@ -1,31 +1,16 @@
-+++
-# Date this page was created.
-date = "2020-02-15"
-
-# Project title.
-title = "Ubuntu on Thinkpad X1 Gen 7"
-
-# Project summary to display on homepage.
-summary = "A guide to running Ubuntu 20.04 on a 7th generation Lenovo Thinkpad X1 laptop."
-
-# Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "ubuntu-matrix.png"
-
-# Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["linux", "thinkpad"]
-
-# Optional external URL for project (replaces project detail page).
-external_link = ""
-
-# Does the project detail page use math formatting?
-math = false
-
-# Optional featured image (relative to `static/img/` folder).
-[header]
-image = "ubuntu-matrix.png"
-
-+++
+---
+date: "2020-02-15"
+external_link: ""
+header:
+  image: ubuntu-matrix.png
+image_preview: ubuntu-matrix.png
+math: false
+summary: A guide to running Ubuntu 20.04 on a 7th generation Lenovo Thinkpad X1 laptop.
+tags:
+- linux
+- thinkpad
+title: Ubuntu on Thinkpad X1 Gen 7
+---
 # Thinkpad X1 - 7th gen: Ubuntu 20.04 (pre-release)
 
 Last update: 15 Feb 2020

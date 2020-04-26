@@ -1,16 +1,15 @@
 ---
-title: '#NaNoWriMo Day 7: Filling in the gaps'
 author: Adam
-layout: post
-date: 2011-11-08
-url: /blog/2011/11/08/nanowrimo-day-7-filling-in-the-gaps/
-dsq_thread_id:
-  - 464846681
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-11-08"
+dsq_thread_id:
+- 464846681
+layout: post
 tags:
-  - nanowrimo
-
+- nanowrimo
+title: '#NaNoWriMo Day 7: Filling in the gaps'
+url: /blog/2011/11/08/nanowrimo-day-7-filling-in-the-gaps/
 ---
 Doing nano during the week is the most challenging for me. I work a lot, which means I need to be even more disciplined with my time. Thanks to some work issues, I didn&#8217;t even start to think about writing until close to 7PM and I really didn&#8217;t think I was going to make it. Also, I had a bad case of the don&#8217;t wanna&#8217;s. So, I gave myself an hour break and played XBox before I got to writing.
 

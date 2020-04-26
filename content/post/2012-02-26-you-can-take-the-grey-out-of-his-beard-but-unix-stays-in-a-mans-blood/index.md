@@ -1,16 +1,15 @@
 ---
-title: You can take the grey out of his beard, but Unix stays in a man’s blood.
 author: Adam
-layout: post
-date: 2012-02-26
-url: /blog/2012/02/26/you-can-take-the-grey-out-of-his-beard-but-unix-stays-in-a-mans-blood/
-dsq_thread_id:
-  - 589977216
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2012-02-26"
+dsq_thread_id:
+- 589977216
+layout: post
 tags:
-  - administration
-
+- administration
+title: You can take the grey out of his beard, but Unix stays in a man’s blood.
+url: /blog/2012/02/26/you-can-take-the-grey-out-of-his-beard-but-unix-stays-in-a-mans-blood/
 ---
 I sat down this morning, meaning to write a blog post about focus and patience, with OCD tendencies. It would have been my first substantial post since the beginning of the month, but when I logged in to WordPress I found my site unresponsive. Temperamental, even. Other sites I host on the same server, but different accounts, were fine. I was about to blame my half-full cup of coffee when Google interceded and warned me that my site was being suspicious as all fuck. Fuck.
 

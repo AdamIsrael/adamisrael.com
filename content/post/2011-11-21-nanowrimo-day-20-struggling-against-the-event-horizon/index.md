@@ -1,16 +1,15 @@
 ---
-title: '#NaNoWriMo day 20: Struggling against the event horizon'
 author: Adam
-layout: post
-date: 2011-11-21
-url: /blog/2011/11/21/nanowrimo-day-20-struggling-against-the-event-horizon/
-dsq_thread_id:
-  - 512112782
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-11-21"
+dsq_thread_id:
+- 512112782
+layout: post
 tags:
-  - nanowrimo
-
+- nanowrimo
+title: '#NaNoWriMo day 20: Struggling against the event horizon'
+url: /blog/2011/11/21/nanowrimo-day-20-struggling-against-the-event-horizon/
 ---
 I feel like I&#8217;ve been at a near standstill the last four days. With one zero day among them, I&#8217;ve barely scratched a thousand words among them. To make up for the shortfall, I need to write roughly 2,400 words/day though the rest of the month in order to hit the Nano goal of 50k. I&#8217;ve hit that number once this month.
 

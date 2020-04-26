@@ -1,36 +1,37 @@
 ---
-title: Extinct Doesn’t Mean Forever
-author: Adam
-layout: post
-date: 2011-04-06
-url: /blog/2011/04/06/extinct-doesnt-mean-forever/
 aktt_notify_twitter:
-  - yes
-wordbooker_options:
-  - 'a:9:{s:18:"wordbook_noncename";s:10:"cd75a89818";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog post :  %title% - %link%";}'
-ljID:
-  - 335
-wordbooker_thumb:
-  - http://www.adamisrael.com/wp-content/uploads/2011/04/Exinct-cover-300x300.jpg
-wordbooker_extract:
-  - |
-    &nbsp;
-
-
-
-    I realize that I neglected to mention that the anthology Extinct Doesn't Mean Forever, containing my story Indigo's Gambit, is now available on Amazon.
-    Three, two, one, bang — the Drifting Star skipped on the wave of a collapsing micro-s ...
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 272799172
+- 1
+author: Adam
 categories:
-  - Uncategorized
-  - Writing
+- Uncategorized
+- Writing
+date: "2011-04-06"
+dsq_thread_id:
+- 272799172
+layout: post
+ljID:
+- 335
 tags:
-  - anthology
-  - signal boost
+- anthology
+- signal boost
+title: Extinct Doesn’t Mean Forever
+url: /blog/2011/04/06/extinct-doesnt-mean-forever/
+wordbooker_extract:
+- |
+  &nbsp;
 
+
+
+  I realize that I neglected to mention that the anthology Extinct Doesn't Mean Forever, containing my story Indigo's Gambit, is now available on Amazon.
+  Three, two, one, bang — the Drifting Star skipped on the wave of a collapsing micro-s ...
+wordbooker_options:
+- 'a:9:{s:18:"wordbook_noncename";s:10:"cd75a89818";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote
+  a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog
+  post :  %title% - %link%";}'
+wordbooker_thumb:
+- http://www.adamisrael.com/wp-content/uploads/2011/04/Exinct-cover-300x300.jpg
 ---
 &nbsp;
 

@@ -1,24 +1,23 @@
 ---
-title: 'To fight the horde, sing and cry: Valhalla, I am coming!'
-author: Adam
-layout: post
-date: 2010-05-08
-url: /blog/2010/05/08/to-fight-the-horde-sing-and-cry-valhalla-i-am-coming/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 293
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 175204669
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2010-05-08"
+dsq_thread_id:
+- 175204669
+layout: post
+ljID:
+- 293
 tags:
-  - canada
-  - immigration
-  - travel
-
+- canada
+- immigration
+- travel
+title: 'To fight the horde, sing and cry: Valhalla, I am coming!'
+url: /blog/2010/05/08/to-fight-the-horde-sing-and-cry-valhalla-i-am-coming/
 ---
 There’s so much that’s happened in the last twenty-four hours that I scarcely know where to start. For the uninitiated, I am American and my wife, Andrea, is Canadian. I have a house in Illinois, empty and for sale by court order from a previous marriage. In August of last year, my wife and I moved in with her Mom in Ontario, Canada. Prior that we had been living with my Dad in Wisconsin, in his three bedroom trailer, with our three large dogs and four cats, helping him recover from major back surgery.
 

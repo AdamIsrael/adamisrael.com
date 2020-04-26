@@ -1,21 +1,20 @@
 ---
-title: Clarion 2010
-author: Adam
-layout: post
-date: 2010-03-08
-url: /blog/2010/03/07/clarion-2010/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 285
+- true
 aktt_tweeted:
-  - 1
+- 1
+author: Adam
 categories:
-  - Uncategorized
-  - Writing
+- Uncategorized
+- Writing
+date: "2010-03-08"
+layout: post
+ljID:
+- 285
 tags:
-  - clarion
-
+- clarion
+title: Clarion 2010
+url: /blog/2010/03/07/clarion-2010/
 ---
 Believe it or not, I’m still a little under the weather. I’m beginning to suspect I had the hamthrax. Five weeks out and I’m just now starting to feel like myself again. All it really means is that I’m sleeping way more than usual, drinking a gallon of water a day, and a bit behind in my correspondence.
 

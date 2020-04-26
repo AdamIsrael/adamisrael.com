@@ -1,22 +1,21 @@
 ---
-title: 'AlterNaNoWriMo 2010 – #alternano'
-author: Adam
-layout: post
-date: 2010-11-01
-url: /blog/2010/10/31/alternanowrimo-2010-alternano/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 315
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 175204893
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2010-11-01"
+dsq_thread_id:
+- 175204893
+layout: post
+ljID:
+- 315
 tags:
-  - alternano
-
+- alternano
+title: 'AlterNaNoWriMo 2010 – #alternano'
+url: /blog/2010/10/31/alternanowrimo-2010-alternano/
 ---
 November 1st is here and that means [NaNoWriMo](1) &#8211; National Novel Writing Month. As someone who is a short story writer, I often look at my friends writing the long form with some envy. They have their own month and I don&#8217;t want to be left out so I tell myself that I will finally write one of those novel ideas I&#8217;ve been noodling on for forever. Just when I think I&#8217;ve picked one and made a decision, the weight of  my backlog of revisions, rewrites, or markets I want to submit to smacks me like a brick. So, I&#8217;m doing [AlterNaNoWriMo](2).
 

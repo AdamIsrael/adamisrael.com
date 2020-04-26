@@ -1,21 +1,20 @@
 ---
-title: The best laid intentions, felled by a lack of 3×5″ notecards
-author: Adam
-layout: post
-date: 2010-01-11
-url: /blog/2010/01/11/the-best-laid-intentions-felled-by-a-lack-of-3x5-notecards/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 274
+- true
 aktt_tweeted:
-  - 1
+- 1
+author: Adam
 categories:
-  - Uncategorized
-  - Writing
+- Uncategorized
+- Writing
+date: "2010-01-11"
+layout: post
+ljID:
+- 274
 tags:
-  - process
-
+- process
+title: The best laid intentions, felled by a lack of 3×5″ notecards
+url: /blog/2010/01/11/the-best-laid-intentions-felled-by-a-lack-of-3x5-notecards/
 ---
 When I kicked off the year writing 250 new words a day, I had a plan. A story. An _outline_, man. I finished that story yesterday. Plus an impromptu flash fiction piece. Today? I have no plan.
 

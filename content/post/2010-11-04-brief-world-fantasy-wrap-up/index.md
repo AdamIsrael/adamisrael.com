@@ -1,24 +1,23 @@
 ---
-title: Brief World Fantasy wrap-up
-author: Adam
-layout: post
-date: 2010-11-04
-url: /blog/2010/11/04/brief-world-fantasy-wrap-up/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 316
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 175204915
+- 1
+author: Adam
 categories:
-  - Uncategorized
-  - Writing
+- Uncategorized
+- Writing
+date: "2010-11-04"
+dsq_thread_id:
+- 175204915
+layout: post
+ljID:
+- 316
 tags:
-  - conventions
-  - world fantasy
-
+- conventions
+- world fantasy
+title: Brief World Fantasy wrap-up
+url: /blog/2010/11/04/brief-world-fantasy-wrap-up/
 ---
 I went to my first World Fantasy Convention last weekend. I&#8217;ve been to other conventions &#8212; mostly smaller, regional conventions like [Penguicon](1), [Windycon](2), and a one-day stop at [WisCon](3) last year. I thought I knew what to expect. Boy was I wrong.
 

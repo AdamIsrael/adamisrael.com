@@ -1,16 +1,15 @@
 ---
-title: Hark, an update!
 author: Adam
-layout: post
-date: 2013-12-10
-url: /blog/2013/12/10/hark-an-update/
-ljID:
-  - 377
-ljURL:
-  - http://stonetable.livejournal.com/96528.html
 categories:
-  - Uncategorized
-
+- Uncategorized
+date: "2013-12-10"
+layout: post
+ljID:
+- 377
+ljURL:
+- http://stonetable.livejournal.com/96528.html
+title: Hark, an update!
+url: /blog/2013/12/10/hark-an-update/
 ---
 Hark! Inconsistent blogger has returned with news!
 

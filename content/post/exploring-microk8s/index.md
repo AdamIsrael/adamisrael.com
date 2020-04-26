@@ -1,10 +1,10 @@
 ---
 author: Adam
-date: 2018-10-05T22:28:19-04:00
-hidden: false
-draft: true
 categories:
 - Technical
+date: "2018-10-05T22:28:19-04:00"
+draft: true
+hidden: false
 tags:
 - kubernetes
 - microk8s

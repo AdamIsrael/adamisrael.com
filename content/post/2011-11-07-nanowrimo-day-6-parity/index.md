@@ -1,16 +1,15 @@
 ---
-title: '#NaNoWriMo Day 6: Parity!'
 author: Adam
-layout: post
-date: 2011-11-07
-url: /blog/2011/11/07/nanowrimo-day-6-parity/
-dsq_thread_id:
-  - 463881664
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-11-07"
+dsq_thread_id:
+- 463881664
+layout: post
 tags:
-  - nanowrimo
-
+- nanowrimo
+title: '#NaNoWriMo Day 6: Parity!'
+url: /blog/2011/11/07/nanowrimo-day-6-parity/
 ---
 Not as much writing as I&#8217;d like today, mostly my own fault. When I actually sit down to write, I can knock out the words but today I procrastinated and was easily distracted. Still, I managed to hit parity with the Nano model of 1,667 words/day.
 

@@ -1,21 +1,18 @@
 ---
-title: "Withholding history: Open Source Genealogy"
-date: 2018-03-01T18:17:19-05:00
-draft: false
 author: Adam
 categories:
-  - Genealogy
-tags:
-  - history
-  - open-source
-  - research
-hidden: false
+- Genealogy
+date: "2018-03-01T18:17:19-05:00"
+draft: false
 header:
-    image: ""
-    caption: ""
-# To manage the front matter, use either <!--more--> in the body or add
-# a summary tag to the header.
-# summary: ""
+  caption: ""
+  image: ""
+hidden: false
+tags:
+- history
+- open-source
+- research
+title: 'Withholding history: Open Source Genealogy'
 ---
 I belong to a few handfuls of mailing list, message forum, and Facebook group dedicated to Genealogy. Every so often, someone discovers that a picture, story, or details from their ancestor has been copied and added to a stranger's family tree and is very upset. Often, their reaction is to make their research private, so no one can see it.
 

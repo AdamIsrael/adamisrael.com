@@ -1,16 +1,15 @@
 ---
-title: '#NaNoWriMo day 10'
 author: Adam
-layout: post
-date: 2011-11-11
-url: /blog/2011/11/11/nanowrimo-day-10/
-dsq_thread_id:
-  - 468876095
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-11-11"
+dsq_thread_id:
+- 468876095
+layout: post
 tags:
-  - nanowrimo
-
+- nanowrimo
+title: '#NaNoWriMo day 10'
+url: /blog/2011/11/11/nanowrimo-day-10/
 ---
 Not a great day all around and I was feeling pretty crummy about it, but as a wise man [reminded me](1), 300 words is still 300 words closer to where I need to be.
 

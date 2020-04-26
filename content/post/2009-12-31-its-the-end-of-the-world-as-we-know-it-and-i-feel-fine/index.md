@@ -1,18 +1,17 @@
 ---
-title: It’s the end of the world as we know it (and I feel fine)
-author: Adam
-layout: post
-date: 2010-01-01
-url: /blog/2009/12/31/its-the-end-of-the-world-as-we-know-it-and-i-feel-fine/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 266
+- true
 aktt_tweeted:
-  - 1
+- 1
+author: Adam
 categories:
-  - Uncategorized
-
+- Uncategorized
+date: "2010-01-01"
+layout: post
+ljID:
+- 266
+title: It’s the end of the world as we know it (and I feel fine)
+url: /blog/2009/12/31/its-the-end-of-the-world-as-we-know-it-and-i-feel-fine/
 ---
 I&#8217;m going to try keeping this brief, because there&#8217;s not much good to say about two thousand and nine. I&#8217;m sure that, many years ahead, I&#8217;ll look back upon this year and have kinder words for it: character building, challenging, a turning point. Right now the pain is too close to analyze.
 

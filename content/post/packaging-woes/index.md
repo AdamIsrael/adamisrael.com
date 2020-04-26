@@ -5,7 +5,7 @@ categories:
 - Personal
 - Technical
 - Writing
-date: 2017-06-09T11:17:17-04:00
+date: "2017-06-09T11:17:17-04:00"
 draft: true
 hidden: false
 tags:

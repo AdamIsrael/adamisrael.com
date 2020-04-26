@@ -1,21 +1,20 @@
 ---
-title: 'I have a <3 for words'
-author: Adam
-layout: post
-date: 2011-01-13
-url: /blog/2011/01/13/i-have-a/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 323
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 208248638
+- 1
+author: Adam
 categories:
-  - Uncategorized
-  - Writing
-
+- Uncategorized
+- Writing
+date: "2011-01-13"
+dsq_thread_id:
+- 208248638
+layout: post
+ljID:
+- 323
+title: I have a <3 for words
+url: /blog/2011/01/13/i-have-a/
 ---
 I&#8217;m planning a submissions party this weekend and you are all welcome to join me on Twitter. I have at least one story that that I should be sending out for reprints and a second that I&#8217;m not sure when, offhand, the reprint rights revert. I need to do market research, update my spreadsheets, and get submitting. I&#8217;ve also got some stories that have been sitting gathering dust and that&#8217;s a crying shame.
 

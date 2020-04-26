@@ -1,20 +1,19 @@
 ---
-title: Soup Karma
-author: Adam
-layout: post
-date: 2010-05-10
-url: /blog/2010/05/10/soup-karma/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 295
+- true
 aktt_tweeted:
-  - 1
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2010-05-10"
+layout: post
+ljID:
+- 295
 tags:
-  - pay it forward
-
+- pay it forward
+title: Soup Karma
+url: /blog/2010/05/10/soup-karma/
 ---
 I spent the weekend in Ann Arbor, Michigan, where the day job graciously put me up in a hotel in exchange for some long and late work hours. On Saturday I went to the [Arbor Brewing Company](1) on the recommendation of a friend, both for a change of scenery and because I have not been eating much of anything since the whole border ordeal went down.
 

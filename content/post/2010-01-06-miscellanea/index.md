@@ -1,22 +1,21 @@
 ---
-title: Miscellanea
-author: Adam
-layout: post
-date: 2010-01-06
-url: /blog/2010/01/06/miscellanea/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 271
+- true
 aktt_tweeted:
-  - 1
+- 1
+author: Adam
 categories:
-  - Uncategorized
-  - Writing
+- Uncategorized
+- Writing
+date: "2010-01-06"
+layout: post
+ljID:
+- 271
 tags:
-  - reading
-  - travel
-
+- reading
+- travel
+title: Miscellanea
+url: /blog/2010/01/06/miscellanea/
 ---
 #### Writing
 

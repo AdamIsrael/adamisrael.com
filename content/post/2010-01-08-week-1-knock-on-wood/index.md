@@ -1,23 +1,22 @@
 ---
-title: 'Week 1: Knock on wood'
-author: Adam
-layout: post
-date: 2010-01-08
-url: /blog/2010/01/08/week-1-knock-on-wood/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 272
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 175204588
+- 1
+author: Adam
 categories:
-  - Uncategorized
-  - Writing
+- Uncategorized
+- Writing
+date: "2010-01-08"
+dsq_thread_id:
+- 175204588
+layout: post
+ljID:
+- 272
 tags:
-  - booklife
-
+- booklife
+title: 'Week 1: Knock on wood'
+url: /blog/2010/01/08/week-1-knock-on-wood/
 ---
 When I started out following Booklife and documenting my writing progress, I suspected the first few weeks would either be really easy or really hard. Establishing a habit takes times and it&#8217;s easy to make excuses to skip writing. We all hear or use them &#8212; I&#8217;m too busy, too much day job work, kids/family, etc. Then there&#8217;s the Resolutionists, who make a bunch of goals at the beginning of the year and waver after a few weeks. Also guilty as charged.
 

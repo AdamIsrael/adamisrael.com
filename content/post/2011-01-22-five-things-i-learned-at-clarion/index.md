@@ -1,22 +1,21 @@
 ---
-title: Five things I learned at Clarion
-author: Adam
-layout: post
-date: 2011-01-22
-url: /blog/2011/01/22/five-things-i-learned-at-clarion/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 326
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 213846257
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-01-22"
+dsq_thread_id:
+- 213846257
+layout: post
+ljID:
+- 326
 tags:
-  - clarion
-
+- clarion
+title: Five things I learned at Clarion
+url: /blog/2011/01/22/five-things-i-learned-at-clarion/
 ---
 Via [Jim Kelly](1), by way of [Tim Pratt](2), and because I am desperately avoiding the writing I need to do tonight, here are a few things I learned (or confirmed) while at Clarion.
 

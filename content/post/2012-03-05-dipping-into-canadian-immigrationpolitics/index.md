@@ -1,22 +1,21 @@
 ---
-title: Dipping into Canadian Immigration/Politics
 author: Adam
-layout: post
-date: 2012-03-06
-url: /blog/2012/03/05/dipping-into-canadian-immigrationpolitics/
-tumblrize_post-type:
-  - regular
-tumblrize_post-group:
-  - adamisrael.tumblr.com
-tumblrize_post-id:
-  - 18817319535
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2012-03-06"
+layout: post
 tags:
-  - canada
-  - immigration
-  - politics
-
+- canada
+- immigration
+- politics
+title: Dipping into Canadian Immigration/Politics
+tumblrize_post-group:
+- adamisrael.tumblr.com
+tumblrize_post-id:
+- 18817319535
+tumblrize_post-type:
+- regular
+url: /blog/2012/03/05/dipping-into-canadian-immigrationpolitics/
 ---
 I&#8217;ve been following the news regarding Canadian Immigration pretty closely &#8212; not surprising considering my immigrant status. Last week [this article in the Globe and Mail](1) talks about the percentage of immigrants who settle in Ontario vs. other provinces, which kind of bored me. What was interesting, though, were two issues in the continued fight against immigration fraud. When Andrea and I filled out our application, most of our time was spent collecting evidence to prove our relationship &#8212; records of emails, phone calls, meetings between us, friends, and family, etc. It&#8217;s extensive.
 

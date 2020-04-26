@@ -1,18 +1,17 @@
 ---
-title: American Serenade
 author: Adam
-layout: post
-date: 2015-07-06
-url: /blog/2015/07/06/american-serenade/
-masonry_settings:
-  - 'a:1:{s:4:"size";s:2:"11";}'
-ljID:
-  - 384
-ljURL:
-  - http://stonetable.livejournal.com/98388.html
 categories:
-  - Personal
-
+- Personal
+date: "2015-07-06"
+layout: post
+ljID:
+- 384
+ljURL:
+- http://stonetable.livejournal.com/98388.html
+masonry_settings:
+- a:1:{s:4:"size";s:2:"11";}
+title: American Serenade
+url: /blog/2015/07/06/american-serenade/
 ---
 Back in 2009, we were winding down our life in the U.S.. We drastically culled things we didn&#8217;t want or need, and put the rest into storage for the eventual move to Canada.
 

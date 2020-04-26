@@ -1,21 +1,20 @@
 ---
-title: New job!
 author: Adam
-layout: post
-date: 2014-08-26
-url: /blog/2014/08/25/new-job/
-ljID:
-  - 380
-ljURL:
-  - http://stonetable.livejournal.com/97332.html
 categories:
-  - Personal
-  - Technical
+- Personal
+- Technical
+date: "2014-08-26"
+layout: post
+ljID:
+- 380
+ljURL:
+- http://stonetable.livejournal.com/97332.html
 tags:
-  - canonical
-  - juju
-  - ubuntu
-
+- canonical
+- juju
+- ubuntu
+title: New job!
+url: /blog/2014/08/25/new-job/
 ---
 I am delighted &#8212; tickled, in fact &#8212; to report that as of last Monday I am employed by [Canonical](1), the company behind [Ubuntu](2) Linux.
 

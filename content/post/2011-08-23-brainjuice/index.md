@@ -1,17 +1,16 @@
 ---
-title: Brainjuice
 author: Adam
-layout: post
-date: 2011-08-23
-url: /blog/2011/08/23/brainjuice/
-dsq_thread_id:
-  - 394074162
 categories:
-  - Uncategorized
-  - Writing
+- Uncategorized
+- Writing
+date: "2011-08-23"
+dsq_thread_id:
+- 394074162
+layout: post
 tags:
-  - novel
-
+- novel
+title: Brainjuice
+url: /blog/2011/08/23/brainjuice/
 ---
 Can you believe I managed to blog three whole days in a row <del>last week</del> two weeks ago? Yeah.
 

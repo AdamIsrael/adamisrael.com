@@ -1,24 +1,23 @@
 ---
-title: Finishing Things Weekend
-author: Adam
-layout: post
-date: 2011-01-21
-url: /blog/2011/01/21/finishing-things-weekend/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 325
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 213694891
+- 1
+author: Adam
 categories:
-  - Uncategorized
-  - Writing
+- Uncategorized
+- Writing
+date: "2011-01-21"
+dsq_thread_id:
+- 213694891
+layout: post
+ljID:
+- 325
 tags:
-  - finishing things
-  - FTW
-
+- finishing things
+- FTW
+title: Finishing Things Weekend
+url: /blog/2011/01/21/finishing-things-weekend/
 ---
 This weekend has been declared crunch time, and as it turns out there&#8217;s also a Finishing Things Weekend (#FTW) happening on Twitter this weekend. Rockin&#8217;. I love peer pressure.
 

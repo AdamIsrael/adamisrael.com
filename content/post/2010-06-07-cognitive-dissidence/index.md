@@ -1,22 +1,21 @@
 ---
-title: Cognitive Dissidence
-author: Adam
-layout: post
-date: 2010-06-08
-url: /blog/2010/06/07/cognitive-dissidence/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 301
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 175204758
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2010-06-08"
+dsq_thread_id:
+- 175204758
+layout: post
+ljID:
+- 301
 tags:
-  - health
-
+- health
+title: Cognitive Dissidence
+url: /blog/2010/06/07/cognitive-dissidence/
 ---
 Guess what? I feel better. Better than I have in five years or so. What changed? Interesting, that&#8230;
 

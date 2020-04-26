@@ -1,23 +1,22 @@
 ---
-title: The State of Adam
-author: Adam
-layout: post
-date: 2010-04-10
-url: /blog/2010/04/10/the-state-of-adam/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 290
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 175204642
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2010-04-10"
+dsq_thread_id:
+- 175204642
+layout: post
+ljID:
+- 290
 tags:
-  - health
-  - life
-
+- health
+- life
+title: The State of Adam
+url: /blog/2010/04/10/the-state-of-adam/
 ---
 I used to think I was a superhero. A rotund, pasty, privileged superhero, but superhero none the less. I’ve held jobs more or less consistently since the time I was twelve. How much I work became a running joke among my friends. I abused my body with unhealthy amounts of caffeine to squeeze more work hours out of each day, and I did this for years without much of a break.
 

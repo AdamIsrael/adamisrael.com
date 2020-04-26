@@ -1,30 +1,20 @@
-+++
-# Date this page was created.
-date = "2017-07-01"
-
-# Project title.
-title = "GEDScope"
-
-# Project summary to display on homepage.
-summary = "A project for aiding genealogists by providing research hints, tips and tools by employing pattern matching, machine learning, and artificial intelligence in the analysis of genealogical data contained in a GEDCOM file."
-
-# Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["genealogy", "machine-language", "artificial-intelligence"]
-
-# Optional external URL for project (replaces project detail page).
-external_link = ""
-
-# Does the project detail page use math formatting?
-math = false
-
-image_preview = "griendels_lantern.jpg"
-
-[header]
-image = ""
-caption = ""
-
-+++
+---
+date: "2017-07-01"
+external_link: ""
+header:
+  caption: ""
+  image: ""
+image_preview: griendels_lantern.jpg
+math: false
+summary: A project for aiding genealogists by providing research hints, tips and tools
+  by employing pattern matching, machine learning, and artificial intelligence in
+  the analysis of genealogical data contained in a GEDCOM file.
+tags:
+- genealogy
+- machine-language
+- artificial-intelligence
+title: GEDScope
+---
 
 {{< figure src="/img/griendels_lantern.jpg" title="Griendel's lantern" link="https://en.wikipedia.org/wiki/Magic_lantern" >}}
 

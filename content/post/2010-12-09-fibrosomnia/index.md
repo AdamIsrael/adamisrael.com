@@ -1,22 +1,21 @@
 ---
-title: Fibrosomnia
-author: Adam
-layout: post
-date: 2010-12-10
-url: /blog/2010/12/09/fibrosomnia/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 318
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 188049019
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2010-12-10"
+dsq_thread_id:
+- 188049019
+layout: post
+ljID:
+- 318
 tags:
-  - fibromyalgia
-
+- fibromyalgia
+title: Fibrosomnia
+url: /blog/2010/12/09/fibrosomnia/
 ---
 Insomnia and I are old friends who nod in passing, acknowledging our shared history like lovers but say nothing. The latest flare of pain caused by fibromyalgia has rekindled that flame and brought an entirely new facet to the relationship.
 

@@ -1,17 +1,16 @@
 ---
-title: Quick Stats – 2010 vs. 2011 submissions
 author: Adam
-layout: post
-date: 2012-01-01
-url: /blog/2012/01/01/quick-stats-2010-vs-2011-submissions/
-dsq_thread_id:
-  - 523113491
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2012-01-01"
+dsq_thread_id:
+- 523113491
+layout: post
 tags:
-  - stats
-  - year in review
-
+- stats
+- year in review
+title: Quick Stats – 2010 vs. 2011 submissions
+url: /blog/2012/01/01/quick-stats-2010-vs-2011-submissions/
 ---
 I thought it&#8217;d be interesting to look at some rough numbers, based on my Duotrope stats, year over year.
 

@@ -1,20 +1,19 @@
 ---
-title: Calls for Submissions
 author: Adam
-layout: post
-date: 2012-03-30
-url: /blog/2012/03/30/calls-for-submissions/
-tumblrize_post-type:
-  - regular
-tumblrize_post-group:
-  - adamisrael.tumblr.com
-tumblrize_post-id:
-  - 20179400396
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2012-03-30"
+layout: post
 tags:
-  - signal boost
-
+- signal boost
+title: Calls for Submissions
+tumblrize_post-group:
+- adamisrael.tumblr.com
+tumblrize_post-id:
+- 20179400396
+tumblrize_post-type:
+- regular
+url: /blog/2012/03/30/calls-for-submissions/
 ---
 _[Urban Green Man: An Archetype of Renewal](1)_, edited by Adria Laycraft & Janice Blaine, and to be published by [EDGE Science Fiction & Fantasy](2).
 

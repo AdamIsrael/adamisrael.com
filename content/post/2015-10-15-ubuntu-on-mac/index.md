@@ -1,22 +1,21 @@
 ---
-title: Ubuntu on Mac
 author: Adam
-layout: post
-date: 2015-10-15
-url: /blog/2015/10/15/ubuntu-on-mac/
-masonry_settings:
-  - 'a:1:{s:4:"size";s:2:"11";}'
-ljID:
-  - 385
-ljURL:
-  - http://stonetable.livejournal.com/98751.html
 categories:
-  - Technical
+- Technical
+date: "2015-10-15"
+layout: post
+ljID:
+- 385
+ljURL:
+- http://stonetable.livejournal.com/98751.html
+masonry_settings:
+- a:1:{s:4:"size";s:2:"11";}
 tags:
-  - linux
-  - ubuntu
-  - ubuntu on mac
-
+- linux
+- ubuntu
+- ubuntu on mac
+title: Ubuntu on Mac
+url: /blog/2015/10/15/ubuntu-on-mac/
 ---
 I recently rebuilt a Mac Mini to work as the forth screen in my workflow. I googled around and pieced together what I needed to do by cherrypicking from various guides, and everything was running well until I updated to a new kernel and rebooted. I spent the better part of two nights trying to get the machine to boot.
 

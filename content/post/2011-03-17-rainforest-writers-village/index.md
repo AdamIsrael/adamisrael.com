@@ -1,29 +1,33 @@
 ---
-title: Rainforest Writers Village
-author: Adam
-layout: post
-date: 2011-03-17
-url: /blog/2011/03/17/rainforest-writers-village/
 aktt_notify_twitter:
-  - yes
-wordbooker_options:
-  - 'a:9:{s:18:"wordbook_noncename";s:10:"e5c94cc2bd";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog post :  %title% - %link%";}'
-ljID:
-  - 333
-wordbooker_thumb:
-  - http://farm6.static.flickr.com/5178/5530293285_a6e61ee085.jpg
-wordbooker_extract:
-  - Last weekend, Andrea and I attended the Rainforest Writers Village at Lake Quinalt in western Washington state. It was our first trip together in more than two years, the first time either of us had been to the Pacific Northwest, and our first to the s ...
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 256822369
+- 1
+author: Adam
 categories:
-  - Uncategorized
-  - Writing
+- Uncategorized
+- Writing
+date: "2011-03-17"
+dsq_thread_id:
+- 256822369
+layout: post
+ljID:
+- 333
 tags:
-  - travel
-
+- travel
+title: Rainforest Writers Village
+url: /blog/2011/03/17/rainforest-writers-village/
+wordbooker_extract:
+- Last weekend, Andrea and I attended the Rainforest Writers Village at Lake Quinalt
+  in western Washington state. It was our first trip together in more than two years,
+  the first time either of us had been to the Pacific Northwest, and our first to
+  the s ...
+wordbooker_options:
+- 'a:9:{s:18:"wordbook_noncename";s:10:"e5c94cc2bd";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote
+  a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog
+  post :  %title% - %link%";}'
+wordbooker_thumb:
+- http://farm6.static.flickr.com/5178/5530293285_a6e61ee085.jpg
 ---
 Last weekend, Andrea and I attended the [Rainforest Writers Village](1) at Lake Quinalt in western Washington state. It was our first trip together in more than two years, the first time either of us had been to the Pacific Northwest, and our first to the states since my return to Canada last year.
 

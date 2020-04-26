@@ -1,13 +1,15 @@
-+++
-title = "Postcards From Cancerland"
-date = 2018-05-20T09:46:43-04:00
-draft = false
-author = "Adam"
-categories = ["Personal"]
-tags = ["health", "cancerland"]
-hidden = false
-
-+++
+---
+author: Adam
+categories:
+- Personal
+date: "2018-05-20T09:46:43-04:00"
+draft: false
+hidden: false
+tags:
+- health
+- cancerland
+title: Postcards From Cancerland
+---
 
 Like the fantastic <a href="https://en.wikipedia.org/wiki/The_Borderland_Series">Borderlands</a> series, created by Terri Windling, where neither magic nor technology work as advertised and are unpredictable when combined, so is it with Cancerland.
 

@@ -1,23 +1,22 @@
 ---
-title: Travel ahoy
-author: Adam
-layout: post
-date: 2010-10-11
-url: /blog/2010/10/10/travel-ahoy/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 313
+- true
 aktt_tweeted:
-  - 1
+- 1
+author: Adam
 categories:
-  - Uncategorized
-  - Writing
+- Uncategorized
+- Writing
+date: "2010-10-11"
+layout: post
+ljID:
+- 313
 tags:
-  - 20spec
-  - clarion
-  - statistics
-
+- 20spec
+- clarion
+- statistics
+title: Travel ahoy
+url: /blog/2010/10/10/travel-ahoy/
 ---
 It&#8217;s a good feeling to put the word END after the last paragraph of a manuscript. This story was born week five of Clarion but I couldn&#8217;t make it work then. A little bit of time away and with four days of sporadic effort, it&#8217;s a story. Rough around the edges like any first draft but I expect those will be caught when I sent it to beta readers later this week. Shitty first draft or not, I&#8217;m pleased with how it&#8217;s turned out so far.
 

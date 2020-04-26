@@ -1,23 +1,22 @@
 ---
-title: It’s never Lupus.
-author: Adam
-layout: post
-date: 2010-04-21
-url: /blog/2010/04/20/its-never-lupus/
 aktt_notify_twitter:
-  - yes
+- true
 aktt_tweeted:
-  - 1
-ljID:
-  - 292
-dsq_thread_id:
-  - 175204656
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2010-04-21"
+dsq_thread_id:
+- 175204656
+layout: post
+ljID:
+- 292
 tags:
-  - health
-  - life
-
+- health
+- life
+title: It’s never Lupus.
+url: /blog/2010/04/20/its-never-lupus/
 ---
 Earlier this month I [mentioned](1) that I was heading in for some long overdue checkup with the doctor. Many of you have been following my progress on [Twitter](2). I’m a firm believer in paying it forward and that includes being open and honest about sensitive topics. Forewarned is forearmed.
 

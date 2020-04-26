@@ -1,32 +1,16 @@
-+++
-# Date this page was created.
-date = "2016-04-27"
-
-# Project title.
-title = "Ebook Store"
-
-# Project summary to display on homepage.
-summary = "A storefront to sell and manage ebook sales and subscriptions."
-
-# Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "headers/ebook.jpg"
-
-# Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["publishing"]
-
-# Optional external URL for project (replaces project detail page).
-external_link = ""
-
-# Does the project detail page use math formatting?
-math = false
-
-# Optional featured image (relative to `static/img/` folder).
-[header]
-image = "headers/ebook.jpg"
-caption = "©Andrew Mason via <a href='https://www.flickr.com/photos/a_mason/4738779282/'>Flickr</a>"
-
-+++
+---
+date: "2016-04-27"
+external_link: ""
+header:
+  caption: ©Andrew Mason via <a href='https://www.flickr.com/photos/a_mason/4738779282/'>Flickr</a>
+  image: headers/ebook.jpg
+image_preview: headers/ebook.jpg
+math: false
+summary: A storefront to sell and manage ebook sales and subscriptions.
+tags:
+- publishing
+title: Ebook Store
+---
 
 The idea for the ebook store was born back in 2011. I was frustrated with subscriptions to small presses that expired without notice. I reached out to John Klima at Electric Velocipede and we started talking.
 

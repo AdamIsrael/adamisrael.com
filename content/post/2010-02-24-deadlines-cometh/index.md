@@ -1,21 +1,20 @@
 ---
-title: Deadlines cometh
-author: Adam
-layout: post
-date: 2010-02-24
-url: /blog/2010/02/24/deadlines-cometh/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 284
+- true
 aktt_tweeted:
-  - 1
+- 1
+author: Adam
 categories:
-  - Uncategorized
-  - Writing
+- Uncategorized
+- Writing
+date: "2010-02-24"
+layout: post
+ljID:
+- 284
 tags:
-  - clarion
-
+- clarion
+title: Deadlines cometh
+url: /blog/2010/02/24/deadlines-cometh/
 ---
 February is coming to a close and I&#8217;m scrambling like mad. Clarion closes to applications on March 1st. One application story is done. I have a second one more or less ready, but I&#8217;m debating a last minute replacement.
 

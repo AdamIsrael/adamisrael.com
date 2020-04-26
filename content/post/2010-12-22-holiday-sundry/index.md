@@ -1,22 +1,21 @@
 ---
-title: Holiday Sundry
-author: Adam
-layout: post
-date: 2010-12-22
-url: /blog/2010/12/22/holiday-sundry/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 320
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 196174188
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2010-12-22"
+dsq_thread_id:
+- 196174188
+layout: post
+ljID:
+- 320
 tags:
-  - ping
-
+- ping
+title: Holiday Sundry
+url: /blog/2010/12/22/holiday-sundry/
 ---
 Eventually I&#8217;ll get on to something resembling a schedule. This is a note to let you know that yes, I am still alive, despite what my twitter feed may appear to indicate.
 

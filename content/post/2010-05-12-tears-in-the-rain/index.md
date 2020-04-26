@@ -1,22 +1,21 @@
 ---
-title: Tears in the Rain
-author: Adam
-layout: post
-date: 2010-05-12
-url: /blog/2010/05/12/tears-in-the-rain/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 296
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 175204689
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2010-05-12"
+dsq_thread_id:
+- 175204689
+layout: post
+ljID:
+- 296
 tags:
-  - immigration
-
+- immigration
+title: Tears in the Rain
+url: /blog/2010/05/12/tears-in-the-rain/
 ---
 I’ve spent the last few days in a work and stress-induced fugue state, trying to wrap my head around things. Andrea and family went to meet with our immigration person on Monday. The only sure way that I’ll be allowed back into Canada is for us to file for immigration first. That sounds easier and quicker than it actually is. We’re facing up to a few months before that can happen.
 

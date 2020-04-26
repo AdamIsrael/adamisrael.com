@@ -1,14 +1,13 @@
 ---
-title: Drifting through the evening trees like scattered leaves
 author: Adam
-layout: post
-date: 2011-09-01
-url: /blog/2011/09/01/drifting-through-the-evening-trees-like-scattered-leaves/
-dsq_thread_id:
-  - 402274049
 categories:
-  - Uncategorized
-
+- Uncategorized
+date: "2011-09-01"
+dsq_thread_id:
+- 402274049
+layout: post
+title: Drifting through the evening trees like scattered leaves
+url: /blog/2011/09/01/drifting-through-the-evening-trees-like-scattered-leaves/
 ---
 August, blessedly, is over.
 

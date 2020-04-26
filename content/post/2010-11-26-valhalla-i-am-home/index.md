@@ -1,21 +1,24 @@
 ---
-title: Valhalla, I am home.
-author: Adam
-layout: post
-date: 2010-11-26
-excerpt: 6 months, 17 days. 201 days. It was May 7th when I had my original issues at the border resulting in my denial of entry. It was three weeks ago that we were planning to have Andrea follow me to California. And then events transpired which changed our mind. A plan was hatched. Action was taken. To our pleasant shock and awe, it worked. I am home. I am officially, and quite legally, in Canada.
-url: /blog/2010/11/26/valhalla-i-am-home/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 317
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 179743225
+- 1
+author: Adam
 categories:
-  - Uncategorized
-
+- Uncategorized
+date: "2010-11-26"
+dsq_thread_id:
+- 179743225
+excerpt: 6 months, 17 days. 201 days. It was May 7th when I had my original issues
+  at the border resulting in my denial of entry. It was three weeks ago that we were
+  planning to have Andrea follow me to California. And then events transpired which
+  changed our mind. A plan was hatched. Action was taken. To our pleasant shock and
+  awe, it worked. I am home. I am officially, and quite legally, in Canada.
+layout: post
+ljID:
+- 317
+title: Valhalla, I am home.
+url: /blog/2010/11/26/valhalla-i-am-home/
 ---
 6 months, 17 days. 201 days. It was May 7th when I had my original issues at the border resulting in my [denial of entry](1). It was three weeks ago that we were planning to have Andrea follow me to California. And then events transpired which changed our mind. A plan was hatched. Action was taken. To our pleasant shock and awe, it worked. I am home. I am officially, and quite legally, in Canada.
 

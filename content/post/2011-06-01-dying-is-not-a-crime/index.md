@@ -1,29 +1,33 @@
 ---
-title: Dying is not a crime
-author: Adam
-layout: post
-date: 2011-06-01
-url: /blog/2011/06/01/dying-is-not-a-crime/
 aktt_notify_twitter:
-  - yes
-wordbooker_options:
-  - 'a:23:{s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:26:"wordbooker_publish_default";s:2:"on";s:27:"wordbooker_like_button_show";s:2:"on";s:21:"wordbooker_like_width";s:3:"250";s:27:"wordbooker_like_button_post";s:2:"on";s:25:"wordbook_fbshare_location";s:3:"top";s:24:"wordbook_fblike_location";s:3:"top";s:22:"wordbook_fblike_action";s:9:"recommend";s:27:"wordbook_fblike_colorscheme";s:4:"dark";s:20:"wordbook_fblike_font";s:5:"arial";s:22:"wordbook_fblike_button";s:12:"button_count";s:21:"wordbook_fblike_faces";s:5:"false";s:18:"wordbook_attribute";s:30:"Wrote a new post on their blog";s:29:"wordbook_republish_time_frame";s:2:"10";s:29:"wordbooker_status_update_text";s:35:": New blog post :  %title% - %link%";s:19:"wordbook_actionlink";s:3:"300";s:32:"wordbook_description_meta_length";s:3:"350";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:24:"wordbooker_comment_email";s:17:"me@adamisrael.com";s:23:"wordbook_scheduled_post";s:1:"0";s:18:"wordbook_noncename";s:10:"a82fb52980";}'
-wordbooker_thumb:
-  - http://www.adamisrael.com
-wordbooker_extract:
-  - "Death comes to us all, eventually. It's a topic that artists have explored, he said tongue-in-cheek, to death. Daredevils and thrill seekers challenge it, doctors work to postpone it, and we all live with the fact that it is inevitable and can take us  ..."
-ljID:
-  - 349
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 319474419
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-06-01"
+dsq_thread_id:
+- 319474419
+layout: post
+ljID:
+- 349
 tags:
-  - backbone
-  - death
-
+- backbone
+- death
+title: Dying is not a crime
+url: /blog/2011/06/01/dying-is-not-a-crime/
+wordbooker_extract:
+- Death comes to us all, eventually. It's a topic that artists have explored, he said
+  tongue-in-cheek, to death. Daredevils and thrill seekers challenge it, doctors work
+  to postpone it, and we all live with the fact that it is inevitable and can take
+  us  ...
+wordbooker_options:
+- 'a:23:{s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:26:"wordbooker_publish_default";s:2:"on";s:27:"wordbooker_like_button_show";s:2:"on";s:21:"wordbooker_like_width";s:3:"250";s:27:"wordbooker_like_button_post";s:2:"on";s:25:"wordbook_fbshare_location";s:3:"top";s:24:"wordbook_fblike_location";s:3:"top";s:22:"wordbook_fblike_action";s:9:"recommend";s:27:"wordbook_fblike_colorscheme";s:4:"dark";s:20:"wordbook_fblike_font";s:5:"arial";s:22:"wordbook_fblike_button";s:12:"button_count";s:21:"wordbook_fblike_faces";s:5:"false";s:18:"wordbook_attribute";s:30:"Wrote
+  a new post on their blog";s:29:"wordbook_republish_time_frame";s:2:"10";s:29:"wordbooker_status_update_text";s:35:":
+  New blog post :  %title% - %link%";s:19:"wordbook_actionlink";s:3:"300";s:32:"wordbook_description_meta_length";s:3:"350";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:24:"wordbooker_comment_email";s:17:"me@adamisrael.com";s:23:"wordbook_scheduled_post";s:1:"0";s:18:"wordbook_noncename";s:10:"a82fb52980";}'
+wordbooker_thumb:
+- http://www.adamisrael.com
 ---
 Death comes to us all, eventually. It&#8217;s a topic that artists have explored, he said tongue-in-cheek, to death. Daredevils and thrill seekers challenge it, doctors work to postpone it, and we all live with the fact that it is inevitable and can take us or someone we love at any moment.
 

@@ -1,16 +1,15 @@
 ---
-title: '#NaNoWriMo day 14: Peeking over the hump'
 author: Adam
-layout: post
-date: 2011-11-15
-url: /blog/2011/11/15/nanowrimo-day-14-peeking-over-the-hump/
-dsq_thread_id:
-  - 472914716
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-11-15"
+dsq_thread_id:
+- 472914716
+layout: post
 tags:
-  - nanowrimo
-
+- nanowrimo
+title: '#NaNoWriMo day 14: Peeking over the hump'
+url: /blog/2011/11/15/nanowrimo-day-14-peeking-over-the-hump/
 ---
 Yesterday was the fourteenth day of Nano and I haven&#8217;t missed a one. I feel pretty good about that, no matter what else happens. I crossed the 20k mark, which feels _awesome_.
 

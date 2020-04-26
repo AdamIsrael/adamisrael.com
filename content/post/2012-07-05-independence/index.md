@@ -1,26 +1,25 @@
 ---
-title: Independence
 author: Adam
-layout: post
-date: 2012-07-05
-url: /blog/2012/07/05/independence/
-tumblrize_post-type:
-  - regular
-tumblrize_post-group:
-  - adamisrael.tumblr.com
-ljID:
-  - 364
-ljURL:
-  - http://stonetable.livejournal.com/93434.html
-tumblrize_post-id:
-  - 26555299274
 categories:
-  - Personal
+- Personal
+date: "2012-07-05"
+layout: post
+ljID:
+- 364
+ljURL:
+- http://stonetable.livejournal.com/93434.html
 tags:
-  - canada
-  - homestead
-  - moving
-
+- canada
+- homestead
+- moving
+title: Independence
+tumblrize_post-group:
+- adamisrael.tumblr.com
+tumblrize_post-id:
+- 26555299274
+tumblrize_post-type:
+- regular
+url: /blog/2012/07/05/independence/
 ---
 Yesterday was Independence Day back in the states. We already had our fireworks over the weekend, and I worked through Canada Day on Monday and had yesterday off instead. Among the joys of American/Canada relations are mixed holidays.
 

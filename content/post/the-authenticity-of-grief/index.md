@@ -2,7 +2,7 @@
 author: Adam
 categories:
 - Personal
-date: 2016-10-24T08:18:33-04:00
+date: "2016-10-24T08:18:33-04:00"
 hidden: false
 tags:
 - grief

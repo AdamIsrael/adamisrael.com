@@ -1,16 +1,15 @@
 ---
-title: The doppelgänger effect
 author: Adam
-layout: post
-date: 2015-03-29
-url: /blog/2015/03/29/the-doppelganger-effect/
-masonry_settings:
-  - 'a:1:{s:4:"size";s:2:"11";}'
 categories:
-  - Personal
+- Personal
+date: "2015-03-29"
+layout: post
+masonry_settings:
+- a:1:{s:4:"size";s:2:"11";}
 tags:
-  - travel
-
+- travel
+title: The doppelgänger effect
+url: /blog/2015/03/29/the-doppelganger-effect/
 ---
 Yesterday was a travel day, coming home from a week in Breckenridge, CO for a work sprint. These are usually uneventful days, riding trains or shuttles to and from airports. Yesterday was different, though. Yesterday, I ran into my doppelgänger.
 

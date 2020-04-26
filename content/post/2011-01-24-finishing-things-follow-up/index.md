@@ -1,20 +1,19 @@
 ---
-title: Finishing Things Follow-up
-author: Adam
-layout: post
-date: 2011-01-24
-url: /blog/2011/01/24/finishing-things-follow-up/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 327
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 214989341
+- 1
+author: Adam
 categories:
-  - Uncategorized
-
+- Uncategorized
+date: "2011-01-24"
+dsq_thread_id:
+- 214989341
+layout: post
+ljID:
+- 327
+title: Finishing Things Follow-up
+url: /blog/2011/01/24/finishing-things-follow-up/
 ---
 I had a [Finishing Things Weekend](1), joined by many friends on Twitter. I almost failed miserably. I finished none of the three things I&#8217;d planned on, instead crashing into a fibro-induced sleep state. Spending half of a weekend asleep and the other half wishing I were wasn&#8217;t what I had in mind, but I did salvage something from it.
 

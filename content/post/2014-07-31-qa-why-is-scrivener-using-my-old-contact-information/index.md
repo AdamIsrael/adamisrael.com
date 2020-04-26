@@ -1,17 +1,16 @@
 ---
-title: 'Q&A: Why is Scrivener using my old contact information?'
 author: Adam
-layout: post
-date: 2014-07-31
-url: /blog/2014/07/31/qa-why-is-scrivener-using-my-old-contact-information/
-ljURL:
-  - http://stonetable.livejournal.com/97149.html
 categories:
-  - Technical
+- Technical
+date: "2014-07-31"
+layout: post
+ljURL:
+- http://stonetable.livejournal.com/97149.html
 tags:
-  - os x
-  - scrivener
-
+- os x
+- scrivener
+title: 'Q&A: Why is Scrivener using my old contact information?'
+url: /blog/2014/07/31/qa-why-is-scrivener-using-my-old-contact-information/
 ---
 For the past few years, I&#8217;ve had to manually update the contact information in the header of every [Scrivener](1) project I&#8217;ve created. It was defaulting to an old email and physical address, but somehow had the correct phone number.
 

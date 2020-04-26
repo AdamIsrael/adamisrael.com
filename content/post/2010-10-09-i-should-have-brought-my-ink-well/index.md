@@ -1,18 +1,17 @@
 ---
-title: I should have brought my ink well
-author: Adam
-layout: post
-date: 2010-10-09
-url: /blog/2010/10/09/i-should-have-brought-my-ink-well/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 311
+- true
 aktt_tweeted:
-  - 1
+- 1
+author: Adam
 categories:
-  - Uncategorized
-
+- Uncategorized
+date: "2010-10-09"
+layout: post
+ljID:
+- 311
+title: I should have brought my ink well
+url: /blog/2010/10/09/i-should-have-brought-my-ink-well/
 ---
 One good thing, maybe the only good thing, about being so far removed from friends and family is that there isn&#8217;t much social life to speak of. That means on Friday night, after a post-work nap, I made some serious story progress. If all goes according to plan, I&#8217;ll make draft on this by the end of the weekend. Next I only need a title.
 

@@ -1,16 +1,15 @@
 ---
-title: '#NaNoWriMo day 13, plus some short story pondering'
 author: Adam
-layout: post
-date: 2011-11-14
-url: /blog/2011/11/14/nanowrimo-day-13-plus-some-short-story-pondering/
-dsq_thread_id:
-  - 471874374
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-11-14"
+dsq_thread_id:
+- 471874374
+layout: post
 tags:
-  - nanowrimo
-
+- nanowrimo
+title: '#NaNoWriMo day 13, plus some short story pondering'
+url: /blog/2011/11/14/nanowrimo-day-13-plus-some-short-story-pondering/
 ---
 Yesterday was another low day, both in mood and writing. My daily target is creeping up slightly, to 1,932 words. Still within reason but I&#8217;m not happy about the lack of progress the last few days.
 

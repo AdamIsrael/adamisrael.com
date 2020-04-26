@@ -1,16 +1,15 @@
 ---
-title: '#NaNoWriMo day 15: I can see for miles and miles'
 author: Adam
-layout: post
-date: 2011-11-16
-url: /blog/2011/11/16/nanowrimo-day-15-i-can-see-for-miles-and-miles/
-dsq_thread_id:
-  - 474097768
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-11-16"
+dsq_thread_id:
+- 474097768
+layout: post
 tags:
-  - nanowrimo
-
+- nanowrimo
+title: '#NaNoWriMo day 15: I can see for miles and miles'
+url: /blog/2011/11/16/nanowrimo-day-15-i-can-see-for-miles-and-miles/
 ---
 Hello, folks, this is your captain speaking. We&#8217;ve reached the halfway mark in our journey to noveldom. There&#8217;s been some minor turbulence along the way but we&#8217;re in blue skies now.
 

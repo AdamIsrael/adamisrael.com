@@ -1,18 +1,17 @@
 ---
-title: Progress stuffs itself up
-author: Adam
-layout: post
-date: 2010-10-08
-url: /blog/2010/10/08/progress-stuffs-itself-up/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 310
+- true
 aktt_tweeted:
-  - 1
+- 1
+author: Adam
 categories:
-  - Uncategorized
-
+- Uncategorized
+date: "2010-10-08"
+layout: post
+ljID:
+- 310
+title: Progress stuffs itself up
+url: /blog/2010/10/08/progress-stuffs-itself-up/
 ---
 This cold/sinus/allergy thing that&#8217;s been sneaking its way into my head has finally arrived, triggering a slight fibro flare and a pretty good ear infection to boot. That cut my writing time short tonight and ended with me foggy enough that I left the drug store with cough medicine, not the cough and cold I meant to pick up.
 

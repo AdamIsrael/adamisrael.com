@@ -3,7 +3,7 @@ author: Adam
 categories:
 - Personal
 - Writing
-date: 2016-12-29T09:44:13-05:00
+date: "2016-12-29T09:44:13-05:00"
 hidden: false
 tags:
 - 2016

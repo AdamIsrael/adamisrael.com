@@ -1,27 +1,26 @@
 ---
-title: Free fiction in support of making Crossed Genres a pro-paying magazine
 author: Adam
-layout: post
-date: 2012-06-15
-url: /blog/2012/06/15/free-fiction-in-support-of-making-crossed-genres-a-pro-paying-magazine/
-tumblrize_post-type:
-  - regular
-tumblrize_post-group:
-  - adamisrael.tumblr.com
-ljID:
-  - 360
-ljURL:
-  - http://stonetable.livejournal.com/92373.html
-tumblrize_post-id:
-  - 25160495602
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2012-06-15"
+layout: post
+ljID:
+- 360
+ljURL:
+- http://stonetable.livejournal.com/92373.html
 tags:
-  - crossed genres
-  - dog days
-  - free fiction
-  - signal boost
-
+- crossed genres
+- dog days
+- free fiction
+- signal boost
+title: Free fiction in support of making Crossed Genres a pro-paying magazine
+tumblrize_post-group:
+- adamisrael.tumblr.com
+tumblrize_post-id:
+- 25160495602
+tumblrize_post-type:
+- regular
+url: /blog/2012/06/15/free-fiction-in-support-of-making-crossed-genres-a-pro-paying-magazine/
 ---
 I&#8217;ve been a fan of Crossed Genres for a long time &#8212; just shy of three years, which is _forever_ in Internet time. As a small press, they&#8217;ve done a massive amount of good work publishing hundreds of authors (including myself) but Bart and Kay, proprietors, fell on hard times and were forced to turn to Kickstarter to keep CG alive. And made their goal of $4,000 in just 22 hours.
 

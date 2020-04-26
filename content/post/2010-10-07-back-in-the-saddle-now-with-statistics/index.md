@@ -1,23 +1,22 @@
 ---
-title: Back in the saddle, now with statistics
-author: Adam
-layout: post
-date: 2010-10-07
-url: /blog/2010/10/07/back-in-the-saddle-now-with-statistics/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 309
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 175204855
+- 1
+author: Adam
 categories:
-  - Uncategorized
-  - Writing
+- Uncategorized
+- Writing
+date: "2010-10-07"
+dsq_thread_id:
+- 175204855
+layout: post
+ljID:
+- 309
 tags:
-  - statistics
-
+- statistics
+title: Back in the saddle, now with statistics
+url: /blog/2010/10/07/back-in-the-saddle-now-with-statistics/
 ---
 I&#8217;ve been a little slow getting back into the habit of writing new words since I&#8217;ve been back from Clarion. Besides catching up on ye olde day job, I&#8217;ve been working on revisions and submissions, organizing my inventory list, and other life issues.
 

@@ -1,22 +1,21 @@
 ---
-title: A Poppet Army of One
-author: Adam
-layout: post
-date: 2011-01-14
-url: /blog/2011/01/14/a-poppet-army-of-one/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 324
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 208944643
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-01-14"
+dsq_thread_id:
+- 208944643
+layout: post
+ljID:
+- 324
 tags:
-  - poppet
-
+- poppet
+title: A Poppet Army of One
+url: /blog/2011/01/14/a-poppet-army-of-one/
 ---
 It almost became a joke; when will the package show up in Canada? Canada Post, I&#8217;ve found, is notoriously slow. I diligently checked the post office every couple days (because they don&#8217;t deliver to the house). Christmas came and went and finally, on the last day of the year, a package from California arrived.
 

@@ -1,23 +1,22 @@
 ---
-title: Announcing Benchmarking with Juju
 author: Adam
-layout: post
-date: 2015-06-23
-url: /blog/2015/06/23/announcing-benchmarking-with-juju/
-masonry_settings:
-  - 'a:1:{s:4:"size";s:2:"11";}'
-ljID:
-  - 383
-ljURL:
-  - http://stonetable.livejournal.com/98071.html
 categories:
-  - Technical
+- Technical
+date: "2015-06-23"
+layout: post
+ljID:
+- 383
+ljURL:
+- http://stonetable.livejournal.com/98071.html
+masonry_settings:
+- a:1:{s:4:"size";s:2:"11";}
 tags:
-  - actions
-  - benchmarking
-  - juju
-  - ubuntu
-
+- actions
+- benchmarking
+- juju
+- ubuntu
+title: Announcing Benchmarking with Juju
+url: /blog/2015/06/23/announcing-benchmarking-with-juju/
 ---
 Benchmarking and performance are interesting problems, especially in today’s growing cloud-based microservice scene. It used to be a question of “how does this hardware compare to that hardware,” but as computing and service-oriented architectures grow the question has evolved. How does my cloud and application stack handle this? It’s no longer enough to run PTS on your web server and call it a day.
 

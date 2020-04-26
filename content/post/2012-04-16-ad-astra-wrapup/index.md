@@ -1,25 +1,24 @@
 ---
-title: Ad Astra Wrapup
 author: Adam
-layout: post
-date: 2012-04-16
-url: /blog/2012/04/16/ad-astra-wrapup/
-tumblrize_post-type:
-  - regular
-tumblrize_post-group:
-  - adamisrael.tumblr.com
-tumblrize_post-id:
-  - 21196465252
-ljURL:
-  - http://stonetable.livejournal.com/91488.html
 categories:
-  - Uncategorized
-  - Writing
+- Uncategorized
+- Writing
+date: "2012-04-16"
+layout: post
+ljURL:
+- http://stonetable.livejournal.com/91488.html
 tags:
-  - adastra
-  - conventions
-  - toronto
-
+- adastra
+- conventions
+- toronto
+title: Ad Astra Wrapup
+tumblrize_post-group:
+- adamisrael.tumblr.com
+tumblrize_post-id:
+- 21196465252
+tumblrize_post-type:
+- regular
+url: /blog/2012/04/16/ad-astra-wrapup/
 ---
 My first Ad Astra is over, and I didn&#8217;t completely embarrass myself. Huzzah!
 

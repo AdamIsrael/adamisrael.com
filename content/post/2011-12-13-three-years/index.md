@@ -1,14 +1,13 @@
 ---
-title: Three Years
 author: Adam
-layout: post
-date: 2011-12-13
-url: /blog/2011/12/13/three-years/
-dsq_thread_id:
-  - 503145086
 categories:
-  - Uncategorized
-
+- Uncategorized
+date: "2011-12-13"
+dsq_thread_id:
+- 503145086
+layout: post
+title: Three Years
+url: /blog/2011/12/13/three-years/
 ---
 We&#8217;d been in California for a few days and the previous night at my work Christmas party. Three years ago this morning, we flew to Las Vegas. One of us (not me) was airsick as we landed in the middle of a sand storm. Ironic, because this was literally a whirlwind. Work put us up in a lavish hotel on the strip, one of the last acts of kindness I&#8217;ll remember them for.
 

@@ -1,22 +1,21 @@
 ---
-title: Going to Ad Astra 2012
 author: Adam
-layout: post
-date: 2012-04-09
-url: /blog/2012/04/09/going-to-ad-astra-2012/
-tumblrize_post-type:
-  - regular
-tumblrize_post-group:
-  - adamisrael.tumblr.com
-tumblrize_post-id:
-  - 20780938221
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2012-04-09"
+layout: post
 tags:
-  - conventions
-  - toronto
-  - travel
-
+- conventions
+- toronto
+- travel
+title: Going to Ad Astra 2012
+tumblrize_post-group:
+- adamisrael.tumblr.com
+tumblrize_post-id:
+- 20780938221
+tumblrize_post-type:
+- regular
+url: /blog/2012/04/09/going-to-ad-astra-2012/
 ---
 So, due to timing of [unfortunate circumstances](1), it&#8217;s become rather convenient for me to go to [Ad Astra](2), April 13-15th. This will, notably, be my first convention since moving to Canada.
 

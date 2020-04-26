@@ -1,16 +1,15 @@
 ---
-title: Fail. Fail Harder. Fail Better.
 author: Adam
-layout: post
-date: 2011-12-01
-url: /blog/2011/12/01/fail-fail-harder-fail-better/
-dsq_thread_id:
-  - 489782352
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-12-01"
+dsq_thread_id:
+- 489782352
+layout: post
 tags:
-  - nanowrimo
-
+- nanowrimo
+title: Fail. Fail Harder. Fail Better.
+url: /blog/2011/12/01/fail-fail-harder-fail-better/
 ---
 NaNoWriMo is over. I failed to win. I failed, but there are lessons in failure.
 

@@ -1,16 +1,15 @@
 ---
-title: NaNoWriMo Day 4 – Studying structure
 author: Adam
-layout: post
-date: 2011-11-05
-url: /blog/2011/11/05/nanowrimo-day-4-studying-structure/
-dsq_thread_id:
-  - 462427844
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-11-05"
+dsq_thread_id:
+- 462427844
+layout: post
 tags:
-  - nanowrimo
-
+- nanowrimo
+title: NaNoWriMo Day 4 – Studying structure
+url: /blog/2011/11/05/nanowrimo-day-4-studying-structure/
 ---
 The bad news is I am now fluent in Fluish, having spent a good chunk of the day sleeping away the sickness.
 

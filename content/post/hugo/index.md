@@ -2,7 +2,7 @@
 author: Adam
 categories:
 - Technical
-date: 2016-03-15T18:47:58-04:00
+date: "2016-03-15T18:47:58-04:00"
 hidden: false
 tags:
 - hugo

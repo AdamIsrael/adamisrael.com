@@ -1,17 +1,16 @@
 ---
-title: '#NaNoWriMo day 11: Plotting, and a little Scrivener tip'
 author: Adam
-layout: post
-date: 2011-11-12
-url: /blog/2011/11/12/nanowrimo-day-11-plotting-and-a-little-scrivener-tip/
-dsq_thread_id:
-  - 469826714
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-11-12"
+dsq_thread_id:
+- 469826714
+layout: post
 tags:
-  - nanowrimo
-  - scrivener
-
+- nanowrimo
+- scrivener
+title: '#NaNoWriMo day 11: Plotting, and a little Scrivener tip'
+url: /blog/2011/11/12/nanowrimo-day-11-plotting-and-a-little-scrivener-tip/
 ---
 The last few days haven&#8217;t been the most productive ones. If I were to go by the official NaNoWriMo stats, my current estimated finish date is December 4th and I just won&#8217;t accept that. There are weekends, holidays, and writing sprints between now and then. Anything can happen.
 

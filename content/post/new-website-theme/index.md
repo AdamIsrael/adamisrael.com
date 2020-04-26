@@ -1,10 +1,12 @@
-+++
-author = "Adam"
-categories = ["Personal"]
-date = "2017-07-01T00:00:00"
-tags = ["website"]
-title = "New Website Theme"
-+++
+---
+author: Adam
+categories:
+- Personal
+date: 2017-07-01T00:00:00
+tags:
+- website
+title: New Website Theme
+---
 
 I do a lot of different things -- husbanding, software engineering, writing, model-building, genealogy, drawing, tinkering, etc -- and I wasn't happy with how previous iterations of this website presented those diverse interests.
 

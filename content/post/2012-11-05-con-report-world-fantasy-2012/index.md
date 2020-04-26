@@ -1,23 +1,22 @@
 ---
-title: 'Con report: World Fantasy 2012'
 author: Adam
-layout: post
-date: 2012-11-05
-url: /blog/2012/11/05/con-report-world-fantasy-2012/
-tumblrize_post-type:
-  - regular
-tumblrize_post-group:
-  - adamisrael.tumblr.com
-ljID:
-  - 366
-ljURL:
-  - http://stonetable.livejournal.com/93742.html
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2012-11-05"
+layout: post
+ljID:
+- 366
+ljURL:
+- http://stonetable.livejournal.com/93742.html
 tags:
-  - conventions
-  - toronto
-
+- conventions
+- toronto
+title: 'Con report: World Fantasy 2012'
+tumblrize_post-group:
+- adamisrael.tumblr.com
+tumblrize_post-type:
+- regular
+url: /blog/2012/11/05/con-report-world-fantasy-2012/
 ---
 Andrea and I drove up  to Toronto &#8212; or Richmond Hill, one of its northern suburbs &#8212; for World Fantasy 2012 on Friday. This was my second World Fantasy (the first being Columbus two years ago) and Andrea&#8217;s first.
 

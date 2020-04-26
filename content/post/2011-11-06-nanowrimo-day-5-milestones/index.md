@@ -1,16 +1,15 @@
 ---
-title: '#NaNoWriMo day 5: milestones'
 author: Adam
-layout: post
-date: 2011-11-06
-url: /blog/2011/11/06/nanowrimo-day-5-milestones/
-dsq_thread_id:
-  - 463140750
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-11-06"
+dsq_thread_id:
+- 463140750
+layout: post
 tags:
-  - nanowrimo
-
+- nanowrimo
+title: '#NaNoWriMo day 5: milestones'
+url: /blog/2011/11/06/nanowrimo-day-5-milestones/
 ---
 A mostly solid day of writing. Andrea and I went out to the coffee shop for a morning session. I struggled with the words. Came home and napped.
 

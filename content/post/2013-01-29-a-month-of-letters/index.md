@@ -1,20 +1,19 @@
 ---
-title: A Month of Letters
 author: Adam
-layout: post
-date: 2013-01-29
-url: /blog/2013/01/29/a-month-of-letters/
-ljID:
-  - 370
-ljURL:
-  - http://stonetable.livejournal.com/94764.html
-tumblrize_post-type:
-  - regular
-tumblrize_post-group:
-  - adamisrael.tumblr.com
 categories:
-  - Personal
-
+- Personal
+date: "2013-01-29"
+layout: post
+ljID:
+- 370
+ljURL:
+- http://stonetable.livejournal.com/94764.html
+title: A Month of Letters
+tumblrize_post-group:
+- adamisrael.tumblr.com
+tumblrize_post-type:
+- regular
+url: /blog/2013/01/29/a-month-of-letters/
 ---
 [<img class=" wp-image-867 alignright" alt="LetterMo2013square-300x300" src="http://www.adamisrael.com/wp-content/uploads/2013/01/LetterMo2013square-300x300.jpg" width="210" height="210" srcset="//www.adamisrael.com/wp-content/uploads/2013/01/LetterMo2013square-300x300-150x150.jpg 150w, //www.adamisrael.com/wp-content/uploads/2013/01/LetterMo2013square-300x300.jpg 300w" sizes="(max-width: 210px) 100vw, 210px" />](1)
 

@@ -1,24 +1,23 @@
 ---
-title: In the beginning, there was the Mission Statement
-author: Adam
-layout: post
-date: 2010-01-03
-url: /blog/2010/01/03/in-the-beginning-there-was-the-mission-statement/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 269
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 175204520
+- 1
+author: Adam
 categories:
-  - Uncategorized
-  - Writing
+- Uncategorized
+- Writing
+date: "2010-01-03"
+dsq_thread_id:
+- 175204520
+layout: post
+ljID:
+- 269
 tags:
-  - booklife
-  - process
-
+- booklife
+- process
+title: In the beginning, there was the Mission Statement
+url: /blog/2010/01/03/in-the-beginning-there-was-the-mission-statement/
 ---
 I am horrible with deadlines. In high school I was forced to take a special class on time management because I never turned anything in on time. It&#8217;s one of those things that I struggle with on a daily basis. Occasionally I discover something useful that helps, like [Things](1), that help me keep track of the things I need to be doing. The most recent one was [Jeff VanderMeer](2)&#8216;s [Booklife](3).
 

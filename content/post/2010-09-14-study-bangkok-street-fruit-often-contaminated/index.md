@@ -1,20 +1,19 @@
 ---
-title: 'Study: Bangkok street fruit often contaminated'
-author: Adam
-layout: post
-date: 2010-09-14
-url: /blog/2010/09/14/study-bangkok-street-fruit-often-contaminated/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 307
+- true
 aktt_tweeted:
-  - 1
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2010-09-14"
+layout: post
+ljID:
+- 307
 tags:
-  - spam
-
+- spam
+title: 'Study: Bangkok street fruit often contaminated'
+url: /blog/2010/09/14/study-bangkok-street-fruit-often-contaminated/
 ---
 The spam of the day award goes to this gem. I&#8217;m not sure the point, but it did make me giggle.
 

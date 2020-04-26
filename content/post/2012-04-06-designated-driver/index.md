@@ -1,22 +1,21 @@
 ---
-title: Designated Driver
 author: Adam
-layout: post
-date: 2012-04-06
-url: /blog/2012/04/06/designated-driver/
-tumblrize_post-type:
-  - regular
-tumblrize_post-group:
-  - adamisrael.tumblr.com
-tumblrize_post-id:
-  - 20614482760
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2012-04-06"
+layout: post
 tags:
-  - conventions
-  - health
-  - toronto
-
+- conventions
+- health
+- toronto
+title: Designated Driver
+tumblrize_post-group:
+- adamisrael.tumblr.com
+tumblrize_post-id:
+- 20614482760
+tumblrize_post-type:
+- regular
+url: /blog/2012/04/06/designated-driver/
 ---
 We spent the better part of this week in Toronto &#8212; an impromptu trip after receiving a call with some concerning medical news on Sunday night. So, for the first half of the week we’ve explored the inner workings of the Toronto hospital system. As someone who more or less grew up inside hospitals, I’ve made some observations:
 

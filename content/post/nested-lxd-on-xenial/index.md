@@ -1,12 +1,15 @@
-+++
-author = "Adam"
-categories = ["Technical"]
-date = "2017-05-30T14:59:56-04:00"
-hidden = false
-tags = ["ubuntu", "lxd", "xenial"]
-title = "Nested LXD on Ubuntu 16.04.2 (Xenial)"
-
-+++
+---
+author: Adam
+categories:
+- Technical
+date: "2017-05-30T14:59:56-04:00"
+hidden: false
+tags:
+- ubuntu
+- lxd
+- xenial
+title: Nested LXD on Ubuntu 16.04.2 (Xenial)
+---
 
 
 *Edit -- 1 Jun 2017*: The issue is a problematic patch that caused a breakage between 2.0.9 and 2.13. LXD 2.0.10 is currently in the SRU review queue, and once it lands in xenial-updates the problem should go away.

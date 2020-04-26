@@ -1,20 +1,19 @@
 ---
-title: 'Reason #634 why Kyle Cassidy is awesome'
-author: Adam
-layout: post
-date: 2010-02-11
-url: /blog/2010/02/11/reason-634-why-kyle-cassidy-is-awesome/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 282
+- true
 aktt_tweeted:
-  - 1
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2010-02-11"
+layout: post
+ljID:
+- 282
 tags:
-  - ink
-
+- ink
+title: 'Reason #634 why Kyle Cassidy is awesome'
+url: /blog/2010/02/11/reason-634-why-kyle-cassidy-is-awesome/
 ---
 Not only is Kyle Cassidy a heck of a photographer, writer and teacher, he is also one hell of a nice guy. I had a lucky chance to meet and learn a few photography skills some months back. He learned that I was also a writer and offered to send me one of his extra fountain pens. I very nearly squeed.
 

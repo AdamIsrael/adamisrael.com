@@ -1,17 +1,16 @@
 ---
-title: A funny little thing called Kismet
 author: Adam
-layout: post
-date: 2011-10-11
-url: /blog/2011/10/11/a-funny-little-thing-called-kismet/
-dsq_thread_id:
-  - 440440861
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-10-11"
+dsq_thread_id:
+- 440440861
+layout: post
 tags:
-  - kismet
-  - pets
-
+- kismet
+- pets
+title: A funny little thing called Kismet
+url: /blog/2011/10/11/a-funny-little-thing-called-kismet/
 ---
 Fate. Destiny. The word Kismet is the Turkish word to describe something I don&#8217;t normally lend much weight to. Sometimes things happen, though. A completely random series of events that leads to something wonderful and there&#8217;s no better way to describe it.
 

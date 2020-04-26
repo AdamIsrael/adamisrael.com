@@ -1,18 +1,17 @@
 ---
-title: Finding my footing
 author: Adam
-layout: post
-date: 2013-01-16
-url: /blog/2013/01/16/finding-my-footing/
-ljID:
-  - 369
-ljURL:
-  - http://stonetable.livejournal.com/94598.html
 categories:
-  - Writing
+- Writing
+date: "2013-01-16"
+layout: post
+ljID:
+- 369
+ljURL:
+- http://stonetable.livejournal.com/94598.html
 tags:
-  - stats
-
+- stats
+title: Finding my footing
+url: /blog/2013/01/16/finding-my-footing/
 ---
 As writers, we fill our toolbox with things that help us in our craft. I&#8217;ve been experimenting with a few new things of late, trying to boost my productivity. Two of them in particular are making a difference.
 

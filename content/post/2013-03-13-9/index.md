@@ -1,16 +1,15 @@
 ---
-title: 9
 author: Adam
-layout: post
-date: 2013-03-13
-url: /blog/2013/03/13/9/
-ljID:
-  - 373
-ljURL:
-  - http://stonetable.livejournal.com/95617.html
 categories:
-  - Uncategorized
-
+- Uncategorized
+date: "2013-03-13"
+layout: post
+ljID:
+- 373
+ljURL:
+- http://stonetable.livejournal.com/95617.html
+title: 9
+url: /blog/2013/03/13/9/
 ---
 For months, we kept the animated film &#8220;9&#8221; (2009) on the DVR. I kept telling myself that I&#8217;d sit down and watch it on the weekend, and inevitably being too distracted to do so. We came home a few nights ago and discovered the DVR had deleted several of the oldest recordings, including 9. That made me sad, because I really did intend on watching it soon. Kind of mad, I fired up Netflix and watched it that night.
 

@@ -1,16 +1,15 @@
 ---
-title: '#NaNoWriMo Day 8: What is this I don’t even'
 author: Adam
-layout: post
-date: 2011-11-09
-url: /blog/2011/11/09/nanowrimo-day-8-what-is-this-i-dont-even/
-dsq_thread_id:
-  - 465937631
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-11-09"
+dsq_thread_id:
+- 465937631
+layout: post
 tags:
-  - nanowrimo
-
+- nanowrimo
+title: '#NaNoWriMo Day 8: What is this I don’t even'
+url: /blog/2011/11/09/nanowrimo-day-8-what-is-this-i-dont-even/
 ---
 Not everyone realizes that Nanowrimo, and being a writer in general, is a marathon, not a sprint. As such, I&#8217;ve given myself permission for a skip day, should I need one. I haven&#8217;t needed to call a mulligan yet but today was damn close.
 

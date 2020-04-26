@@ -1,26 +1,30 @@
 ---
-title: The Backbone Project
-author: Adam
-layout: post
-date: 2011-05-25
-url: /blog/2011/05/25/the-backbone-project/
 aktt_notify_twitter:
-  - yes
-wordbooker_options:
-  - 'a:9:{s:18:"wordbook_noncename";s:10:"7922ef46b7";s:18:"wordbook_page_post";s:12:"361165930717";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog post :  %title% - %link%";}'
-ljID:
-  - 348
-wordbooker_extract:
-  - "I was reading Ferret's blog this morning, as I often do, and I saw a familiar name mentioned: Amy Sundberg. I've realized over the last year that I have much in common with Amy, who I had the pleasure to meet at World Fantasy last year. Her posts on Am ..."
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 313570196
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-05-25"
+dsq_thread_id:
+- 313570196
+layout: post
+ljID:
+- 348
 tags:
-  - backbone
-
+- backbone
+title: The Backbone Project
+url: /blog/2011/05/25/the-backbone-project/
+wordbooker_extract:
+- I was reading Ferret's blog this morning, as I often do, and I saw a familiar name
+  mentioned: Amy Sundberg. I've realized over the last year that I have much in common
+  with Amy, who I had the pleasure to meet at World Fantasy last year. Her posts on
+  Am ...
+wordbooker_options:
+- 'a:9:{s:18:"wordbook_noncename";s:10:"7922ef46b7";s:18:"wordbook_page_post";s:12:"361165930717";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote
+  a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog
+  post :  %title% - %link%";}'
 ---
 I was reading [Ferret&#8217;s blog](1) this morning, as I often do, and I saw a familiar name mentioned: [Amy Sundberg](2). I&#8217;ve realized over the last year that I have much in common with Amy, who I had the pleasure to meet at World Fantasy last year. Her posts on [Ambiversion](3) and [the awesomeness of being an introvert](4) kind of clued me in but her latest one about [being less wishy-washy](5) really hits home.
 

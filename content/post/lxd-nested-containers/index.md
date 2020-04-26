@@ -2,7 +2,7 @@
 author: Adam
 categories:
 - Technical
-date: 2017-06-02T15:29:40-04:00
+date: "2017-06-02T15:29:40-04:00"
 hidden: false
 tags:
 - lxd

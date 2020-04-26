@@ -1,17 +1,16 @@
 ---
-title: Februhuh? The winter that wasn’t.
 author: Adam
-layout: post
-date: 2012-02-01
-url: /blog/2012/02/01/februhuh-the-winter-that-wasnt/
-dsq_thread_id:
-  - 560388188
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2012-02-01"
+dsq_thread_id:
+- 560388188
+layout: post
 tags:
-  - canada
-  - weather
-
+- canada
+- weather
+title: Februhuh? The winter that wasn’t.
+url: /blog/2012/02/01/februhuh-the-winter-that-wasnt/
 ---
 It&#8217;s now my second February living in southwest Ontario, with 50F weather and scattered rain showers. The snow, which didn&#8217;t fall until mid-January, is a memory and it will be at least a week before we have any chance of seeing more.
 

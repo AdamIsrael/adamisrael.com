@@ -1,14 +1,13 @@
 ---
-title: “Control” now available at Goldfish Grimm’s Spicy Fiction Sushi
 author: Adam
-layout: post
-date: 2012-03-01
-url: /blog/2012/03/01/control-now-available-at-goldfish-grimms-spicy-fiction-sushi/
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2012-03-01"
+layout: post
 tags:
-  - sale
-
+- sale
+title: “Control” now available at Goldfish Grimm’s Spicy Fiction Sushi
+url: /blog/2012/03/01/control-now-available-at-goldfish-grimms-spicy-fiction-sushi/
 ---
 It&#8217;s launch day at [Goldfish Grimm&#8217;s Spicy Fiction Sushi](1), which includes my story &#8220;[Control](2)&#8221; and an [interview](3) with yours truly.
 

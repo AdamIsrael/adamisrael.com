@@ -1,16 +1,15 @@
 ---
-title: 'Long Hidden: Speculative Fiction From the Margins of History'
 author: Adam
-layout: post
-date: 2013-03-18
-url: /blog/2013/03/18/long-hidden-speculative-fiction-from-the-margins-of-history/
-ljID:
-  - 374
-ljURL:
-  - http://stonetable.livejournal.com/95989.html
 categories:
-  - Uncategorized
-
+- Uncategorized
+date: "2013-03-18"
+layout: post
+ljID:
+- 374
+ljURL:
+- http://stonetable.livejournal.com/95989.html
+title: 'Long Hidden: Speculative Fiction From the Margins of History'
+url: /blog/2013/03/18/long-hidden-speculative-fiction-from-the-margins-of-history/
 ---
 I&#8217;ve always liked stories about mundane things. Everyday people who might be ignored or worse, shunned &#8212; garbage men, teachers, farmers, butchers, prostitutes, factory workers &#8212; who find themselves in extraordinary circumstance and rise up to the challenge.
 

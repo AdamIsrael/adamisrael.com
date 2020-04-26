@@ -1,16 +1,15 @@
 ---
-title: 'NaNoWriMo 2011: Day 3'
 author: Adam
-layout: post
-date: 2011-11-04
-url: /blog/2011/11/04/nanowrimo-2011-day-3/
-dsq_thread_id:
-  - 461807930
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-11-04"
+dsq_thread_id:
+- 461807930
+layout: post
 tags:
-  - nanowrimo
-
+- nanowrimo
+title: 'NaNoWriMo 2011: Day 3'
+url: /blog/2011/11/04/nanowrimo-2011-day-3/
 ---
 I haven&#8217;t managed to get back to my usual morning schedule of writing yet. Dayjobbery filled most of the day, until I realized that the stack of tissues piling up beside me and the general malaise that I felt was part of a deeper issue. I&#8217;m not sure if it&#8217;s some weird combination of a head cold, flu, a fibro flare, or accidental glutening but I spent a chunk of the afternoon in bed and the first few hours of the evening just trying to focus.
 

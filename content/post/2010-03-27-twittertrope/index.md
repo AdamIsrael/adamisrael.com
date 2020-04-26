@@ -1,23 +1,22 @@
 ---
-title: Twittertrope
-author: Adam
-layout: post
-date: 2010-03-27
-url: /blog/2010/03/27/twittertrope/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 288
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 175204629
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2010-03-27"
+dsq_thread_id:
+- 175204629
+layout: post
+ljID:
+- 288
 tags:
-  - duotrope
-  - twitter
-
+- duotrope
+- twitter
+title: Twittertrope
+url: /blog/2010/03/27/twittertrope/
 ---
 I was updating my submission tracker on [Duotrope](1) this morning, after receiving a rejection from Writers of the Future. I was [tweeting](2) about the rejection when I had a slight epiphany. I realized how cool it would be if Duotrope had Twitter integration. They don’t, and as I discovered, neither do they have any presence on Twitter. I decided then and there that something must be done to correct this oversight.
 

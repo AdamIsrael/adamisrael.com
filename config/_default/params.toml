@@ -166,6 +166,13 @@ link_authors = true
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
 plugins_js  = []
 
+[avatar]
+  # Get user avatars from Gravatar.com? (true/false)
+  gravatar = true
+
+  # Choose a shape for avatar images. Options: circle, square.
+  shape = "square"
+
 # Available address formats.
 [address_formats]
   en-us = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}

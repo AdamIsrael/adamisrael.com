@@ -1,15 +1,15 @@
 ---
-title: "Announcing Author Stats for VS Code"
-subtitle: ""
-summary: ""
-date: 2020-02-17T10:10:09-05:00
-draft: false
 author: Adam
 categories:
 - Technical
+date: "2020-02-17T10:10:09-05:00"
+draft: false
+subtitle: ""
+summary: ""
 tags:
 - vscode
 - writing
+title: Announcing Author Stats for VS Code
 ---
 
 ## Announcement

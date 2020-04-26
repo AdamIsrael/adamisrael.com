@@ -1,18 +1,17 @@
 ---
-title: Is this one of those things I’m going to read about on your blog tomorrow?
-author: Adam
-layout: post
-date: 2010-01-19
-url: /blog/2010/01/19/is-this-one-of-those-things-im-going-to-read-about-on-your-blog-tomorrow/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 278
+- true
 aktt_tweeted:
-  - 1
+- 1
+author: Adam
 categories:
-  - Uncategorized
-
+- Uncategorized
+date: "2010-01-19"
+layout: post
+ljID:
+- 278
+title: Is this one of those things I’m going to read about on your blog tomorrow?
+url: /blog/2010/01/19/is-this-one-of-those-things-im-going-to-read-about-on-your-blog-tomorrow/
 ---
 _Well no_, because I&#8217;m not ready to talk about that just yet.
 

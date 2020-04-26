@@ -1,22 +1,21 @@
 ---
-title: Clarion 2010
-author: Adam
-layout: post
-date: 2010-03-15
-url: /blog/2010/03/15/clarion-2010-2/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 286
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 175204617
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2010-03-15"
+dsq_thread_id:
+- 175204617
+layout: post
+ljID:
+- 286
 tags:
-  - clarion
-
+- clarion
+title: Clarion 2010
+url: /blog/2010/03/15/clarion-2010-2/
 ---
 I&#8217;ve been sent word that I can publicly announce the news I&#8217;ve been sitting on since last week: I have been accepted into the 2010 [Clarion Workshop](1).
 

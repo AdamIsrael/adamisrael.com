@@ -2,7 +2,7 @@
 author: Adam
 categories:
 - Technical
-date: 2018-06-29T20:26:50+02:00
+date: "2018-06-29T20:26:50+02:00"
 hidden: false
 tags:
 - atom

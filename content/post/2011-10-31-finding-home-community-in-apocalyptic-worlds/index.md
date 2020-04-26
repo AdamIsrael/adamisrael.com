@@ -1,17 +1,16 @@
 ---
-title: 'Finding Home: Community in Apocalyptic Worlds'
 author: Adam
-layout: post
-date: 2011-10-31
-url: /blog/2011/10/31/finding-home-community-in-apocalyptic-worlds/
-dsq_thread_id:
-  - 457797348
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-10-31"
+dsq_thread_id:
+- 457797348
+layout: post
 tags:
-  - anthology
-  - sale
-
+- anthology
+- sale
+title: 'Finding Home: Community in Apocalyptic Worlds'
+url: /blog/2011/10/31/finding-home-community-in-apocalyptic-worlds/
 ---
 I&#8217;ve been running slow on spoons and managing my time carefully, and I neglected to post this sooner. I am extremely delighted to announce the sale of my story, My City of Ruins, to [Timid Pirate Publishing](1), for their anthology [Finding Home: Community in Apocalyptic Worlds](2).
 

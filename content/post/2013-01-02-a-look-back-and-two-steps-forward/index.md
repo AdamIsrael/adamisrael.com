@@ -1,18 +1,17 @@
 ---
-title: A look back, and two steps forward
 author: Adam
-layout: post
-date: 2013-01-02
-url: /blog/2013/01/02/a-look-back-and-two-steps-forward/
-tumblrize_post-type:
-  - regular
-tumblrize_post-group:
-  - adamisrael.tumblr.com
-no_lj:
-  - 1
 categories:
-  - Uncategorized
-
+- Uncategorized
+date: "2013-01-02"
+layout: post
+no_lj:
+- 1
+title: A look back, and two steps forward
+tumblrize_post-group:
+- adamisrael.tumblr.com
+tumblrize_post-type:
+- regular
+url: /blog/2013/01/02/a-look-back-and-two-steps-forward/
 ---
 The calendar has been replaced. Sins of the past tallied and new resolutions made. As far as years go, 2012 was mediocre on many fronts but there were a few bright moments that give me hope for what&#8217;s to come.
 

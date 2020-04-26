@@ -2,7 +2,7 @@
 author: Adam Israel
 categories:
 - Technical
-date: 2016-05-06T08:34:39-04:00
+date: "2016-05-06T08:34:39-04:00"
 hidden: false
 tags:
 - brew

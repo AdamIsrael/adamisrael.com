@@ -1,22 +1,21 @@
 ---
-title: 'Week 2: A step slightly staggered'
-author: Adam
-layout: post
-date: 2010-01-16
-url: /blog/2010/01/16/week-2-a-step-slightly-staggered/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 277
+- true
 aktt_tweeted:
-  - 1
+- 1
+author: Adam
 categories:
-  - Uncategorized
-  - Writing
+- Uncategorized
+- Writing
+date: "2010-01-16"
+layout: post
+ljID:
+- 277
 tags:
-  - booklife
-  - statistics
-
+- booklife
+- statistics
+title: 'Week 2: A step slightly staggered'
+url: /blog/2010/01/16/week-2-a-step-slightly-staggered/
 ---
 A new short story and a flash fiction drafted, and a second short story underway. Over 7,500 new words this year, with my average rising to 509 words/day.  The [Honorable Mention](1) nod and a personal rejection also came in. The year is off to a good start.
 

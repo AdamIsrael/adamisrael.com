@@ -1,20 +1,19 @@
 ---
-title: 2010 in review
-author: Adam
-layout: post
-date: 2011-01-01
-url: /blog/2011/01/01/2010-in-review/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 322
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 201025819
+- 1
+author: Adam
 categories:
-  - Uncategorized
-
+- Uncategorized
+date: "2011-01-01"
+dsq_thread_id:
+- 201025819
+layout: post
+ljID:
+- 322
+title: 2010 in review
+url: /blog/2011/01/01/2010-in-review/
 ---
 Every year has its ups and downs and 2010 was no exception. Still, it felt like a harder year in many ways. There were unexpected challenges by way of financial disasters, health setbacks and personal roadblocks. At times, I didn&#8217;t know how I&#8217;d get by day to day. Despite everything, the year ended on a high note. All we can do for the days ahead is work smart and move forward.
 

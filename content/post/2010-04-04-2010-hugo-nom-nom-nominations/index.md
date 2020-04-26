@@ -1,19 +1,18 @@
 ---
-title: 2010 Hugo Nom Nom Nominations
-author: Adam
-layout: post
-date: 2010-04-05
-url: /blog/2010/04/04/2010-hugo-nom-nom-nominations/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 289
+- true
 aktt_tweeted:
-  - 1
+- 1
+author: Adam
 categories:
-  - Uncategorized
-  - Writing
-
+- Uncategorized
+- Writing
+date: "2010-04-05"
+layout: post
+ljID:
+- 289
+title: 2010 Hugo Nom Nom Nominations
+url: /blog/2010/04/04/2010-hugo-nom-nom-nominations/
 ---
 Via [The Hugo Awards](1):
 

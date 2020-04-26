@@ -1,18 +1,17 @@
 ---
-title: A brief introduction to Juju
 author: Adam
-layout: post
-date: 2014-09-03
-url: /blog/2014/09/03/a-brief-introduction-to-juju/
-ljID:
-  - 381
-ljURL:
-  - http://stonetable.livejournal.com/97670.html
 categories:
-  - Technical
+- Technical
+date: "2014-09-03"
+layout: post
+ljID:
+- 381
+ljURL:
+- http://stonetable.livejournal.com/97670.html
 tags:
-  - juju
-
+- juju
+title: A brief introduction to Juju
+url: /blog/2014/09/03/a-brief-introduction-to-juju/
 ---
 I had some concerns about how I was going to integrate posts of a technical nature with my blog, which has been predominantly writing-oriented for several years. What I failed take into account is that many of us who write Science Fiction are armchair technologists. We look at gadgets, scientific breakthroughs and tech policy, and make conjecture about what might come next.
 

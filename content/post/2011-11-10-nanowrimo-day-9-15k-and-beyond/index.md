@@ -1,16 +1,15 @@
 ---
-title: '#NaNoWriMo day 9: 15k and beyond'
 author: Adam
-layout: post
-date: 2011-11-10
-url: /blog/2011/11/10/nanowrimo-day-9-15k-and-beyond/
-dsq_thread_id:
-  - 467553021
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-11-10"
+dsq_thread_id:
+- 467553021
+layout: post
 tags:
-  - nanowrimo
-
+- nanowrimo
+title: '#NaNoWriMo day 9: 15k and beyond'
+url: /blog/2011/11/10/nanowrimo-day-9-15k-and-beyond/
 ---
 Winter, as they say, is coming and appropriately enough, I celebrated it with a London Fog Latte (Earl Grey tea, a shot of vanilla, and steamed milk).
 

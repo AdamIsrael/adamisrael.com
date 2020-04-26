@@ -1,22 +1,21 @@
 ---
-title: Spoon!
-author: Adam
-layout: post
-date: 2010-06-21
-url: /blog/2010/06/21/spoon/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 302
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 175204811
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2010-06-21"
+dsq_thread_id:
+- 175204811
+layout: post
+ljID:
+- 302
 tags:
-  - friends
-
+- friends
+title: Spoon!
+url: /blog/2010/06/21/spoon/
 ---
 The [Spoon Theory](1) became very real for me earlier this year. Along with all of the other challenges, getting into Clarion almost seemed more a curse than a blessing at times.
 

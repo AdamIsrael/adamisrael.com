@@ -1,25 +1,24 @@
 ---
-title: Clarion Write-a-Thon
 author: Adam
-layout: post
-date: 2012-06-13
-url: /blog/2012/06/13/clarion-write-a-thon/
-tumblrize_post-type:
-  - regular
-tumblrize_post-group:
-  - adamisrael.tumblr.com
-tumblrize_post-id:
-  - 25023494124
-ljID:
-  - 359
-ljURL:
-  - http://stonetable.livejournal.com/92034.html
 categories:
-  - Uncategorized
-  - Writing
+- Uncategorized
+- Writing
+date: "2012-06-13"
+layout: post
+ljID:
+- 359
+ljURL:
+- http://stonetable.livejournal.com/92034.html
 tags:
-  - clarion
-
+- clarion
+title: Clarion Write-a-Thon
+tumblrize_post-group:
+- adamisrael.tumblr.com
+tumblrize_post-id:
+- 25023494124
+tumblrize_post-type:
+- regular
+url: /blog/2012/06/13/clarion-write-a-thon/
 ---
 The Clarion Write-a-thon starts on June 24<sup>th</sup>, running parallel to the six week workshop I attended in 2010. While this summers workshop students toil away in San Diego, I’ll be one of many writers helping to raise awareness and solicit donations to a cause we believe in.
 

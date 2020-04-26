@@ -1,14 +1,13 @@
 ---
-title: '#NaNoWriMo day 16'
 author: Adam
-layout: post
-date: 2011-11-17
-url: /blog/2011/11/17/nanowrimo-day-16/
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-11-17"
+layout: post
 tags:
-  - nanowrimo
-
+- nanowrimo
+title: '#NaNoWriMo day 16'
+url: /blog/2011/11/17/nanowrimo-day-16/
 ---
 I found my stride yesterday, sixteen days in. I didn&#8217;t strictly follow end of day guidelines for Nano, calling it a day somewhere close to 1AM. I drafted a scene and a part of the next and it&#8217;s the best writing I&#8217;ve done all month. It&#8217;s what all others will be held up and compared to, and mocked mercilessly when they fall short.
 

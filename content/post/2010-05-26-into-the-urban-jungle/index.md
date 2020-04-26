@@ -1,21 +1,20 @@
 ---
-title: Into the urban jungle
-author: Adam
-layout: post
-date: 2010-05-26
-url: /blog/2010/05/26/into-the-urban-jungle/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 299
+- true
 aktt_tweeted:
-  - 1
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2010-05-26"
+layout: post
+ljID:
+- 299
 tags:
-  - travel
-  - work
-
+- travel
+- work
+title: Into the urban jungle
+url: /blog/2010/05/26/into-the-urban-jungle/
 ---
 I&#8217;m off to Chicago for another day of work meetings and decided to give the WordPress iPhone app a try. Not bad so far.
 

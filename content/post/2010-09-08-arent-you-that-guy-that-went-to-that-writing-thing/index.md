@@ -1,23 +1,22 @@
 ---
-title: Aren’t you that guy that went to that writing thing?
-author: Adam
-layout: post
-date: 2010-09-08
-url: /blog/2010/09/08/arent-you-that-guy-that-went-to-that-writing-thing/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 306
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 175204827
+- 1
+author: Adam
 categories:
-  - Uncategorized
-  - Writing
+- Uncategorized
+- Writing
+date: "2010-09-08"
+dsq_thread_id:
+- 175204827
+layout: post
+ljID:
+- 306
 tags:
-  - clarion
-
+- clarion
+title: Aren’t you that guy that went to that writing thing?
+url: /blog/2010/09/08/arent-you-that-guy-that-went-to-that-writing-thing/
 ---
 By Internet speeds, it&#8217;s been years since Clarion ended and not just a month. And the neglectful blogger I&#8217;ve been, it was six weeks before that since I last posted anything resembling an update. It&#8217;s time I said _something_, don&#8217;t you think? Well yes, but not exactly what you might expect.
 

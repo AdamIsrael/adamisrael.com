@@ -1,14 +1,13 @@
 ---
-title: 2011 Published Short Fiction
 author: Adam
-layout: post
-date: 2011-12-19
-url: /blog/2011/12/19/2011-published-short-fiction/
-dsq_thread_id:
-  - 509441712
 categories:
-  - Uncategorized
-
+- Uncategorized
+date: "2011-12-19"
+dsq_thread_id:
+- 509441712
+layout: post
+title: 2011 Published Short Fiction
+url: /blog/2011/12/19/2011-published-short-fiction/
 ---
 Seeing as we&#8217;re close to the end of 2011 and it&#8217;s unlikely I&#8217;ll have anything else published this calendar year, now is as good a time as any to recap the short fiction I&#8217;ve had published in the last twelve months.
 

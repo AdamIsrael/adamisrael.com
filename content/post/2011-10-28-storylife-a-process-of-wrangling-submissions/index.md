@@ -1,18 +1,17 @@
 ---
-title: Storylife — A process of wrangling submissions
 author: Adam
-layout: post
-date: 2011-10-28
-url: /blog/2011/10/28/storylife-a-process-of-wrangling-submissions/
-dsq_thread_id:
-  - 455676195
 categories:
-  - Uncategorized
-  - Writing
+- Uncategorized
+- Writing
+date: "2011-10-28"
+dsq_thread_id:
+- 455676195
+layout: post
 tags:
-  - process
-  - submission
-
+- process
+- submission
+title: Storylife — A process of wrangling submissions
+url: /blog/2011/10/28/storylife-a-process-of-wrangling-submissions/
 ---
 I just mailed off my first story submission since 2009. Most of my submissions are electronic but, dating back to my first submissions circa 2007, I think I&#8217;ve mailed off 5 or 6 stories or about 5% of my total submissions.
 

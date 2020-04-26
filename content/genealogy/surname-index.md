@@ -1,17 +1,17 @@
 ---
-title: "Surname Index"
-date: 2018-07-06T14:13:23-05:00
-draft: false
 author: Adam
 categories:
-  - genealogy
-tags:
-  - bar
-  - baz
-hidden: false
+- genealogy
+date: "2018-07-06T14:13:23-05:00"
+draft: false
 header:
-    image: ""
-    caption: ""
+  caption: ""
+  image: ""
+hidden: false
+tags:
+- bar
+- baz
+title: Surname Index
 ---
 
 

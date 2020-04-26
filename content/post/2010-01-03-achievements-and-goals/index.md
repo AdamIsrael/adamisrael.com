@@ -1,24 +1,23 @@
 ---
-title: Achievements and goals
-author: Adam
-layout: post
-date: 2010-01-04
-url: /blog/2010/01/03/achievements-and-goals/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 270
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 175204574
+- 1
+author: Adam
 categories:
-  - Uncategorized
-  - Writing
+- Uncategorized
+- Writing
+date: "2010-01-04"
+dsq_thread_id:
+- 175204574
+layout: post
+ljID:
+- 270
 tags:
-  - booklife
-  - process
-
+- booklife
+- process
+title: Achievements and goals
+url: /blog/2010/01/03/achievements-and-goals/
 ---
 On the heels of yesterdays post about [Booklife and my personal mission statement](1), I have added [My Booklife](2) to the sidebar. From here, I have posted and will keep updated my public [weekly](3), [monthly](4), [1 year](5) and [5 year](6) goals. I&#8217;ve also included my list of career [achievements](7).
 

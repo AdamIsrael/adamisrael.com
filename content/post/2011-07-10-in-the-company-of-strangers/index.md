@@ -1,28 +1,32 @@
 ---
-title: In the Company of Strangers
-author: Adam
-layout: post
-date: 2011-07-10
-url: /blog/2011/07/10/in-the-company-of-strangers/
-wordbooker_options:
-  - 'a:10:{s:18:"wordbook_noncename";s:10:"667c3fec32";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog post :  %title% - %link%";s:17:"wordbook_new_post";s:1:"1";}'
 aktt_notify_twitter:
-  - yes
-wordbooker_extract:
-  - "Andrea's gift of striking up a conversation led to the discovery that tonight was the open house for the local brand of the Royal Astronomy Society of Canada. I've been a space nerd since the moment I saw Star Trek in theatre in the 1979. Joining the c ..."
-ljID:
-  - 354
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 354401655
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-07-10"
+dsq_thread_id:
+- 354401655
+layout: post
+ljID:
+- 354
 tags:
-  - astrophotography
-  - space
-  - stargazing
-
+- astrophotography
+- space
+- stargazing
+title: In the Company of Strangers
+url: /blog/2011/07/10/in-the-company-of-strangers/
+wordbooker_extract:
+- Andrea's gift of striking up a conversation led to the discovery that tonight was
+  the open house for the local brand of the Royal Astronomy Society of Canada. I've
+  been a space nerd since the moment I saw Star Trek in theatre in the 1979. Joining
+  the c ...
+wordbooker_options:
+- 'a:10:{s:18:"wordbook_noncename";s:10:"667c3fec32";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote
+  a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog
+  post :  %title% - %link%";s:17:"wordbook_new_post";s:1:"1";}'
 ---
 Andrea&#8217;s gift of striking up a conversation led to the discovery that tonight was the open house for the local brand of the Royal Astronomy Society of Canada. I&#8217;ve been a space nerd since the moment I saw Star Trek in theatre in the 1979. Joining the club seemed like a no-brainer and I&#8217;d researched it, before my border crossing nightmare last year and had slipped my mind since returning last November.
 

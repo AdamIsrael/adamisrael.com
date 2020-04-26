@@ -1,29 +1,28 @@
 ---
-title: Love affair with a house
 author: Adam
-layout: post
-date: 2012-06-10
-url: /blog/2012/06/10/love-affair-with-a-house/
-tumblrize_post-type:
-  - regular
-tumblrize_post-group:
-  - adamisrael.tumblr.com
-ljID:
-  - 358
-ljURL:
-  - http://stonetable.livejournal.com/91696.html
-tumblrize_post-id:
-  - 24825215702
-ljxp_comments:
-  - 1
-ljxp_privacy:
-  - public
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2012-06-10"
+layout: post
+ljID:
+- 358
+ljURL:
+- http://stonetable.livejournal.com/91696.html
+ljxp_comments:
+- 1
+ljxp_privacy:
+- public
 tags:
-  - house
-  - illinois
-
+- house
+- illinois
+title: Love affair with a house
+tumblrize_post-group:
+- adamisrael.tumblr.com
+tumblrize_post-id:
+- 24825215702
+tumblrize_post-type:
+- regular
+url: /blog/2012/06/10/love-affair-with-a-house/
 ---
 We built the house, my ex-wife and I, a decade ago. We poured our love into her foundations as we watched her bones rise over the snowy plains of Illinois. Vein and sinew were strung throughout and were covered by skin. A miraculous thing, to witness for the first time.
 

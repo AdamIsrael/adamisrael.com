@@ -1,16 +1,15 @@
 ---
-title: 'Signal boost: Broken Time Blues'
 author: Adam
-layout: post
-date: 2011-08-12
-url: /blog/2011/08/12/signal-boost-broken-time-blues/
-dsq_thread_id:
-  - 384019389
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-08-12"
+dsq_thread_id:
+- 384019389
+layout: post
 tags:
-  - signal boost
-
+- signal boost
+title: 'Signal boost: Broken Time Blues'
+url: /blog/2011/08/12/signal-boost-broken-time-blues/
 ---
 Broken Time Blues: Fantastic Tales in the Roaring &#8217;20s, or as some of you folks may remember it from it&#8217;s twitter hashtag, #20spec, is now available [for sale on Amazon](1). From the publisher&#8217;s description:
 

@@ -1,21 +1,25 @@
 ---
-title: Recapping Toronto
 author: Adam
-layout: post
-date: 2011-09-23
-url: /blog/2011/09/23/recapping-toronto/
-wordbooker_options:
-  - 'a:9:{s:18:"wordbook_noncename";s:10:"12aa29341b";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:31:"Posted a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog post :  %title% - %link%";}'
-wordbooker_extract:
-  - "We went to Toronto last week. Sort of a mini-vacation. We planned the trip around a few events and winged the rest. We didn't realize the Toronto International Film Festival (TIFF) was happening, which sort of made finding last minute hotel rooms an ad ..."
-dsq_thread_id:
-  - 423846000
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-09-23"
+dsq_thread_id:
+- 423846000
+layout: post
 tags:
-  - toronto
-  - travel
-
+- toronto
+- travel
+title: Recapping Toronto
+url: /blog/2011/09/23/recapping-toronto/
+wordbooker_extract:
+- We went to Toronto last week. Sort of a mini-vacation. We planned the trip around
+  a few events and winged the rest. We didn't realize the Toronto International Film
+  Festival (TIFF) was happening, which sort of made finding last minute hotel rooms
+  an ad ...
+wordbooker_options:
+- 'a:9:{s:18:"wordbook_noncename";s:10:"12aa29341b";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:31:"Posted
+  a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog
+  post :  %title% - %link%";}'
 ---
 We went to Toronto last week. Sort of a mini-vacation. We planned the trip around a few events and winged the rest. We didn&#8217;t realize the Toronto International Film Festival (TIFF) was happening, which sort of made finding last minute hotel rooms an adventure.
 

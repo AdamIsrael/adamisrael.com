@@ -1,19 +1,18 @@
 ---
-title: SFWA, Accessiblity and Diversity
 author: Adam
-layout: post
-date: 2014-02-19
-url: /blog/2014/02/19/sfwa-accessiblity-and-diversity/
-ljID:
-  - 378
-ljURL:
-  - http://stonetable.livejournal.com/97013.html
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2014-02-19"
+layout: post
+ljID:
+- 378
+ljURL:
+- http://stonetable.livejournal.com/97013.html
 tags:
-  - diversity
-  - SFWA
-
+- diversity
+- SFWA
+title: SFWA, Accessiblity and Diversity
+url: /blog/2014/02/19/sfwa-accessiblity-and-diversity/
 ---
 There’s have been many kerfluffles involving the [Science Fiction & Fantasy Writers Association](1) (SFWA). The latest one begin when a former member began a petition over recent changes to the staff and policy of the organization’s flagship publication, the Bulletin. As a result of the current back and forth between factions, one member — a vocal minority — made the suggestion that the bar for membership should be raised. There’s a lot I could say about the current debate(s) going on, but I want to specifically address the idea of accessibility and diversity.
 

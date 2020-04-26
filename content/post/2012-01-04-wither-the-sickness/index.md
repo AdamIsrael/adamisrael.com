@@ -1,18 +1,17 @@
 ---
-title: Wither the sickness
 author: Adam
-layout: post
-date: 2012-01-04
-url: /blog/2012/01/04/wither-the-sickness/
-dsq_thread_id:
-  - 527021444
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2012-01-04"
+dsq_thread_id:
+- 527021444
+layout: post
 tags:
-  - body hacks
-  - health
-  - signal boost
-
+- body hacks
+- health
+- signal boost
+title: Wither the sickness
+url: /blog/2012/01/04/wither-the-sickness/
 ---
 Life with chronic health conditions and no health insurance is interesting.
 

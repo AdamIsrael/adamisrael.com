@@ -1,17 +1,16 @@
 ---
-title: A follow-up to Spoon! (not the musical)
 author: Adam
-layout: post
-date: 2011-11-15
-url: /blog/2011/11/14/a-follow-up-to-spoon-not-the-musical/
-dsq_thread_id:
-  - 471986757
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-11-15"
+dsq_thread_id:
+- 471986757
+layout: post
 tags:
-  - friends
-  - health
-
+- friends
+- health
+title: A follow-up to Spoon! (not the musical)
+url: /blog/2011/11/14/a-follow-up-to-spoon-not-the-musical/
 ---
 I can&#8217;t believe it&#8217;s been almost a year and a half since my [Spoon!](1) blog post, where a group of friends conspired to sent me their [spoons](2) to counteract the loss of my own thanks to newly acquired but chronic illness during a time of great life upheaval.
 

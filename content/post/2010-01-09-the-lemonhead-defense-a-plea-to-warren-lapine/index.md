@@ -1,20 +1,19 @@
 ---
-title: 'The Lemonhead defense: a plea to Warren Lapine'
-author: Adam
-layout: post
-date: 2010-01-09
-url: /blog/2010/01/09/the-lemonhead-defense-a-plea-to-warren-lapine/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 273
+- true
 aktt_tweeted:
-  - 1
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2010-01-09"
+layout: post
+ljID:
+- 273
 tags:
-  - soapbox
-
+- soapbox
+title: 'The Lemonhead defense: a plea to Warren Lapine'
+url: /blog/2010/01/09/the-lemonhead-defense-a-plea-to-warren-lapine/
 ---
 It started with an announcement by Realms of Fantasy (RoF) magazine. A special themed issue. &#8220;Girl writers only.&#8221; A slight faux pas that was eventually correctly revised and apologized for. In the interim, some people were vocal about their discern that RoF would again make such a slip given the last gender-related fail. Catherine Valente, a well-respected writer, [commented](1) on the issue. She noted her take on the problem, and why she would rather see the issue of gender balance addressed in a smart way, not an appease-the-greasy-wheel way. She also comments that she probably won&#8217;t submit, due to previous commitments and the lack of email submissions.
 

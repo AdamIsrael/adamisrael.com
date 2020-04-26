@@ -1,16 +1,15 @@
 ---
-title: NaNoWriMo 2011
 author: Adam
-layout: post
-date: 2011-11-01
-url: /blog/2011/11/01/nanowrimo-2011/
-dsq_thread_id:
-  - 458704920
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-11-01"
+dsq_thread_id:
+- 458704920
+layout: post
 tags:
-  - nanowrimo
-
+- nanowrimo
+title: NaNoWriMo 2011
+url: /blog/2011/11/01/nanowrimo-2011/
 ---
 Today is November 1st, the start of a new [NaNoWriMo](1). I&#8217;ve been doing, or trying to do, NaNoWriMo, on and off unsuccessfully since 2002 when [my efforts](2) netted about 4,500 words.
 

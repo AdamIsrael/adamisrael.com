@@ -1,10 +1,10 @@
 ---
 author: Adam
-date: 2018-09-21T13:12:02+02:00
-hidden: false
-draft: false
 categories:
 - Technical
+date: "2018-09-21T13:12:02+02:00"
+draft: false
+hidden: false
 tags:
 - git
 title: Using Git Worktree

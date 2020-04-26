@@ -1,24 +1,23 @@
 ---
-title: This and that
-author: Adam
-layout: post
-date: 2010-05-24
-url: /blog/2010/05/24/this-and-that/
 aktt_notify_twitter:
-  - yes
-ljID:
-  - 298
+- true
 aktt_tweeted:
-  - 1
-dsq_thread_id:
-  - 175204716
+- 1
+author: Adam
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2010-05-24"
+dsq_thread_id:
+- 175204716
+layout: post
+ljID:
+- 298
 tags:
-  - fibromyalgia
-  - health
-  - life
-
+- fibromyalgia
+- health
+- life
+title: This and that
+url: /blog/2010/05/24/this-and-that/
 ---
 This was a good news/bad news kind of week on the medical front. I wish I had more energy to talk about it, but I am running low on [spoons](1) and need to conserve them.
 

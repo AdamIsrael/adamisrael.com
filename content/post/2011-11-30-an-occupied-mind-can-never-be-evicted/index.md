@@ -1,17 +1,16 @@
 ---
-title: An occupied mind can never be evicted
 author: Adam
-layout: post
-date: 2011-11-30
-url: /blog/2011/11/30/an-occupied-mind-can-never-be-evicted/
-dsq_thread_id:
-  - 488772085
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-11-30"
+dsq_thread_id:
+- 488772085
+layout: post
 tags:
-  - politics
-  - scattered thoughts
-
+- politics
+- scattered thoughts
+title: An occupied mind can never be evicted
+url: /blog/2011/11/30/an-occupied-mind-can-never-be-evicted/
 ---
 I wrote this in the middle of the night as news of the raid on the #occulyla camp was breaking on twitter, half asleep but compelled to get some of my thoughts written down before I fell asleep:
 

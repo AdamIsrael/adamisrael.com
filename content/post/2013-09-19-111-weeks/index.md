@@ -1,19 +1,18 @@
 ---
-title: 111 Weeks
 author: Adam
-layout: post
-date: 2013-09-19
-url: /blog/2013/09/19/111-weeks/
-ljID:
-  - 376
-ljURL:
-  - http://stonetable.livejournal.com/96489.html
 categories:
-  - Personal
-  - Uncategorized
+- Personal
+- Uncategorized
+date: "2013-09-19"
+layout: post
+ljID:
+- 376
+ljURL:
+- http://stonetable.livejournal.com/96489.html
 tags:
-  - immigration
-
+- immigration
+title: 111 Weeks
+url: /blog/2013/09/19/111-weeks/
 ---
 To be exact, it&#8217;s been 783 days since we filed for my Canadian Permanent Residence and I am happy to announce that it is official done. We have just walked out of the Immigration Centre in Windsor, Ontario, Social Insurance Number in hand.
 

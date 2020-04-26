@@ -1,27 +1,22 @@
-+++
-date = "2017-01-01T00:00:00"
-title = "From Container to Cloud: A DevOps Attitude"
-abstract = ""
-abstract_short = ""
-event = "Hackforge: Software Guild, July 2017"
-event_url = "http://hackf.org/"
-location = "Windsor, Ontario, Canada"
-
-selected = false
-math = false
-hidden = true
-draft = true
-
-url_pdf = ""
-url_slides = ""
-url_video = ""
-
-# Optional featured image (relative to `static/img/` folder).
-[header]
-image = "headers/bubbles-wide.jpg"
-caption = ""
-
-+++
+---
+abstract: ""
+abstract_short: ""
+date: 2017-01-01T00:00:00
+draft: true
+event: 'Hackforge: Software Guild, July 2017'
+event_url: http://hackf.org/
+header:
+  caption: ""
+  image: headers/bubbles-wide.jpg
+hidden: true
+location: Windsor, Ontario, Canada
+math: false
+selected: false
+title: 'From Container to Cloud: A DevOps Attitude'
+url_pdf: ""
+url_slides: ""
+url_video: ""
+---
 
 # From Container to Cloud: A DevOps Perspective
 

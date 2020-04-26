@@ -1,16 +1,15 @@
 ---
-title: Why insider trading by members of Congress is worse than it sounds
 author: Adam
-layout: post
-date: 2011-12-02
-url: /blog/2011/12/01/why-insider-trading-by-members-of-congress-is-worse-than-it-sounds/
-dsq_thread_id:
-  - 490414204
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-12-02"
+dsq_thread_id:
+- 490414204
+layout: post
 tags:
-  - politics
-
+- politics
+title: Why insider trading by members of Congress is worse than it sounds
+url: /blog/2011/12/01/why-insider-trading-by-members-of-congress-is-worse-than-it-sounds/
 ---
 If you had asked me if members of Congress were exempt from [insider trading](1) before today, I would have said yes, of course. I would have argued that, with the kinds of information that our congressmen and -woman are privy to, they especially should not be allowed to use non-public information to trade stock for financial gain. Knowing when to buy or sell a stock when a company is about to have a contract terminated, or is about to come under congressional investigation, for example, is privileged, sometimes even classified information.
 

@@ -1,17 +1,16 @@
 ---
-title: The Loneliness of the Long Distance Runner
 author: Adam
-layout: post
-date: 2012-02-27
-url: /blog/2012/02/27/the-loneliness-of-the-long-distance-runner/
-dsq_thread_id:
-  - 591251254
 categories:
-  - Uncategorized
-  - Writing
+- Uncategorized
+- Writing
+date: "2012-02-27"
+dsq_thread_id:
+- 591251254
+layout: post
 tags:
-  - process
-
+- process
+title: The Loneliness of the Long Distance Runner
+url: /blog/2012/02/27/the-loneliness-of-the-long-distance-runner/
 ---
 Sometimes, when I sit down and stare at a white blank page, my heart races. I fear the mistakes I’m about to make, at the same time I’m in awe of the creation about to spring forth the tip of my pen. I’ve done it before. I’ll do it again. I am not a fast writer, but I am a sprinter.
 

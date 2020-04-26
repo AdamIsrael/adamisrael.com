@@ -1,16 +1,15 @@
 ---
-title: '#NaNoWriMo day 12 – Climbing back up the hill'
 author: Adam
-layout: post
-date: 2011-11-13
-url: /blog/2011/11/13/nanowrimo-day-12-climbing-back-up-the-hill/
-dsq_thread_id:
-  - 470496252
 categories:
-  - Uncategorized
+- Uncategorized
+date: "2011-11-13"
+dsq_thread_id:
+- 470496252
+layout: post
 tags:
-  - nanowrimo
-
+- nanowrimo
+title: '#NaNoWriMo day 12 – Climbing back up the hill'
+url: /blog/2011/11/13/nanowrimo-day-12-climbing-back-up-the-hill/
 ---
 Good progress today, making up for last week&#8217;s shortfall. Making bullet point outlines of character/plot has been useful in figuring out some pacing/plot arc issues and giving me things to write that I hadn&#8217;t even realized I needed. I&#8217;ll need to do a massive reverse outline come December, though. Stitching the various plots and subplots together will take some work and much rewriting.
 

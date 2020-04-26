@@ -1,22 +1,21 @@
 ---
-title: Back in the saddle, week 1
 author: Adam
-layout: post
-date: 2013-01-07
-url: /blog/2013/01/07/back-in-the-saddle-week-1/
-tumblrize_post-type:
-  - regular
-tumblrize_post-group:
-  - adamisrael.tumblr.com
-ljID:
-  - 368
-ljURL:
-  - http://stonetable.livejournal.com/94432.html
 categories:
-  - Writing
+- Writing
+date: "2013-01-07"
+layout: post
+ljID:
+- 368
+ljURL:
+- http://stonetable.livejournal.com/94432.html
 tags:
-  - stats
-
+- stats
+title: Back in the saddle, week 1
+tumblrize_post-group:
+- adamisrael.tumblr.com
+tumblrize_post-type:
+- regular
+url: /blog/2013/01/07/back-in-the-saddle-week-1/
 ---
 Part of my new and improved resolve to Finish Things is accountability, and to that end I&#8217;ve created a master spreadsheet for the year where I&#8217;m tracking my daily writing, good things that happen (h/t Christie Yant), projects I want to work on, and deadlines I&#8217;m working towards. It&#8217;s not perfect, but it&#8217;s a start.
 
