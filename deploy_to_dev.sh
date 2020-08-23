@@ -1,5 +1,5 @@
 echo -e "Building page(s)"
-hugo
+hugo -b http://dev.adamisrael.com
 
 #echo -e "Committing changes to Github..."
 #git add -A

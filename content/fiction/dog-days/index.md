@@ -14,7 +14,6 @@ url_custom:
   url: fiction/dog-days
 ---
 
-
 <p class="fiction first-letter">Bronwyn stared at the unopened letter on the table as if it might come alive any minute and bite her. The postmark on the envelope read San Francisco, dated three weeks ago. The only person she knew outside of Manhattan who was too cowardly to call was her supposed boyfriend, George Westinghouse III. Nearly seven months ago he boarded a zeppelin heading west, claiming to have found business associates eager to invest in the new Westinghouse Industries. She hadn’t heard from him since.</p>
 <p class="fiction">A lot can happen in the space of half a year, when you don’t see or speak to someone. Feelings change, people grow apart, and secretly pregnant girlfriends can give birth.
 <p class="fiction">Bronwyn cradled her sleeping daughter in one arm while she read the letter. Seven months gone and seven matching words from the only man, besides her father, whom she had shared her secret with. Business is good. Coming home to visit.

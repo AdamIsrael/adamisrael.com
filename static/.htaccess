@@ -1,0 +1,5 @@
+RewriteRule ^post/(.*)$ /blog/$1 [R=301,NC,L]
+
+# /blog/2012/07/09/publication-man-out-of-time/
+
+# RewriteRule ^blog/\d{4}/\d{2}/\d{2}/(.*)$ /blog/$1 [R=301,NC,L]

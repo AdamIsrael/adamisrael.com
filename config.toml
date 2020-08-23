@@ -4,9 +4,9 @@ baseurl                 = "https://adamisrael.com/"
 DefaultContentLanguage  = "en"
 title                   = "Adam Israel"
 theme                   = "hugo-future-imperfect-slim"
-paginate                = 3
+paginate                = 5
 disqusShortname         = "adamisrael"
-googleAnalytics         = ""
+googleAnalytics         = "UA-12202287-1"
 pluralizeListTitles     = false
 disableLanguages        = []
 
@@ -56,7 +56,7 @@ disableLanguages        = []
 
     [params.intro.pic]
       src                 = "img/main/avatar.jpg"
-      shape               = "circle"
+      shape               = "square"
       width               = ""
       alt                 = "Adam Israel"
 
@@ -119,12 +119,12 @@ disableLanguages        = []
     pre               = "<i class='fas fa-book-open'></i>"
     weight            = 3
 
-  [[menu.main]]
-    name              = "Genealogy"
-    identifier        = "genealogy"
-    url               = "/genealogy/"
-    pre               = "<i class='fas fa-tree'></i>"
-    weight            = 3
+  # [[menu.main]]
+  #   name              = "Genealogy"
+  #   identifier        = "genealogy"
+  #   url               = "/genealogy/"
+  #   pre               = "<i class='fas fa-tree'></i>"
+  #   weight            = 3
 
   # [[menu.main]]
   #   name              = "Categories"
