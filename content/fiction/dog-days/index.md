@@ -1,17 +1,17 @@
 ---
 authors:
 - Adam Israel
+categories:
+- Fiction
 date: "2012-07-09"
 image_preview: ""
 selected: true
+tags:
+- Tesla
 title: Dog Days
 url_custom:
 - name: Read
   url: fiction/dog-days
-categories:
-- Fiction
-tags:
-- Tesla
 ---
 
 

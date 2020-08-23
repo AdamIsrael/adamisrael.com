@@ -8,10 +8,7 @@ header:
   caption: ""
   image: ""
 hidden: false
-summary: My 4th great-grandmother, Frances Croft (1796-1884) was a bit of a mystery.
-  Prior to her marriage to Amos Appleyard (1793-1869), all I'd found was record of
-  her baptism, to parents Michael and Mary Croft, but I was determined to break through
-  that genealogical brick wall.
+summary: My 4th great-grandmother, Frances Croft (1796-1884) was a bit of a mystery. Prior to her marriage to Amos Appleyard (1793-1869), all I'd found was record of her baptism, to parents Michael and Mary Croft, but I was determined to break through that genealogical brick wall.
 tags:
 - genealogy
 - appleyard

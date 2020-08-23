@@ -7,8 +7,7 @@ header:
   image: ""
 image_preview: flags/flat/64/Germany.png
 subtitle: Test
-summary: Wilhelmine Berlin (1855-1911) arrived on 8 Nov 1880, aboard the steamship
-  Weser, possibly with her sister, Maria.
+summary: Wilhelmine Berlin (1855-1911) arrived on 8 Nov 1880, aboard the steamship Weser, possibly with her sister, Maria.
 tags: []
 title: Berlin
 ---

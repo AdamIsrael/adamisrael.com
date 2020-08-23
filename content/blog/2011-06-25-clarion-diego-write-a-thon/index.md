@@ -18,14 +18,9 @@ tags:
 title: Clarion Diego Write-a-thon
 url: /blog/2011/06/25/clarion-diego-write-a-thon/
 wordbooker_extract:
-- 'Two things make this upcoming Monday special: it marks the beginning of the Clarion
-  (San Diego) Write-a-thon, and my one year anniversary of attending the Clarion Workshop.
-  Clarion was a significant event in my life. One way I can give back is by parti
-  ...'
+- 'Two things make this upcoming Monday special: it marks the beginning of the Clarion (San Diego) Write-a-thon, and my one year anniversary of attending the Clarion Workshop. Clarion was a significant event in my life. One way I can give back is by parti ...'
 wordbooker_options:
-- 'a:10:{s:18:"wordbook_noncename";s:10:"3fe8e781fb";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote
-  a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog
-  post :  %title% - %link%";s:17:"wordbook_new_post";s:1:"1";}'
+- 'a:10:{s:18:"wordbook_noncename";s:10:"3fe8e781fb";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog post :  %title% - %link%";s:17:"wordbook_new_post";s:1:"1";}'
 ---
 Two things make this upcoming Monday special: it marks the beginning of the [Clarion (San Diego) Write-a-thon](1), and my one year anniversary of attending the Clarion Workshop. Clarion was a significant event in my life. One way I can give back is by participating in the write-a-thon and raising money to help the program that helped me.
 

@@ -1,7 +1,7 @@
-+++
-title = "Kontakt"
-layout = "contact"
-netlify = false
-emailservice = "formspree.io/example@email.com"
-contactanswertime = 24
-+++
+---
+contactanswertime: 24
+emailservice: formspree.io/example@email.com
+layout: contact
+netlify: false
+title: Kontakt
+---

@@ -18,9 +18,7 @@ tags:
 title: 'SALE: Indigo’s Gambit, to the EXTINCT anthology'
 url: /blog/2011/02/10/sale-indigos-gambit-to-the-extinct-anthology/
 wordbooker_options:
-- 'a:9:{s:18:"wordbook_noncename";s:10:"eda10aeafa";s:18:"wordbook_page_post";s:12:"361165930717";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"400";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:14:"New
-  blog post:";s:29:"wordbooker_status_update_text";s:35:": New blog post :  %title%
-  - %link%";}'
+- 'a:9:{s:18:"wordbook_noncename";s:10:"eda10aeafa";s:18:"wordbook_page_post";s:12:"361165930717";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"400";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:14:"New blog post:";s:29:"wordbooker_status_update_text";s:35:": New blog post :  %title% - %link%";}'
 ---
 [<img class="size-full wp-image-364 alignright" title="Extinct Anthology" src="http://www.adamisrael.com/wp-content/uploads/2011/02/Extinct_Cover2.jpg" alt="" width="150" height="200" />](1)
 

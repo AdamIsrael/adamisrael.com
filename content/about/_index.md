@@ -1,6 +1,6 @@
 ---
-title: "About"
-description: ''
+description: ""
+title: About
 ---
 Adam Israel is a software engineer at Canonical, Ltd. His professional interests include benchmarking, performance tuning, cloud computing, network function virtualization, neural networks, artificial intelligence, and the internet of things.
 

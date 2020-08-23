@@ -1,9 +1,5 @@
 ---
-abstract: The telecommunication industry is in a state of disruption as network functions
-  (DNS, firewall, routers, etc) are virtualized. The days of running these workloads
-  on proprietary hardware are ending. In this session, I will show you how these VNFs
-  are created, how to manage the complex configurations between them, and how to operate
-  them at scale.
+abstract: The telecommunication industry is in a state of disruption as network functions (DNS, firewall, routers, etc) are virtualized. The days of running these workloads on proprietary hardware are ending. In this session, I will show you how these VNFs are created, how to manage the complex configurations between them, and how to operate them at scale.
 abstract_short: ""
 date: 2017-02-06T00:00:00
 event: Config Management Camp 2017

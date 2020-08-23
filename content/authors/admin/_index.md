@@ -21,9 +21,6 @@ interests:
 - Open Source
 - Containerization
 name: Adam Israel
-# organizations:
-# - name: Canonical, Ltd.
-#   url: http://www.canonical.com/
 role: Author | Genealogist | Software Engineer
 social:
 - icon: envelope

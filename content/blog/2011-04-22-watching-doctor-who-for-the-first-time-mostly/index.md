@@ -17,14 +17,9 @@ tags:
 title: Watching Doctor Who for the first time, mostly.
 url: /blog/2011/04/22/watching-doctor-who-for-the-first-time-mostly/
 wordbooker_extract:
-- Up until a year ago, I'd only seen a few episodes of Doctor Who -- mostly season
-  1. I was interested by what I saw but I prefer to watch shows sequentially, even
-  though the wibbly-wobbly, timey-wimey nature of the show makes viewing out of order
-  just ...
+- Up until a year ago, I'd only seen a few episodes of Doctor Who -- mostly season 1. I was interested by what I saw but I prefer to watch shows sequentially, even though the wibbly-wobbly, timey-wimey nature of the show makes viewing out of order just ...
 wordbooker_options:
-- 'a:9:{s:18:"wordbook_noncename";s:10:"06bf203ba6";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote
-  a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog
-  post :  %title% - %link%";}'
+- 'a:9:{s:18:"wordbook_noncename";s:10:"06bf203ba6";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog post :  %title% - %link%";}'
 wordbooker_thumb:
 - http://www.adamisrael.com/wp-content/uploads/2011/04/tumblr_l7le9oQxKs1qajupo.gif
 ---

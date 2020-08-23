@@ -22,9 +22,7 @@ wordbooker_extract:
 
   The last maintenance payment to my ex-wife, month 30 of 30, was mailed off. This represented a sizable portion of my income. It’s been a wild, dramatic ride that is now officially ov ...
 wordbooker_options:
-- 'a:10:{s:18:"wordbook_noncename";s:10:"5f488bd4bf";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote
-  a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog
-  post :  %title% - %link%";s:17:"wordbook_new_post";s:1:"1";}'
+- 'a:10:{s:18:"wordbook_noncename";s:10:"5f488bd4bf";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog post :  %title% - %link%";s:17:"wordbook_new_post";s:1:"1";}'
 ---
 We reached two long-awaited milestones in our household this week.
 

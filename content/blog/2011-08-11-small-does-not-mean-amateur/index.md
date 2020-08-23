@@ -16,14 +16,9 @@ tags:
 title: Small does not mean amateur
 url: /blog/2011/08/11/small-does-not-mean-amateur/
 wordbooker_extract:
-- I sent a submission to a marker whose name I will not reveal on July 15th. Acknowledgement
-  was received on July 17th, which I've included below, modified only to anonymize
-  the publisher. There are enough mistakes contained in this experience that I thi
-  ...
+- I sent a submission to a marker whose name I will not reveal on July 15th. Acknowledgement was received on July 17th, which I've included below, modified only to anonymize the publisher. There are enough mistakes contained in this experience that I thi ...
 wordbooker_options:
-- 'a:11:{s:18:"wordbook_noncename";s:10:"b2290599e6";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote
-  a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog
-  post :  %title% - %link%";s:23:"wordbook_scheduled_post";s:1:"0";s:17:"wordbook_new_post";s:1:"1";}'
+- 'a:11:{s:18:"wordbook_noncename";s:10:"b2290599e6";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog post :  %title% - %link%";s:23:"wordbook_scheduled_post";s:1:"0";s:17:"wordbook_new_post";s:1:"1";}'
 ---
 I sent a submission to a market whose name I will not reveal on July 15th. Acknowledgement was received on July 17th, which I&#8217;ve included below, modified only to anonymize the publisher. There are enough mistakes contained in this experience that I think it&#8217;s worth examining, both for writers, editors, and small press publishers.
 

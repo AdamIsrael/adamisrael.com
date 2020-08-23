@@ -5,5 +5,5 @@ header:
   image: ""
 highlight: false
 math: false
-title: Posts 
+title: Posts
 ---

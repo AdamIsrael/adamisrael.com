@@ -15,14 +15,9 @@ ljID:
 title: Ten things make a post
 url: /blog/2011/04/05/ten-things-make-a-post/
 wordbooker_extract:
-- "Yes, I still suck at blogging regularly. I don't expect that'll change, but I sure
-  keep trying. So, to catch you up on the life of Adam, here's a quick rundown of
-  what I've been up to.\n\n\tAchieved INBOX=0 and rocked the hell out of my calendar
-  and TOD ...\n"
+- "Yes, I still suck at blogging regularly. I don't expect that'll change, but I sure keep trying. So, to catch you up on the life of Adam, here's a quick rundown of what I've been up to.\n\n\tAchieved INBOX=0 and rocked the hell out of my calendar and TOD ...\n"
 wordbooker_options:
-- 'a:9:{s:18:"wordbook_noncename";s:10:"d028f64164";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote
-  a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog
-  post :  %title% - %link%";}'
+- 'a:9:{s:18:"wordbook_noncename";s:10:"d028f64164";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog post :  %title% - %link%";}'
 ---
 Yes, I still suck at blogging regularly. I don&#8217;t expect that&#8217;ll change, but I sure keep trying. So, to catch you up on the life of Adam, here&#8217;s a quick rundown of what I&#8217;ve been up to.
 

@@ -21,9 +21,7 @@ wordbooker_extract:
   Projects: Motown Blues (tentative)
   New words writte ...
 wordbooker_options:
-- 'a:9:{s:18:"wordbook_noncename";s:10:"2bdcce44a6";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote
-  a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog
-  post :  %title% - %link%";}'
+- 'a:9:{s:18:"wordbook_noncename";s:10:"2bdcce44a6";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog post :  %title% - %link%";}'
 wordbooker_thumb:
 - http://picometer.writertopia.com/words=1442&amp;target=5000
 ---

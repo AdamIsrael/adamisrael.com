@@ -12,18 +12,12 @@ dsq_thread_id:
 layout: post
 ljID:
 - 339
-title: Dear @neilhimself – Has American Gods ruined Norse re-imaginings for other
-  writers?
+title: Dear @neilhimself – Has American Gods ruined Norse re-imaginings for other writers?
 url: /blog/2011/04/15/dear-neilhimself-has-american-gods-ruined-norse-re-imaginings-for-other-writers/
 wordbooker_extract:
-- I'd ask Neil Gaiman this himself (and yes, I know I've tagged him on Twitter on
-  the off chance he sees this), but he's a busy guy and the odds of getting a chance
-  to talk to him are, frankly, bewilderingly astronomical. I'll throw this question
-  out to  ...
+- I'd ask Neil Gaiman this himself (and yes, I know I've tagged him on Twitter on the off chance he sees this), but he's a busy guy and the odds of getting a chance to talk to him are, frankly, bewilderingly astronomical. I'll throw this question out to  ...
 wordbooker_options:
-- 'a:9:{s:18:"wordbook_noncename";s:10:"411edc65d8";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote
-  a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog
-  post :  %title% - %link%";}'
+- 'a:9:{s:18:"wordbook_noncename";s:10:"411edc65d8";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog post :  %title% - %link%";}'
 ---
 I&#8217;d ask Neil Gaiman this himself (and yes, I know I&#8217;ve tagged him on Twitter on the off chance he sees this), but he&#8217;s a busy guy and the odds of getting a chance to talk to him are, frankly, bewilderingly astronomical. I&#8217;ll throw this question out to everyone because I&#8217;m genuinely curious to hear more thoughts on this.
 

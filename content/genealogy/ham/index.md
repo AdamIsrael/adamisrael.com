@@ -6,8 +6,7 @@ header:
   caption: ""
   image: ""
 subtitle: Test
-summary: Ancestors of Nancy Ham, born 8 Feb 1795 in Bath, Maine, died 10 Sep 1875
-  in Macon, Missouri.
+summary: Ancestors of Nancy Ham, born 8 Feb 1795 in Bath, Maine, died 10 Sep 1875 in Macon, Missouri.
 tags: []
 title: Ham
 ---

@@ -17,14 +17,9 @@ tags:
 title: 'Signal Boost: Finnish Science Fiction/Fantasy'
 url: /blog/2011/05/13/signal-boost-finnish-science-fictionfantasy/
 wordbooker_extract:
-- Diversity is something often on my mind. I've been thrilled to see translated Science
-  Fiction becoming available in bookstores recently. It's easy to forget that we --
-  the white, english speakers of the world -- aren't the only ones with fantastic
-  imag ...
+- Diversity is something often on my mind. I've been thrilled to see translated Science Fiction becoming available in bookstores recently. It's easy to forget that we -- the white, english speakers of the world -- aren't the only ones with fantastic imag ...
 wordbooker_options:
-- 'a:9:{s:18:"wordbook_noncename";s:10:"7255865d1d";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote
-  a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog
-  post :  %title% - %link%";}'
+- 'a:9:{s:18:"wordbook_noncename";s:10:"7255865d1d";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog post :  %title% - %link%";}'
 ---
 Diversity is something often on my mind. I&#8217;ve been thrilled to see translated Science Fiction becoming available in bookstores recently. It&#8217;s easy to forget that we &#8212; the white, english speakers of the world &#8212; aren&#8217;t the only ones with fantastic imaginations.
 

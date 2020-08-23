@@ -17,14 +17,9 @@ tags:
 title: Off with the Sloth
 url: /blog/2011/07/30/off-with-the-sloth/
 wordbooker_extract:
-- I've survived day two of walking myself into a non-round shape. It's not an easy
-  task. Fibromyalgia, my version of it, includes bouts of fatigue. I tried doing something
-  as simple as lunges as part of my friend Sandra's virtual bootcamp; twenty minutes
-  ...
+- I've survived day two of walking myself into a non-round shape. It's not an easy task. Fibromyalgia, my version of it, includes bouts of fatigue. I tried doing something as simple as lunges as part of my friend Sandra's virtual bootcamp; twenty minutes ...
 wordbooker_options:
-- 'a:10:{s:18:"wordbook_noncename";s:10:"fc049dbfa6";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote
-  a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog
-  post :  %title% - %link%";s:17:"wordbook_new_post";s:1:"1";}'
+- 'a:10:{s:18:"wordbook_noncename";s:10:"fc049dbfa6";s:18:"wordbook_page_post";s:4:"-100";s:18:"wordbook_orandpage";s:1:"2";s:23:"wordbook_default_author";s:1:"1";s:23:"wordbook_extract_length";s:3:"256";s:19:"wordbook_actionlink";s:3:"300";s:26:"wordbooker_publish_default";s:2:"on";s:18:"wordbook_attribute";s:30:"Wrote a new post on their blog";s:29:"wordbooker_status_update_text";s:35:": New blog post :  %title% - %link%";s:17:"wordbook_new_post";s:1:"1";}'
 ---
 I&#8217;ve survived day two of walking myself into a non-round shape. It&#8217;s not an easy task. Fibromyalgia, my version of it, includes bouts of fatigue. I tried doing something as simple as lunges as part of my friend Sandra&#8217;s virtual bootcamp; twenty minutes of that put me into a fatigue crash that had me sleeping 36 out of the next 48 hours and, frankly, weeks of depression just thinking about that failure.
 
