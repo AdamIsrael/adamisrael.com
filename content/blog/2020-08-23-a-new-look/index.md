@@ -1,7 +1,7 @@
 ---
 title: "A New Look"
 date: 2020-08-23T11:45:00-04:00
-draft: true
+draft: false
 categories:
 - Personal
 tags:
