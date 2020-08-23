@@ -61,7 +61,7 @@ disableLanguages        = []
       alt                 = "Adam Israel"
 
   [params.sidebar]
-    about               = "This theme was developed for Hugo static site generator."
+    about               = "This website is the digital home of software engineer, author, and genealogist Adam Israel."
     postAmount          = 5
     categories          = true
     categoriesByCount   = true
