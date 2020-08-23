@@ -1,6 +1,5 @@
 ---
-abstract: Using the Snappy packaging format to make for a better experience for end
-  users, developers, and operations alike.
+abstract: Using the Snappy packaging format to make for a better experience for end users, developers, and operations alike.
 abstract_short: ""
 date: 2017-07-12T14:00:00
 event: OSM-Mid-Release#3 Sophia Antipolis

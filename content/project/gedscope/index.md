@@ -6,9 +6,7 @@ header:
   image: ""
 image_preview: griendels_lantern.jpg
 math: false
-summary: A project for aiding genealogists by providing research hints, tips and tools
-  by employing pattern matching, machine learning, and artificial intelligence in
-  the analysis of genealogical data contained in a GEDCOM file.
+summary: A project for aiding genealogists by providing research hints, tips and tools by employing pattern matching, machine learning, and artificial intelligence in the analysis of genealogical data contained in a GEDCOM file.
 tags:
 - genealogy
 - machine-language
