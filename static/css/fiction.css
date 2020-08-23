@@ -1,7 +1,12 @@
 
-/*p.fiction {
+/* p.fiction {
     text-indent: 30px;
-}*/
+}
+
+p.fiction::first-letter {
+  font-weight: bold;
+  color: red;
+} */
 
 /*p.article-style {
   font-size: large;
