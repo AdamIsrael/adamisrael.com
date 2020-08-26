@@ -14,7 +14,7 @@ url_custom:
   url: fiction/dog-days
 ---
 
-<p class="fiction first-letter">Bronwyn stared at the unopened letter on the table as if it might come alive any minute and bite her. The postmark on the envelope read San Francisco, dated three weeks ago. The only person she knew outside of Manhattan who was too cowardly to call was her supposed boyfriend, George Westinghouse III. Nearly seven months ago he boarded a zeppelin heading west, claiming to have found business associates eager to invest in the new Westinghouse Industries. She hadn’t heard from him since.</p>
+<p class="first-letter">Bronwyn stared at the unopened letter on the table as if it might come alive any minute and bite her. The postmark on the envelope read San Francisco, dated three weeks ago. The only person she knew outside of Manhattan who was too cowardly to call was her supposed boyfriend, George Westinghouse III. Nearly seven months ago he boarded a zeppelin heading west, claiming to have found business associates eager to invest in the new Westinghouse Industries. She hadn’t heard from him since.</p>
 <p class="fiction">A lot can happen in the space of half a year, when you don’t see or speak to someone. Feelings change, people grow apart, and secretly pregnant girlfriends can give birth.
 <p class="fiction">Bronwyn cradled her sleeping daughter in one arm while she read the letter. Seven months gone and seven matching words from the only man, besides her father, whom she had shared her secret with. Business is good. Coming home to visit.
 
@@ -32,7 +32,7 @@ url_custom:
 
 <center>⁂</center>
 
-<p class="fiction first-letter">After a week of travel aboard the airship Dakota, George Westinghouse had three things on his mind when he returned to Manhattan to wrap up unfinished business: taking a hot shower, smoking a cigar (banned aboard the zeppelin), and paying a visit to the secret of his success, Nikola Tesla’s prodigal daughter.
+<p class="first-letter">After a week of travel aboard the airship Dakota, George Westinghouse had three things on his mind when he returned to Manhattan to wrap up unfinished business: taking a hot shower, smoking a cigar (banned aboard the zeppelin), and paying a visit to the secret of his success, Nikola Tesla’s prodigal daughter.
 
 <p class="fiction">Setting up his new operations in San Francisco took longer than he’d expected but the first of his upgraded Westingbots should be rolling off the production line any day now, ready for shipment. Bronwyn unwittingly provided him with the designs and the Chinamen he hired to replicate the devices were hard at work.
 
@@ -72,7 +72,7 @@ url_custom:
 
 <center>⁂</center>
 
-<p class="fiction first-letter">The old Westinghouse factory on East Broadway had been sealed shut years ago, or so Bronwyn thought. As she stood across the street from it now, she saw light shining through the cracks in the wooden boards nailed over its windows and smoke bellowed from the exhaust of its forge. George had agreed to end its operation soon after her secret had been revealed to him, when she stopped him from assassinating then-Governor Edison with an automaton constructed from parts on consignment from Tesla and constructed by herself. His words, like his morals, had ultimately proven vapid.
+<p class="first-letter">The old Westinghouse factory on East Broadway had been sealed shut years ago, or so Bronwyn thought. As she stood across the street from it now, she saw light shining through the cracks in the wooden boards nailed over its windows and smoke bellowed from the exhaust of its forge. George had agreed to end its operation soon after her secret had been revealed to him, when she stopped him from assassinating then-Governor Edison with an automaton constructed from parts on consignment from Tesla and constructed by herself. His words, like his morals, had ultimately proven vapid.
 
 <p class="fiction">The fortified front door would have stopped her younger self, but the reinforced steel and lead barely slowed her down. She pressed the bare flesh of the palm of her hand against the door and pushed. She didn’t need the emitters at her wrist – those helped direct the bolts of electricity she controlled over open distance. With direct contact, she nudged the flows towards the bolts that secured the door. The slightest physical push swung the door wide open; molten steel from the dead bolt oozed down the doorjamb.
 
@@ -98,7 +98,7 @@ url_custom:
 
 <center>⁂</center>
 
-<p class="fiction first-letter">Westinghouse stumbled down the stairway and through the streets of Manhattan, grumbling the entire way. His head ached as bad as the morning after a night of overindulgence. Bronwyn’s departing words swirled in his mind, repeating over and over like a zealous chant. Our daughter.
+<p class="first-letter">Westinghouse stumbled down the stairway and through the streets of Manhattan, grumbling the entire way. His head ached as bad as the morning after a night of overindulgence. Bronwyn’s departing words swirled in his mind, repeating over and over like a zealous chant. Our daughter.
 
 <p class="fiction">The Tesla building. An unassuming four-story brownstone in a quiet neighborhood that, in this depression, still had the luxury of only housing one family – an eccentric scientist and the wayward girl he had adopted and made his one and only apprentice. Also home, Westinghouse assumed, to his only offspring.
 
@@ -116,7 +116,7 @@ url_custom:
 
 <center>⁂</center>
 
-<p class="fiction first-letter">Bronwyn feared she was too late. The sun was rising over Manhattan and the zap she gave Westinghouse wouldn’t delay him for more than an hour. She flew now, always a risky thing. Short pulses of resonant energy propelled her forward and up, faster and more panicked.
+<p class="first-letter">Bronwyn feared she was too late. The sun was rising over Manhattan and the zap she gave Westinghouse wouldn’t delay him for more than an hour. She flew now, always a risky thing. Short pulses of resonant energy propelled her forward and up, faster and more panicked.
 
 <p class="fiction">Her home rushed towards her, an immovable object to splatter against if she missed her mark. She was going too fast but she wouldn’t stop. She had to know that her family was safe.
 
@@ -148,7 +148,7 @@ url_custom:
 
 <center>⁂</center>
 
-<p class="fiction first-letter">Westinghouse stood on the observation deck of the Dakota, his daughter cradled in one arm while in the other hand he nursed a glass of twenty-year-old single malt scotch from the captain’s private stock. The airship had just cleared berth for its return trip to San Francisco while the city below was just beginning its workday. In the distance, a plume of smoke rose from his old neighborhood. Bronwyn might have destroyed his robot, again, but it didn’t matter. She’d walked right into his trap and handed him everything he wanted.
+<p class="first-letter">Westinghouse stood on the observation deck of the Dakota, his daughter cradled in one arm while in the other hand he nursed a glass of twenty-year-old single malt scotch from the captain’s private stock. The airship had just cleared berth for its return trip to San Francisco while the city below was just beginning its workday. In the distance, a plume of smoke rose from his old neighborhood. Bronwyn might have destroyed his robot, again, but it didn’t matter. She’d walked right into his trap and handed him everything he wanted.
 
 <p class="fiction">He felt pretty smug about his plan until the lights across Manhattan flickered and went dark. Worry turned to active panic at the sight of a shimmer in the distance, materializing into an electromagnetic storm cloud streaking across the horizon on a collision course with the Dakota. There was nowhere to run, nowhere to hide, nothing to do but watch. Passengers gathered around him to look at the phenomenon. Westinghouse flinched as the storm reached the ship but nothing happened. He elbowed his way through the crowd to look out the other side but there was no sign of Bronwyn there, either. He thought he was being paranoid, until a lady shrieked behind him.
 
@@ -180,7 +180,7 @@ url_custom:
 
 <center>⁂</center>
 
-<p class="fiction first-letter">Bronwyn would have caught her breath, if she breathed in this newfound pure energy form. She operated mostly on instinct, a mother’s and something even more elemental. When she saw Helena fall overboard she sank through the deck, down and outside.
+<p class="first-letter">Bronwyn would have caught her breath, if she breathed in this newfound pure energy form. She operated mostly on instinct, a mother’s and something even more elemental. When she saw Helena fall overboard she sank through the deck, down and outside.
 
 <p class="fiction">Flying was effortless now. She shot through the sky like a bolt of lightning, catching up with Helena and Westinghouse. She extended a bubble of energy around them, stopping their descent.
 
