@@ -6,7 +6,6 @@ categories:
 - Personal
 tags:
 - website
-
 ---
 
 I was growing frustrated with my old website layout. It seemed like any time I went to write a post, I was breaking something in the theme. I'll admit that this was likely my own fault. To that end, I've switched from [Academic](https://themes.gohugo.io/academic/), which is a robust theme but more than I actually need, to [Hugo Future Imperfect Slim](https://themes.gohugo.io/hugo-future-imperfect-slim/). 
