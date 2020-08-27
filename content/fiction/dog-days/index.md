@@ -8,6 +8,8 @@ image_preview: ""
 selected: true
 tags:
 - Tesla
+- Alternate History
+- Science Fantasy
 title: Dog Days
 url_custom:
 - name: Read
