@@ -4,10 +4,10 @@ date: 2020-08-26T18:52:30-04:00
 draft: false
 categories:
 - Fiction
-- Science Fiction
 tags:
 - print
 - anthology
+- science fiction
 ---
 
 <p class="first-letter">Detroit leaned forward and turned off the recorder, ending another message that would never be sent home. The scavenger's autopilot beeped steadily, following the radio beacon from Cleveland. The 360° showed a total whiteout but it'd been that way since he passed through Akron.</p>
