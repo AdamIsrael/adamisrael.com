@@ -9,7 +9,7 @@ tags:
 - osx
 - python
 - bzr
-title: bzr "Insecure string pickle"
+title: bzr 'Insecure string pickle'
 ---
 I've been bit by a bug in the `bzr` source code control system where running a commit
 throws an ugly stack trace blaming an "insecure string pickle", but I've found a workaround.
