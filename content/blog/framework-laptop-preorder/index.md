@@ -1,7 +1,7 @@
 ---
 title: "Framework Laptop Preorder"
-date: 2021-09-27T15:57:25-04:00
-draft: true
+date: 2021-10-01T23:33:29+00:00
+draft: false
 categories:
 - Technical
 tags:
@@ -13,15 +13,15 @@ Even though I'm no longer a frequent flyer, I am still primarily a laptop user. 
 
 I've been keeping an eye on a few niche computer manufacturers with an emphasis on Linux: System76 (I already own one of their desktop computers) and Purism, who make security-conscious hardware. A new contender recently entered the playing field, though: Framework.
 
-Several months ago, I first read about the Framework. Founded in San Francisco, California (USA) in 2019, their [mission](https://frame.work/ca/en/blog/introducing-the-framework-laptop) is to "empower you with great products you can easily customize, upgrade, and repair, increasing longevity and reducing e-waste in the process."
+## Framework
+
+Several months ago, I first read about the Framework laptop. Founded in San Francisco, California (USA) in 2019, Framework's [mission](https://frame.work/ca/en/blog/introducing-the-framework-laptop) is to "empower you with great products you can easily customize, upgrade, and repair, increasing longevity and reducing e-waste in the process."
 
 Their first product is a modular laptop, designed to make it easy to replace or upgrade any component with minimal fuss. The guiding light behind the project is the consumer's [right to repair](https://en.wikipedia.org/wiki/Electronics_right_to_repair); the principle that we have the right to upgrade or repair the electronics that we've purchased.
 
 Most modern-day laptops tend to have their components soldered and glued in, making repairs difficult, time-consuming, and costly. So much so, in fact, that it's often more cost-effective to buy a new laptop than to repair a broken one. I have a stack of used laptops that have gone through that upgrade cycle.
 
 With that in mind, I decided to take a serious look at the Framework laptop.
-
----
 
 ![The Framework Laptop](laptop.jpg "The Framework laptop")
 
@@ -37,7 +37,7 @@ Inside, all of the components are modular and easily replaced with the included 
 
 ![The disassembled Framework laptop](diy.jpg "The internals of the Framework laptop")
 
----
+## Reviews
 
 At this point, I was sitting on the fence but two things pushed me into action. The first was a review from [Cory Doctorow](https://doctorow.medium.com/the-framework-is-the-most-exciting-laptop-ive-ever-used-5415da0a46e5), after a month with his Framework laptop:
 
@@ -45,32 +45,82 @@ At this point, I was sitting on the fence but two things pushed me into action. 
 
 That's a pretty strong recommendation from someone of Cory's calibre.
 
-A week later, I watched a hands-on review from [Linus Tech Tips](https://www.youtube.com/watch?v=0rkTgPt3M4k). 
----
+A week later, I watched a hands-on review from [Linus Tech Tips](https://www.youtube.com/watch?v=0rkTgPt3M4k), and that sealed the deal.
 
-At this point, I'm pretty excited by the prospects of what Framework has to offer.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0rkTgPt3M4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Risks
+<!-- risks -->
 
 With any new product, there's risk involved. Do they have the expertise to deliver on their promise? Will their be enough adoption to sustain the company? Time will tell.
 
+It's still early days, but a little perusing of their founder's [LinkedIn](https://www.linkedin.com/in/nrpframework) page gives me hope; he has history in hardware and software development, ranging from the One Laptop Per Child project to Apple to the Oculus VR headset. That bodes well.
 
-Their founder has a long history in hardware and software development, ranging from the One Laptop Per Child project to Apple to the Oculus VR headset. That bodes well.
+They've just finished shipping their third batch of laptops to consumers. I've read through the [community forum](https://community.frame.work/) and there's an overwhelming sense of joy among these early adopters. Batch four, which I'm a part of, will be shipping this month.
 
-Long-term viability likely requires a diverse portfolio of products. The forthcoming Marketplace, where replacement parts and Expansion Cards will be sold, will be a good first step in that direction. Following their community forum, I've already seen prototype cards that are a sign that there *is* engagement with the right people.
+The next milestone for Framework, I think, will be the launch of the forthcoming Marketplace, where replacement parts and Expansion Cards can be purchased. Minimum viable product will be selling their own components, but hopefully we'll see third party hardware on offer before too long. Judging by what I've seen so far, there are already multiple efforts by those in the community to prototype new cards to sell to this eager market.
 
-The worst case, though, is that the company folds within a few years. By that time, though, I'll have gotten my money's worth.
----
+The worst case, though, is that the company folds within a few years. By that time, though, I'll have gotten my money's worth out of the laptop. It just means buying a replacement instead of piecemeal upgrading.
 
-
-
+<!-- concerns -->
 ## Concerns
 
-3:2 display
+There are a few areas of concern that I should note. 
 
+### The display
 
-BIOS
+The display is a 3:2 aspect ratio (2256x1504). Most modern day laptops are either 16:9 or 16:10. In theory, the 3:2 display gives more vertical real estate, which may be good for writing code -- my primary use case.
 
-BIOS -> disconnect battery
+There's some rumbling in the forums that fractional scaling may be required under Linux to get the most out of the display. I'll be running Ubuntu 21.10, out of beta this month, and from what I'm hearing it should handle that just fine.
+
+### BIOS
+
+The BIOS isn't currently open source, which is a big win for two of Framework's competitors in the Linux laptop space: [System 76](https://www.system76.com/) and [Purism](https://puri.sm/).
+
+From the thread [“Free the EC!” and “Coreboot Only”](https://community.frame.work/t/free-the-ec-and-coreboot-only/791/5):
+
+> [...] open source firmware is well aligned to our mission of building products that are better for people and the planet. Our EC firmware is based on chromium-ec, and we will be releasing source. As noted, we’re also exploring coreboot. We’re currently focused on getting the Framework Laptop out into the world in a lower-risk path that uses an off the shelf proprietary BIOS, but we’re looking forward to replacing that with an open alternative in the future.
+
+### Keyboard
+
+From what I can tell, the keyboard is on par with a pre-touchbar Macbook, including the half-sized arrow keys with no physical page-up/down.
+
+That's something I still haven't gotten used to on my own Macbook Pro (used for my non-code writing) but something I'll get used to.
+
+A lot of people who're coming from a Thinkpad have lamented the lack of physical mouse keys or the famous red nipple, but I've rarely found myself using either.
 
 ## Pulling the trigger
 
-The Framework laptop comes in two flavours: fully assembled or DIY, where you're sent the components and you put it together yourself at a savings of $300.
+If the reviews weren't enough to convince me, writing this post and analyzing the details was enough to convince me to give Framework a shot.
+
+The laptop comes in two flavours: fully assembled or DIY, where you're sent the components and you put it together yourself at a savings of $300. Naturally, I've chosen the later.
+
+## The specs
+
+### Configuration
+
+- CPU: Intel® Core™ i7-1165G7
+- WiFi: Intel® Wi-Fi 6E AX210 No vPro®
+- Memory: 64GB (2 x 32GB) DDR4-3200
+
+### Expansion Cards
+
+- 1x HDMI
+- 1x DisplayPort
+- 1x USB-A
+- 1x MicroSD
+- 2x USB-c
+- 1x Storage (1TB)
+
+### Accessories
+
+- Framework Screwdriver
+- Power Adapter
+
+I may make a few modifications to my order before it ships; I'm thinking of adding a second USB-A card, and dropping the power adapter in favour of one that has additional USB-C ports built-in. I use one port just to charge my phone, so there's no need to use a port on the laptop when I could just use one on the charger.
+
+## Conclusion
+
+The real conclusion will come when I've had some hands-on time with the Framework laptop. Right now, it's a promising idea and I have high hopes that it'll live up to the expectation.
+
+Expect a follow-up post with pictures and details later this fall.
