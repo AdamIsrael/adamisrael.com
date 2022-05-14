@@ -10,6 +10,15 @@ googleAnalytics         = "UA-12202287-1"
 pluralizeListTitles     = false
 disableLanguages        = []
 
+# Increase the summary length from 70
+summaryLength           = 140
+
+# Use git for a page's last modified date
+enableGitInfo           = true
+
+# Turn on robots.txt. Why not?
+enableRobotsTXT         = true
+
 [markup.goldmark.renderer]
   unsafe                = true
 
