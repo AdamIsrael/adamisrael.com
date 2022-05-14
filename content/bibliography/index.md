@@ -8,7 +8,7 @@ title: Bibliography
 ---
 ## Short Fiction
 
-
+- April 2021 - "In Anticipation of their First Transformation" [Home for the Howlidays](https://tychebooks.com/howlidays)
 - January 2015 - "My City of Ruins" [Life After Ashes](http://alliterationink.tumblr.com/post/108249875429/help-a-vets-family-get-an-exclusive-ebook-with) (reprint)
 - January 2014 - [Aye of the Hagfish](http://www.goldfishgrimm.com/back-issues/issue-14-menagerie-seems/aye-hagfish/) - [Goldfish Grimm&#8217;s Spicy Fiction Sushi](http://www.goldfishgrimm.com/)
 - July 2012 - [Man Out of Time](http://madscientistjournal.org/2012/07/man-out-of-time/) - [Mad Scientist Journal](http://madscientistjournal.org/)
