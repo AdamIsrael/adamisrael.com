@@ -94,3 +94,7 @@ arm64
 And there we have it. Rust can build `x86_64` and `arm64` binaries on Apple Silicon, and we can link the two to create a Universal Binary. 
 
 It also raises some interesting considerations around architecture. The way I've typically used the `arch` command is to determine what architecture I'm currently running on, but in this case, the answer is both. Cargo and rustup make it easy to add and build for different architectures.
+
+**Addendum**
+
+As pointed out by [@kornel@mastadon.social](https://mastodon.social/@kornel), the reason my build was defaulting to x86_64 was because I was running the Intel build of Rust, installed on my previous Intel-based Mac and transferred over when I setup the new laptop. After uninstalling and reinstalling Rust,I now have arm64 builds by default (and the reverse is true, I can add an intel toolchain to build x86_64).
