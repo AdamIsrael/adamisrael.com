@@ -1,5 +1,5 @@
 echo -e "Building page(s)"
-hugo
+./hugo
 
 # I've moved to a pull request-based workflow. At most, I might tag each
 # deployment with a timestamp.
